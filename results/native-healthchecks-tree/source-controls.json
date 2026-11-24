@@ -1,0 +1,892 @@
+[
+  {
+    "arm": "original",
+    "current_complete_source_modules": true,
+    "files": [
+      {
+        "bytes": 255,
+        "path": "requirements.txt",
+        "sha256": "c571b35cda596bae3bafbe05ff9491282a382fb66900c71c46b29a9d868323af"
+      },
+      {
+        "bytes": 14901,
+        "path": "hc/settings.py",
+        "sha256": "cbb29db33042cb274b1bde4206be066632e1145a7cf3651424eb7a9a0e3c4888"
+      },
+      {
+        "bytes": 3860,
+        "path": "hc/test.py",
+        "sha256": "948c25345f6a29cea2ead9ebcab38c6a8dda4242e71e72fddd856d626dcd7868"
+      },
+      {
+        "bytes": 5791,
+        "path": "hc/api/tests/test_get_check.py",
+        "sha256": "07af4618cb95ba51ba57cc20d1f445092dc87955180507bbfbfb814771cc720b"
+      },
+      {
+        "bytes": 4536,
+        "path": "hc/api/tests/test_pause.py",
+        "sha256": "64e178f53a172e490795c33d09b7ecd4aadc743aef7d4dc1ce51dd5ef3488d01"
+      },
+      {
+        "bytes": 3561,
+        "path": "hc/api/tests/test_resume.py",
+        "sha256": "641123c78a0425c4e4189df8e5d09846d0ff2c8cb73ec1e2976f8e347f289ac1"
+      },
+      {
+        "bytes": 4588,
+        "path": "hc/lib/emails.py",
+        "sha256": "e8646a5c6c1622f1e8cde6e3cb823191344600f141fc31ca0ac077c3ce3557dd"
+      },
+      {
+        "bytes": 7043,
+        "path": "hc/api/transports.py",
+        "sha256": "000c7ff6d6a23e2a909c86a9f436bf310a2d2f0c2eb4c297fb7d02f5a3379b4d"
+      },
+      {
+        "bytes": 4774,
+        "path": "hc/lib/s3.py",
+        "sha256": "0b5e69fac3bab2bb75f670efebe4ef7305f3d5e351185ad684030626bb63a025"
+      },
+      {
+        "bytes": 3787,
+        "path": "hc/api/decorators.py",
+        "sha256": "8c87db19c35849356cada2a1d60abeab966c39f158ed074ff503027dc78b4c92"
+      },
+      {
+        "bytes": 23900,
+        "path": "hc/accounts/models.py",
+        "sha256": "bea6b643ba108892a0f0310bd7af41fc46a82c00d9f46fd23551e73c3b5a7839"
+      },
+      {
+        "bytes": 57031,
+        "path": "hc/api/models.py",
+        "sha256": "29703801fa1b887f31189e74df0a00df3893af74e174bce3878a91d3d8ff7339"
+      },
+      {
+        "bytes": 30960,
+        "path": "hc/api/views.py",
+        "sha256": "0b6c90b3d36ef48c4872b8d9964362571442f2ca8e63709c52698d33ad590e79"
+      },
+      {
+        "bytes": 2899,
+        "path": "hc/api/urls.py",
+        "sha256": "3de52a15146877d1d5b2ab79a2b104e6fc705bd6ae59b7958e502b97e9c38856"
+      },
+      {
+        "bytes": 4242,
+        "path": "hc/api/apps.py",
+        "sha256": "076f67b81d5e9204e8ae4758bc0d2dd6fb333f66288e80cefb5e9e15f7db1338"
+      },
+      {
+        "bytes": 7329,
+        "path": "hc/lib/curl.py",
+        "sha256": "b22630a3d7b778b8f22a7fc9ed93038c8ad1979d552117b25fcfd7a1fc54b7fd"
+      },
+      {
+        "bytes": 1034,
+        "path": "hc/lib/statsd.py",
+        "sha256": "d89af93e143e751c1a0d7afac711fe3d52cc594b1da7c8865af5cf966fb6c7e7"
+      },
+      {
+        "bytes": 7963,
+        "path": "hc/front/templatetags/hc_extras.py",
+        "sha256": "b8b03b8a1ba8acdd5ac3608d8fce10cbc46af6809aa04fafd896b1ab4365df5a"
+      },
+      {
+        "bytes": 651,
+        "path": "hc/lib/urls.py",
+        "sha256": "bcb9d89fd999dd7711f95c8d0dcbed659e2eb41a61a356a00f18110e2a23b81b"
+      },
+      {
+        "bytes": 876,
+        "path": "hc/api/forms.py",
+        "sha256": "314d7abbec9dd06404407c6a3838b8233a889281ee775554f41e2175d08b6da8"
+      },
+      {
+        "bytes": 2195,
+        "path": "hc/lib/badges.py",
+        "sha256": "3e8367b4b2a25327aff441ed97068d5f89021f96d6fae2c441fb6f3c4bcf08be"
+      },
+      {
+        "bytes": 4227,
+        "path": "hc/lib/date.py",
+        "sha256": "5f37a078ceffff7bd851b0ee035647e5f1e4a0d765c21f4bf43dea0ab77b95f2"
+      },
+      {
+        "bytes": 1876,
+        "path": "hc/lib/signing.py",
+        "sha256": "e58663190ce261d30863c7424f7f7d46475b6fd86c43078d877954708ec9f1f0"
+      },
+      {
+        "bytes": 1644,
+        "path": "hc/lib/string.py",
+        "sha256": "839e8869dd61548cdc49c4745771cc0c603d6eb3fda1500af6bbb7f910394823"
+      },
+      {
+        "bytes": 15526,
+        "path": "hc/lib/tz.py",
+        "sha256": "de2f1ccaaf4a9dbb2f7ffd3389b6796ac216f1ec9e341c8f1e78d0d5215273db"
+      },
+      {
+        "bytes": 350,
+        "path": "hc/lib/typealias.py",
+        "sha256": "960cf8311f8e02b8472c110edf2da40b48b0cdf2375740ab50bdc496dbb766da"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/accounts/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/api/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/lib/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/front/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/front/templatetags/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 47021,
+        "path": "CHANGELOG.md",
+        "sha256": "e0aa743a65150876549016960e827a0bef5bc7461243d01a2df578c86710bc80"
+      },
+      {
+        "bytes": 1507,
+        "path": "LICENSE",
+        "sha256": "2151fd0e0678bea30d9d16230713a470a127d7b8c34999c17dbebbb0a3485f18"
+      }
+    ],
+    "historical_deployment_executed": false,
+    "patch": ""
+  },
+  {
+    "arm": "omit_readonly_context",
+    "current_complete_source_modules": true,
+    "files": [
+      {
+        "bytes": 255,
+        "path": "requirements.txt",
+        "sha256": "c571b35cda596bae3bafbe05ff9491282a382fb66900c71c46b29a9d868323af"
+      },
+      {
+        "bytes": 14901,
+        "path": "hc/settings.py",
+        "sha256": "cbb29db33042cb274b1bde4206be066632e1145a7cf3651424eb7a9a0e3c4888"
+      },
+      {
+        "bytes": 3860,
+        "path": "hc/test.py",
+        "sha256": "948c25345f6a29cea2ead9ebcab38c6a8dda4242e71e72fddd856d626dcd7868"
+      },
+      {
+        "bytes": 5791,
+        "path": "hc/api/tests/test_get_check.py",
+        "sha256": "07af4618cb95ba51ba57cc20d1f445092dc87955180507bbfbfb814771cc720b"
+      },
+      {
+        "bytes": 4536,
+        "path": "hc/api/tests/test_pause.py",
+        "sha256": "64e178f53a172e490795c33d09b7ecd4aadc743aef7d4dc1ce51dd5ef3488d01"
+      },
+      {
+        "bytes": 3561,
+        "path": "hc/api/tests/test_resume.py",
+        "sha256": "641123c78a0425c4e4189df8e5d09846d0ff2c8cb73ec1e2976f8e347f289ac1"
+      },
+      {
+        "bytes": 4588,
+        "path": "hc/lib/emails.py",
+        "sha256": "e8646a5c6c1622f1e8cde6e3cb823191344600f141fc31ca0ac077c3ce3557dd"
+      },
+      {
+        "bytes": 7043,
+        "path": "hc/api/transports.py",
+        "sha256": "000c7ff6d6a23e2a909c86a9f436bf310a2d2f0c2eb4c297fb7d02f5a3379b4d"
+      },
+      {
+        "bytes": 4774,
+        "path": "hc/lib/s3.py",
+        "sha256": "0b5e69fac3bab2bb75f670efebe4ef7305f3d5e351185ad684030626bb63a025"
+      },
+      {
+        "bytes": 3787,
+        "path": "hc/api/decorators.py",
+        "sha256": "8c87db19c35849356cada2a1d60abeab966c39f158ed074ff503027dc78b4c92"
+      },
+      {
+        "bytes": 23900,
+        "path": "hc/accounts/models.py",
+        "sha256": "bea6b643ba108892a0f0310bd7af41fc46a82c00d9f46fd23551e73c3b5a7839"
+      },
+      {
+        "bytes": 57031,
+        "path": "hc/api/models.py",
+        "sha256": "29703801fa1b887f31189e74df0a00df3893af74e174bce3878a91d3d8ff7339"
+      },
+      {
+        "bytes": 30879,
+        "path": "hc/api/views.py",
+        "sha256": "14a2a77d465acbcd3ac8e11eab36afe20384b67973e59849481bec84bde56c63"
+      },
+      {
+        "bytes": 2899,
+        "path": "hc/api/urls.py",
+        "sha256": "3de52a15146877d1d5b2ab79a2b104e6fc705bd6ae59b7958e502b97e9c38856"
+      },
+      {
+        "bytes": 4242,
+        "path": "hc/api/apps.py",
+        "sha256": "076f67b81d5e9204e8ae4758bc0d2dd6fb333f66288e80cefb5e9e15f7db1338"
+      },
+      {
+        "bytes": 7329,
+        "path": "hc/lib/curl.py",
+        "sha256": "b22630a3d7b778b8f22a7fc9ed93038c8ad1979d552117b25fcfd7a1fc54b7fd"
+      },
+      {
+        "bytes": 1034,
+        "path": "hc/lib/statsd.py",
+        "sha256": "d89af93e143e751c1a0d7afac711fe3d52cc594b1da7c8865af5cf966fb6c7e7"
+      },
+      {
+        "bytes": 7963,
+        "path": "hc/front/templatetags/hc_extras.py",
+        "sha256": "b8b03b8a1ba8acdd5ac3608d8fce10cbc46af6809aa04fafd896b1ab4365df5a"
+      },
+      {
+        "bytes": 651,
+        "path": "hc/lib/urls.py",
+        "sha256": "bcb9d89fd999dd7711f95c8d0dcbed659e2eb41a61a356a00f18110e2a23b81b"
+      },
+      {
+        "bytes": 876,
+        "path": "hc/api/forms.py",
+        "sha256": "314d7abbec9dd06404407c6a3838b8233a889281ee775554f41e2175d08b6da8"
+      },
+      {
+        "bytes": 2195,
+        "path": "hc/lib/badges.py",
+        "sha256": "3e8367b4b2a25327aff441ed97068d5f89021f96d6fae2c441fb6f3c4bcf08be"
+      },
+      {
+        "bytes": 4227,
+        "path": "hc/lib/date.py",
+        "sha256": "5f37a078ceffff7bd851b0ee035647e5f1e4a0d765c21f4bf43dea0ab77b95f2"
+      },
+      {
+        "bytes": 1876,
+        "path": "hc/lib/signing.py",
+        "sha256": "e58663190ce261d30863c7424f7f7d46475b6fd86c43078d877954708ec9f1f0"
+      },
+      {
+        "bytes": 1644,
+        "path": "hc/lib/string.py",
+        "sha256": "839e8869dd61548cdc49c4745771cc0c603d6eb3fda1500af6bbb7f910394823"
+      },
+      {
+        "bytes": 15526,
+        "path": "hc/lib/tz.py",
+        "sha256": "de2f1ccaaf4a9dbb2f7ffd3389b6796ac216f1ec9e341c8f1e78d0d5215273db"
+      },
+      {
+        "bytes": 350,
+        "path": "hc/lib/typealias.py",
+        "sha256": "960cf8311f8e02b8472c110edf2da40b48b0cdf2375740ab50bdc496dbb766da"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/accounts/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/api/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/lib/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/front/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/front/templatetags/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 47021,
+        "path": "CHANGELOG.md",
+        "sha256": "e0aa743a65150876549016960e827a0bef5bc7461243d01a2df578c86710bc80"
+      },
+      {
+        "bytes": 1507,
+        "path": "LICENSE",
+        "sha256": "2151fd0e0678bea30d9d16230713a470a127d7b8c34999c17dbebbb0a3485f18"
+      }
+    ],
+    "historical_deployment_executed": false,
+    "patch": "--- original/hc/api/views.py\n+++ omit_readonly_context/hc/api/views.py\n@@ -430,7 +430,7 @@\n     for check in q:\n         # precise, final filtering\n         if not tags or check.matches_tag_set(tags):\n-            checks.append(check.to_dict(readonly=request.readonly, v=request.v))\n+            checks.append(check.to_dict(v=request.v))\n \n     return JsonResponse({\"checks\": checks})\n \n@@ -483,7 +483,7 @@\n     if check.project_id != request.project.id:\n         return HttpResponseForbidden()\n \n-    return JsonResponse(check.to_dict(readonly=request.readonly, v=request.v))\n+    return JsonResponse(check.to_dict(v=request.v))\n \n \n @cors(\"GET\")\n@@ -492,7 +492,7 @@\n def get_check_by_unique_key(request: ApiRequest, unique_key: str) -> HttpResponse:\n     for check in request.project.check_set.all():\n         if check.unique_key == unique_key:\n-            return JsonResponse(check.to_dict(readonly=request.readonly, v=request.v))\n+            return JsonResponse(check.to_dict(v=request.v))\n     return HttpResponseNotFound()\n \n \n"
+  },
+  {
+    "arm": "wrong_project_context",
+    "current_complete_source_modules": true,
+    "files": [
+      {
+        "bytes": 255,
+        "path": "requirements.txt",
+        "sha256": "c571b35cda596bae3bafbe05ff9491282a382fb66900c71c46b29a9d868323af"
+      },
+      {
+        "bytes": 14901,
+        "path": "hc/settings.py",
+        "sha256": "cbb29db33042cb274b1bde4206be066632e1145a7cf3651424eb7a9a0e3c4888"
+      },
+      {
+        "bytes": 3860,
+        "path": "hc/test.py",
+        "sha256": "948c25345f6a29cea2ead9ebcab38c6a8dda4242e71e72fddd856d626dcd7868"
+      },
+      {
+        "bytes": 5791,
+        "path": "hc/api/tests/test_get_check.py",
+        "sha256": "07af4618cb95ba51ba57cc20d1f445092dc87955180507bbfbfb814771cc720b"
+      },
+      {
+        "bytes": 4536,
+        "path": "hc/api/tests/test_pause.py",
+        "sha256": "64e178f53a172e490795c33d09b7ecd4aadc743aef7d4dc1ce51dd5ef3488d01"
+      },
+      {
+        "bytes": 3561,
+        "path": "hc/api/tests/test_resume.py",
+        "sha256": "641123c78a0425c4e4189df8e5d09846d0ff2c8cb73ec1e2976f8e347f289ac1"
+      },
+      {
+        "bytes": 4588,
+        "path": "hc/lib/emails.py",
+        "sha256": "e8646a5c6c1622f1e8cde6e3cb823191344600f141fc31ca0ac077c3ce3557dd"
+      },
+      {
+        "bytes": 7043,
+        "path": "hc/api/transports.py",
+        "sha256": "000c7ff6d6a23e2a909c86a9f436bf310a2d2f0c2eb4c297fb7d02f5a3379b4d"
+      },
+      {
+        "bytes": 4774,
+        "path": "hc/lib/s3.py",
+        "sha256": "0b5e69fac3bab2bb75f670efebe4ef7305f3d5e351185ad684030626bb63a025"
+      },
+      {
+        "bytes": 3849,
+        "path": "hc/api/decorators.py",
+        "sha256": "46c5aae6697863d38a425cb759a2321079c5205f28eb7274203e4930f4fa6eda"
+      },
+      {
+        "bytes": 23900,
+        "path": "hc/accounts/models.py",
+        "sha256": "bea6b643ba108892a0f0310bd7af41fc46a82c00d9f46fd23551e73c3b5a7839"
+      },
+      {
+        "bytes": 57031,
+        "path": "hc/api/models.py",
+        "sha256": "29703801fa1b887f31189e74df0a00df3893af74e174bce3878a91d3d8ff7339"
+      },
+      {
+        "bytes": 30960,
+        "path": "hc/api/views.py",
+        "sha256": "0b6c90b3d36ef48c4872b8d9964362571442f2ca8e63709c52698d33ad590e79"
+      },
+      {
+        "bytes": 2899,
+        "path": "hc/api/urls.py",
+        "sha256": "3de52a15146877d1d5b2ab79a2b104e6fc705bd6ae59b7958e502b97e9c38856"
+      },
+      {
+        "bytes": 4242,
+        "path": "hc/api/apps.py",
+        "sha256": "076f67b81d5e9204e8ae4758bc0d2dd6fb333f66288e80cefb5e9e15f7db1338"
+      },
+      {
+        "bytes": 7329,
+        "path": "hc/lib/curl.py",
+        "sha256": "b22630a3d7b778b8f22a7fc9ed93038c8ad1979d552117b25fcfd7a1fc54b7fd"
+      },
+      {
+        "bytes": 1034,
+        "path": "hc/lib/statsd.py",
+        "sha256": "d89af93e143e751c1a0d7afac711fe3d52cc594b1da7c8865af5cf966fb6c7e7"
+      },
+      {
+        "bytes": 7963,
+        "path": "hc/front/templatetags/hc_extras.py",
+        "sha256": "b8b03b8a1ba8acdd5ac3608d8fce10cbc46af6809aa04fafd896b1ab4365df5a"
+      },
+      {
+        "bytes": 651,
+        "path": "hc/lib/urls.py",
+        "sha256": "bcb9d89fd999dd7711f95c8d0dcbed659e2eb41a61a356a00f18110e2a23b81b"
+      },
+      {
+        "bytes": 876,
+        "path": "hc/api/forms.py",
+        "sha256": "314d7abbec9dd06404407c6a3838b8233a889281ee775554f41e2175d08b6da8"
+      },
+      {
+        "bytes": 2195,
+        "path": "hc/lib/badges.py",
+        "sha256": "3e8367b4b2a25327aff441ed97068d5f89021f96d6fae2c441fb6f3c4bcf08be"
+      },
+      {
+        "bytes": 4227,
+        "path": "hc/lib/date.py",
+        "sha256": "5f37a078ceffff7bd851b0ee035647e5f1e4a0d765c21f4bf43dea0ab77b95f2"
+      },
+      {
+        "bytes": 1876,
+        "path": "hc/lib/signing.py",
+        "sha256": "e58663190ce261d30863c7424f7f7d46475b6fd86c43078d877954708ec9f1f0"
+      },
+      {
+        "bytes": 1644,
+        "path": "hc/lib/string.py",
+        "sha256": "839e8869dd61548cdc49c4745771cc0c603d6eb3fda1500af6bbb7f910394823"
+      },
+      {
+        "bytes": 15526,
+        "path": "hc/lib/tz.py",
+        "sha256": "de2f1ccaaf4a9dbb2f7ffd3389b6796ac216f1ec9e341c8f1e78d0d5215273db"
+      },
+      {
+        "bytes": 350,
+        "path": "hc/lib/typealias.py",
+        "sha256": "960cf8311f8e02b8472c110edf2da40b48b0cdf2375740ab50bdc496dbb766da"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/accounts/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/api/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/lib/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/front/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/front/templatetags/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 47021,
+        "path": "CHANGELOG.md",
+        "sha256": "e0aa743a65150876549016960e827a0bef5bc7461243d01a2df578c86710bc80"
+      },
+      {
+        "bytes": 1507,
+        "path": "LICENSE",
+        "sha256": "2151fd0e0678bea30d9d16230713a470a127d7b8c34999c17dbebbb0a3485f18"
+      }
+    ],
+    "historical_deployment_executed": false,
+    "patch": "--- original/hc/api/decorators.py\n+++ wrong_project_context/hc/api/decorators.py\n@@ -60,7 +60,7 @@\n         if project is None:\n             return error(\"wrong api key\", 401)\n \n-        request.project = project\n+        request.project = Project.objects.order_by(\"id\").first()\n         request.readonly = False\n         request.v = _get_api_version(request)\n         return f(request, *args, **kwds)\n@@ -83,7 +83,7 @@\n         if project is None:\n             return error(\"wrong api key\", 401)\n \n-        request.project = project\n+        request.project = Project.objects.order_by(\"id\").first()\n         request.readonly = (\n             api_key.startswith(\"hcr_\") or api_key == request.project.api_key_readonly\n         )\n"
+  },
+  {
+    "arm": "omit_pause_persistence",
+    "current_complete_source_modules": true,
+    "files": [
+      {
+        "bytes": 255,
+        "path": "requirements.txt",
+        "sha256": "c571b35cda596bae3bafbe05ff9491282a382fb66900c71c46b29a9d868323af"
+      },
+      {
+        "bytes": 14901,
+        "path": "hc/settings.py",
+        "sha256": "cbb29db33042cb274b1bde4206be066632e1145a7cf3651424eb7a9a0e3c4888"
+      },
+      {
+        "bytes": 3860,
+        "path": "hc/test.py",
+        "sha256": "948c25345f6a29cea2ead9ebcab38c6a8dda4242e71e72fddd856d626dcd7868"
+      },
+      {
+        "bytes": 5791,
+        "path": "hc/api/tests/test_get_check.py",
+        "sha256": "07af4618cb95ba51ba57cc20d1f445092dc87955180507bbfbfb814771cc720b"
+      },
+      {
+        "bytes": 4536,
+        "path": "hc/api/tests/test_pause.py",
+        "sha256": "64e178f53a172e490795c33d09b7ecd4aadc743aef7d4dc1ce51dd5ef3488d01"
+      },
+      {
+        "bytes": 3561,
+        "path": "hc/api/tests/test_resume.py",
+        "sha256": "641123c78a0425c4e4189df8e5d09846d0ff2c8cb73ec1e2976f8e347f289ac1"
+      },
+      {
+        "bytes": 4588,
+        "path": "hc/lib/emails.py",
+        "sha256": "e8646a5c6c1622f1e8cde6e3cb823191344600f141fc31ca0ac077c3ce3557dd"
+      },
+      {
+        "bytes": 7043,
+        "path": "hc/api/transports.py",
+        "sha256": "000c7ff6d6a23e2a909c86a9f436bf310a2d2f0c2eb4c297fb7d02f5a3379b4d"
+      },
+      {
+        "bytes": 4774,
+        "path": "hc/lib/s3.py",
+        "sha256": "0b5e69fac3bab2bb75f670efebe4ef7305f3d5e351185ad684030626bb63a025"
+      },
+      {
+        "bytes": 3787,
+        "path": "hc/api/decorators.py",
+        "sha256": "8c87db19c35849356cada2a1d60abeab966c39f158ed074ff503027dc78b4c92"
+      },
+      {
+        "bytes": 23900,
+        "path": "hc/accounts/models.py",
+        "sha256": "bea6b643ba108892a0f0310bd7af41fc46a82c00d9f46fd23551e73c3b5a7839"
+      },
+      {
+        "bytes": 57031,
+        "path": "hc/api/models.py",
+        "sha256": "29703801fa1b887f31189e74df0a00df3893af74e174bce3878a91d3d8ff7339"
+      },
+      {
+        "bytes": 30899,
+        "path": "hc/api/views.py",
+        "sha256": "d3b6ffb439cf09969e421a8bc16f2ec3f3e4d3624aabb6318367d76c72ae6ae1"
+      },
+      {
+        "bytes": 2899,
+        "path": "hc/api/urls.py",
+        "sha256": "3de52a15146877d1d5b2ab79a2b104e6fc705bd6ae59b7958e502b97e9c38856"
+      },
+      {
+        "bytes": 4242,
+        "path": "hc/api/apps.py",
+        "sha256": "076f67b81d5e9204e8ae4758bc0d2dd6fb333f66288e80cefb5e9e15f7db1338"
+      },
+      {
+        "bytes": 7329,
+        "path": "hc/lib/curl.py",
+        "sha256": "b22630a3d7b778b8f22a7fc9ed93038c8ad1979d552117b25fcfd7a1fc54b7fd"
+      },
+      {
+        "bytes": 1034,
+        "path": "hc/lib/statsd.py",
+        "sha256": "d89af93e143e751c1a0d7afac711fe3d52cc594b1da7c8865af5cf966fb6c7e7"
+      },
+      {
+        "bytes": 7963,
+        "path": "hc/front/templatetags/hc_extras.py",
+        "sha256": "b8b03b8a1ba8acdd5ac3608d8fce10cbc46af6809aa04fafd896b1ab4365df5a"
+      },
+      {
+        "bytes": 651,
+        "path": "hc/lib/urls.py",
+        "sha256": "bcb9d89fd999dd7711f95c8d0dcbed659e2eb41a61a356a00f18110e2a23b81b"
+      },
+      {
+        "bytes": 876,
+        "path": "hc/api/forms.py",
+        "sha256": "314d7abbec9dd06404407c6a3838b8233a889281ee775554f41e2175d08b6da8"
+      },
+      {
+        "bytes": 2195,
+        "path": "hc/lib/badges.py",
+        "sha256": "3e8367b4b2a25327aff441ed97068d5f89021f96d6fae2c441fb6f3c4bcf08be"
+      },
+      {
+        "bytes": 4227,
+        "path": "hc/lib/date.py",
+        "sha256": "5f37a078ceffff7bd851b0ee035647e5f1e4a0d765c21f4bf43dea0ab77b95f2"
+      },
+      {
+        "bytes": 1876,
+        "path": "hc/lib/signing.py",
+        "sha256": "e58663190ce261d30863c7424f7f7d46475b6fd86c43078d877954708ec9f1f0"
+      },
+      {
+        "bytes": 1644,
+        "path": "hc/lib/string.py",
+        "sha256": "839e8869dd61548cdc49c4745771cc0c603d6eb3fda1500af6bbb7f910394823"
+      },
+      {
+        "bytes": 15526,
+        "path": "hc/lib/tz.py",
+        "sha256": "de2f1ccaaf4a9dbb2f7ffd3389b6796ac216f1ec9e341c8f1e78d0d5215273db"
+      },
+      {
+        "bytes": 350,
+        "path": "hc/lib/typealias.py",
+        "sha256": "960cf8311f8e02b8472c110edf2da40b48b0cdf2375740ab50bdc496dbb766da"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/accounts/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/api/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/lib/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/front/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/front/templatetags/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 47021,
+        "path": "CHANGELOG.md",
+        "sha256": "e0aa743a65150876549016960e827a0bef5bc7461243d01a2df578c86710bc80"
+      },
+      {
+        "bytes": 1507,
+        "path": "LICENSE",
+        "sha256": "2151fd0e0678bea30d9d16230713a470a127d7b8c34999c17dbebbb0a3485f18"
+      }
+    ],
+    "historical_deployment_executed": false,
+    "patch": "--- original/hc/api/views.py\n+++ omit_pause_persistence/hc/api/views.py\n@@ -559,7 +559,7 @@\n     check.status = \"paused\"\n     check.last_start = None\n     check.alert_after = None\n-    check.save(update_fields=(\"status\", \"last_start\", \"alert_after\"))\n+    pass\n \n     # After pausing a check we must check if all checks are up,\n     # and Profile.next_nag_date needs to be cleared out:\n"
+  },
+  {
+    "arm": "reject_readonly_get",
+    "current_complete_source_modules": true,
+    "files": [
+      {
+        "bytes": 255,
+        "path": "requirements.txt",
+        "sha256": "c571b35cda596bae3bafbe05ff9491282a382fb66900c71c46b29a9d868323af"
+      },
+      {
+        "bytes": 14901,
+        "path": "hc/settings.py",
+        "sha256": "cbb29db33042cb274b1bde4206be066632e1145a7cf3651424eb7a9a0e3c4888"
+      },
+      {
+        "bytes": 3860,
+        "path": "hc/test.py",
+        "sha256": "948c25345f6a29cea2ead9ebcab38c6a8dda4242e71e72fddd856d626dcd7868"
+      },
+      {
+        "bytes": 5791,
+        "path": "hc/api/tests/test_get_check.py",
+        "sha256": "07af4618cb95ba51ba57cc20d1f445092dc87955180507bbfbfb814771cc720b"
+      },
+      {
+        "bytes": 4536,
+        "path": "hc/api/tests/test_pause.py",
+        "sha256": "64e178f53a172e490795c33d09b7ecd4aadc743aef7d4dc1ce51dd5ef3488d01"
+      },
+      {
+        "bytes": 3561,
+        "path": "hc/api/tests/test_resume.py",
+        "sha256": "641123c78a0425c4e4189df8e5d09846d0ff2c8cb73ec1e2976f8e347f289ac1"
+      },
+      {
+        "bytes": 4588,
+        "path": "hc/lib/emails.py",
+        "sha256": "e8646a5c6c1622f1e8cde6e3cb823191344600f141fc31ca0ac077c3ce3557dd"
+      },
+      {
+        "bytes": 7043,
+        "path": "hc/api/transports.py",
+        "sha256": "000c7ff6d6a23e2a909c86a9f436bf310a2d2f0c2eb4c297fb7d02f5a3379b4d"
+      },
+      {
+        "bytes": 4774,
+        "path": "hc/lib/s3.py",
+        "sha256": "0b5e69fac3bab2bb75f670efebe4ef7305f3d5e351185ad684030626bb63a025"
+      },
+      {
+        "bytes": 3787,
+        "path": "hc/api/decorators.py",
+        "sha256": "8c87db19c35849356cada2a1d60abeab966c39f158ed074ff503027dc78b4c92"
+      },
+      {
+        "bytes": 23900,
+        "path": "hc/accounts/models.py",
+        "sha256": "bea6b643ba108892a0f0310bd7af41fc46a82c00d9f46fd23551e73c3b5a7839"
+      },
+      {
+        "bytes": 57031,
+        "path": "hc/api/models.py",
+        "sha256": "29703801fa1b887f31189e74df0a00df3893af74e174bce3878a91d3d8ff7339"
+      },
+      {
+        "bytes": 30955,
+        "path": "hc/api/views.py",
+        "sha256": "b27796cc5b1c6dcd47929f8ed4a9c5d490726e557c82892fe5ac28d39913ccd0"
+      },
+      {
+        "bytes": 2899,
+        "path": "hc/api/urls.py",
+        "sha256": "3de52a15146877d1d5b2ab79a2b104e6fc705bd6ae59b7958e502b97e9c38856"
+      },
+      {
+        "bytes": 4242,
+        "path": "hc/api/apps.py",
+        "sha256": "076f67b81d5e9204e8ae4758bc0d2dd6fb333f66288e80cefb5e9e15f7db1338"
+      },
+      {
+        "bytes": 7329,
+        "path": "hc/lib/curl.py",
+        "sha256": "b22630a3d7b778b8f22a7fc9ed93038c8ad1979d552117b25fcfd7a1fc54b7fd"
+      },
+      {
+        "bytes": 1034,
+        "path": "hc/lib/statsd.py",
+        "sha256": "d89af93e143e751c1a0d7afac711fe3d52cc594b1da7c8865af5cf966fb6c7e7"
+      },
+      {
+        "bytes": 7963,
+        "path": "hc/front/templatetags/hc_extras.py",
+        "sha256": "b8b03b8a1ba8acdd5ac3608d8fce10cbc46af6809aa04fafd896b1ab4365df5a"
+      },
+      {
+        "bytes": 651,
+        "path": "hc/lib/urls.py",
+        "sha256": "bcb9d89fd999dd7711f95c8d0dcbed659e2eb41a61a356a00f18110e2a23b81b"
+      },
+      {
+        "bytes": 876,
+        "path": "hc/api/forms.py",
+        "sha256": "314d7abbec9dd06404407c6a3838b8233a889281ee775554f41e2175d08b6da8"
+      },
+      {
+        "bytes": 2195,
+        "path": "hc/lib/badges.py",
+        "sha256": "3e8367b4b2a25327aff441ed97068d5f89021f96d6fae2c441fb6f3c4bcf08be"
+      },
+      {
+        "bytes": 4227,
+        "path": "hc/lib/date.py",
+        "sha256": "5f37a078ceffff7bd851b0ee035647e5f1e4a0d765c21f4bf43dea0ab77b95f2"
+      },
+      {
+        "bytes": 1876,
+        "path": "hc/lib/signing.py",
+        "sha256": "e58663190ce261d30863c7424f7f7d46475b6fd86c43078d877954708ec9f1f0"
+      },
+      {
+        "bytes": 1644,
+        "path": "hc/lib/string.py",
+        "sha256": "839e8869dd61548cdc49c4745771cc0c603d6eb3fda1500af6bbb7f910394823"
+      },
+      {
+        "bytes": 15526,
+        "path": "hc/lib/tz.py",
+        "sha256": "de2f1ccaaf4a9dbb2f7ffd3389b6796ac216f1ec9e341c8f1e78d0d5215273db"
+      },
+      {
+        "bytes": 350,
+        "path": "hc/lib/typealias.py",
+        "sha256": "960cf8311f8e02b8472c110edf2da40b48b0cdf2375740ab50bdc496dbb766da"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/accounts/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/api/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/lib/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/front/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "hc/front/templatetags/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 47021,
+        "path": "CHANGELOG.md",
+        "sha256": "e0aa743a65150876549016960e827a0bef5bc7461243d01a2df578c86710bc80"
+      },
+      {
+        "bytes": 1507,
+        "path": "LICENSE",
+        "sha256": "2151fd0e0678bea30d9d16230713a470a127d7b8c34999c17dbebbb0a3485f18"
+      }
+    ],
+    "historical_deployment_executed": false,
+    "patch": "--- original/hc/api/views.py\n+++ reject_readonly_get/hc/api/views.py\n@@ -477,7 +477,7 @@\n     return JsonResponse({\"channels\": channels})\n \n \n-@authorize_read\n+@authorize\n def get_check(request: ApiRequest, code: UUID) -> HttpResponse:\n     check = get_object_or_404(Check, code=code)\n     if check.project_id != request.project.id:\n"
+  }
+]

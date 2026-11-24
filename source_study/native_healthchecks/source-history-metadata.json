@@ -1,0 +1,31 @@
+{
+  "commits": [
+    {
+      "url": "https://github.com/healthchecks/healthchecks/commit/1f1b1aedca949a52a592f8aefc523ad47b054ed9",
+      "author": "Pēteris Caune",
+      "author_date": "2019-07-04T06:36:27Z",
+      "committer": "Pēteris Caune",
+      "committer_date": "2019-07-04T06:36:27Z",
+      "title": "Don't include ping URLs in API responses when the read-only key is used",
+      "read_scope": "Complete GitHub REST commit object, including all file patches"
+    },
+    {
+      "url": "https://github.com/healthchecks/healthchecks/commit/76ae42bc8fe85ba8d12a24a842a08e17cf13682c",
+      "author": "Pēteris Caune",
+      "author_date": "2020-03-24T14:10:42Z",
+      "committer": "Pēteris Caune",
+      "committer_date": "2020-03-24T14:10:42Z",
+      "title": "\"Get a single check\" API call now supports read-only API keys. Fixes #346",
+      "read_scope": "Complete GitHub REST commit object, including all file patches"
+    }
+  ],
+  "issue": {
+    "url": "https://github.com/healthchecks/healthchecks/issues/346",
+    "author_login": "jameskirsop",
+    "created_at": "2020-03-24T03:19:30Z",
+    "closed_at": "2020-03-24T14:10:53Z",
+    "title": "API @authorize decorator doesn't allow read-only for Single Check",
+    "body": "We need to rewrite the `@authorize` decorator to allow for a read-only API key to do a GET request on the `single` view.\r\n\r\nCurrent thought would be to merge the write and read-only decorators and handle the request based on the `request.method` parameter.\r\n\r\nWithout this, you currently need to use a full-access key to read a single check.",
+    "read_scope": "Complete issue object; comment not read by application collector"
+  }
+}

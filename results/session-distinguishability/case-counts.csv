@@ -1,0 +1,6 @@
+sessions,permutations,excluded_permutations,alphabet_size,words_length_zero,words_length_one,words_length_two,all_short_words,lookup_only_short_words,one_removal_short_words,binding_word_comparisons,observation_comparisons,reference_trace_steps,physical_trace_steps,lookup_only_closure_cells,identity_all_store_cells,informative_projected_short_words,uninformative_projected_short_words,informative_identity_single_words,projected_cover_subsets_checked,identity_cover_subsets_checked,minimum_projected_short_test_cover,minimum_identity_single_test_cover,projected_lookup_matching,projected_one_removal_matching,projected_unrestricted_matching,identity_matching_each_caller,first_exclusion_counts
+2,2,1,10,1,10,100,111,31,86,222,444,420,210,10,40,4,107,2,1,1,1,1,2,1,1,1,[1]
+3,6,5,14,1,14,196,211,57,162,1266,2532,2436,406,42,112,9,202,3,10,4,2,2,6,1,1,1,"[4,1]"
+4,24,23,18,1,18,324,343,91,262,8232,16464,15984,666,216,288,16,327,4,137,11,3,3,24,1,1,1,"[18,4,1]"
+5,120,119,22,1,22,484,507,133,386,60840,121680,118800,990,1320,704,25,482,5,2626,26,4,4,120,1,1,1,"[96,18,4,1]"
+6,720,719,26,1,26,676,703,183,534,506160,1012320,992160,1378,9360,1664,36,667,6,66712,57,5,5,720,1,1,1,"[600,96,18,4,1]"

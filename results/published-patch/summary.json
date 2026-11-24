@@ -1,0 +1,837 @@
+{
+  "orm_versions": [
+    "1.16.0",
+    "1.34.0"
+  ],
+  "same_fixtures_and_original_source_bytes": true,
+  "different_installed_packages": [
+    "piccolo"
+  ],
+  "fixture_sha256": "a0f9d560e3fc719d85a6438cc7b8563a45f40574e08aed78626e07da7acaad4a",
+  "metadata_pairs": 180,
+  "metadata_disagreements": 0,
+  "complete_get_all_invocations": 210,
+  "endpoint_returns": 198,
+  "endpoint_exceptions": 12,
+  "change_counts": {
+    "token_metadata_secret": 0,
+    "registry_fields": 54,
+    "filter_fields": 18,
+    "query_projection": 0,
+    "selection_endpoint": 0,
+    "filter_endpoint": 2
+  },
+  "changes": {
+    "token_metadata_secret": [],
+    "registry_fields": [
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-0-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-0-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-0-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-1-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-1-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-1-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-2-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-2-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-2-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-3-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-3-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-3-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-4-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-4-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-4-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-5-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-5-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-before",
+        "context": "selection-5-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-0-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-0-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-0-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-1-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-1-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-1-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-2-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-2-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-2-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-3-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-3-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-3-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-4-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-4-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-4-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-5-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-5-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-5-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-0-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-0-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-0-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-1-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-1-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-1-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-2-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-2-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-2-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-3-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-3-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-3-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-4-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-4-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-4-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-5-override-0",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-5-override-1",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after__owned-repair",
+        "context": "selection-5-override-2",
+        "minimum": [],
+        "migration_version": [
+          "token"
+        ]
+      }
+    ],
+    "filter_fields": [
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-0-override-0",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-0-override-1",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-0-override-2",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-1-override-0",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-1-override-1",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-1-override-2",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-2-override-0",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-2-override-1",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-2-override-2",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-3-override-0",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-3-override-1",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-3-override-2",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-4-override-0",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-4-override-1",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-4-override-2",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-5-override-0",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-5-override-1",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "selection-5-override-2",
+        "minimum": [
+          "id",
+          "token",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ],
+        "migration_version": [
+          "id",
+          "user_id",
+          "expiry_date",
+          "max_expiry_date"
+        ]
+      }
+    ],
+    "query_projection": [],
+    "selection_endpoint": [],
+    "filter_endpoint": [
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "matching-token",
+        "minimum": {
+          "outcome": "return",
+          "status": 200,
+          "json": {
+            "rows": [
+              {
+                "id": 1,
+                "token": null,
+                "user_id": 1,
+                "expiry_date": "2030-01-01T00:00:00",
+                "max_expiry_date": "2030-01-08T00:00:00"
+              }
+            ]
+          }
+        },
+        "migration_version": {
+          "outcome": "return",
+          "status": 400,
+          "json": null
+        }
+      },
+      {
+        "profile": "producer-after__consumer-after",
+        "context": "absent-token",
+        "minimum": {
+          "outcome": "return",
+          "status": 200,
+          "json": {
+            "rows": []
+          }
+        },
+        "migration_version": {
+          "outcome": "return",
+          "status": 400,
+          "json": null
+        }
+      }
+    ]
+  },
+  "registry_predicates": {
+    "1.16.0": {
+      "orm_version": "1.16.0",
+      "path": "piccolo/table.py",
+      "sha256": "9d2df3ba118d3d9e07f6cfc4de27856eb13fbb54ebe937a7055c3f9ebaed9914",
+      "line": 317,
+      "predicate": "isinstance(column, Secret)",
+      "predicate_mode": "secret-subclass"
+    },
+    "1.34.0": {
+      "orm_version": "1.34.0",
+      "path": "piccolo/table.py",
+      "sha256": "cee0c8044b72827325fbf47e3c44ae190d2da47e1dd52967f84ffa2ff6457b60",
+      "line": 343,
+      "predicate": "column._meta.secret",
+      "predicate_mode": "secrecy-metadata"
+    }
+  },
+  "interpretation": "Both versions suppress stored token values after the producer change; only the metadata-registering ORM also connects the unchanged patched filter consumer to that declaration.",
+  "version_selection": {
+    "1.16.0": "Declared minimum in pinned API requirements.",
+    "1.34.0": "VERSION recorded by the migration in upstream commit 520ec2567ae1d2cc417c8c0d1ad0ddc05549a8a4; not an installed-deployment lock."
+  },
+  "passed": true
+}

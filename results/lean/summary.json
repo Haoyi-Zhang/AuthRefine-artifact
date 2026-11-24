@@ -1,0 +1,210 @@
+{
+  "checked_at_utc": "2026-11-18T18:08:00.101405+00:00",
+  "compiler": "<lean>/bin/lean",
+  "compiler_sha256": "c2059c8da4034467e5f391cfd07b81c4a7b32a7e04ff7e50c7c385993cd77010",
+  "compiler_version": "Lean (version 4.8.0, x86_64-unknown-linux-gnu, commit df668f00e6c0, Release)",
+  "compiler_exit_code": 0,
+  "scope": "Kernel checking of the shipped conditional Lean statements; no source extractor or application theorem inferred",
+  "network_or_installer_used_by_runner": false,
+  "proof_sources_modified": false,
+  "results": [
+    {
+      "file": "proofs/BindingDiagnosis.lean",
+      "proof_sha256": "2cd9e6be1d2c7a1d4bcf71b08c89ba290a38f9de175700977c6163c7c207ed0e",
+      "command": [
+        "<lean>/bin/lean",
+        "<artifact>/proofs/BindingDiagnosis.lean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "timeout_seconds": 60,
+      "wall_seconds": 1.3035649220037158,
+      "source_unchanged": true,
+      "sorry_warning": false,
+      "passed": true
+    },
+    {
+      "file": "proofs/CachedFactory.lean",
+      "proof_sha256": "9bfbb7d1a177ff87a393d48c66cdfbb1283a338c965f678b054ec909e23d9a7e",
+      "command": [
+        "<lean>/bin/lean",
+        "<artifact>/proofs/CachedFactory.lean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "timeout_seconds": 60,
+      "wall_seconds": 1.705244976998074,
+      "source_unchanged": true,
+      "sorry_warning": false,
+      "passed": true
+    },
+    {
+      "file": "proofs/ClaimRoleObservation.lean",
+      "proof_sha256": "cd7c8eb729fcc756a2242f2bcc1dd8fcaccd4385c607c296592af93d8f255f6b",
+      "command": [
+        "<lean>/bin/lean",
+        "<artifact>/proofs/ClaimRoleObservation.lean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "timeout_seconds": 60,
+      "wall_seconds": 0.5413495989996591,
+      "source_unchanged": true,
+      "sorry_warning": false,
+      "passed": true
+    },
+    {
+      "file": "proofs/EpochCache.lean",
+      "proof_sha256": "7c7e28381235b23ef77c3d1eaaa748e455fcad7cce502974dc527242a2ddb7c9",
+      "command": [
+        "<lean>/bin/lean",
+        "<artifact>/proofs/EpochCache.lean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "timeout_seconds": 60,
+      "wall_seconds": 0.49619437100045616,
+      "source_unchanged": true,
+      "sorry_warning": false,
+      "passed": true
+    },
+    {
+      "file": "proofs/NativeConversion.lean",
+      "proof_sha256": "4aebc6887fefb0e56457f1b9641f44cccf15c4dce4861d5b74f9f8f145e274a5",
+      "command": [
+        "<lean>/bin/lean",
+        "<artifact>/proofs/NativeConversion.lean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "timeout_seconds": 60,
+      "wall_seconds": 0.7578835169988452,
+      "source_unchanged": true,
+      "sorry_warning": false,
+      "passed": true
+    },
+    {
+      "file": "proofs/OutcomeObservation.lean",
+      "proof_sha256": "65810db4de6e26801a16bf10d412f279a97319045890ad424bd7134087687ae6",
+      "command": [
+        "<lean>/bin/lean",
+        "<artifact>/proofs/OutcomeObservation.lean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "timeout_seconds": 60,
+      "wall_seconds": 0.5755324400015525,
+      "source_unchanged": true,
+      "sorry_warning": false,
+      "passed": true
+    },
+    {
+      "file": "proofs/ProtocolDiagnosis.lean",
+      "proof_sha256": "62788f05ea39f62c2f53a37254c5973b96c80bd79522488acabd745ad7a60596",
+      "command": [
+        "<lean>/bin/lean",
+        "<artifact>/proofs/ProtocolDiagnosis.lean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "timeout_seconds": 60,
+      "wall_seconds": 1.9350927869963925,
+      "source_unchanged": true,
+      "sorry_warning": false,
+      "passed": true
+    },
+    {
+      "file": "proofs/RelationalProjection.lean",
+      "proof_sha256": "e6b50fccb4a3575f707be7abd9e8a09e9205002548d4bbc3d4f09b8617550a72",
+      "command": [
+        "<lean>/bin/lean",
+        "<artifact>/proofs/RelationalProjection.lean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "timeout_seconds": 60,
+      "wall_seconds": 0.7328114880001522,
+      "source_unchanged": true,
+      "sorry_warning": false,
+      "passed": true
+    },
+    {
+      "file": "source_study/proofs/ActiveOrganizationOrder.lean",
+      "proof_sha256": "7573516436b9d910aaa7a868d9e5ec4eb7282fb22c2658396d11513741f59d58",
+      "command": [
+        "<lean>/bin/lean",
+        "<artifact>/source_study/proofs/ActiveOrganizationOrder.lean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "timeout_seconds": 60,
+      "wall_seconds": 0.45212591499876,
+      "source_unchanged": true,
+      "sorry_warning": false,
+      "passed": true
+    },
+    {
+      "file": "source_study/proofs/ClosureGuardComposition.lean",
+      "proof_sha256": "83b03195f864d8ccfc3553225b4a539cb9d14d1cebc70ad6947f983cd8eca7a6",
+      "command": [
+        "<lean>/bin/lean",
+        "<artifact>/source_study/proofs/ClosureGuardComposition.lean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "timeout_seconds": 60,
+      "wall_seconds": 0.42580781700235093,
+      "source_unchanged": true,
+      "sorry_warning": false,
+      "passed": true
+    },
+    {
+      "file": "source_study/proofs/DRFDynamicFactory.lean",
+      "proof_sha256": "6ae3cb7193da4840c90984aa3592262e25bffb764d4e6fed3d05db08d70540ea",
+      "command": [
+        "<lean>/bin/lean",
+        "<artifact>/source_study/proofs/DRFDynamicFactory.lean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "timeout_seconds": 60,
+      "wall_seconds": 0.46968378600286087,
+      "source_unchanged": true,
+      "sorry_warning": false,
+      "passed": true
+    },
+    {
+      "file": "source_study/proofs/DRFGuardComposition.lean",
+      "proof_sha256": "009c67486b96c2a75e6ee76ee85fa9dce0c9f2c19a8380115264a71f53d10c2c",
+      "command": [
+        "<lean>/bin/lean",
+        "<artifact>/source_study/proofs/DRFGuardComposition.lean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "timeout_seconds": 60,
+      "wall_seconds": 0.5155233789992053,
+      "source_unchanged": true,
+      "sorry_warning": false,
+      "passed": true
+    },
+    {
+      "file": "source_study/proofs/OrganizationQueryGate.lean",
+      "proof_sha256": "ce3ea6e6c8ff663d94e123898cd1016c8d27a0b7c22c25a4dfca0160bf572072",
+      "command": [
+        "<lean>/bin/lean",
+        "<artifact>/source_study/proofs/OrganizationQueryGate.lean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "timeout_seconds": 60,
+      "wall_seconds": 1.4628525230000378,
+      "source_unchanged": true,
+      "sorry_warning": false,
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "proof_count": 13,
+  "passed_count": 13
+}

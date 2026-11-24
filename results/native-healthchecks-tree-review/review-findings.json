@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "native_executions_added_by_review": 0,
+  "scientific_input_files_modified": false,
+  "ordinary_audit": "PASS",
+  "optimized_audit": "PASS",
+  "independent_audit_entry": "proofs/audit_native_healthchecks_tree.py",
+  "findings": [
+    {
+      "id": "native-tree-provenance-admission",
+      "priority": "medium",
+      "problem": "Manifest count, partial collection metadata and unchecked process receipts allowed an incomplete or inconsistent provenance copy to pass.",
+      "initial_reproduction": "Combined review copy removed original views.py and repeated a different manifest row; changed module paths, clock declaration, edge count and main/replay return codes. The initial audit returned PASS.",
+      "repair_files": [
+        "source_study/native_healthchecks_tree/audit.py",
+        "source_study/native_healthchecks_tree/run.py",
+        "tests/test_native_healthchecks_tree.py"
+      ],
+      "evidence": "post-fix-controls.json: original-combined-provenance-challenge and six individual provenance controls",
+      "status": "RESOLVED"
+    },
+    {
+      "id": "native-tree-json-type-equality",
+      "priority": "high",
+      "problem": "Python equality identified JSON false and integer0. A wire-only n_pings type change with preserved Content-Length was accepted by the original admission and production diagnosis path.",
+      "initial_reproduction": "The recorded parsed n_pings remained integer0; wire text used false and four fewer legal separator spaces. Both observations incorrectly reported equivalence.",
+      "repair_files": [
+        "source_study/native_healthchecks_tree/specification.py",
+        "source_study/native_healthchecks_tree/encoding.py",
+        "source_study/native_healthchecks_tree/audit.py",
+        "source_study/native_healthchecks_tree/run.py",
+        "tests/test_native_healthchecks_tree.py"
+      ],
+      "evidence": "post-fix-controls.json: wire-only-json-number-boolean-collision, consistent-json-boolean-to-number-value-change, parent-store-number-boolean-collision and physical-sqlite-number-boolean-collision",
+      "status": "RESOLVED"
+    }
+  ],
+  "post_fix_independent_controls": 20,
+  "output_protection_controls": 4,
+  "scientific_record_reconciliation": "All 4,068 input files retain byte contents and modification times; full source and execution provenance, 3,444 SQLite images and 720 individual production replay rows were independently checked."
+}

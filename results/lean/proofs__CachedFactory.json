@@ -1,0 +1,15 @@
+{
+  "file": "proofs/CachedFactory.lean",
+  "proof_sha256": "9bfbb7d1a177ff87a393d48c66cdfbb1283a338c965f678b054ec909e23d9a7e",
+  "command": [
+    "<lean>/bin/lean",
+    "<artifact>/proofs/CachedFactory.lean"
+  ],
+  "exit_code": 0,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "wall_seconds": 1.705244976998074,
+  "source_unchanged": true,
+  "sorry_warning": false,
+  "passed": true
+}

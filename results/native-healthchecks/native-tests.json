@@ -1,0 +1,29 @@
+{
+  "normal": {
+    "tests": 12,
+    "passed": 12,
+    "skipped": 0,
+    "returncode": 0,
+    "elapsed_seconds": 31.877,
+    "log": "native-tests-normal.log",
+    "native_subprocess_optimization": 0
+  },
+  "optimized": {
+    "tests": 12,
+    "passed": 12,
+    "skipped": 0,
+    "returncode": 0,
+    "elapsed_seconds": 36.698,
+    "log": "native-tests-optimized.log",
+    "native_subprocess_optimization": 2
+  },
+  "read_only_verification": {
+    "returncode": 0,
+    "django_available": false,
+    "input_files_unchanged": true,
+    "checked_files": 531,
+    "receipt": "stdlib-verification.json"
+  },
+  "native_execution_tests_included": 2,
+  "retained_evidence_and_observer_tests": 10
+}

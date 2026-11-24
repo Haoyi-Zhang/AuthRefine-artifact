@@ -1,0 +1,239 @@
+{
+  "api_versions": [
+    1,
+    2,
+    3
+  ],
+  "complete_unbounded_physical_reachability": false,
+  "configuration": "identity",
+  "depth": 3,
+  "initial_statuses": [
+    "new",
+    "paused"
+  ],
+  "key_formats": [
+    "legacy",
+    "hashed"
+  ],
+  "one_physical_node_per_history": true,
+  "operations": {
+    "get": {
+      "body": null,
+      "key": "alice_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "get",
+      "route": "single",
+      "target": "alice"
+    },
+    "pause": {
+      "body": null,
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "POST",
+      "name": "pause",
+      "route": "pause",
+      "target": "alice"
+    },
+    "resume": {
+      "body": null,
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "POST",
+      "name": "resume",
+      "route": "resume",
+      "target": "alice"
+    }
+  },
+  "source_arms": [
+    "original",
+    "omit_readonly_context",
+    "wrong_project_context",
+    "omit_pause_persistence",
+    "reject_readonly_get"
+  ],
+  "state_quotient_used": false,
+  "words": [
+    [],
+    [
+      "get"
+    ],
+    [
+      "pause"
+    ],
+    [
+      "resume"
+    ],
+    [
+      "get",
+      "get"
+    ],
+    [
+      "get",
+      "pause"
+    ],
+    [
+      "get",
+      "resume"
+    ],
+    [
+      "pause",
+      "get"
+    ],
+    [
+      "pause",
+      "pause"
+    ],
+    [
+      "pause",
+      "resume"
+    ],
+    [
+      "resume",
+      "get"
+    ],
+    [
+      "resume",
+      "pause"
+    ],
+    [
+      "resume",
+      "resume"
+    ],
+    [
+      "get",
+      "get",
+      "get"
+    ],
+    [
+      "get",
+      "get",
+      "pause"
+    ],
+    [
+      "get",
+      "get",
+      "resume"
+    ],
+    [
+      "get",
+      "pause",
+      "get"
+    ],
+    [
+      "get",
+      "pause",
+      "pause"
+    ],
+    [
+      "get",
+      "pause",
+      "resume"
+    ],
+    [
+      "get",
+      "resume",
+      "get"
+    ],
+    [
+      "get",
+      "resume",
+      "pause"
+    ],
+    [
+      "get",
+      "resume",
+      "resume"
+    ],
+    [
+      "pause",
+      "get",
+      "get"
+    ],
+    [
+      "pause",
+      "get",
+      "pause"
+    ],
+    [
+      "pause",
+      "get",
+      "resume"
+    ],
+    [
+      "pause",
+      "pause",
+      "get"
+    ],
+    [
+      "pause",
+      "pause",
+      "pause"
+    ],
+    [
+      "pause",
+      "pause",
+      "resume"
+    ],
+    [
+      "pause",
+      "resume",
+      "get"
+    ],
+    [
+      "pause",
+      "resume",
+      "pause"
+    ],
+    [
+      "pause",
+      "resume",
+      "resume"
+    ],
+    [
+      "resume",
+      "get",
+      "get"
+    ],
+    [
+      "resume",
+      "get",
+      "pause"
+    ],
+    [
+      "resume",
+      "get",
+      "resume"
+    ],
+    [
+      "resume",
+      "pause",
+      "get"
+    ],
+    [
+      "resume",
+      "pause",
+      "pause"
+    ],
+    [
+      "resume",
+      "pause",
+      "resume"
+    ],
+    [
+      "resume",
+      "resume",
+      "get"
+    ],
+    [
+      "resume",
+      "resume",
+      "pause"
+    ],
+    [
+      "resume",
+      "resume",
+      "resume"
+    ]
+  ]
+}

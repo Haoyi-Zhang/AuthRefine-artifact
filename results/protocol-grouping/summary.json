@@ -1,0 +1,96 @@
+{
+  "all_comparisons_passed": true,
+  "controls": [
+    {
+      "detected": true,
+      "detection": "profile-or-replay-check",
+      "fault": "omitted_support"
+    },
+    {
+      "detected": true,
+      "detection": "profile-or-replay-check",
+      "fault": "stale_cell_result"
+    },
+    {
+      "detected": true,
+      "detection": "independent-profile-check",
+      "fault": "erased_caller_history"
+    },
+    {
+      "detected": true,
+      "detection": "independent-admission-check",
+      "fault": "classify_before_full_admission"
+    }
+  ],
+  "one_request": {
+    "classified_binding_rows": 17820,
+    "family_cases": 18225,
+    "outcomes": {
+      "all": 600,
+      "inactive": 6075,
+      "missing": 3240,
+      "none": 5730,
+      "some": 2580
+    }
+  },
+  "oracle": "direct source equations; independent admission closure and explicit source/target/caller search",
+  "overlapping_supports": {
+    "by_caller": {
+      "alternating_tick_probe": {
+        "all": 16,
+        "missing": 3315,
+        "none": 15292,
+        "some": 2032
+      },
+      "inactive": {
+        "inactive": 20655
+      },
+      "one_event": {
+        "all": 15555,
+        "missing": 1020,
+        "none": 4080
+      },
+      "probes_only": {
+        "all": 16830,
+        "missing": 765,
+        "none": 3060
+      },
+      "three_ticks_then_probes": {
+        "all": 51,
+        "missing": 1530,
+        "none": 12597,
+        "some": 6477
+      },
+      "unrestricted": {
+        "all": 1,
+        "missing": 4080,
+        "none": 16447,
+        "some": 127
+      }
+    },
+    "caller_protocols": 6,
+    "classified_binding_rows_across_families": 371712,
+    "distinct_admitted_target_caller_binding_answers": 2904,
+    "family_cases": 123930,
+    "nonempty_subfamilies": 255,
+    "outcomes": {
+      "all": 32453,
+      "inactive": 20655,
+      "missing": 10710,
+      "none": 51476,
+      "some": 8636
+    },
+    "replay_rows_across_families": 572416,
+    "shortest_lengths_across_families": {
+      "1": 53248,
+      "2": 96512,
+      "3": 12032,
+      "4": 68480,
+      "5": 512,
+      "6": 1664,
+      "7": 512,
+      "infinity": 138752
+    },
+    "target_tables": 81
+  }
+}

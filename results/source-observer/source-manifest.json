@@ -1,0 +1,203 @@
+{
+  "control": null,
+  "functions": [
+    {
+      "baseline_compiled_ast_sha256": "0644604b358b1a6567d9cb396d2e9c90d7a47d1e5e47e651187d1a873b142f61",
+      "compiled_ast_sha256": "0644604b358b1a6567d9cb396d2e9c90d7a47d1e5e47e651187d1a873b142f61",
+      "end_line": 446,
+      "function": "for_api_key",
+      "key": "manager",
+      "line": 404,
+      "module": "health_models",
+      "mutation": null,
+      "original_ast_sha256": "e56c75a222825dc9246e0283596c97e9026012baf6ca4cc8cc653d8043167167",
+      "owner": "ProjectManager"
+    },
+    {
+      "baseline_compiled_ast_sha256": "8bd4484ba94db6799ab8abc2cf62e367366ff17d18730ac95e6e7bd9eddae183",
+      "compiled_ast_sha256": "8bd4484ba94db6799ab8abc2cf62e367366ff17d18730ac95e6e7bd9eddae183",
+      "end_line": 599,
+      "function": "compare_api_key",
+      "key": "compare_key",
+      "line": 587,
+      "module": "health_models",
+      "mutation": null,
+      "original_ast_sha256": "49f6760a82aa7962c80fdcff4a1b0bcc61b762f067f6fdf7c5aed5052980e63c",
+      "owner": "Project"
+    },
+    {
+      "baseline_compiled_ast_sha256": "87a61c7303c4792f69a21081b04b1d9e664722a2b7be3570746a4b432312ef14",
+      "compiled_ast_sha256": "87a61c7303c4792f69a21081b04b1d9e664722a2b7be3570746a4b432312ef14",
+      "end_line": 22,
+      "function": "error",
+      "key": "error",
+      "line": 21,
+      "module": "health_decorators",
+      "mutation": null,
+      "original_ast_sha256": "5265681d7827ce9d6bdfd02bcd48625feb6c60a281395d3195e1dd3b4f89b555",
+      "owner": null
+    },
+    {
+      "baseline_compiled_ast_sha256": "b8d69cf5b70ccf584769a6751492a3b2960ea74d2518da8596bfa498f2672279",
+      "compiled_ast_sha256": "b8d69cf5b70ccf584769a6751492a3b2960ea74d2518da8596bfa498f2672279",
+      "end_line": 30,
+      "function": "_get_api_version",
+      "key": "version",
+      "line": 25,
+      "module": "health_decorators",
+      "mutation": null,
+      "original_ast_sha256": "12b12ca7ce3c7f09cb9d5ec1358afe32106eada3366f410a0917c8218c55ce0e",
+      "owner": null
+    },
+    {
+      "baseline_compiled_ast_sha256": "89f8e7f158b25a9cc3af93a15aa8e550f0eef5deffb7343dfdf8162a6720bd3c",
+      "compiled_ast_sha256": "89f8e7f158b25a9cc3af93a15aa8e550f0eef5deffb7343dfdf8162a6720bd3c",
+      "end_line": 68,
+      "function": "authorize",
+      "key": "authorize",
+      "line": 33,
+      "module": "health_decorators",
+      "mutation": null,
+      "original_ast_sha256": "d7a695425baabf79d41fbefd6c4557fe190f5404bf45ccdddd9da849726c866a",
+      "owner": null
+    },
+    {
+      "baseline_compiled_ast_sha256": "0f55f7c02f0f617d133083d26f50cfc9e0081f8d164b1db95314943930ab02ae",
+      "compiled_ast_sha256": "0f55f7c02f0f617d133083d26f50cfc9e0081f8d164b1db95314943930ab02ae",
+      "end_line": 93,
+      "function": "authorize_read",
+      "key": "authorize_read",
+      "line": 71,
+      "module": "health_decorators",
+      "mutation": null,
+      "original_ast_sha256": "508324b875a3491562f71b8307e6cf935a276ab148f20d22c016764abfb356c6",
+      "owner": null
+    },
+    {
+      "baseline_compiled_ast_sha256": "0e8cb22ecbc6826a753ac50cdf10546f6096f7c46b130ac5c5e7550db96620ce",
+      "compiled_ast_sha256": "0e8cb22ecbc6826a753ac50cdf10546f6096f7c46b130ac5c5e7550db96620ce",
+      "end_line": 486,
+      "function": "get_check",
+      "key": "get_check",
+      "line": 481,
+      "module": "health_views",
+      "mutation": null,
+      "original_ast_sha256": "3d41650b7419ebe0cb8746ff0cc36d5aa9e8e92804f4675b69d0716fc7954920",
+      "owner": null
+    },
+    {
+      "baseline_compiled_ast_sha256": "902b7d549f9032c7c5dd0e09c89bfeb6c4e79a95526f8a082cf8279e6936daab",
+      "compiled_ast_sha256": "902b7d549f9032c7c5dd0e09c89bfeb6c4e79a95526f8a082cf8279e6936daab",
+      "end_line": 590,
+      "function": "resume",
+      "key": "resume",
+      "line": 574,
+      "module": "health_views",
+      "mutation": null,
+      "original_ast_sha256": "b06d2510bf9403c3c26ac4d8f76e8d916d856181da14ac27a741137891220885",
+      "owner": null
+    },
+    {
+      "baseline_compiled_ast_sha256": "3ac978402a16abd2e184ab82b766ac35e45a8d83f1ad98a5818379c8693aff53",
+      "compiled_ast_sha256": "3ac978402a16abd2e184ab82b766ac35e45a8d83f1ad98a5818379c8693aff53",
+      "end_line": 122,
+      "function": "has_permission",
+      "key": "event_permission",
+      "line": 51,
+      "module": "event_permission",
+      "mutation": null,
+      "original_ast_sha256": "3ac978402a16abd2e184ab82b766ac35e45a8d83f1ad98a5818379c8693aff53",
+      "owner": "EventPermission"
+    },
+    {
+      "baseline_compiled_ast_sha256": "19fb843dc80c003769eeb1f3bb631aeadc88047c01be86e38ce858b0d13aa450",
+      "compiled_ast_sha256": "19fb843dc80c003769eeb1f3bb631aeadc88047c01be86e38ce858b0d13aa450",
+      "end_line": 602,
+      "function": "has_event_permission",
+      "key": "event_access",
+      "line": 585,
+      "module": "event_token",
+      "mutation": null,
+      "original_ast_sha256": "f6c9444984d25d2971c00a75e74d7b0aa33376e14df9c3e235e3d3af303e651a",
+      "owner": "TeamAPIToken"
+    },
+    {
+      "baseline_compiled_ast_sha256": "39bc9c8ce3c9c8104f61201b923deb9b1d2a47c239784ae1e5d7f01a11ebe54f",
+      "compiled_ast_sha256": "39bc9c8ce3c9c8104f61201b923deb9b1d2a47c239784ae1e5d7f01a11ebe54f",
+      "end_line": 574,
+      "function": "get_event_permission_set",
+      "key": "event_grants",
+      "line": 563,
+      "module": "event_token",
+      "mutation": null,
+      "original_ast_sha256": "61219eb2b6ed8902a7e7ed212170e36b076e9bd705ac95c20b774fbca5612b94",
+      "owner": "TeamAPIToken"
+    },
+    {
+      "baseline_compiled_ast_sha256": "a274c7cb506eb612c01c6660ac7c7187f76265ebc77d2fa59c5a87e829b8b51c",
+      "compiled_ast_sha256": "a274c7cb506eb612c01c6660ac7c7187f76265ebc77d2fa59c5a87e829b8b51c",
+      "end_line": 28,
+      "function": "has_permission",
+      "key": "wger_permission",
+      "line": 25,
+      "module": "wger_permission",
+      "mutation": null,
+      "original_ast_sha256": "a274c7cb506eb612c01c6660ac7c7187f76265ebc77d2fa59c5a87e829b8b51c",
+      "owner": "RoutinePermission"
+    },
+    {
+      "baseline_compiled_ast_sha256": "5c39be6536587d8aca6dbb68ce23798e05eb71d8c80acd0ad6acf6642c66cbe1",
+      "compiled_ast_sha256": "5c39be6536587d8aca6dbb68ce23798e05eb71d8c80acd0ad6acf6642c66cbe1",
+      "end_line": 125,
+      "function": "perform_create",
+      "key": "wger_create",
+      "line": 121,
+      "module": "wger_view",
+      "mutation": null,
+      "original_ast_sha256": "5c39be6536587d8aca6dbb68ce23798e05eb71d8c80acd0ad6acf6642c66cbe1",
+      "owner": "RoutineViewSet"
+    }
+  ],
+  "module_imports_or_class_initializers_executed": false,
+  "original_function_bodies_compiled": true,
+  "source_files": {
+    "event_permission": {
+      "path": "source_study/source/pretix/src/pretix/api/auth/permission.py",
+      "sha256": "fd6b76ca6a039a9bc4b60e3a916fb69764dc7de7b47b0f18485898ec65e62fb9"
+    },
+    "event_token": {
+      "path": "source_study/source/pretix/src/pretix/base/models/organizer.py",
+      "sha256": "8e5a6e38022d37ecc6d411bc72251dd64ef9513aa78049bbc662cdf3ea6c5473"
+    },
+    "health_decorators": {
+      "path": "source_study/source/healthchecks/hc/api/decorators.py",
+      "sha256": "8c87db19c35849356cada2a1d60abeab966c39f158ed074ff503027dc78b4c92"
+    },
+    "health_models": {
+      "path": "source_study/source/healthchecks/hc/accounts/models.py",
+      "sha256": "bea6b643ba108892a0f0310bd7af41fc46a82c00d9f46fd23551e73c3b5a7839"
+    },
+    "health_views": {
+      "path": "source_study/source/healthchecks/hc/api/views.py",
+      "sha256": "0b6c90b3d36ef48c4872b8d9964362571442f2ca8e63709c52698d33ad590e79"
+    }
+  },
+  "transformations": [
+    "remove function decorators, including functools.wraps",
+    "remove function annotations without evaluating them"
+  ],
+  "wger_modules": {
+    "wger_permission": {
+      "path": "wger/manager/api/permissions.py",
+      "utf8_sha256": "345e9f4fc311a12dc8ca16389d9436b395f4a696547e78e62dc2fb7af6c09f59"
+    },
+    "wger_view": {
+      "path": "wger/manager/api/views.py",
+      "utf8_sha256": "f762d3458fe7f040fa802bc9853ce20002bbdbbe9c218ec1f263b972e2946734"
+    }
+  },
+  "wger_source_packet": {
+    "path": "adaptation_study/sources.json.gz",
+    "sha256": "cf82777493c00475643752db6ca0cccfd10cec15cd78e570ada7f6cc9f0233f3"
+  }
+}

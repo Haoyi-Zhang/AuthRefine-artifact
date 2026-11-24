@@ -1,0 +1,15 @@
+{
+  "access_date": "2026-11-19",
+  "scope": "Primary software documentation for the experimental backend footnote; separate from the 65 bibliographic reading records.",
+  "sources": [
+    {
+      "url": "https://pypi.org/project/dd/0.6.0/",
+      "checked": "The release provides a CPython 3.12 Linux x86-64 wheel and describes Cython bindings to CUDD."
+    },
+    {
+      "url": "https://github.com/tulip-control/dd",
+      "checked": "The official repository documents dd.cudd.BDD, conditional operations, satisfying assignments, and dynamic variable reordering."
+    }
+  ],
+  "implementation_evidence": "The actual compiled dd.cudd backend was imported and executed in the complete comparison and independent equation audit."
+}

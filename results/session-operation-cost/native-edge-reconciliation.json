@@ -1,0 +1,2019 @@
+{
+  "cases": [
+    {
+      "constructed_requests": 2,
+      "full_row_continuity": true,
+      "retained_edges": [
+        {
+          "acquired_prefix_indices": [],
+          "from_store_mask": 3,
+          "input_index": 7,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              }
+            ],
+            "after_state": 2,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 1,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-1",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              }
+            ],
+            "before_state": 3,
+            "decision": "allow",
+            "removed_ids": [
+              1
+            ],
+            "request": [
+              "client",
+              "row-1",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-1"
+          },
+          "request_position": 1,
+          "retained_edge_index": 7
+        },
+        {
+          "acquired_prefix_indices": [
+            7
+          ],
+          "from_store_mask": 2,
+          "input_index": 0,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              }
+            ],
+            "after_state": 2,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              }
+            ],
+            "before_state": 2,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-1",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-1"
+          },
+          "request_position": 2,
+          "retained_edge_index": 10
+        }
+      ],
+      "sessions": 2
+    },
+    {
+      "constructed_requests": 4,
+      "full_row_continuity": true,
+      "retained_edges": [
+        {
+          "acquired_prefix_indices": [],
+          "from_store_mask": 7,
+          "input_index": 9,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              }
+            ],
+            "after_state": 6,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 1,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-1",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              }
+            ],
+            "before_state": 7,
+            "decision": "allow",
+            "removed_ids": [
+              1
+            ],
+            "request": [
+              "client",
+              "row-1",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-1"
+          },
+          "request_position": 1,
+          "retained_edge_index": 9
+        },
+        {
+          "acquired_prefix_indices": [
+            9
+          ],
+          "from_store_mask": 6,
+          "input_index": 0,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              }
+            ],
+            "after_state": 6,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              }
+            ],
+            "before_state": 6,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-1",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-1"
+          },
+          "request_position": 2,
+          "retained_edge_index": 14
+        },
+        {
+          "acquired_prefix_indices": [
+            9
+          ],
+          "from_store_mask": 6,
+          "input_index": 11,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              }
+            ],
+            "after_state": 4,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              }
+            ],
+            "before_state": 6,
+            "decision": "allow",
+            "removed_ids": [
+              2
+            ],
+            "request": [
+              "client",
+              "row-2",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-2"
+          },
+          "request_position": 3,
+          "retained_edge_index": 25
+        },
+        {
+          "acquired_prefix_indices": [
+            9,
+            11
+          ],
+          "from_store_mask": 4,
+          "input_index": 2,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              }
+            ],
+            "after_state": 4,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              }
+            ],
+            "before_state": 4,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-2"
+          },
+          "request_position": 4,
+          "retained_edge_index": 58
+        }
+      ],
+      "sessions": 3
+    },
+    {
+      "constructed_requests": 6,
+      "full_row_continuity": true,
+      "retained_edges": [
+        {
+          "acquired_prefix_indices": [],
+          "from_store_mask": 15,
+          "input_index": 11,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              }
+            ],
+            "after_state": 14,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 1,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-1",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              }
+            ],
+            "before_state": 15,
+            "decision": "allow",
+            "removed_ids": [
+              1
+            ],
+            "request": [
+              "client",
+              "row-1",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-1"
+          },
+          "request_position": 1,
+          "retained_edge_index": 11
+        },
+        {
+          "acquired_prefix_indices": [
+            11
+          ],
+          "from_store_mask": 14,
+          "input_index": 0,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              }
+            ],
+            "after_state": 14,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              }
+            ],
+            "before_state": 14,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-1",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-1"
+          },
+          "request_position": 2,
+          "retained_edge_index": 18
+        },
+        {
+          "acquired_prefix_indices": [
+            11
+          ],
+          "from_store_mask": 14,
+          "input_index": 13,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              }
+            ],
+            "after_state": 12,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              }
+            ],
+            "before_state": 14,
+            "decision": "allow",
+            "removed_ids": [
+              2
+            ],
+            "request": [
+              "client",
+              "row-2",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-2"
+          },
+          "request_position": 3,
+          "retained_edge_index": 31
+        },
+        {
+          "acquired_prefix_indices": [
+            11,
+            13
+          ],
+          "from_store_mask": 12,
+          "input_index": 2,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              }
+            ],
+            "after_state": 12,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              }
+            ],
+            "before_state": 12,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-2"
+          },
+          "request_position": 4,
+          "retained_edge_index": 92
+        },
+        {
+          "acquired_prefix_indices": [
+            11,
+            13
+          ],
+          "from_store_mask": 12,
+          "input_index": 15,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              }
+            ],
+            "after_state": 8,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              }
+            ],
+            "before_state": 12,
+            "decision": "allow",
+            "removed_ids": [
+              3
+            ],
+            "request": [
+              "client",
+              "row-3",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-3"
+          },
+          "request_position": 5,
+          "retained_edge_index": 105
+        },
+        {
+          "acquired_prefix_indices": [
+            11,
+            13,
+            15
+          ],
+          "from_store_mask": 8,
+          "input_index": 4,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              }
+            ],
+            "after_state": 8,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              }
+            ],
+            "before_state": 8,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-3",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-3"
+          },
+          "request_position": 6,
+          "retained_edge_index": 202
+        }
+      ],
+      "sessions": 4
+    },
+    {
+      "constructed_requests": 8,
+      "full_row_continuity": true,
+      "retained_edges": [
+        {
+          "acquired_prefix_indices": [],
+          "from_store_mask": 31,
+          "input_index": 13,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "after_state": 30,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 1,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-1",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "before_state": 31,
+            "decision": "allow",
+            "removed_ids": [
+              1
+            ],
+            "request": [
+              "client",
+              "row-1",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-1"
+          },
+          "request_position": 1,
+          "retained_edge_index": 13
+        },
+        {
+          "acquired_prefix_indices": [
+            13
+          ],
+          "from_store_mask": 30,
+          "input_index": 0,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "after_state": 30,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "before_state": 30,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-1",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-1"
+          },
+          "request_position": 2,
+          "retained_edge_index": 22
+        },
+        {
+          "acquired_prefix_indices": [
+            13
+          ],
+          "from_store_mask": 30,
+          "input_index": 15,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "after_state": 28,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "before_state": 30,
+            "decision": "allow",
+            "removed_ids": [
+              2
+            ],
+            "request": [
+              "client",
+              "row-2",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-2"
+          },
+          "request_position": 3,
+          "retained_edge_index": 37
+        },
+        {
+          "acquired_prefix_indices": [
+            13,
+            15
+          ],
+          "from_store_mask": 28,
+          "input_index": 2,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "after_state": 28,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "before_state": 28,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-2"
+          },
+          "request_position": 4,
+          "retained_edge_index": 134
+        },
+        {
+          "acquired_prefix_indices": [
+            13,
+            15
+          ],
+          "from_store_mask": 28,
+          "input_index": 17,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "after_state": 24,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "before_state": 28,
+            "decision": "allow",
+            "removed_ids": [
+              3
+            ],
+            "request": [
+              "client",
+              "row-3",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-3"
+          },
+          "request_position": 5,
+          "retained_edge_index": 149
+        },
+        {
+          "acquired_prefix_indices": [
+            13,
+            15,
+            17
+          ],
+          "from_store_mask": 24,
+          "input_index": 4,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "after_state": 24,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "before_state": 24,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-3",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-3"
+          },
+          "request_position": 6,
+          "retained_edge_index": 356
+        },
+        {
+          "acquired_prefix_indices": [
+            13,
+            15,
+            17
+          ],
+          "from_store_mask": 24,
+          "input_index": 19,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "after_state": 16,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "before_state": 24,
+            "decision": "allow",
+            "removed_ids": [
+              4
+            ],
+            "request": [
+              "client",
+              "row-4",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-4"
+          },
+          "request_position": 7,
+          "retained_edge_index": 371
+        },
+        {
+          "acquired_prefix_indices": [
+            13,
+            15,
+            17,
+            19
+          ],
+          "from_store_mask": 16,
+          "input_index": 6,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "after_state": 16,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              }
+            ],
+            "before_state": 16,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-4",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-4"
+          },
+          "request_position": 8,
+          "retained_edge_index": 578
+        }
+      ],
+      "sessions": 5
+    },
+    {
+      "constructed_requests": 10,
+      "full_row_continuity": true,
+      "retained_edges": [
+        {
+          "acquired_prefix_indices": [],
+          "from_store_mask": 63,
+          "input_index": 15,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "after_state": 62,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 1,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-1",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "before_state": 63,
+            "decision": "allow",
+            "removed_ids": [
+              1
+            ],
+            "request": [
+              "client",
+              "row-1",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-1"
+          },
+          "request_position": 1,
+          "retained_edge_index": 15
+        },
+        {
+          "acquired_prefix_indices": [
+            15
+          ],
+          "from_store_mask": 62,
+          "input_index": 0,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "after_state": 62,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "before_state": 62,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-1",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-1"
+          },
+          "request_position": 2,
+          "retained_edge_index": 26
+        },
+        {
+          "acquired_prefix_indices": [
+            15
+          ],
+          "from_store_mask": 62,
+          "input_index": 17,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "after_state": 60,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 2,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-2",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "before_state": 62,
+            "decision": "allow",
+            "removed_ids": [
+              2
+            ],
+            "request": [
+              "client",
+              "row-2",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-2"
+          },
+          "request_position": 3,
+          "retained_edge_index": 43
+        },
+        {
+          "acquired_prefix_indices": [
+            15,
+            17
+          ],
+          "from_store_mask": 60,
+          "input_index": 2,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "after_state": 60,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "before_state": 60,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-2"
+          },
+          "request_position": 4,
+          "retained_edge_index": 184
+        },
+        {
+          "acquired_prefix_indices": [
+            15,
+            17
+          ],
+          "from_store_mask": 60,
+          "input_index": 19,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "after_state": 56,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 3,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-3",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "before_state": 60,
+            "decision": "allow",
+            "removed_ids": [
+              3
+            ],
+            "request": [
+              "client",
+              "row-3",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-3"
+          },
+          "request_position": 5,
+          "retained_edge_index": 201
+        },
+        {
+          "acquired_prefix_indices": [
+            15,
+            17,
+            19
+          ],
+          "from_store_mask": 56,
+          "input_index": 4,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "after_state": 56,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "before_state": 56,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-3",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-3"
+          },
+          "request_position": 6,
+          "retained_edge_index": 576
+        },
+        {
+          "acquired_prefix_indices": [
+            15,
+            17,
+            19
+          ],
+          "from_store_mask": 56,
+          "input_index": 21,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "after_state": 48,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 4,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-4",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "before_state": 56,
+            "decision": "allow",
+            "removed_ids": [
+              4
+            ],
+            "request": [
+              "client",
+              "row-4",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-4"
+          },
+          "request_position": 7,
+          "retained_edge_index": 593
+        },
+        {
+          "acquired_prefix_indices": [
+            15,
+            17,
+            19,
+            21
+          ],
+          "from_store_mask": 48,
+          "input_index": 6,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "after_state": 48,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "before_state": 48,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-4",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-4"
+          },
+          "request_position": 8,
+          "retained_edge_index": 1098
+        },
+        {
+          "acquired_prefix_indices": [
+            15,
+            17,
+            19,
+            21
+          ],
+          "from_store_mask": 48,
+          "input_index": 23,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "after_state": 32,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 5,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-5",
+                "user_id": 101
+              },
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "before_state": 48,
+            "decision": "allow",
+            "removed_ids": [
+              5
+            ],
+            "request": [
+              "client",
+              "row-5",
+              "remove"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": true,
+            "token_argument": "authrefine-owned-session-5"
+          },
+          "request_position": 9,
+          "retained_edge_index": 1115
+        },
+        {
+          "acquired_prefix_indices": [
+            15,
+            17,
+            19,
+            21,
+            23
+          ],
+          "from_store_mask": 32,
+          "input_index": 8,
+          "observation": {
+            "after_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "after_state": 32,
+            "before_rows": [
+              {
+                "expiry_date": "2020-01-01T00:01:00",
+                "id": 6,
+                "max_expiry_date": "2020-01-01T00:02:00",
+                "token": "authrefine-owned-session-6",
+                "user_id": 101
+              }
+            ],
+            "before_state": 32,
+            "decision": "deny",
+            "removed_ids": [],
+            "request": [
+              "client",
+              "credential-5",
+              "lookup"
+            ],
+            "returned_user_id": null,
+            "selected_record": null,
+            "store_changed": false,
+            "token_argument": "authrefine-owned-session-5"
+          },
+          "request_position": 10,
+          "retained_edge_index": 1490
+        }
+      ],
+      "sessions": 6
+    }
+  ],
+  "constructed_words": 5,
+  "new_native_executions": 0,
+  "retained_edge_uses": 30,
+  "scope": "Read-only composition of existing native baseline graph cells. Full before/after rows agree between adjacent selected cells. This is not a new continuous native replay.",
+  "status": "passed"
+}

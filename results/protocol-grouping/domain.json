@@ -1,0 +1,10428 @@
+{
+  "bindings": [
+    {
+      "x": "r",
+      "y": "r",
+      "z": "r"
+    },
+    {
+      "x": "r",
+      "y": "r",
+      "z": "s"
+    },
+    {
+      "x": "r",
+      "y": "s",
+      "z": "r"
+    },
+    {
+      "x": "r",
+      "y": "s",
+      "z": "s"
+    },
+    {
+      "x": "s",
+      "y": "r",
+      "z": "r"
+    },
+    {
+      "x": "s",
+      "y": "r",
+      "z": "s"
+    },
+    {
+      "x": "s",
+      "y": "s",
+      "z": "r"
+    },
+    {
+      "x": "s",
+      "y": "s",
+      "z": "s"
+    }
+  ],
+  "callers": {
+    "alternating_tick_probe": {
+      "initial": 0,
+      "transitions": [
+        [
+          null,
+          null,
+          null,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          null
+        ]
+      ]
+    },
+    "inactive": {
+      "initial": 0,
+      "transitions": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "one_event": {
+      "initial": 0,
+      "transitions": [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "probes_only": {
+      "initial": 0,
+      "transitions": [
+        [
+          0,
+          0,
+          0,
+          null
+        ]
+      ]
+    },
+    "three_ticks_then_probes": {
+      "initial": 0,
+      "transitions": [
+        [
+          null,
+          null,
+          null,
+          1
+        ],
+        [
+          null,
+          null,
+          null,
+          2
+        ],
+        [
+          null,
+          null,
+          null,
+          3
+        ],
+        [
+          3,
+          3,
+          3,
+          null
+        ]
+      ]
+    },
+    "unrestricted": {
+      "initial": 0,
+      "transitions": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "policy": {
+    "actions": [
+      "ab",
+      "bc",
+      "ca",
+      "tick"
+    ],
+    "aliases": [
+      {
+        "candidates": [
+          "r",
+          "s"
+        ],
+        "kind": "role",
+        "name": "x"
+      },
+      {
+        "candidates": [
+          "r",
+          "s"
+        ],
+        "kind": "role",
+        "name": "y"
+      },
+      {
+        "candidates": [
+          "r",
+          "s"
+        ],
+        "kind": "role",
+        "name": "z"
+      }
+    ],
+    "members": [
+      [
+        "u",
+        "r"
+      ]
+    ],
+    "principals": [
+      "u"
+    ],
+    "resources": [
+      "o"
+    ],
+    "roles": [
+      "r",
+      "s"
+    ],
+    "rules": [
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ab",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          },
+          {
+            "alias": "x",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ab",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          },
+          {
+            "alias": "y",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "bc",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          },
+          {
+            "alias": "y",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "bc",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          },
+          {
+            "alias": "z",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ca",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          },
+          {
+            "alias": "z",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ca",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          },
+          {
+            "alias": "x",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "tick",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          }
+        ],
+        "updates": [
+          {
+            "name": "b0",
+            "value": true
+          },
+          {
+            "name": "b1",
+            "value": false
+          }
+        ]
+      },
+      {
+        "decision": "deny",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ab",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          },
+          {
+            "alias": "x",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "deny",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ab",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          },
+          {
+            "alias": "y",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "bc",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          },
+          {
+            "alias": "y",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "bc",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          },
+          {
+            "alias": "z",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ca",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          },
+          {
+            "alias": "z",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ca",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          },
+          {
+            "alias": "x",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "tick",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": false
+          }
+        ],
+        "updates": [
+          {
+            "name": "b0",
+            "value": false
+          },
+          {
+            "name": "b1",
+            "value": true
+          }
+        ]
+      },
+      {
+        "decision": "deny",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ab",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          },
+          {
+            "alias": "x",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "deny",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ab",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          },
+          {
+            "alias": "y",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "deny",
+        "guard": [
+          {
+            "field": "action",
+            "name": "bc",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          },
+          {
+            "alias": "y",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "deny",
+        "guard": [
+          {
+            "field": "action",
+            "name": "bc",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          },
+          {
+            "alias": "z",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ca",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          },
+          {
+            "alias": "z",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ca",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          },
+          {
+            "alias": "x",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "tick",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": false
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          }
+        ],
+        "updates": [
+          {
+            "name": "b0",
+            "value": true
+          },
+          {
+            "name": "b1",
+            "value": true
+          }
+        ]
+      },
+      {
+        "decision": "deny",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ab",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          },
+          {
+            "alias": "x",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "deny",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ab",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          },
+          {
+            "alias": "y",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "deny",
+        "guard": [
+          {
+            "field": "action",
+            "name": "bc",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          },
+          {
+            "alias": "y",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "deny",
+        "guard": [
+          {
+            "field": "action",
+            "name": "bc",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          },
+          {
+            "alias": "z",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "deny",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ca",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          },
+          {
+            "alias": "z",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "deny",
+        "guard": [
+          {
+            "field": "action",
+            "name": "ca",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          },
+          {
+            "alias": "x",
+            "field": "role",
+            "negated": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "tick",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "b0",
+            "value": true
+          },
+          {
+            "field": "state",
+            "name": "b1",
+            "value": true
+          }
+        ],
+        "updates": [
+          {
+            "name": "b0",
+            "value": true
+          },
+          {
+            "name": "b1",
+            "value": true
+          }
+        ]
+      },
+      {
+        "decision": "allow",
+        "guard": [],
+        "updates": []
+      }
+    ],
+    "state": [
+      [
+        "b0",
+        false
+      ],
+      [
+        "b1",
+        false
+      ]
+    ]
+  },
+  "targets": [
+    {
+      "id": "baseline",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": null
+    },
+    {
+      "id": "decision-0-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "deny",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 0,
+        "state": 0
+      }
+    },
+    {
+      "id": "successor-0-0-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 0,
+        "state": 0,
+        "value": 1
+      }
+    },
+    {
+      "id": "successor-0-0-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 0,
+        "state": 0,
+        "value": 2
+      }
+    },
+    {
+      "id": "successor-0-0-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 0,
+        "state": 0,
+        "value": 3
+      }
+    },
+    {
+      "id": "decision-0-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "deny",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 1,
+        "state": 0
+      }
+    },
+    {
+      "id": "successor-0-1-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 1,
+        "state": 0,
+        "value": 1
+      }
+    },
+    {
+      "id": "successor-0-1-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 1,
+        "state": 0,
+        "value": 2
+      }
+    },
+    {
+      "id": "successor-0-1-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 1,
+        "state": 0,
+        "value": 3
+      }
+    },
+    {
+      "id": "decision-0-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "deny",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 2,
+        "state": 0
+      }
+    },
+    {
+      "id": "successor-0-2-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 2,
+        "state": 0,
+        "value": 1
+      }
+    },
+    {
+      "id": "successor-0-2-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 2,
+        "state": 0,
+        "value": 2
+      }
+    },
+    {
+      "id": "successor-0-2-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 2,
+        "state": 0,
+        "value": 3
+      }
+    },
+    {
+      "id": "decision-0-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "deny",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 3,
+        "state": 0
+      }
+    },
+    {
+      "id": "successor-0-3-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 3,
+        "state": 0,
+        "value": 0
+      }
+    },
+    {
+      "id": "successor-0-3-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 3,
+        "state": 0,
+        "value": 2
+      }
+    },
+    {
+      "id": "successor-0-3-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 3,
+        "state": 0,
+        "value": 3
+      }
+    },
+    {
+      "id": "decision-1-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "deny",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 0,
+        "state": 1
+      }
+    },
+    {
+      "id": "successor-1-0-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 0,
+        "state": 1,
+        "value": 0
+      }
+    },
+    {
+      "id": "successor-1-0-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 0,
+        "state": 1,
+        "value": 2
+      }
+    },
+    {
+      "id": "successor-1-0-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 0,
+        "state": 1,
+        "value": 3
+      }
+    },
+    {
+      "id": "decision-1-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "deny",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 1,
+        "state": 1
+      }
+    },
+    {
+      "id": "successor-1-1-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 1,
+        "state": 1,
+        "value": 0
+      }
+    },
+    {
+      "id": "successor-1-1-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 1,
+        "state": 1,
+        "value": 2
+      }
+    },
+    {
+      "id": "successor-1-1-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 1,
+        "state": 1,
+        "value": 3
+      }
+    },
+    {
+      "id": "decision-1-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "deny",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 2,
+        "state": 1
+      }
+    },
+    {
+      "id": "successor-1-2-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 2,
+        "state": 1,
+        "value": 0
+      }
+    },
+    {
+      "id": "successor-1-2-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 2,
+        "state": 1,
+        "value": 2
+      }
+    },
+    {
+      "id": "successor-1-2-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 2,
+        "state": 1,
+        "value": 3
+      }
+    },
+    {
+      "id": "decision-1-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "deny",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 3,
+        "state": 1
+      }
+    },
+    {
+      "id": "successor-1-3-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              0
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 3,
+        "state": 1,
+        "value": 0
+      }
+    },
+    {
+      "id": "successor-1-3-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 3,
+        "state": 1,
+        "value": 1
+      }
+    },
+    {
+      "id": "successor-1-3-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 3,
+        "state": 1,
+        "value": 3
+      }
+    },
+    {
+      "id": "decision-2-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "deny",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 0,
+        "state": 2
+      }
+    },
+    {
+      "id": "successor-2-0-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 0,
+        "state": 2,
+        "value": 0
+      }
+    },
+    {
+      "id": "successor-2-0-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 0,
+        "state": 2,
+        "value": 1
+      }
+    },
+    {
+      "id": "successor-2-0-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 0,
+        "state": 2,
+        "value": 3
+      }
+    },
+    {
+      "id": "decision-2-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "deny",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 1,
+        "state": 2
+      }
+    },
+    {
+      "id": "successor-2-1-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 1,
+        "state": 2,
+        "value": 0
+      }
+    },
+    {
+      "id": "successor-2-1-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 1,
+        "state": 2,
+        "value": 1
+      }
+    },
+    {
+      "id": "successor-2-1-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 1,
+        "state": 2,
+        "value": 3
+      }
+    },
+    {
+      "id": "decision-2-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "deny",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 2,
+        "state": 2
+      }
+    },
+    {
+      "id": "successor-2-2-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 2,
+        "state": 2,
+        "value": 0
+      }
+    },
+    {
+      "id": "successor-2-2-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 2,
+        "state": 2,
+        "value": 1
+      }
+    },
+    {
+      "id": "successor-2-2-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 2,
+        "state": 2,
+        "value": 3
+      }
+    },
+    {
+      "id": "decision-2-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "deny",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 3,
+        "state": 2
+      }
+    },
+    {
+      "id": "successor-2-3-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              0
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 3,
+        "state": 2,
+        "value": 0
+      }
+    },
+    {
+      "id": "successor-2-3-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 3,
+        "state": 2,
+        "value": 1
+      }
+    },
+    {
+      "id": "successor-2-3-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 3,
+        "state": 2,
+        "value": 2
+      }
+    },
+    {
+      "id": "decision-3-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "deny",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 0,
+        "state": 3
+      }
+    },
+    {
+      "id": "successor-3-0-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 0,
+        "state": 3,
+        "value": 0
+      }
+    },
+    {
+      "id": "successor-3-0-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 0,
+        "state": 3,
+        "value": 1
+      }
+    },
+    {
+      "id": "successor-3-0-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 0,
+        "state": 3,
+        "value": 2
+      }
+    },
+    {
+      "id": "decision-3-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "deny",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 1,
+        "state": 3
+      }
+    },
+    {
+      "id": "successor-3-1-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 1,
+        "state": 3,
+        "value": 0
+      }
+    },
+    {
+      "id": "successor-3-1-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 1,
+        "state": 3,
+        "value": 1
+      }
+    },
+    {
+      "id": "successor-3-1-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 1,
+        "state": 3,
+        "value": 2
+      }
+    },
+    {
+      "id": "decision-3-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "deny",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 2,
+        "state": 3
+      }
+    },
+    {
+      "id": "successor-3-2-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 2,
+        "state": 3,
+        "value": 0
+      }
+    },
+    {
+      "id": "successor-3-2-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 2,
+        "state": 3,
+        "value": 1
+      }
+    },
+    {
+      "id": "successor-3-2-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 2,
+        "state": 3,
+        "value": 2
+      }
+    },
+    {
+      "id": "decision-3-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "deny",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "decision",
+        "request": 3,
+        "state": 3
+      }
+    },
+    {
+      "id": "successor-3-3-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              0
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 3,
+        "state": 3,
+        "value": 0
+      }
+    },
+    {
+      "id": "successor-3-3-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              1
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 3,
+        "state": 3,
+        "value": 1
+      }
+    },
+    {
+      "id": "successor-3-3-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              2
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "successor",
+        "request": 3,
+        "state": 3,
+        "value": 2
+      }
+    },
+    {
+      "id": "missing-0-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            null,
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 0,
+        "state": 0
+      }
+    },
+    {
+      "id": "missing-0-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            null,
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 1,
+        "state": 0
+      }
+    },
+    {
+      "id": "missing-0-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            null,
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 2,
+        "state": 0
+      }
+    },
+    {
+      "id": "missing-0-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            null
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 3,
+        "state": 0
+      }
+    },
+    {
+      "id": "missing-1-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            null,
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 0,
+        "state": 1
+      }
+    },
+    {
+      "id": "missing-1-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            null,
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 1,
+        "state": 1
+      }
+    },
+    {
+      "id": "missing-1-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            null,
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 2,
+        "state": 1
+      }
+    },
+    {
+      "id": "missing-1-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            null
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 3,
+        "state": 1
+      }
+    },
+    {
+      "id": "missing-2-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            null,
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 0,
+        "state": 2
+      }
+    },
+    {
+      "id": "missing-2-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            null,
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 1,
+        "state": 2
+      }
+    },
+    {
+      "id": "missing-2-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            null,
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 2,
+        "state": 2
+      }
+    },
+    {
+      "id": "missing-2-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            null
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 3,
+        "state": 2
+      }
+    },
+    {
+      "id": "missing-3-0",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            null,
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 0,
+        "state": 3
+      }
+    },
+    {
+      "id": "missing-3-1",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            null,
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 1,
+        "state": 3
+      }
+    },
+    {
+      "id": "missing-3-2",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            null,
+            [
+              "allow",
+              3
+            ]
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 2,
+        "state": 3
+      }
+    },
+    {
+      "id": "missing-3-3",
+      "machine": {
+        "alphabet": [
+          [
+            "u",
+            "o",
+            "ab"
+          ],
+          [
+            "u",
+            "o",
+            "bc"
+          ],
+          [
+            "u",
+            "o",
+            "ca"
+          ],
+          [
+            "u",
+            "o",
+            "tick"
+          ]
+        ],
+        "initial": 0,
+        "observations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "state_names": [
+          "b0",
+          "b1"
+        ],
+        "transitions": [
+          [
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              0
+            ],
+            [
+              "allow",
+              1
+            ]
+          ],
+          [
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              1
+            ],
+            [
+              "allow",
+              2
+            ]
+          ],
+          [
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              2
+            ],
+            [
+              "allow",
+              3
+            ]
+          ],
+          [
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            [
+              "allow",
+              3
+            ],
+            null
+          ]
+        ]
+      },
+      "perturbation": {
+        "field": "absent",
+        "request": 3,
+        "state": 3
+      }
+    }
+  ]
+}

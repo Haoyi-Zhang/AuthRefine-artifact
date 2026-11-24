@@ -1,0 +1,87 @@
+{
+  "all_application_modules_imported_intact": true,
+  "observation_acquired_before_production_diagnosis": true,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native/original",
+        "--arm",
+        "original"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 24, \"operations\": 888, \"imported_modules\": 27}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native/omit_readonly_context",
+        "--arm",
+        "omit_readonly_context"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 24, \"operations\": 888, \"imported_modules\": 27}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native/wrong_project_context",
+        "--arm",
+        "wrong_project_context"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 24, \"operations\": 888, \"imported_modules\": 27}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native/omit_pause_persistence",
+        "--arm",
+        "omit_pause_persistence"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 24, \"operations\": 888, \"imported_modules\": 27}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native/reject_readonly_get",
+        "--arm",
+        "reject_readonly_get"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 24, \"operations\": 888, \"imported_modules\": 27}\n"
+    }
+  ],
+  "source_imports_replaced": false
+}

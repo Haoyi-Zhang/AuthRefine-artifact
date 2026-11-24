@@ -1,0 +1,204 @@
+{
+  "comparison_disagreements": 0,
+  "fields_compared": {
+    "healthchecks_reads": [
+      "status",
+      "project",
+      "readonly",
+      "version",
+      "exact_resolved_identity",
+      "manager_returns",
+      "serializers",
+      "effects"
+    ],
+    "healthchecks_resume": [
+      "status",
+      "project",
+      "readonly",
+      "version",
+      "exact_resolved_identity",
+      "manager_returns",
+      "serializers",
+      "effects",
+      "before",
+      "after",
+      "store",
+      "store_changed",
+      "event_delta",
+      "store_invariant",
+      "all prefix observations"
+    ],
+    "pretix": [
+      "allow",
+      "event",
+      "organizer",
+      "permissions",
+      "exact_event_identity"
+    ],
+    "wger_owner_insert": [
+      "allowed",
+      "persisted rows",
+      "save-call count",
+      "exact request user identity"
+    ]
+  },
+  "files_sha256": {
+    "comparisons.json": "05de3c30c71f3d8dfea9e1468ca8db50745fde927818517f190e9e034d262144",
+    "direct-observations.json": "b052b8cfd61f88c47978a790be7ef12359bc44b8f73ed666edac5f6d9aea127c",
+    "fixtures.json": "df80d7aaf069d0e1a190e5b0435d3f70d02eba6e6a8b2df935348e137cf45720",
+    "source-controls.json": "20bd45430b26524a491af8b428bdb3976f7b4c4e3f0c60d1eb8290ae3048f6fc",
+    "source-manifest.json": "690d30fbd3cf829e0d73e010dd4f54b293162c96af598f2d6f1083f069d49e61"
+  },
+  "full_application_or_framework_execution": false,
+  "healthchecks_primitive_contract_shared_between_executors": true,
+  "healthchecks_primitive_implementation_shared_between_executors": false,
+  "healthchecks_read_body_only_GET_cases": 240,
+  "healthchecks_read_body_only_contract": "authorize_read uses headers; all body-only GET inputs stop before credential lookup",
+  "healthchecks_read_statuses": {
+    "200": 36,
+    "401": 336,
+    "403": 72,
+    "404": 36
+  },
+  "healthchecks_resume_prefix_step_executions": 672,
+  "healthchecks_resume_states_per_form": [
+    8,
+    8
+  ],
+  "healthchecks_resume_statuses": {
+    "200": 24,
+    "401": 256,
+    "403": 96,
+    "404": 48,
+    "409": 24
+  },
+  "healthchecks_resume_symbols_per_state": 28,
+  "healthchecks_store_implementations": {
+    "cpython": "owned SQLite tables",
+    "production_IR": "separate in-memory typed records and event list"
+  },
+  "healthchecks_store_invariant_checks": 448,
+  "historical_272_direct_pairs_recovered": false,
+  "native_Django_bubblewrap_replay_invoked": false,
+  "new_independent_applications": 0,
+  "observation_admission": {
+    "boolean_agreement_required": true,
+    "complete_fixture_sets": {
+      "healthchecks_reads": 480,
+      "healthchecks_resume": 448,
+      "pretix": 288,
+      "wger_owner_insert": 16
+    },
+    "observation_value_and_type_equality": true,
+    "prefix_observations_checked_against_graph": true,
+    "unique_fixture_ids_and_state_input_pairs": true
+  },
+  "paired_observations": 1232,
+  "pretix_decisions": {
+    "false": 208,
+    "true": 80
+  },
+  "pretix_direct_only_fields": [
+    "raw query filters",
+    "access/grant handoff arguments and identities"
+  ],
+  "production_imports_before_direct_evidence_freeze": [],
+  "profile_counts": {
+    "healthchecks_reads": 480,
+    "healthchecks_resume_edges": 448,
+    "pretix_active_token_event": 288,
+    "wger_guarded_owner_insert": 16
+  },
+  "scope": "New CPython execution of 13 selected source functions on explicit finite stand-ins; separate fresh production-IR comparison",
+  "source_control_comparison": "complete baseline versus modified CPython observations; response means HTTP status or permission/entry decision",
+  "source_control_flow_execution_independent_of_production_interpreter": true,
+  "source_mutation_changed_observations": 318,
+  "source_mutation_field_only_differences": 294,
+  "source_mutation_response_differences": 24,
+  "source_mutation_tests": 2896,
+  "source_mutations": [
+    {
+      "changed_observations": 24,
+      "control": "read_wrong_version",
+      "field_only_differences": 24,
+      "response_differences": 0,
+      "tested_inputs": 480
+    },
+    {
+      "changed_observations": 24,
+      "control": "read_foreign_serializer",
+      "field_only_differences": 24,
+      "response_differences": 0,
+      "tested_inputs": 480
+    },
+    {
+      "changed_observations": 24,
+      "control": "resume_omit_save",
+      "field_only_differences": 24,
+      "response_differences": 0,
+      "tested_inputs": 448
+    },
+    {
+      "changed_observations": 24,
+      "control": "resume_repeat_flip",
+      "field_only_differences": 24,
+      "response_differences": 0,
+      "tested_inputs": 448
+    },
+    {
+      "changed_observations": 24,
+      "control": "resume_stale_ping",
+      "field_only_differences": 24,
+      "response_differences": 0,
+      "tested_inputs": 448
+    },
+    {
+      "changed_observations": 96,
+      "control": "pretix_wrong_organizer",
+      "field_only_differences": 88,
+      "response_differences": 8,
+      "tested_inputs": 288
+    },
+    {
+      "changed_observations": 96,
+      "control": "pretix_omit_grants",
+      "field_only_differences": 80,
+      "response_differences": 16,
+      "tested_inputs": 288
+    },
+    {
+      "changed_observations": 6,
+      "control": "wger_client_owner",
+      "field_only_differences": 6,
+      "response_differences": 0,
+      "tested_inputs": 16
+    }
+  ],
+  "stateful_binding_families": [
+    {
+      "bindings": 27,
+      "cpython_witness_replays": 26,
+      "form": "plain",
+      "matching_bindings": 1,
+      "strata": {
+        "1": 26,
+        "infinity": 1
+      }
+    },
+    {
+      "bindings": 27,
+      "cpython_witness_replays": 26,
+      "form": "stored_mac",
+      "matching_bindings": 1,
+      "strata": {
+        "1": 26,
+        "infinity": 1
+      }
+    }
+  ],
+  "wger_guard_decisions": {
+    "false": 8,
+    "true": 8
+  },
+  "wger_historical_date_validation_reconstructed": false
+}

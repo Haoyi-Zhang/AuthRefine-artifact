@@ -1,0 +1,15 @@
+{
+  "file": "proofs/ClaimRoleObservation.lean",
+  "proof_sha256": "cd7c8eb729fcc756a2242f2bcc1dd8fcaccd4385c607c296592af93d8f255f6b",
+  "command": [
+    "<lean>/bin/lean",
+    "<artifact>/proofs/ClaimRoleObservation.lean"
+  ],
+  "exit_code": 0,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "wall_seconds": 0.5413495989996591,
+  "source_unchanged": true,
+  "sorry_warning": false,
+  "passed": true
+}

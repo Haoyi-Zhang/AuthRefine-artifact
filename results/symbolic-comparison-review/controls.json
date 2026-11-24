@@ -1,0 +1,276 @@
+{
+  "status": "PASS",
+  "kind": "in-memory malformed copies and positive admission controls",
+  "scientific_measurements_added": 0,
+  "rejection_controls": 42,
+  "positive_controls": 3,
+  "records": [
+    {
+      "name": "empty raw worker object",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "raw worker: exact fields required"
+    },
+    {
+      "name": "missing raw records",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "raw worker: exact fields required"
+    },
+    {
+      "name": "undeclared raw field",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "raw worker: exact fields required"
+    },
+    {
+      "name": "Boolean process return code",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "process return code: integer required"
+    },
+    {
+      "name": "floating process return code",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "process return code: integer required"
+    },
+    {
+      "name": "nonzero process return code",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "successful checked process"
+    },
+    {
+      "name": "Boolean repetition identifier",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "repeat: integer required"
+    },
+    {
+      "name": "floating repetition identifier",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "repeat: integer required"
+    },
+    {
+      "name": "Boolean process duration",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "process wall time: integer required"
+    },
+    {
+      "name": "impossibly short process duration",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "process duration cannot be shorter than its sequential timed sections"
+    },
+    {
+      "name": "stdout path outside declared log",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "exact worker log paths"
+    },
+    {
+      "name": "wrong stderr identity",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "exact worker log paths"
+    },
+    {
+      "name": "missing timed task",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "complete method/task denominator"
+    },
+    {
+      "name": "duplicated timed task",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "exact method/task order"
+    },
+    {
+      "name": "missing timing field",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "timed record: exact fields required"
+    },
+    {
+      "name": "undeclared timing field",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "timed record: exact fields required"
+    },
+    {
+      "name": "Boolean diagnosis time",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "timed record diagnosis_wall_ns: integer required"
+    },
+    {
+      "name": "Boolean output count",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "timed record bindings: integer required"
+    },
+    {
+      "name": "negative scientific counter",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "timed record replay_steps: integer required"
+    },
+    {
+      "name": "different complete output",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "complete output identity and denominator"
+    },
+    {
+      "name": "different output byte count",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "complete output identity and denominator"
+    },
+    {
+      "name": "different family denominator",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "complete output identity and denominator"
+    },
+    {
+      "name": "unchecked complete output",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "successful checked process"
+    },
+    {
+      "name": "Boolean memory counter",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "process peak RSS: integer required"
+    },
+    {
+      "name": "different worker Python metadata",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "worker runtime metadata differs"
+    },
+    {
+      "name": "different worker platform metadata",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "worker runtime metadata differs"
+    },
+    {
+      "name": "backend metadata on explicit method",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "worker backend metadata differs"
+    },
+    {
+      "name": "missing CUDD package metadata",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "worker backend metadata differs"
+    },
+    {
+      "name": "different CUDD package metadata",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "worker backend metadata differs"
+    },
+    {
+      "name": "nonempty worker stderr",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "worker stderr must be empty"
+    },
+    {
+      "name": "missing method process",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "complete method/repetition grid"
+    },
+    {
+      "name": "duplicate method process",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "complete raw worker and receipt differ"
+    },
+    {
+      "name": "changed acquisition rotation",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "complete raw worker and receipt differ"
+    },
+    {
+      "name": "missing raw worker file",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "complete raw stdout grid"
+    },
+    {
+      "name": "extra raw worker file",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "complete raw stdout grid"
+    },
+    {
+      "name": "Boolean zero in derived summary",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "derived summary differs, including scalar types"
+    },
+    {
+      "name": "changed derived timing median",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "derived summary differs, including scalar types"
+    },
+    {
+      "name": "missing historical source identity",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "historical source identities: exact fields required"
+    },
+    {
+      "name": "numeric campaign stability flag",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "campaign source stability report"
+    },
+    {
+      "name": "duplicate JSON object key",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "JSON: duplicate key exit_code"
+    },
+    {
+      "name": "nonfinite JSON number",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "JSON: nonfinite constant NaN"
+    },
+    {
+      "name": "overflowed JSON number",
+      "expected": "reject",
+      "outcome": "reject",
+      "reason": "JSON: nonfinite floating-point value"
+    },
+    {
+      "name": "unaltered complete worker",
+      "expected": "accept",
+      "outcome": "accept"
+    },
+    {
+      "name": "JSON object key order is immaterial",
+      "expected": "accept",
+      "outcome": "accept"
+    },
+    {
+      "name": "unaltered full campaign",
+      "expected": "accept",
+      "outcome": "accept"
+    }
+  ]
+}

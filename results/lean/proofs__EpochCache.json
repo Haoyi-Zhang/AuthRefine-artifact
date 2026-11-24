@@ -1,0 +1,15 @@
+{
+  "file": "proofs/EpochCache.lean",
+  "proof_sha256": "7c7e28381235b23ef77c3d1eaaa748e455fcad7cce502974dc527242a2ddb7c9",
+  "command": [
+    "<lean>/bin/lean",
+    "<artifact>/proofs/EpochCache.lean"
+  ],
+  "exit_code": 0,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "wall_seconds": 0.49619437100045616,
+  "source_unchanged": true,
+  "sorry_warning": false,
+  "passed": true
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "control": "existing-output",
+      "returncode": 2,
+      "rejected_before_computation": true
+    },
+    {
+      "control": "inside-scientific-input",
+      "returncode": 2,
+      "rejected_before_computation": true
+    },
+    {
+      "control": "input-ancestor",
+      "returncode": 2,
+      "rejected_before_computation": true
+    },
+    {
+      "control": "inside-proof-source",
+      "returncode": 2,
+      "rejected_before_computation": true
+    }
+  ]
+}

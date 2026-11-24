@@ -1,0 +1,11 @@
+case,sessions,arm,native_states,request_symbols,native_edges,prefix_operations,supplied_bijections,cartesian_combinations,unrestricted_matching,lookup_only_matching,one_removal_matching,shortest_excluded_length,distinct_exclusion_words,excluded_bindings
+sessions-2-baseline,2,baseline,4,10,40,40,2,4,1,2,1,2,1,1
+sessions-2-omit-delete,2,omit-delete,1,10,10,0,2,4,0,2,0,1,1,2
+sessions-3-baseline,3,baseline,8,14,112,168,6,27,1,6,1,2,2,5
+sessions-3-omit-delete,3,omit-delete,1,14,14,0,6,27,0,6,0,1,1,6
+sessions-4-baseline,4,baseline,16,18,288,576,24,256,1,24,1,2,3,23
+sessions-4-omit-delete,4,omit-delete,1,18,18,0,24,256,0,24,0,1,1,24
+sessions-5-baseline,5,baseline,32,22,704,1760,120,3125,1,120,1,2,4,119
+sessions-5-omit-delete,5,omit-delete,1,22,22,0,120,3125,0,120,0,1,1,120
+sessions-6-baseline,6,baseline,64,26,1664,4992,720,46656,1,720,1,2,5,719
+sessions-6-omit-delete,6,omit-delete,1,26,26,0,720,46656,0,720,0,1,1,720

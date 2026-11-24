@@ -1,0 +1,15 @@
+{
+  "file": "proofs/RelationalProjection.lean",
+  "proof_sha256": "e6b50fccb4a3575f707be7abd9e8a09e9205002548d4bbc3d4f09b8617550a72",
+  "command": [
+    "<lean>/bin/lean",
+    "<artifact>/proofs/RelationalProjection.lean"
+  ],
+  "exit_code": 0,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "wall_seconds": 0.7328114880001522,
+  "source_unchanged": true,
+  "sorry_warning": false,
+  "passed": true
+}

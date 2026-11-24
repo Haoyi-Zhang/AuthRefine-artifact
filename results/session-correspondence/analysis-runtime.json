@@ -1,0 +1,74 @@
+{
+  "analysis_wall_ns": 7039324898,
+  "case_preparation": [
+    {
+      "contract_and_caller_construction_wall_ns": 4696592,
+      "id": "sessions-2-baseline"
+    },
+    {
+      "contract_and_caller_construction_wall_ns": 131478,
+      "id": "sessions-2-omit-delete"
+    },
+    {
+      "contract_and_caller_construction_wall_ns": 164528,
+      "id": "sessions-3-baseline"
+    },
+    {
+      "contract_and_caller_construction_wall_ns": 331539,
+      "id": "sessions-3-omit-delete"
+    },
+    {
+      "contract_and_caller_construction_wall_ns": 221053,
+      "id": "sessions-4-baseline"
+    },
+    {
+      "contract_and_caller_construction_wall_ns": 203275,
+      "id": "sessions-4-omit-delete"
+    },
+    {
+      "contract_and_caller_construction_wall_ns": 309736,
+      "id": "sessions-5-baseline"
+    },
+    {
+      "contract_and_caller_construction_wall_ns": 336366,
+      "id": "sessions-5-omit-delete"
+    },
+    {
+      "contract_and_caller_construction_wall_ns": 760894,
+      "id": "sessions-6-baseline"
+    },
+    {
+      "contract_and_caller_construction_wall_ns": 449486,
+      "id": "sessions-6-omit-delete"
+    }
+  ],
+  "family_preparation": [
+    {
+      "bindings": 2,
+      "permutation_enumeration_wall_ns": 20140,
+      "sessions": 2
+    },
+    {
+      "bindings": 6,
+      "permutation_enumeration_wall_ns": 9774,
+      "sessions": 3
+    },
+    {
+      "bindings": 24,
+      "permutation_enumeration_wall_ns": 23786,
+      "sessions": 4
+    },
+    {
+      "bindings": 120,
+      "permutation_enumeration_wall_ns": 136926,
+      "sessions": 5
+    },
+    {
+      "bindings": 720,
+      "permutation_enumeration_wall_ns": 2555993,
+      "sessions": 6
+    }
+  ],
+  "native_input_read_wall_ns": 217212030,
+  "scope": "Common permutation enumeration and contract/caller construction are measured separately from diagnosis. Total analysis includes independent oracle checks, ten-method comparisons, anchored-family comparisons and result encoding; it is validation-campaign runtime, not the latency of one diagnosis."
+}

@@ -1,0 +1,24 @@
+{
+  "caller_family": {
+    "classified_binding_results": 17820,
+    "classified_instances": 8910,
+    "instances": 18225,
+    "status": "PASS"
+  },
+  "profile": "research-depth",
+  "schema": 1,
+  "scope": "Fresh semantic rechecks plus retained timing reaggregation; this is not a new application sample or timing reacquisition.",
+  "stateful_cost": {
+    "cases": 38,
+    "repeats": 7,
+    "status": "PASS",
+    "timed_case_records": 1064
+  },
+  "status": "PASS",
+  "support_indexed": {
+    "binding_profiles_checked": 43776,
+    "policy_machine_pairs": 23040,
+    "replay_rows_checked": 18696,
+    "status": "PASS"
+  }
+}

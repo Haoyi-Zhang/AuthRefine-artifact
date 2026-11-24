@@ -1,0 +1,217 @@
+{
+  "scope": "Two owned SQLite rows; no HTTP server, real credentials or account actions.",
+  "rows": [
+    {
+      "token": "h19-owned-fixture-alpha",
+      "user_id": 1,
+      "expiry_date": "2030-01-01T00:00:00",
+      "max_expiry_date": "2030-01-08T00:00:00"
+    },
+    {
+      "token": "h19-owned-fixture-beta",
+      "user_id": 2,
+      "expiry_date": "2030-01-01T00:00:00",
+      "max_expiry_date": "2030-01-08T00:00:00"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "producer-before__consumer-before",
+      "producer": "before",
+      "consumer": "before",
+      "owned_filter_boundary_repair": false
+    },
+    {
+      "id": "producer-after__consumer-before",
+      "producer": "after",
+      "consumer": "before",
+      "owned_filter_boundary_repair": false
+    },
+    {
+      "id": "producer-before__consumer-after",
+      "producer": "before",
+      "consumer": "after",
+      "owned_filter_boundary_repair": false
+    },
+    {
+      "id": "producer-after__consumer-after",
+      "producer": "after",
+      "consumer": "after",
+      "owned_filter_boundary_repair": false
+    },
+    {
+      "id": "producer-after__consumer-after__owned-repair",
+      "producer": "after",
+      "consumer": "after",
+      "owned_filter_boundary_repair": true
+    }
+  ],
+  "selection_contexts": [
+    {
+      "id": "selection-0-override-0",
+      "requested_fields": null,
+      "exclude_secrets_override": null
+    },
+    {
+      "id": "selection-0-override-1",
+      "requested_fields": null,
+      "exclude_secrets_override": true
+    },
+    {
+      "id": "selection-0-override-2",
+      "requested_fields": null,
+      "exclude_secrets_override": false
+    },
+    {
+      "id": "selection-1-override-0",
+      "requested_fields": [
+        "token"
+      ],
+      "exclude_secrets_override": null
+    },
+    {
+      "id": "selection-1-override-1",
+      "requested_fields": [
+        "token"
+      ],
+      "exclude_secrets_override": true
+    },
+    {
+      "id": "selection-1-override-2",
+      "requested_fields": [
+        "token"
+      ],
+      "exclude_secrets_override": false
+    },
+    {
+      "id": "selection-2-override-0",
+      "requested_fields": [
+        "user_id"
+      ],
+      "exclude_secrets_override": null
+    },
+    {
+      "id": "selection-2-override-1",
+      "requested_fields": [
+        "user_id"
+      ],
+      "exclude_secrets_override": true
+    },
+    {
+      "id": "selection-2-override-2",
+      "requested_fields": [
+        "user_id"
+      ],
+      "exclude_secrets_override": false
+    },
+    {
+      "id": "selection-3-override-0",
+      "requested_fields": [
+        "token",
+        "user_id"
+      ],
+      "exclude_secrets_override": null
+    },
+    {
+      "id": "selection-3-override-1",
+      "requested_fields": [
+        "token",
+        "user_id"
+      ],
+      "exclude_secrets_override": true
+    },
+    {
+      "id": "selection-3-override-2",
+      "requested_fields": [
+        "token",
+        "user_id"
+      ],
+      "exclude_secrets_override": false
+    },
+    {
+      "id": "selection-4-override-0",
+      "requested_fields": [
+        "id",
+        "token",
+        "user_id",
+        "expiry_date",
+        "max_expiry_date"
+      ],
+      "exclude_secrets_override": null
+    },
+    {
+      "id": "selection-4-override-1",
+      "requested_fields": [
+        "id",
+        "token",
+        "user_id",
+        "expiry_date",
+        "max_expiry_date"
+      ],
+      "exclude_secrets_override": true
+    },
+    {
+      "id": "selection-4-override-2",
+      "requested_fields": [
+        "id",
+        "token",
+        "user_id",
+        "expiry_date",
+        "max_expiry_date"
+      ],
+      "exclude_secrets_override": false
+    },
+    {
+      "id": "selection-5-override-0",
+      "requested_fields": [
+        "expiry_date",
+        "max_expiry_date"
+      ],
+      "exclude_secrets_override": null
+    },
+    {
+      "id": "selection-5-override-1",
+      "requested_fields": [
+        "expiry_date",
+        "max_expiry_date"
+      ],
+      "exclude_secrets_override": true
+    },
+    {
+      "id": "selection-5-override-2",
+      "requested_fields": [
+        "expiry_date",
+        "max_expiry_date"
+      ],
+      "exclude_secrets_override": false
+    }
+  ],
+  "filter_contexts": [
+    {
+      "id": "matching-token",
+      "params": {
+        "token": "h19-owned-fixture-alpha",
+        "token__match": "exact"
+      }
+    },
+    {
+      "id": "absent-token",
+      "params": {
+        "token": "h19-owned-absent",
+        "token__match": "exact"
+      }
+    },
+    {
+      "id": "ordinary-user",
+      "params": {
+        "user_id": "1"
+      }
+    }
+  ],
+  "requirements": {
+    "confidential_output": "With exclusion enabled, no stored token value occurs in the response rows.",
+    "filter_boundary": "A field declared secret must not be accepted by the generated filter model.",
+    "explicit_inclusion": "exclude_secrets=False intentionally permits token output; it is a separate configuration.",
+    "ordinary_field": "The ordinary user_id filter remains usable after the owned repair."
+  }
+}

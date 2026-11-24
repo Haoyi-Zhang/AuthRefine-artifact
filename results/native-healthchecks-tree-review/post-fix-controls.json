@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "native_executions": 0,
+  "scientific_inputs_modified": false,
+  "controls": [
+    {
+      "control": "original-combined-provenance-challenge",
+      "outcome": "REJECTED",
+      "error": "source-control paths are duplicated or incomplete"
+    },
+    {
+      "control": "duplicate-source-manifest-entry",
+      "outcome": "REJECTED",
+      "error": "source-control paths are duplicated or incomplete"
+    },
+    {
+      "control": "outside-source-module-map",
+      "outcome": "REJECTED",
+      "error": "native imported module mapping differs from the full source closure"
+    },
+    {
+      "control": "false-clock-restoration-declaration",
+      "outcome": "REJECTED",
+      "error": "native collection provenance flag differs: checkpoint_clock_restored"
+    },
+    {
+      "control": "incorrect-collection-edge-count",
+      "outcome": "REJECTED",
+      "error": "native collection case index/stratum/edge count differs"
+    },
+    {
+      "control": "unsuccessful-acquisition-process",
+      "outcome": "REJECTED",
+      "error": "native execution receipt is unsuccessful"
+    },
+    {
+      "control": "unsuccessful-native-replay-process",
+      "outcome": "REJECTED",
+      "error": "native execution receipt is unsuccessful"
+    },
+    {
+      "control": "missing-native-leaf",
+      "outcome": "REJECTED",
+      "error": "native history tree is incomplete or contains an extra word"
+    },
+    {
+      "control": "duplicate-native-word",
+      "outcome": "REJECTED",
+      "error": "native history tree is incomplete or contains an extra word"
+    },
+    {
+      "control": "parent-store-number-boolean-collision",
+      "outcome": "REJECTED",
+      "error": "physical parent history or cookie continuity differs"
+    },
+    {
+      "control": "wire-only-json-number-boolean-collision",
+      "outcome": "REJECTED",
+      "error": "response text and parsed document differ"
+    },
+    {
+      "control": "consistent-json-boolean-to-number-value-change",
+      "outcome": "DIAGNOSED",
+      "shortest_word": [
+        "get",
+        "get",
+        "get"
+      ]
+    },
+    {
+      "control": "physical-sqlite-number-boolean-collision",
+      "outcome": "REJECTED",
+      "error": "complete native SQLite checkpoint differs from recorded rows/schema"
+    },
+    {
+      "control": "response-extra-field",
+      "outcome": "DIAGNOSED",
+      "shortest_word": [
+        "get",
+        "get",
+        "get"
+      ]
+    },
+    {
+      "control": "response-extra-header",
+      "outcome": "DIAGNOSED",
+      "shortest_word": [
+        "get",
+        "get",
+        "get"
+      ]
+    },
+    {
+      "control": "handoff-same-id-new-object",
+      "outcome": "DIAGNOSED",
+      "shortest_word": [
+        "get",
+        "get",
+        "get"
+      ]
+    },
+    {
+      "control": "untouched-other-project-key",
+      "outcome": "DIAGNOSED",
+      "shortest_word": [
+        "get",
+        "get",
+        "get"
+      ]
+    },
+    {
+      "control": "association-row-removed",
+      "outcome": "DIAGNOSED",
+      "shortest_word": [
+        "get",
+        "get",
+        "get"
+      ]
+    },
+    {
+      "control": "sqlite-sequence-changed",
+      "outcome": "DIAGNOSED",
+      "shortest_word": [
+        "get",
+        "get",
+        "get"
+      ]
+    },
+    {
+      "control": "client-cookie-inserted",
+      "outcome": "DIAGNOSED",
+      "shortest_word": [
+        "get",
+        "get",
+        "get"
+      ]
+    }
+  ]
+}

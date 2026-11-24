@@ -1,0 +1,15 @@
+{
+  "file": "source_study/proofs/OrganizationQueryGate.lean",
+  "proof_sha256": "ce3ea6e6c8ff663d94e123898cd1016c8d27a0b7c22c25a4dfca0160bf572072",
+  "command": [
+    "<lean>/bin/lean",
+    "<artifact>/source_study/proofs/OrganizationQueryGate.lean"
+  ],
+  "exit_code": 0,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "wall_seconds": 1.4628525230000378,
+  "source_unchanged": true,
+  "sorry_warning": false,
+  "passed": true
+}

@@ -1,0 +1,41 @@
+{
+  "all_internal_comparisons_agree": true,
+  "counted_obligations": 1340425,
+  "groups": {
+    "chain": {
+      "accepted": 0,
+      "cases": 15,
+      "not_accepted": 15,
+      "obligations": 9220
+    },
+    "generated": {
+      "accepted": 8978,
+      "cases": 9936,
+      "not_accepted": 958,
+      "obligations": 783410
+    },
+    "public": {
+      "accepted": 18,
+      "cases": 18,
+      "not_accepted": 0,
+      "obligations": 46370
+    },
+    "schema-negative": {
+      "accepted": 0,
+      "cases": 15,
+      "not_accepted": 15,
+      "obligations": 15
+    },
+    "width": {
+      "accepted": 16,
+      "cases": 16,
+      "not_accepted": 0,
+      "obligations": 23284
+    }
+  },
+  "primary_cases": 10000,
+  "profile": "campaign",
+  "schema": 1,
+  "scope": "Self-contained finite-model campaign; optional framework, native, timing, and proof profiles are separate.",
+  "status": "PASS"
+}

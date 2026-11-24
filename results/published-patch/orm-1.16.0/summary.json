@@ -1,0 +1,74 @@
+{
+  "orm_version": "1.16.0",
+  "registry_source": {
+    "orm_version": "1.16.0",
+    "path": "piccolo/table.py",
+    "sha256": "9d2df3ba118d3d9e07f6cfc4de27856eb13fbb54ebe937a7055c3f9ebaed9914",
+    "line": 317,
+    "predicate": "isinstance(column, Secret)",
+    "predicate_mode": "secret-subclass"
+  },
+  "profiles": {
+    "producer-before__consumer-before": {
+      "selection_trials": 18,
+      "endpoint_returns": 18,
+      "endpoint_exceptions": 0,
+      "output_value_exposures": 12,
+      "explicit_inclusion_exposures": 4,
+      "filter_token_accepted": true
+    },
+    "producer-after__consumer-before": {
+      "selection_trials": 18,
+      "endpoint_returns": 16,
+      "endpoint_exceptions": 2,
+      "output_value_exposures": 4,
+      "explicit_inclusion_exposures": 4,
+      "filter_token_accepted": true
+    },
+    "producer-before__consumer-after": {
+      "selection_trials": 18,
+      "endpoint_returns": 18,
+      "endpoint_exceptions": 0,
+      "output_value_exposures": 12,
+      "explicit_inclusion_exposures": 4,
+      "filter_token_accepted": true
+    },
+    "producer-after__consumer-after": {
+      "selection_trials": 18,
+      "endpoint_returns": 16,
+      "endpoint_exceptions": 2,
+      "output_value_exposures": 4,
+      "explicit_inclusion_exposures": 4,
+      "filter_token_accepted": true
+    },
+    "producer-after__consumer-after__owned-repair": {
+      "selection_trials": 18,
+      "endpoint_returns": 16,
+      "endpoint_exceptions": 2,
+      "output_value_exposures": 4,
+      "explicit_inclusion_exposures": 4,
+      "filter_token_accepted": false
+    }
+  },
+  "metadata_pairs": 90,
+  "metadata_disagreements": 0,
+  "original_before_after_metadata_pairs": 36,
+  "cross_version_factorial_pairs": 36,
+  "owned_repair_pairs": 18,
+  "selection_endpoint_invocations": 90,
+  "filter_endpoint_invocations": 15,
+  "selection_endpoint_returns": 84,
+  "selection_endpoint_exceptions": 6,
+  "filter_endpoint_returns": 15,
+  "default_patch_comparison": {
+    "before_status": 200,
+    "after_status": 200,
+    "status_only_distinguishes": false,
+    "json_field_names_distinguish": false,
+    "stored_token_values_distinguish": true,
+    "before_token": "owned fixture value",
+    "after_token": null
+  },
+  "scope": "Native pinned dependency profile, not a historical installed lock or a live deployment test.",
+  "passed": true
+}

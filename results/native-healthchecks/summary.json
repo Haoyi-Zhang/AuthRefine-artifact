@@ -1,0 +1,304 @@
+{
+  "api_versions": 3,
+  "applications": 1,
+  "cases_per_arm": 24,
+  "complete_physical_reachability_claim": false,
+  "configuration_profile_results": 720,
+  "fixed_route_configurations": 4,
+  "initial_key_formats": 2,
+  "native_cases": 120,
+  "native_http_requests": 4200,
+  "native_key_rotations": 240,
+  "native_operations": 4440,
+  "native_replay_cases": 114,
+  "native_replay_http_requests": 480,
+  "native_replay_operations": 480,
+  "native_replayed_witnesses": 600,
+  "native_source_arms": 5,
+  "native_sql_statements": 8652,
+  "observation": "Complete JSON objects, exact non-JSON error bodies, all response headers and cookies, native identity handoff, selected persisted rows; Flip wall-clock literals are retained raw but projected to presence and processing relation.",
+  "production_component_comparisons": 2400,
+  "profiles": [
+    {
+      "accepted_configurations": [
+        "identity"
+      ],
+      "arm": "original",
+      "caller": "single_check_read",
+      "identity_first_difference": null,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [
+        "identity",
+        "swap_privilege"
+      ],
+      "arm": "original",
+      "caller": "single_check_read",
+      "identity_first_difference": null,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [
+        "identity"
+      ],
+      "arm": "original",
+      "caller": "read_surface",
+      "identity_first_difference": null,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [
+        "identity",
+        "swap_privilege"
+      ],
+      "arm": "original",
+      "caller": "read_surface",
+      "identity_first_difference": null,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [
+        "identity"
+      ],
+      "arm": "original",
+      "caller": "lifecycle",
+      "identity_first_difference": null,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [
+        "identity"
+      ],
+      "arm": "original",
+      "caller": "lifecycle",
+      "identity_first_difference": null,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "omit_readonly_context",
+      "caller": "single_check_read",
+      "identity_first_difference": 1,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [
+        "identity",
+        "swap_privilege"
+      ],
+      "arm": "omit_readonly_context",
+      "caller": "single_check_read",
+      "identity_first_difference": null,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "omit_readonly_context",
+      "caller": "read_surface",
+      "identity_first_difference": 1,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [
+        "identity",
+        "swap_privilege"
+      ],
+      "arm": "omit_readonly_context",
+      "caller": "read_surface",
+      "identity_first_difference": null,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "omit_readonly_context",
+      "caller": "lifecycle",
+      "identity_first_difference": 1,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [
+        "identity"
+      ],
+      "arm": "omit_readonly_context",
+      "caller": "lifecycle",
+      "identity_first_difference": null,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "wrong_project_context",
+      "caller": "single_check_read",
+      "identity_first_difference": 1,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "wrong_project_context",
+      "caller": "single_check_read",
+      "identity_first_difference": 2,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "wrong_project_context",
+      "caller": "read_surface",
+      "identity_first_difference": 1,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "wrong_project_context",
+      "caller": "read_surface",
+      "identity_first_difference": 2,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "wrong_project_context",
+      "caller": "lifecycle",
+      "identity_first_difference": 1,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "wrong_project_context",
+      "caller": "lifecycle",
+      "identity_first_difference": 2,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [
+        "identity"
+      ],
+      "arm": "omit_pause_persistence",
+      "caller": "single_check_read",
+      "identity_first_difference": null,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [
+        "identity",
+        "swap_privilege"
+      ],
+      "arm": "omit_pause_persistence",
+      "caller": "single_check_read",
+      "identity_first_difference": null,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [
+        "identity"
+      ],
+      "arm": "omit_pause_persistence",
+      "caller": "read_surface",
+      "identity_first_difference": null,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [
+        "identity",
+        "swap_privilege"
+      ],
+      "arm": "omit_pause_persistence",
+      "caller": "read_surface",
+      "identity_first_difference": null,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "omit_pause_persistence",
+      "caller": "lifecycle",
+      "identity_first_difference": 15,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "omit_pause_persistence",
+      "caller": "lifecycle",
+      "identity_first_difference": 18,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "reject_readonly_get",
+      "caller": "single_check_read",
+      "identity_first_difference": 1,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [
+        "swap_privilege"
+      ],
+      "arm": "reject_readonly_get",
+      "caller": "single_check_read",
+      "identity_first_difference": 1,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "reject_readonly_get",
+      "caller": "read_surface",
+      "identity_first_difference": 1,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "reject_readonly_get",
+      "caller": "read_surface",
+      "identity_first_difference": 1,
+      "observation": "http_status",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "reject_readonly_get",
+      "caller": "lifecycle",
+      "identity_first_difference": 1,
+      "observation": "complete",
+      "repeated_strata": 6
+    },
+    {
+      "accepted_configurations": [],
+      "arm": "reject_readonly_get",
+      "caller": "lifecycle",
+      "identity_first_difference": 1,
+      "observation": "http_status",
+      "repeated_strata": 6
+    }
+  ],
+  "selected_modules_imported_complete": true,
+  "shared_target_correspondence_family": false,
+  "shortest_scope": "Prefixes of the declared finite caller words only; consecutive encoding blocks preserve the already executed application state.",
+  "source_files": 34,
+  "source_imports_replaced": false,
+  "status": "PASS",
+  "upstream_tests": 30
+}

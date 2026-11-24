@@ -1,0 +1,5 @@
+'AuthRefine.ActiveOrganizationOrder.composition_refines_allow_contract' depends on axioms: [propext, Quot.sound]
+'AuthRefine.ActiveOrganizationOrder.invalid_precedes_superuser' does not depend on any axioms
+'AuthRefine.ActiveOrganizationOrder.missing_superuser_bypasses' does not depend on any axioms
+'AuthRefine.ActiveOrganizationOrder.other_organization_isolation' depends on axioms: [propext]
+'AuthRefine.ActiveOrganizationOrder.early_bypass_is_not_equivalent' depends on axioms: [propext]

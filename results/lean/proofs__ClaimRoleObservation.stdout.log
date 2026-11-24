@@ -1,0 +1,3 @@
+'ClaimRoleObservation.positive_reads_membership' depends on axioms: [propext]
+'ClaimRoleObservation.positive_reads_same_membership' depends on axioms: [propext]
+'ClaimRoleObservation.raw_list_can_change' does not depend on any axioms

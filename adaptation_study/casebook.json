@@ -1,0 +1,874 @@
+{
+  "cases": [
+    {
+      "case": "ERP-MES-WMS",
+      "repository_id": 1257410493,
+      "repository": "jianghuaqi85-sys/ERP-MES-WMS-system",
+      "snapshot": "19e2e2eba95bc71cb02e9b1b8737bdf709622154",
+      "stratum": "centralized",
+      "source_anchors": [
+        {
+          "path": "backend/app/apps/auth/dependencies.py",
+          "function": "get_current_user",
+          "line": 20,
+          "end_line": 48,
+          "slice_sha256": "9d4988f9245818f7ff2406d9af04c774ec6b04de458044e425dc7dae056f64d7"
+        },
+        {
+          "path": "backend/app/apps/auth/dependencies.py",
+          "function": "require_permissions",
+          "line": 51,
+          "end_line": 74,
+          "slice_sha256": "171279125986ca3a0565690c0474bf776812f0bfea57b05e129711edfc63544d"
+        },
+        {
+          "path": "backend/app/apps/auth/dependencies.py",
+          "function": "require_permissions.permission_checker",
+          "line": 56,
+          "end_line": 73,
+          "slice_sha256": "126c108173e233380e170dd3074436d8e1c7a7aa6518570487ddba9cc2137dcb"
+        },
+        {
+          "path": "backend/app/apps/erp/router.py",
+          "function": "create_product",
+          "line": 65,
+          "end_line": 75,
+          "slice_sha256": "6f69a0a7971248e2c5a64909e444463dc8248d216cc1bc752ab8c3bc40c60d2b"
+        }
+      ],
+      "entry_premises": [
+        "complete current user role/permission relationships"
+      ],
+      "checked_boundary": "returned permission closures and current-role iteration",
+      "required_adaptation": "supplied current-user relation and immutable normal contexts",
+      "not_admitted": "no JWT issuer,expiry or live role-update guarantee",
+      "identity_resolution": "supplied_identity_context",
+      "effect_boundary": "guard_or_query_before_business_write",
+      "interpretation": "case-specific supported boundary, not proof that the application always satisfies its premises",
+      "effort_minutes": null,
+      "axis_classification": {
+        "identity origin": {
+          "label": "supplied_principal",
+          "handling": "explicit configuration/input",
+          "evidence_functions": [
+            "get_current_user"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "post-authorization effects": {
+          "label": "before_business_write",
+          "handling": "non-admission",
+          "evidence_functions": [
+            "create_product"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "identity/state handoff": {
+          "label": "current_role_relations",
+          "handling": "automatic supported source analysis",
+          "evidence_functions": [
+            "require_permissions.permission_checker"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "runtime resolution": {
+          "label": "closure_capture",
+          "handling": "automatic supported source analysis",
+          "evidence_functions": [
+            "require_permissions"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "environment and time": {
+          "label": "immutable_role_context",
+          "handling": "explicit configuration/input",
+          "evidence_functions": [
+            "get_current_user"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        }
+      },
+      "credential_lifecycle_profile": "no_complete_expiry_refresh_profile_claimed"
+    },
+    {
+      "case": "Agentic UX",
+      "repository_id": 1200882145,
+      "repository": "navyapdh11/agentic-ux-factory",
+      "snapshot": "9f91aa55eaf1a6b937897fd839e3c55be85d5966",
+      "stratum": "centralized",
+      "source_anchors": [
+        {
+          "path": "backend/app/security/rbac.py",
+          "function": "get_current_tenant_and_roles",
+          "line": 50,
+          "end_line": 89,
+          "slice_sha256": "3fe0a1639d5cd70d970feae211234c69c028b9de2d8b882e5a80b711bd408c31"
+        },
+        {
+          "path": "backend/app/security/rbac.py",
+          "function": "require_permission",
+          "line": 94,
+          "end_line": 108,
+          "slice_sha256": "0afc1d32789f61df238a6e1881738c40cd0ef72894ada6820759ef77db760e89"
+        },
+        {
+          "path": "backend/app/security/rbac.py",
+          "function": "require_permission.dep",
+          "line": 97,
+          "end_line": 106,
+          "slice_sha256": "6dc0d7f01b4e4f06831539d691b8b92f987663ddd1a1716bf863263abf9a8af3"
+        }
+      ],
+      "entry_premises": [
+        "given tenant identity and native policy-engine state"
+      ],
+      "checked_boundary": "tenant/role closure and actual native policy calls",
+      "required_adaptation": "fixed issuer/singleton and tenant configuration",
+      "not_admitted": "no inference of issuer lifetime or downstream application writes",
+      "identity_resolution": "supplied_identity_context",
+      "effect_boundary": "guard_or_query_before_business_write",
+      "interpretation": "case-specific supported boundary, not proof that the application always satisfies its premises",
+      "effort_minutes": null,
+      "axis_classification": {
+        "identity origin": {
+          "label": "supplied_tenant",
+          "handling": "explicit configuration/input",
+          "evidence_functions": [
+            "get_current_tenant_and_roles"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "post-authorization effects": {
+          "label": "policy_decision_only",
+          "handling": "non-admission",
+          "evidence_functions": [
+            "require_permission.dep"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "identity/state handoff": {
+          "label": "tenant_to_policy",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "require_permission.dep"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "runtime resolution": {
+          "label": "closure_capture",
+          "handling": "automatic supported source analysis",
+          "evidence_functions": [
+            "require_permission"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "environment and time": {
+          "label": "issuer_and_singleton_lifetime",
+          "handling": "non-admission",
+          "evidence_functions": [
+            "get_current_tenant_and_roles"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        }
+      },
+      "credential_lifecycle_profile": "no_complete_expiry_refresh_profile_claimed"
+    },
+    {
+      "case": "Wger",
+      "repository_id": 7705569,
+      "repository": "wger-project/wger",
+      "snapshot": "a841e51c413843dfd16d8e51c6a3db2a119b84f5",
+      "stratum": "centralized",
+      "source_anchors": [
+        {
+          "path": "wger/manager/api/permissions.py",
+          "function": "RoutinePermission.has_permission",
+          "line": 25,
+          "end_line": 28,
+          "slice_sha256": "ce44080e3faea220d1129352c50d89c5f260f3addac6942b463bbba97514b969"
+        },
+        {
+          "path": "wger/manager/api/permissions.py",
+          "function": "RoutinePermission.has_object_permission",
+          "line": 35,
+          "end_line": 46,
+          "slice_sha256": "927a8ca68b754b4ad8b2b9e99b35a4f68eb9d142ba8e130b8382dcb77f989c58"
+        },
+        {
+          "path": "wger/manager/api/views.py",
+          "function": "request_user_or_trainer_q",
+          "line": 81,
+          "end_line": 88,
+          "slice_sha256": "ff73a7e90c7fffb5f683629fad19297a116d629bfd69ddae63a831dec5a71148"
+        },
+        {
+          "path": "wger/manager/api/views.py",
+          "function": "RoutineViewSet.get_queryset",
+          "line": 109,
+          "end_line": 119,
+          "slice_sha256": "154452e39c44ec9057bc13d7933ddd04be458b20a3b371609293cbb22969b639"
+        },
+        {
+          "path": "wger/manager/api/views.py",
+          "function": "RoutineViewSet.perform_create",
+          "line": 121,
+          "end_line": 125,
+          "slice_sha256": "87804d21e23ecafd358c7a9c3d811ec88ee5e3e04afd57406750a36f4a44a423"
+        }
+      ],
+      "entry_premises": [
+        "authenticated user and selected object/view fields"
+      ],
+      "checked_boundary": "owner/template guard,selected owner insertion/readback and source user/trainer/public query scope",
+      "required_adaptation": "same request/view binding,owned serializer insert and typed Q/SQL query contracts",
+      "not_admitted": "original serializer,session identity producer,trainer authority,original ORM and complete request dispatcher not certified",
+      "identity_resolution": "supplied_identity_context",
+      "effect_boundary": "selected_business_write_and_native_readback",
+      "interpretation": "case-specific supported boundary, not proof that the application always satisfies its premises",
+      "effort_minutes": null,
+      "axis_classification": {
+        "identity origin": {
+          "label": "supplied_principal",
+          "handling": "explicit configuration/input",
+          "evidence_functions": [
+            "RoutinePermission.has_permission"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "post-authorization effects": {
+          "label": "selected_owner_insert",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "RoutineViewSet.perform_create"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "identity/state handoff": {
+          "label": "owner_and_public_template",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "RoutinePermission.has_object_permission"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "runtime resolution": {
+          "label": "resolved_view_profile",
+          "handling": "explicit configuration/input",
+          "evidence_functions": [
+            "RoutinePermission.has_object_permission"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "environment and time": {
+          "label": "selected_user_trainer_public_query",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "RoutineViewSet.get_queryset"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        }
+      },
+      "credential_lifecycle_profile": "no_complete_expiry_refresh_profile_claimed"
+    },
+    {
+      "case": "Doccano",
+      "repository_id": 132709824,
+      "repository": "doccano/doccano",
+      "snapshot": "ab6b765ea326d07b2b806a4280cd097565e62321",
+      "stratum": "centralized",
+      "source_anchors": [
+        {
+          "path": "backend/labels/permissions.py",
+          "function": "CanEditLabel.__init__",
+          "line": 5,
+          "end_line": 7,
+          "slice_sha256": "31deb4cc0b6b89405dd036d1450031282ea78a0b1c6b438f7e1b65ef2f919fd3"
+        },
+        {
+          "path": "backend/labels/permissions.py",
+          "function": "CanEditLabel.has_permission",
+          "line": 9,
+          "end_line": 14,
+          "slice_sha256": "bdcc8a58a737e6ac98e76f2f7ca7fef6aa18b2a5607ee862ebec2bb63f04fac5"
+        },
+        {
+          "path": "backend/labels/views.py",
+          "function": "BaseListAPI.get_queryset",
+          "line": 42,
+          "end_line": 46,
+          "slice_sha256": "c200a55f72a2d3a66a53c923593bdcbbc40a4cff4f6c19f0954473ee6414c455"
+        },
+        {
+          "path": "backend/labels/views.py",
+          "function": "BaseDetailAPI.get_permissions",
+          "line": 73,
+          "end_line": 78,
+          "slice_sha256": "7ee6cc7f4dfcc8413f3eb27b12556c06e9ed36f2fbeba379f214f3dd3a805702"
+        },
+        {
+          "path": "backend/projects/permissions.py",
+          "function": "RolePermission.has_permission",
+          "line": 16,
+          "end_line": 27,
+          "slice_sha256": "53ea7e343b23f3973aefe6a75f22dd8a9219a5fe405d592861e8310fe2969f86"
+        }
+      ],
+      "entry_premises": [
+        "current project roles,label mode and selected query context"
+      ],
+      "checked_boundary": "guard composition,dynamic constructor and selected native query projection",
+      "required_adaptation": "mode,constructor and query-slot configuration",
+      "not_admitted": "not arbitrary constructors,all serializers or application transactions",
+      "identity_resolution": "supplied_identity_context",
+      "effect_boundary": "guard_or_query_before_business_write",
+      "interpretation": "case-specific supported boundary, not proof that the application always satisfies its premises",
+      "effort_minutes": null,
+      "axis_classification": {
+        "identity origin": {
+          "label": "supplied_principal",
+          "handling": "explicit configuration/input",
+          "evidence_functions": [
+            "RolePermission.has_permission"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "post-authorization effects": {
+          "label": "selected_query",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "BaseListAPI.get_queryset"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "identity/state handoff": {
+          "label": "project_role_and_label_mode",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "CanEditLabel.has_permission"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "runtime resolution": {
+          "label": "dynamic_constructor",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "BaseDetailAPI.get_permissions"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "environment and time": {
+          "label": "selected_framework_projection",
+          "handling": "explicit configuration/input",
+          "evidence_functions": [
+            "BaseListAPI.get_queryset"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        }
+      },
+      "credential_lifecycle_profile": "no_complete_expiry_refresh_profile_claimed"
+    },
+    {
+      "case": "Linkding",
+      "repository_id": 194212327,
+      "repository": "sissbruecker/linkding",
+      "snapshot": "27b7303baf41bb28babc610ac8eaa486e1ddfab5",
+      "stratum": "cross_component",
+      "source_anchors": [
+        {
+          "path": "bookmarks/api/auth.py",
+          "function": "LinkdingTokenAuthentication.authenticate",
+          "line": 17,
+          "end_line": 38,
+          "slice_sha256": "1f7368f9da9cfc116cf0e01049664b088ec4971649b12ecdca473fce5b8d8b5a"
+        },
+        {
+          "path": "bookmarks/api/routes.py",
+          "function": "BookmarkViewSet.get_queryset",
+          "line": 56,
+          "end_line": 72,
+          "slice_sha256": "4d94987e8cdbbcac300a97e79f5bd9a683d14f60fc6fc749da7860264e4b1a38"
+        },
+        {
+          "path": "bookmarks/api/routes.py",
+          "function": "TagViewSet.get_queryset",
+          "line": 250,
+          "end_line": 252,
+          "slice_sha256": "7e92c4810cd2216234ac837fced2b78c547a0521d6f58863a718f031f0d40649"
+        },
+        {
+          "path": "bookmarks/api/routes.py",
+          "function": "BookmarkBundleViewSet.get_queryset",
+          "line": 275,
+          "end_line": 277,
+          "slice_sha256": "8bcc41713b95a3379f3522b92d56041f60f620905ce93ae73691e7352d9124b5"
+        }
+      ],
+      "entry_premises": [
+        "given user and complete selected bookmark relations"
+      ],
+      "checked_boundary": "owner/tag/bundle filters and query results",
+      "required_adaptation": "custom-manager semantics must be admitted or rejected",
+      "not_admitted": "not all bookmark/asset custom query methods",
+      "identity_resolution": "supplied_identity_context",
+      "effect_boundary": "guard_or_query_before_business_write",
+      "interpretation": "case-specific supported boundary, not proof that the application always satisfies its premises",
+      "effort_minutes": null,
+      "axis_classification": {
+        "identity origin": {
+          "label": "supplied_principal",
+          "handling": "explicit configuration/input",
+          "evidence_functions": [
+            "LinkdingTokenAuthentication.authenticate"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "post-authorization effects": {
+          "label": "selected_query",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "TagViewSet.get_queryset"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "identity/state handoff": {
+          "label": "owner_to_query_scope",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "BookmarkBundleViewSet.get_queryset"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "runtime resolution": {
+          "label": "custom_query_manager",
+          "handling": "non-admission",
+          "evidence_functions": [
+            "BookmarkViewSet.get_queryset"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "environment and time": {
+          "label": "opaque_manager_alternatives",
+          "handling": "non-admission",
+          "evidence_functions": [
+            "BookmarkViewSet.get_queryset"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        }
+      },
+      "credential_lifecycle_profile": "no_complete_expiry_refresh_profile_claimed"
+    },
+    {
+      "case": "Healthchecks",
+      "repository_id": 38067078,
+      "repository": "healthchecks/healthchecks",
+      "snapshot": "51a503531d845fc11d5ef270d576c59c300e3620",
+      "stratum": "cross_component",
+      "source_anchors": [
+        {
+          "path": "hc/accounts/models.py",
+          "function": "ProjectManager.for_api_key",
+          "line": 404,
+          "end_line": 446,
+          "slice_sha256": "a23ff16a5d4559502285b1ed4036e4966df9ae86ad92686910a12618c5f62f28"
+        },
+        {
+          "path": "hc/api/decorators.py",
+          "function": "authorize.wrapper",
+          "line": 35,
+          "end_line": 66,
+          "slice_sha256": "88d24d956cbf51b439f9984ac70655efa7b988ea2db16e52d25403fcd93c878d"
+        },
+        {
+          "path": "hc/api/views.py",
+          "function": "resume",
+          "line": 574,
+          "end_line": 590,
+          "slice_sha256": "04d5846319e6264e46fadb3bbfc952a70e452c8e0bd4453832c1aea5c3d2659a"
+        }
+      ],
+      "entry_premises": [
+        "owned credential store and source-pinned primitives"
+      ],
+      "checked_boundary": "credential/store/wrapper/object plus sequential selected resume writes, readback and finite state closure",
+      "required_adaptation": "source-bound primitives and validated complete-store invariant for the sequential three-object projection",
+      "not_admitted": "not outer middleware,other writes,concurrent transactions or notification delivery",
+      "identity_resolution": "source_lookup_with_native_primitive",
+      "effect_boundary": "selected_business_write_and_native_readback",
+      "interpretation": "case-specific supported boundary, not proof that the application always satisfies its premises",
+      "effort_minutes": null,
+      "axis_classification": {
+        "identity origin": {
+          "label": "source_key_lookup",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "ProjectManager.for_api_key"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "post-authorization effects": {
+          "label": "selected_persistent_write",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "resume"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "identity/state handoff": {
+          "label": "exact_project_to_object",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "authorize.wrapper"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "runtime resolution": {
+          "label": "fixed_plain_and_stored_keys",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "ProjectManager.for_api_key"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "environment and time": {
+          "label": "sequential_owned_store",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "resume"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        }
+      },
+      "credential_lifecycle_profile": "no_complete_expiry_refresh_profile_claimed"
+    },
+    {
+      "case": "EteSync",
+      "repository_id": 111317770,
+      "repository": "etesync/server",
+      "snapshot": "6ac54121048e104437eec861f142e7dc1bebf7eb",
+      "stratum": "cross_component",
+      "source_anchors": [
+        {
+          "path": "etebase_server/django/token_auth/models.py",
+          "function": "get_default_expiry",
+          "line": 14,
+          "end_line": 15,
+          "slice_sha256": "e68339b96817b8a02a4431f51a285afe758c9e444fa93a643420d98ec0147e8a"
+        },
+        {
+          "path": "etebase_server/fastapi/dependencies.py",
+          "function": "__renew_token",
+          "line": 28,
+          "end_line": 35,
+          "slice_sha256": "b13b61444313e58b5e7704370a22fe26bdc170c275017c7be2d55396ec200fb0"
+        },
+        {
+          "path": "etebase_server/fastapi/dependencies.py",
+          "function": "__get_authenticated_user",
+          "line": 38,
+          "end_line": 55,
+          "slice_sha256": "19b324ee1ee6af9f7516825cca57f654d1df18c3101fb7f4acf95ccabb06329c"
+        },
+        {
+          "path": "etebase_server/fastapi/dependencies.py",
+          "function": "get_collection_queryset",
+          "line": 71,
+          "end_line": 73,
+          "slice_sha256": "2c0b69922033933607982e0d19a6de49547243e7c4cb3638abc0d7be49cc44ff"
+        },
+        {
+          "path": "etebase_server/fastapi/dependencies.py",
+          "function": "get_collection",
+          "line": 77,
+          "end_line": 78,
+          "slice_sha256": "79aa80c1864e0fb3bbc036f55c2ff0511985253ae5cd408cac84a42b80fa7bee"
+        },
+        {
+          "path": "etebase_server/fastapi/dependencies.py",
+          "function": "get_item_queryset",
+          "line": 82,
+          "end_line": 87,
+          "slice_sha256": "9e75046af907b4e87d05bc76d4e8440af0fa68d2141e7b175e5552d884fe5daa"
+        }
+      ],
+      "entry_premises": [
+        "fixed UTC request clock,source default renewal configuration and complete selected membership/revision rows"
+      ],
+      "checked_boundary": "source token lookup,active/expiry checks,credential deletion/renewal and authenticated identity to source-lowered queries",
+      "required_adaptation": "bounded UTC-time interpretation,expiry-only save/delete primitives and exact returned-principal query mapping",
+      "not_admitted": "not original ORM managers,outer APIKeyHeader/DI dispatch,duplicate memberships,arbitrary clock schedules or concurrent synchronization",
+      "identity_resolution": "source_lookup_with_native_primitive",
+      "effect_boundary": "guard_or_query_before_business_write",
+      "interpretation": "case-specific supported boundary, not proof that the application always satisfies its premises",
+      "effort_minutes": null,
+      "axis_classification": {
+        "identity origin": {
+          "label": "source_token_expiry_lookup",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "__get_authenticated_user"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "post-authorization effects": {
+          "label": "selected_query",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "get_item_queryset"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "identity/state handoff": {
+          "label": "membership_collection_item",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "get_collection_queryset"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "runtime resolution": {
+          "label": "source_identity_to_query",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "get_collection_queryset"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "environment and time": {
+          "label": "fixed_clock_expiry_and_refresh",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "__renew_token"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        }
+      },
+      "credential_lifecycle_profile": "source_expiry_delete_refresh_executed"
+    },
+    {
+      "case": "Pretix",
+      "repository_id": 23791087,
+      "repository": "pretix/pretix",
+      "snapshot": "da622e67528c9ff15ecd998dc3e452ec42f0fc9c",
+      "stratum": "cross_component",
+      "source_anchors": [
+        {
+          "path": "src/pretix/api/auth/permission.py",
+          "function": "EventPermission.has_permission",
+          "line": 51,
+          "end_line": 122,
+          "slice_sha256": "4a6885911cb6699248ab4706ad4324fa427fbba0f81caceaf3e42763fa8b2699"
+        },
+        {
+          "path": "src/pretix/api/auth/permission.py",
+          "function": "EventCRUDPermission.has_permission",
+          "line": 126,
+          "end_line": 137,
+          "slice_sha256": "38fa794eb942eb7f05e66a82153b23d2e47d2c6d6e7effc2d0fc2c95b34566c8"
+        },
+        {
+          "path": "src/pretix/base/models/organizer.py",
+          "function": "Team.event_permission_set",
+          "line": 438,
+          "end_line": 456,
+          "slice_sha256": "2c3e2c8b81bdc25cd0b01c051e0f1067ef708f8e54242f2971be94e29f6176f4"
+        },
+        {
+          "path": "src/pretix/base/models/organizer.py",
+          "function": "TeamAPIToken.get_event_permission_set",
+          "line": 563,
+          "end_line": 574,
+          "slice_sha256": "1ff837e9df64523249ef4b27cdb9ac18afe9cf7f719185bdbd1d56a23c4f3aa1"
+        },
+        {
+          "path": "src/pretix/api/auth/token.py",
+          "public_source_path": "pretix-token-source.txt",
+          "function": "TeamTokenAuthentication.authenticate_credentials",
+          "line": 32,
+          "end_line": 42,
+          "slice_sha256": "e72f4e5fff8105661f8bcf6f82dfe226273c080005b3f896c2bb9c9f171c8cc8"
+        },
+        {
+          "path": "src/pretix/base/permissions.py",
+          "public_source_path": "pretix-core-registry.txt",
+          "function": "register_default_event_permissions",
+          "line": 184,
+          "end_line": 257,
+          "slice_sha256": "292068226f85f5a2377821440d0116389fca9830a832fb8d408b23b8b9f674f1"
+        }
+      ],
+      "entry_premises": [
+        "raw team configuration under the source default-core registry; no instance/action overrides"
+      ],
+      "checked_boundary": "native header parsing,selected token lookup/activity,source view defaults and raw-team/default-core grant construction to event permissions",
+      "required_adaptation": "static view/native-base gate; original core registry and compatibility metadata; source grant builder and token-to-team representation map",
+      "not_admitted": "not runtime instance/action overrides,module initialization,session/device/OAuth fallback,plugin expansion,concurrent revocation or an HTTP server",
+      "identity_resolution": "source_lookup_with_native_primitive",
+      "effect_boundary": "guard_or_query_before_business_write",
+      "interpretation": "case-specific supported boundary, not proof that the application always satisfies its premises",
+      "effort_minutes": null,
+      "axis_classification": {
+        "identity origin": {
+          "label": "source_token_and_native_header",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "TeamTokenAuthentication.authenticate_credentials"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "post-authorization effects": {
+          "label": "permission_before_business_write",
+          "handling": "non-admission",
+          "evidence_functions": [
+            "EventPermission.has_permission"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "identity/state handoff": {
+          "label": "token_team_event",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "TeamAPIToken.get_event_permission_set"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "runtime resolution": {
+          "label": "source_defaults_and_core_grants",
+          "handling": "source-bound primitive adapter",
+          "evidence_functions": [
+            "Team.event_permission_set"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        },
+        "environment and time": {
+          "label": "alternate_entry_and_revocation",
+          "handling": "non-admission",
+          "evidence_functions": [
+            "TeamTokenAuthentication.authenticate_credentials"
+          ],
+          "interpretation": "source-anchored case-scope classification, not inferred application-wide intent"
+        }
+      },
+      "historical_given_grant_profile": "earlier 288/1152/16128 observations retain their given complete-grant premise; separate2304 default-core chain derives grants from raw configuration",
+      "credential_lifecycle_profile": "no_complete_expiry_refresh_profile_claimed"
+    }
+  ],
+  "total_cases": 8,
+  "centralized": 4,
+  "cross_component": 4,
+  "original_cases_not_added_to_transfer_denominator": true,
+  "adaptation_axes": [
+    "identity origin",
+    "post-authorization effects",
+    "identity/state handoff",
+    "runtime resolution",
+    "environment and time"
+  ],
+  "resolution_modes": [
+    "automatic supported source analysis",
+    "explicit configuration/input",
+    "source-bound primitive adapter",
+    "non-admission"
+  ],
+  "overlapping_labels": true,
+  "distribution_population": "eight purposively selected existing cases; not application-wide prevalence",
+  "case_scope_counts": {
+    "supplied_identity_context": 5,
+    "source_lookup_with_native_primitive": 3,
+    "guard_or_query_before_business_write": 6,
+    "selected_business_write_and_native_readback": 2
+  },
+  "axis_counts": {
+    "identity origin": {
+      "source_key_lookup": 1,
+      "source_token_and_native_header": 1,
+      "source_token_expiry_lookup": 1,
+      "supplied_principal": 4,
+      "supplied_tenant": 1
+    },
+    "post-authorization effects": {
+      "before_business_write": 1,
+      "permission_before_business_write": 1,
+      "policy_decision_only": 1,
+      "selected_owner_insert": 1,
+      "selected_persistent_write": 1,
+      "selected_query": 3
+    },
+    "identity/state handoff": {
+      "current_role_relations": 1,
+      "exact_project_to_object": 1,
+      "membership_collection_item": 1,
+      "owner_and_public_template": 1,
+      "owner_to_query_scope": 1,
+      "project_role_and_label_mode": 1,
+      "tenant_to_policy": 1,
+      "token_team_event": 1
+    },
+    "runtime resolution": {
+      "closure_capture": 2,
+      "custom_query_manager": 1,
+      "dynamic_constructor": 1,
+      "fixed_plain_and_stored_keys": 1,
+      "resolved_view_profile": 1,
+      "source_defaults_and_core_grants": 1,
+      "source_identity_to_query": 1
+    },
+    "environment and time": {
+      "alternate_entry_and_revocation": 1,
+      "fixed_clock_expiry_and_refresh": 1,
+      "immutable_role_context": 1,
+      "issuer_and_singleton_lifetime": 1,
+      "opaque_manager_alternatives": 1,
+      "selected_framework_projection": 1,
+      "selected_user_trainer_public_query": 1,
+      "sequential_owned_store": 1
+    }
+  },
+  "axis_handling_counts": {
+    "identity origin": {
+      "explicit configuration/input": 5,
+      "source-bound primitive adapter": 3
+    },
+    "post-authorization effects": {
+      "non-admission": 3,
+      "source-bound primitive adapter": 5
+    },
+    "identity/state handoff": {
+      "automatic supported source analysis": 1,
+      "source-bound primitive adapter": 7
+    },
+    "runtime resolution": {
+      "automatic supported source analysis": 2,
+      "explicit configuration/input": 1,
+      "non-admission": 1,
+      "source-bound primitive adapter": 4
+    },
+    "environment and time": {
+      "explicit configuration/input": 2,
+      "non-admission": 3,
+      "source-bound primitive adapter": 3
+    }
+  },
+  "handling_counts": {
+    "automatic supported source analysis": 3,
+    "explicit configuration/input": 8,
+    "non-admission": 7,
+    "source-bound primitive adapter": 22
+  },
+  "case_scope_percentages": {
+    "supplied_identity_context": 62.5,
+    "source_lookup_with_native_primitive": 37.5,
+    "guard_or_query_before_business_write": 75.0,
+    "selected_business_write_and_native_readback": 25.0
+  },
+  "handling_percentage_denominator": 40,
+  "handling_percentages": {
+    "automatic supported source analysis": 7.5,
+    "explicit configuration/input": 20.0,
+    "non-admission": 17.5,
+    "source-bound primitive adapter": 55.0
+  },
+  "credential_lifecycle_scope_counts": {
+    "no_complete_expiry_refresh_profile_claimed": 7,
+    "source_expiry_delete_refresh_executed": 1
+  }
+}

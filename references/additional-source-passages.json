@@ -1,0 +1,167 @@
+{
+  "retrieved_date_utc": "2026-11-19",
+  "scope": "Newly inspected selected passages and metadata. This does not claim full-paper rereading or reproduction of the cited experiments. Older reading events remain unchanged in their original folders.",
+  "reviews": [
+    {
+      "key": "xing2025cnlp",
+      "url": "https://arxiv.org/abs/2508.06942v1",
+      "ref": "turn320806471view3",
+      "scope": "Primary arXiv abstract page and submission metadata; v1 is the sole displayed version.",
+      "claim": "A structured controlled-language front end with grammar and linting is described; no efficacy result is imported.",
+      "finding": "Current short related-work description is supported."
+    },
+    {
+      "key": "vatsa2026autocedar",
+      "url": "https://arxiv.org/html/2607.03656v2",
+      "ref": "turn908155353view0",
+      "scope": "Primary v2 abstract and Sections I\u2013III A\u2013C, including target construction and verifier feedback.",
+      "claim": "Schema and intent atoms are reviewed; a fixed target supplies synthesis checks and repair directions.",
+      "finding": "Supports the synthesis-versus-diagnosis distinction. Pin v2 so future revisions cannot silently change the cited source."
+    },
+    {
+      "key": "bocic2016cancheck",
+      "url": "https://sites.cs.ucsb.edu/~bultan/publications/ase16.pdf",
+      "ref": "turn108114527view2; turn841915498view2",
+      "scope": "Abstract; model extraction outline; Table 2 and Section 6.1 at physical page 9.",
+      "claim": "The four SprintApp violations arise from a checked/used-object mismatch involving CanCan and ActiveAdmin.",
+      "finding": "Introduction claim is directly supported. These four violations are from the authors' study, not an AuthRefine replication or prevalence estimate."
+    },
+    {
+      "key": "near2016space",
+      "url": "https://groups.csail.mit.edu/sdg/pubs/2016/access-control-patterns-icse2016.pdf",
+      "ref": "turn108114527view3; turn841915498view3",
+      "scope": "Author manuscript abstract; Sections 3.4, 3.5, 4.3 and 4.4.",
+      "claim": "SPACE extracts data exposures, uses supplied application type and field mappings, and checks catalog patterns with bounded Alloy analysis.",
+      "finding": "Mappings and source exposure checks are established prior work. AuthRefine's distinction must be the complete fixed-family profile and shortest per-binding sequential replays."
+    },
+    {
+      "key": "robol2023consent",
+      "url": "https://iris.unitn.it/retrieve/4d688379-d9d7-42bf-8faa-57fc481f42da/3490754.pdf",
+      "ref": "turn108114527view1; turn843754215view1",
+      "scope": "Published front matter and abstract; framework overview; application/use-case and scalability sections.",
+      "claim": "TOSEM framework paper links formal consent evolution, executable scenarios and scalability experiments with explicit runtime-event integration.",
+      "finding": "Appropriate genre comparator for structure and evidence. Its 33 pages do not establish a TOSEM page limit."
+    },
+    {
+      "key": "classen2011symbolic",
+      "url": "https://pure.unamur.be/ws/portalfiles/portal/1064131/70973.pdf",
+      "ref": "turn599654658view0",
+      "scope": "Institutional author preprint cover, abstract, introduction and featured-transition-system definition.",
+      "claim": "Symbolic model checking shares state/configuration work across a software family.",
+      "finding": "Do not claim fixed-family verification or shared exploration themselves are new. The local-support/complete-observation specialization needs its own argument."
+    },
+    {
+      "key": "chakarov2025cloud",
+      "url": "https://cdn.amazon.science/bb/40/22ac44f84f6d8eb625ac9666a00f/formally-verified-cloud-scale-authorization.pdf",
+      "ref": "turn186821268view2; turn903479475view3",
+      "scope": "Primary author PDF title/author list, abstract, introduction, specification-validation and deployment-validation passages, physical pages 1\u20135 and 9.",
+      "claim": "The paper distinguishes proving a replacement against its specification from validating that specification against legacy behavior with differential and shadow testing.",
+      "finding": "The manuscript's stated distinction is supported by full-text passages. Earlier failed fetch is preserved as historical; this successful access is a separate new event."
+    },
+    {
+      "key": "foster2015coalgebraic",
+      "url": "https://www.cs.cornell.edu/~kozen/Papers/NetKATcoalg.pdf",
+      "ref": "turn903479475view1; turn234334885search0",
+      "scope": "Current author-hosted PDF first page and author's publication record; bibliographic names and abstract.",
+      "claim": "Specialized derivatives and sparse coalgebraic representations support bisimulation-based NetKAT equivalence checking.",
+      "finding": "Supports current related-work claim. Correct the current bibliography coauthor credit to Mae Milano."
+    },
+    {
+      "key": "bryant1986graphs",
+      "url": "https://www.cs.cmu.edu/~bryant/pubdir/ieeetc86.pdf",
+      "ref": "turn903479475view2",
+      "scope": "Author-hosted manuscript first page.",
+      "claim": "The author is Randal E. Bryant; functions are represented by restricted directed acyclic graphs.",
+      "finding": "The Crossref deposit's surname-only credit is incomplete, so retain the full name supported by the primary manuscript."
+    },
+    {
+      "key": "hardt2012oauth",
+      "url": "https://www.rfc-editor.org/info/rfc6749/",
+      "ref": "turn426268362view1; turn968760208search1",
+      "scope": "RFC Editor publication metadata and front matter.",
+      "claim": "RFC 6749 is dated October 2012; Dick Hardt is credited as editor.",
+      "finding": "Crossref stores the credit under editor, not author. This is not a missing or invented contributor."
+    },
+    {
+      "key": "lodderstedt2013revocation",
+      "url": "https://www.rfc-editor.org/info/rfc7009/",
+      "ref": "turn426268362view2; turn968760208search2; turn968760208search3",
+      "scope": "RFC Editor metadata/front matter and official IETF metadata history.",
+      "claim": "RFC 7009 is dated August 2013 and credits Torsten Lodderstedt (editor), Stefanie Dronia and Marius Scurtescu.",
+      "finding": "Crossref splits its first contributor into editor metadata; official history corroborates the expanded names."
+    },
+    {
+      "key": "lamport1996refinement",
+      "url": "https://lamport.azurewebsites.net/pubs/refinement.pdf",
+      "ref": "turn426268362view3",
+      "scope": "Author-hosted SRC Technical Note front matter, clock example and mapped-transition discussion. The copyright year printed on the cover is 1997; the report date is 1996.",
+      "claim": "A mapped state/action relation can establish implementation behavior under its proof obligations.",
+      "finding": "Report identity and 1996 date supported; retain formal term 'simulation' where it describes a mathematical relation, not data provenance."
+    },
+    {
+      "key": "piccolo2026sessions",
+      "url": "https://github.com/piccolo-orm/piccolo_admin/security/advisories/GHSA-2gh4-jmwq-rr8w",
+      "ref": "turn903479475view0; turn843754215view0",
+      "scope": "Primary project advisory metadata, summary, configuration preconditions and maintainer response. BibTeX uses a descriptive shorter title and collective Piccolo maintainer credit.",
+      "claim": "A configured non-superuser administrator can retrieve session tokens via an exposed Sessions table; affected and patched releases concern piccolo_admin.",
+      "finding": "Do not conflate advisory piccolo_admin versions with the separately tested Piccolo ORM versions or claim a complete exploit reproduction."
+    },
+    {
+      "key": "xu2026parametric",
+      "url": "https://arxiv.org/abs/2607.09637v1",
+      "ref": "turn701131922academia5; turn544395786academia52",
+      "scope": "Search-indexed primary arXiv abstract and metadata. Direct abstract/HTML/PDF retrieval is disabled; no current full-text read is claimed.",
+      "claim": "The abstract states that the language collects satisfying parameter valuations for network queries.",
+      "finding": "A broad claim that it lacks shortest-witness functionality would require a fresh full-method review; the manuscript should state AuthRefine's positive output contract instead."
+    },
+    {
+      "key": "fisler2005margrave",
+      "url": "https://cs.brown.edu/people/kfisler/Pubs/icse05.pdf",
+      "ref": "turn783349854view0",
+      "scope": "Author-hosted manuscript abstract, introduction and change-impact explanation; IEEE co-publication Crossref metadata supplies complete pages.",
+      "claim": "Decision-diagram XACML analysis compares policy versions and exposes changed permitted or denied requests.",
+      "finding": "Current claim supported. The ACM deposit first page 196 is incomplete; the separately retrieved IEEE co-publication deposit confirms 196\u2013205 without adding a duplicate bibliography item."
+    },
+    {
+      "key": "lynch1995simulations",
+      "url": "https://dare.uva.nl/id/88895f5a-e3b8-40b0-8c06-d9c1c7871db1",
+      "ref": "turn968760208search4; turn968760208search5",
+      "scope": "Primary UvA publication metadata and MIT author publication list; not a new full-paper read.",
+      "claim": "The journal publication title includes Part I: Untimed Systems and is dated 1995, volume 121(2), pages214\u2013233.",
+      "finding": "The shortened Crossref title must not cause deletion of the correct subtitle."
+    }
+  ],
+  "additional_near_work": [
+    {
+      "url": "https://pure.unamur.be/ws/portalfiles/portal/11772655/1_s2.0_S0167642313002517_main.pdf",
+      "ref": "turn599654658view1",
+      "title": "Formal semantics, modular specification, and symbolic verification of product-line behaviour",
+      "doi": "10.1016/j.scico.2013.09.019",
+      "year": 2014,
+      "scope": "Cover, introduction and model-checking problem statement.",
+      "decision": "No additional bibliography key; the existing ICSE 2011 reference already supports the shared-family positioning used in the manuscript."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://arxiv.org/abs/2607.09637v1",
+      "ref": "turn320806471view1",
+      "error": "DisabledError"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.09637v1",
+      "ref": "turn908155353view1",
+      "error": "DisabledError"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2607.09637",
+      "ref": "turn186821268view0",
+      "error": "DisabledError"
+    },
+    {
+      "url": "https://dl.acm.org/journal/tosem/author-guidelines",
+      "ref": "turn908155353view2",
+      "error": "403 Forbidden"
+    }
+  ]
+}

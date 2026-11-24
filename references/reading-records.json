@@ -1,0 +1,626 @@
+{
+  "scope": "Recorded source-reading claims. Refreshing manuscript locations or checking retained metadata does not change these reading scopes or dates.",
+  "fields": [
+    "citation_key",
+    "reading_scope",
+    "supported_claim",
+    "verification_basis",
+    "metadata_notes",
+    "access_date",
+    "readable_primary_source"
+  ],
+  "records": [
+    {
+      "citation_key": "xing2025cnlp",
+      "reading_scope": "Primary arXiv abstract and author/submission metadata; no new fulltext or proof audit.",
+      "supported_claim": "CNL-P describes structured controlled-language specifications with grammar and linting for human--AI interaction.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Public arXiv preprint; the record is not represented as peer reviewed",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://arxiv.org/abs/2508.06942"
+    },
+    {
+      "citation_key": "swamy2010fine",
+      "reading_scope": "Primary author PDF abstract and opening introduction, physical page 1; supports dynamic stateful authorization and information-flow types. No proof audit.",
+      "supported_claim": "FINE uses a type system to enforce stateful authorization and information-flow policies.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/paper-78.pdf"
+    },
+    {
+      "citation_key": "cutler2024cedar",
+      "reading_scope": "Primary author PDF abstract and author list, physical page 1; supports typed policies and logical analysis. No proof audit.",
+      "supported_claim": "Cedar combines typed authorization policies with precise logical policy analysis.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://cdn.amazon.science/96/a8/1b427993481cbdf0ef2c8ca6db85/cedar-a-new-language-for-expressive-fast-safe-and-analyzable-authorization.pdf"
+    },
+    {
+      "citation_key": "liu2009linearizability",
+      "reading_scope": "Primary author PDF abstract and introduction definition, physical page 1; refinement comparison of concurrent histories with sequential semantics. No full proof reading.",
+      "supported_claim": "Linearizability checking can be formulated as refinement or execution-trace containment for concurrent histories, unlike the sequential traces considered here.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.comp.nus.edu.sg/~pat/publications/linearizability.pdf"
+    },
+    {
+      "citation_key": "foster2007lenses",
+      "reading_scope": "Primary author PDF abstract and opening introduction, physical pages 1--2; concrete/view updates and well-behaved lenses. Published pagination not inferred from this prepublication copy.",
+      "supported_claim": "Bidirectional tree-transformation lenses motivate explicit round-trip laws, while this paper claims only normalization and observable semantic reification.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.cis.upenn.edu/~bcpierce/papers/lenses-toplas-final.pdf"
+    },
+    {
+      "citation_key": "lamport1996refinement",
+      "reading_scope": "Author technical note front matter, clock example and refinement-mapping discussion/equations (16)--(18), physical pages 6--8. No proof re-verification.",
+      "supported_claim": "A supplied refinement mapping can reduce a global behavior relation to local mapped-transition obligations.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Technical report; the official author-hosted report path is retained as the unique identifier",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://lamport.azurewebsites.net/pubs/refinement.pdf"
+    },
+    {
+      "citation_key": "leroy2009backend",
+      "reading_scope": "Primary author manuscript abstract and opening introduction, page 1; Coq proof of semantic preservation from Cminor to PowerPC. No full verification-chain audit.",
+      "supported_claim": "A mechanically verified compiler backend establishes a substantially longer end-to-end semantic preservation chain than this finite table compiler.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://xavierleroy.org/publi/compcert-backend.pdf"
+    },
+    {
+      "citation_key": "lang2003independence",
+      "reading_scope": "Primary arXiv abstract and journal-reference metadata; distinction between syntactic and semantic independence. The 2011 arXiv deposit is an access copy of the 2003 JAIR article.",
+      "supported_claim": "Semantic variable independence is distinct from syntactic occurrence and motivates separating exact relevance from conservative support.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://arxiv.org/abs/1106.4578"
+    },
+    {
+      "citation_key": "bryant1986graphs",
+      "reading_scope": "Primary author PDF abstract and reduced-function-graph Definition 5, physical pages 1 and 5; merging duplicate subgraphs is explicitly stated.",
+      "supported_claim": "Reduced ordered decision diagrams share repeated Boolean subfunctions and provide a symbolic alternative to explicit assignment enumeration.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.cs.cmu.edu/~bryant/pubdir/ieeetc86.pdf"
+    },
+    {
+      "citation_key": "vatsa2026autocedar",
+      "reading_scope": "Primary arXiv v2 abstract and revision metadata, revised 2026-11-15; no new fulltext or proof audit.",
+      "supported_claim": "AutoCedar synthesizes authorization policies against a reviewed formal target and uses verifier feedback to repair policies without changing that target.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "The unversioned bibliography identifier resolves to a preprint with v1 dated 2026-07-04 and v2 dated 2026-11-15. The current abstract check is on v2; prior September reading cannot cover that revision.",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://arxiv.org/abs/2607.03656v2"
+    },
+    {
+      "citation_key": "fournet2007authorization",
+      "reading_scope": "Published primary article abstract, ACM reference block and Section 1.2, physical pages 1--2; logical authorization assertions and dependent-type checking of implementation code.",
+      "supported_claim": "A type discipline can internalize authorization assertions for a richer concurrent calculus.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://people.mpi-sws.org/~dg/teaching/lis2014/modules/refinement-1-fournet07.pdf"
+    },
+    {
+      "citation_key": "bengtson2008refinement",
+      "reading_scope": "Published primary journal PDF abstract, introduction and ACM reference block, page 1. The stable citation key contains 2008, but the cited record is correctly the 2011 TOPLAS article, DOI 10.1145/1890028.1890031.",
+      "supported_claim": "Refinement types can connect security assertions to implementation code.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://andrewdgordon.github.io/papers/refinement-types-for-secure-implementations.pdf"
+    },
+    {
+      "citation_key": "lamport1994tla",
+      "reading_scope": "Primary author manuscript abstract and opening introduction, physical pages 1--2; state/action logic and implementation as logical implication. Access copy has 1993 placeholder front matter; cited publication is the 1994 journal article.",
+      "supported_claim": "TLA supplies a behavior-based state/action setting in which mapped-transition reasoning can be expressed.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://lamport.azurewebsites.net/pubs/lamport-actions.pdf"
+    },
+    {
+      "citation_key": "clarke1994abstraction",
+      "reading_scope": "Published article abstract, bibliographic footer and opening abstraction construction, pages 1512--1513. No theorem proof re-verification.",
+      "supported_claim": "Abstract model checking changes state representations while preserving a specified property class, unlike the exact dependence-closed projection used here.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.cs.cmu.edu/~emc/papers/Papers%20In%20Refereed%20Journals/Model%20Checking%20and%20Abstraction94.pdf"
+    },
+    {
+      "citation_key": "rival2007partitioning",
+      "reading_scope": "Primary author manuscript abstract and motivating trace-precision example, physical pages 1--2; cost/precision tradeoff and retaining execution-path distinctions.",
+      "supported_claim": "Trace partitioning retains selected history distinctions to trade cost for abstract-interpretation precision.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.di.ens.fr/~rival/papers/toplas07.pdf"
+    },
+    {
+      "citation_key": "necula2000validation",
+      "reading_scope": "Primary author PDF abstract and introduction, page 1; validation of each individual compiler pass/compilation rather than proving all compiler runs correct.",
+      "supported_claim": "Translation validation checks each produced optimized program rather than trusting a compiler globally.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://people.eecs.berkeley.edu/~necula/Papers/tv_pldi00.pdf"
+    },
+    {
+      "citation_key": "schneider2000enforceable",
+      "reading_scope": "Published primary PDF abstract, bibliographic footer and opening definitions, pages 30--31; characterization of execution-monitor-enforceable policies.",
+      "supported_claim": "Security automata characterize a class of safety properties enforceable by execution monitoring.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.cs.cornell.edu/fbs/publications/EnfSecPols.pdf"
+    },
+    {
+      "citation_key": "hamlen2006enforcement",
+      "reading_scope": "Primary author manuscript abstract and introduction, physical pages 1--2; separate enforcement classes for monitoring and rewriting. Placeholder prepublication date is not used as publication metadata.",
+      "supported_claim": "Monitoring and rewriting mechanisms have distinct computability limits for policy enforcement.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.cs.cornell.edu/fbs/publications/EnfClasses.pdf"
+    },
+    {
+      "citation_key": "barthe2009translation",
+      "reading_scope": "Primary author publication record for the 2009 TOPLAS identity; search-indexed abstract of the original manuscript at CiteSeerX corroborates proof-to-certificate translation. Direct author PDF returned 502 and mirror returned 403; no new fulltext reading.",
+      "supported_claim": "Certificate translation transforms correctness evidence for source programs into certificates for compiled programs under the specified transformations.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting Primary author record confirms the 2009 TOPLAS identity; current claim support is restricted to the indexed original manuscript abstract, not its inaccessible body.",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://software.imdea.org/~ckunz/"
+    },
+    {
+      "citation_key": "barthe2011abstract",
+      "reading_scope": "Primary author manuscript abstract and introduction, physical pages 1--2; certifying analysis vs certificate translation and per-program evidence. Placeholder DOI/date on this access copy are not publication identifiers.",
+      "supported_claim": "An abstract model of certificate translation separates analyses, transformations, and proof obligations.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "TOPLAS 33(4), 46 pages; DOI and readable author copy recorded separately",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://software.imdea.org/~ckunz/toplas2.pdf"
+    },
+    {
+      "citation_key": "clements2004stack",
+      "reading_scope": "Published primary PDF abstract and Section 1, pages 1029--1030; losing call context affects stack-inspection semantics and a different machine preserves tail calls.",
+      "supported_claim": "A tail-recursive machine for stack inspection shows that preserving authorization behavior depends on the execution representation.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.brinckerhoff.org/clements/papers/cf-toplas04.pdf"
+    },
+    {
+      "citation_key": "lamport2022prophecy",
+      "reading_scope": "Primary 2020 author manuscript abstract and introduction, printed pages 1--2; history/prophecy variables can be required to construct refinement mappings. Published 2022 record remains separate from access-copy date.",
+      "supported_claim": "Prophecy variables support refinement arguments when the useful abstract state is not determined by the present concrete state alone.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://lamport.azurewebsites.net/pubs/simple.pdf"
+    },
+    {
+      "citation_key": "rendel2010invertible",
+      "reading_scope": "Primary author PDF abstract and introduction, page 1; shared syntax descriptions for parsing/printing and the difference between concrete/abstract representations.",
+      "supported_claim": "Invertible syntax descriptions unify parsing and pretty printing and motivate precise structural round-trip laws.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.informatik.uni-marburg.de/~rendel/unparse/rendel10invertible.pdf"
+    },
+    {
+      "citation_key": "kuhn2014survey",
+      "reading_scope": "Publisher PDF abstract, DOI block and introduction, physical pages 1--2; CNLs span ambiguous natural-language restrictions through formal interpretations.",
+      "supported_claim": "Controlled natural languages range from readability-oriented restrictions to languages with formal interpretations.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://aclanthology.org/J14-1005.pdf"
+    },
+    {
+      "citation_key": "horwitz1990slicing",
+      "reading_scope": "Published article abstract and introductory slice definition, pages 26--27; retained statements may affect the selected variable at a program point.",
+      "supported_claim": "Dependence-graph slicing uses backward relevance to retain computations needed for selected observations.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.csa.iisc.ac.in/~raghavan/CleanedPav2011/horwitz-sdg-slicing-1990.pdf"
+    },
+    {
+      "citation_key": "jourdan2012parsers",
+      "reading_scope": "Primary author PDF abstract, introduction and architecture description, physical pages 1--2; untrusted LR(1) generator with a Coq-proved validator.",
+      "supported_claim": "An untrusted LR(1) automaton can be checked by a validator whose correctness is proved in Coq.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://xavierleroy.org/publi/validated-parser.pdf"
+    },
+    {
+      "citation_key": "tristan2008validators",
+      "reading_scope": "Primary author PDF abstract and introduction, page 1; list/trace scheduling validators and Coq correctness proofs. No new proof re-verification.",
+      "supported_claim": "Instruction-scheduling translation validators can themselves be proved correct in Coq.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://jtristan.github.io/papers/popl08.pdf"
+    },
+    {
+      "citation_key": "bourke2017lustre",
+      "reading_scope": "Primary author PDF abstract, DOI and introduction, page 1; repeated generated assembly execution implements source dataflow semantics.",
+      "supported_claim": "A formally verified Lustre compiler connects synchronous stream semantics to repeated execution of generated imperative code.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://xavierleroy.org/publi/velus-pldi17.pdf"
+    },
+    {
+      "citation_key": "doenges2022leapfrog",
+      "reading_scope": "Primary arXiv author PDF abstract, DOI/reference block and opening parser-equivalence discussion, physical pages 1--2; symbolic bisimulation and mechanized soundness.",
+      "supported_claim": "Leapfrog combines automata, symbolic bisimulation, solver automation, and mechanized soundness for protocol-parser equivalence.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://arxiv.org/pdf/2205.08762"
+    },
+    {
+      "citation_key": "classen2011symbolic",
+      "reading_scope": "Primary institutional author preprint cover, abstract and introduction, followed by Sections 4.2 and 4.3 (Definition 18 and Theorem 19) and Section 5.2, physical pages 6–8. The additional passages establish complete violating-configuration sets. No external artifact execution or complete proof reproduction.",
+      "supported_claim": "Symbolic model checking of software product lines computes satisfaction over state/product pairs and returns the complete set of violating configurations by projecting initial violations onto products.",
+      "verification_basis": "The primary institutional PDF was read on 2026-11-18 and the claim-specific additional sections on 2026-11-19. The original source-passage-checks.json record and additional current-source-passages.json event retain the separate reading scopes. Manuscript citation and metadata consistency are checked locally.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-19",
+      "readable_primary_source": "https://pure.unamur.be/ws/portalfiles/portal/1064131/70973.pdf"
+    },
+    {
+      "citation_key": "abate2021traces",
+      "reading_scope": "Primary author manuscript abstract, physical page 1; correctness under arbitrary relations between source and target trace sets. Draft placeholders are not treated as published metadata.",
+      "supported_claim": "Trace-relating compiler correctness permits relations more general than lockstep equality between source and target traces.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "TOPLAS 43(4), Article 14, 48 pages; DOI and readable author copy recorded separately",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://squera.github.io/pdf/main-j.pdf"
+    },
+    {
+      "citation_key": "patrignani2024uc",
+      "reading_scope": "Primary author manuscript abstract, physical page 1; robust compilation quantifies over interacting target code and UC composes protocols. Draft 2022 placeholder volume/article/DOI is not used as the published 2024 bibliographic record.",
+      "supported_claim": "Robust compilation and universal composability quantify over interacting contexts, unlike this closed-table equivalence problem.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting The 2024 title/authors/venue and DOI 10.1145/3698234 were confirmed against the primary University of Trento record https://iris.unitn.it/handle/11572/447893; the author draft has a placeholder 2022 header.",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://squera.github.io/pdf/uc-is-sc-j.pdf"
+    },
+    {
+      "citation_key": "chakarov2025cloud",
+      "reading_scope": "Primary Amazon abstract plus search-indexed original PDF first page, including author list. Direct PDF fetch failed; no full-paper reading.",
+      "supported_claim": "Cloud-scale authorization verification separates a correctness proof from establishing that the specification matches operational behavior, using differential and shadow testing for the latter connection.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Published author spellings follow the primary PDF, including Ruijie Fang and Tongtong Xiang; the Amazon landing-page BibTeX uses inconsistent author-name variants. DOI 10.1109/ICSE55347.2025.00166.",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.amazon.science/publications/formally-verified-cloud-scale-authorization"
+    },
+    {
+      "citation_key": "abadi1991mappings",
+      "reading_scope": "Primary author 1988 technical-report abstract and capsule review, physical page 3; state mapping and auxiliary history/prophecy variables. The access copy precedes the cited 1991 journal version.",
+      "supported_claim": "State mappings and auxiliary variables are established refinement techniques",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://lamport.azurewebsites.net/pubs/abadi-existence.pdf"
+    },
+    {
+      "citation_key": "lynch1995simulations",
+      "reading_scope": "Primary author 1994 manuscript abstract, physical page 1; forward/backward simulations and related history/prophecy techniques. The manuscript date is distinguished from 1995 journal publication.",
+      "supported_claim": "Forward/backward simulation methods provide a broader relation framework",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://groups.csail.mit.edu/tds/papers/Lynch/IC95.pdf"
+    },
+    {
+      "citation_key": "necula1997pcc",
+      "reading_scope": "Search-indexed publisher abstract and author's publication record; producer supplies a safety proof for host validation. Direct postscript and legacy abstract links were not readable; no full-paper reading.",
+      "supported_claim": "Producer-supplied evidence and a small consumer-side checker are established",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://doi.org/10.1145/263699.263712"
+    },
+    {
+      "citation_key": "pnueli1998validation",
+      "reading_scope": "Publisher abstract and conference metadata only; subscription full text was not read. TACAS 1998 is the publication year, distinct from the 2006 web-posting date.",
+      "supported_claim": "Validate a particular translation rather than all runs of the producer",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://link.springer.com/chapter/10.1007/BFb0054170"
+    },
+    {
+      "citation_key": "fisler2005margrave",
+      "reading_scope": "Primary author PDF abstract and introduction, page 1; decision-diagram XACML analysis and semantic differencing between policy versions.",
+      "supported_claim": "Decision-diagram policy verification and semantic change-impact analysis",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://cs.brown.edu/people/kfisler/Pubs/icse05.pdf"
+    },
+    {
+      "citation_key": "dougherty2006dynamic",
+      "reading_scope": "Primary author PDF abstract, introductory dynamic environments and contextual-containment analysis, physical pages 1--2 and 8--12; reachable contexts and failed-request/path counterexamples.",
+      "supported_claim": "Dynamic-policy reasoning already reduces contextual containment to reachable local environments",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://cs.brown.edu/people/kfisler/Pubs/ijcar06.pdf"
+    },
+    {
+      "citation_key": "backes2018zelkova",
+      "reading_scope": "Primary author PDF abstract and Section II comparison contract, physical pages 1--2; SMT policy semantics and less-or-equally-permissive queries.",
+      "supported_claim": "SMT-based semantic comparison is a direct authorization-analysis alternative",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://cdn.amazon.science/56/3c/7d75bca84c56b9b1ed1999beec0c/semantic-based-automated-reasoning-for-aws-access-policies-using-smt.pdf"
+    },
+    {
+      "citation_key": "bouchet2020public",
+      "reading_scope": "Primary Amazon publication abstract and venue metadata; residual-policy reduction retains untrusted accesses for trust-safety checking. No new full-paper reading.",
+      "supported_claim": "Trust-safety checking simplifies policy information relative to a specified query",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.amazon.science/publications/block-public-access-trust-safety-verification-of-access-control-policies"
+    },
+    {
+      "citation_key": "abadi1993access",
+      "reading_scope": "Primary author PDF abstract and opening principal/role/delegation discussion, physical pages 1--2; old dcs.ed.ac.uk path replaced by current homepages.inf.ed.ac.uk URL.",
+      "supported_claim": "Authorization logics assign meanings to principals, roles and delegation",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://homepages.inf.ed.ac.uk/gdp/publications/Calculus_for_Access_Control.pdf"
+    },
+    {
+      "citation_key": "becker2009dynpal",
+      "reading_scope": "Primary author PDF abstract and introduction, physical pages 1--2; transactional policy updates, finite-domain reachability and invariant checking over arbitrary domains.",
+      "supported_claim": "Dynamic authorization includes richer policy-changing actions than the fixed-role Boolean fragment",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/07/Moritz-Becker-IEEE-CSF-2009-corrected.pdf"
+    },
+    {
+      "citation_key": "kozen1997kat",
+      "reading_scope": "Primary author PDF abstract and opening tests/guard discussion, physical pages 1--2. Text extraction damages some formula glyphs; support is restricted to the readable algebraic-equivalence claim.",
+      "supported_claim": "Kleene algebra with tests is an established algebraic foundation",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.cs.cornell.edu/~kozen/Papers/kat.pdf"
+    },
+    {
+      "citation_key": "anderson2014netkat",
+      "reading_scope": "Primary institutional publication record and exact abstract only; semantic/equational foundations of NetKAT. No new full-paper reading.",
+      "supported_claim": "NetKAT gives semantic and equational foundations for network policies",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://collaborate.princeton.edu/en/publications/netkat-semantic-foundations-for-networks-2/"
+    },
+    {
+      "citation_key": "foster2015coalgebraic",
+      "reading_scope": "Primary institutional publication record and exact abstract only; specialized derivatives, bisimulation and sparse representation.",
+      "supported_claim": "Coalgebraic derivatives and bisimulation support NetKAT equivalence checking",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://collaborate.princeton.edu/en/publications/a-coalgebraic-decision-procedure-for-netkat-3/"
+    },
+    {
+      "citation_key": "pous2015symbolic",
+      "reading_scope": "Author's publication/artifact page and exact abstract; BDD-based symbolic automata and bisimulation for large-alphabet language equivalence. Artifact was not executed.",
+      "supported_claim": "Symbolic representations address large alphabets and language equivalence",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://perso.ens-lyon.fr/damien.pous/symbolickat/"
+    },
+    {
+      "citation_key": "smolka2020gkat",
+      "reading_scope": "Published primary PDF abstract, bibliographic block and Section 5.3/Theorem 5.10 with complexity argument, pages 61:20--61:22; near-linear complexity explicitly assumes constant atom set.",
+      "supported_claim": "For a fixed Boolean algebra, structured guarded programs admit a nearly linear equivalence procedure",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.cs.cornell.edu/kozen/Papers/GKATPOPL.pdf"
+    },
+    {
+      "citation_key": "bonchi2013congruence",
+      "reading_scope": "Author's exact abstract and publication/artifact page; up-to-congruence equivalence checking and optimization of Hopcroft--Karp. No artifact execution.",
+      "supported_claim": "Bisimulation up to congruence can reduce equivalence exploration",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://perso.ens-lyon.fr/damien.pous/hknt/"
+    },
+    {
+      "citation_key": "cousot1977abstract",
+      "reading_scope": "Author's publication page, bibliographic record and detailed summary; abstract universes, lattice structure and sound approximation. Full article proofs were not re-read.",
+      "supported_claim": "Lattice-based abstraction approximates concrete semantics",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.di.ens.fr/~cousot/COUSOTpapers/POPL77.shtml"
+    },
+    {
+      "citation_key": "clarke2000cegar",
+      "reading_scope": "Publisher abstract and full bibliographic metadata only; spurious counterexamples and iterative refinement are explicit. Subscription full text was not read.",
+      "supported_claim": "Spurious abstract counterexamples motivate abstraction refinement",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://link.springer.com/chapter/10.1007/10722167_15"
+    },
+    {
+      "citation_key": "clarkson2010hyperproperties",
+      "reading_scope": "Published primary PDF abstract, DOI and introduction, pages 1157--1158; hyperproperties are sets of trace sets and exceed single-trace properties.",
+      "supported_claim": "Hyperproperties concern sets of traces; observation vocabulary matters",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.cs.cornell.edu/fbs/publications/Hyperproperties.pdf"
+    },
+    {
+      "citation_key": "alpern1985liveness",
+      "reading_scope": "Published primary PDF abstract and Sections 1--3, pages 181--182; infinite executions, finite bad prefixes for safety and the introduction of liveness.",
+      "supported_claim": "A finite discrepancy bound is not a general bounded liveness test",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.cs.cornell.edu/fbs/publications/DefLiveness.pdf"
+    },
+    {
+      "citation_key": "fuchs2008attempto",
+      "reading_scope": "Publisher abstract and chapter metadata only; unambiguous translation of restricted English to first-order logic. Subscription full text was not read.",
+      "supported_claim": "Controlled English can have a specified logical interpretation",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://link.springer.com/chapter/10.1007/978-3-540-85658-0_3"
+    },
+    {
+      "citation_key": "park2004ucon",
+      "reading_scope": "Published primary PDF abstract and bibliographic footer, page 128; ongoing controls and attribute mutability are explicitly part of UCON.",
+      "supported_claim": "Usage control includes ongoing decisions and mutable attributes",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://profsandhu.com/cs5323_s17/UCON-2004.pdf"
+    },
+    {
+      "citation_key": "moeller2024katch",
+      "reading_scope": "Primary arXiv HTML abstract and introduction; symbolic representations and bisimulation/counterexample verification. Placeholder header year is not used as publication metadata.",
+      "supported_claim": "KATch is a direct modern symbolic NetKAT equivalence comparator",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://arxiv.org/html/2404.04760v1"
+    },
+    {
+      "citation_key": "harrison1976protection",
+      "reading_scope": "Published original article PDF, abstract and introduction on page 461; safety asks whether a subject can acquire a right. ACM indexed metadata cross-check distinguishes the 1976 article from the 1975 precursor.",
+      "supported_claim": "Rights acquisition safety differs from preservation of a specified policy",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Formal DOI and a readable source path are recorded separately where available; the DOI is the unique publication identifier used for counting",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.cs.purdue.edu/homes/ninghui/readings/Qual2/Harrison-Ruzzo-Ullman76.pdf"
+    },
+    {
+      "citation_key": "xu2026relational",
+      "reading_scope": "Primary institutional abstract and publication record; no new fulltext proof audit.",
+      "supported_claim": "Relational NetKAT specifies trace relations with insertion, deletion and packet transformation, which are more general than lockstep event equality.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "Primary institutional record confirms PACMPL 10 (POPL), pages 384--412, 29 pages, DOI 10.1145/3776656. A longer author preprint must not replace published pagination.",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://collaborate.princeton.edu/en/publications/network-change-validation-with-relational-netkat/"
+    },
+    {
+      "citation_key": "xu2026parametric",
+      "reading_scope": "Author manuscript body accessed through a ResearchGate mirror, identifiable as arXiv:2607.09637v1 dated 10 July 2026. Read Section 2 p.4; Section 5.2 pp.15–17; Section 5.3 Algorithms 1–2 and Theorems 5.3–5.4 pp.17–19. The current official arXiv HTML/PDF endpoints remained unavailable. No artifact execution or independent proof reproduction.",
+      "supported_claim": "Fixed valuations persist throughout traces. The algorithm returns all satisfying valuations and retires solved valuations. Weighted queries aggregate per-valuation path costs; the tropical example gives shortest-path costs.",
+      "verification_basis": "The claim-specific author text was read on 2026-11-20 through the explicitly identified mirror. The separate source event retains precise section and page locations. This reading credits existing mechanisms and makes no cross-tool performance or absent-witness claim.",
+      "metadata_notes": "arXiv preprint v1; placeholder ACM DOI/date in manuscript header not treated as publication metadata",
+      "access_date": "2026-11-20",
+      "readable_primary_source": "https://www.researchgate.net/publication/409183914_Network_Analysis_with_Parametric_NetKAT"
+    },
+    {
+      "citation_key": "hardt2012oauth",
+      "reading_scope": "RFC Editor Section 4.1.2, authorization-code reuse and binding paragraph; normative single use, client identifier and redirect URI. Full protocol compliance is not claimed.",
+      "supported_claim": "Authorization code single use and binding to client identifier/redirection URI; finite model excludes recommended revocation after replay.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "RFC Editor normative primary source; requirement model is not a service implementation",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.rfc-editor.org/rfc/rfc6749.html#section-4.1.2"
+    },
+    {
+      "citation_key": "lodderstedt2013revocation",
+      "reading_scope": "RFC Editor Sections 2.1--2.2: SHOULD for same-grant access-token invalidation under the stated server support condition; HTTP 200 also applies to invalid tokens.",
+      "supported_claim": "Actual-token invalidation and policy-dependent related-token invalidation; token-use decisions differ from endpoint HTTP status.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "RFC Editor normative primary source; candidate grant mappings are owned review hypotheses",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://www.rfc-editor.org/rfc/rfc7009.html#section-2.1"
+    },
+    {
+      "citation_key": "bocic2016cancheck",
+      "reading_scope": "Primary author PDF abstract, extraction/model method and Section 6.1 SprintApp case; no full proof/experiment reproduction.",
+      "supported_claim": "CanCheck extracts application data effects, policy and authorization checks, and verifies implementation enforcement. Its SprintApp findings describe a checked/used-object mismatch between CanCan and ActiveAdmin.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "ASE 2016, pages 155--166; DOI 10.1145/2970276.2970350. Prior published incidents motivate the problem; they are not newly discovered AuthRefine defects.",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://sites.cs.ucsb.edu/~bultan/publications/ase16.pdf"
+    },
+    {
+      "citation_key": "near2016space",
+      "reading_scope": "Primary author PDF abstract and Sections 3.4, 3.5, 4.3 and 4.4; no full proof/experiment reproduction.",
+      "supported_claim": "SPACE extracts data exposures and checks them against a catalog of access-control patterns using user-supplied application type/field mappings and bounded Alloy analysis.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "ICSE 2016, pages 947--958; DOI 10.1145/2884781.2884836. The institutional PDF includes a repository cover page.",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://groups.csail.mit.edu/sdg/pubs/2016/access-control-patterns-icse2016.pdf"
+    },
+    {
+      "citation_key": "robol2023consent",
+      "reading_scope": "Primary published PDF abstract, introduction, framework overview, evaluation/validity and integration/conclusion; organization inspected for TOSEM comparison, not proof reproduction.",
+      "supported_claim": "Consent Verification Monitoring formalizes changing consent and checks collection/access events, with runtime integration supplying events; its evaluation uses five use cases and a scalability simulation.",
+      "verification_basis": "Claim-specific source text was inspected on 2026-11-18 at the explicitly recorded access level. The source-passage-checks.json log retains retrieval references and prior scope. Current BibTeX/CSV consistency and citation locations are checked locally; this does not re-verify all proofs, experiments or publication metadata fields.",
+      "metadata_notes": "ACM TOSEM 32(1), Article 2, February 2023, 33 pages; DOI 10.1145/3490754. Used as a substantive journal-style comparator, not as a submission-length rule.",
+      "access_date": "2026-11-18",
+      "readable_primary_source": "https://iris.unitn.it/retrieve/4d688379-d9d7-42bf-8faa-57fc481f42da/3490754.pdf"
+    },
+    {
+      "citation_key": "piccolo2026sessions",
+      "reading_scope": "Primary project advisory: publication and CVE metadata, summary, affected component, configuration preconditions, suggested fix, and maintainer notes. These specific sections were read; the reported exploitation chain was not reproduced.",
+      "supported_claim": "The project reports session-token disclosure and a resulting privilege-escalation path when a non-superuser administrator can read an exposed Sessions table. The advisory ties the response exposure to missing secret-column metadata; it establishes a concrete configured application failure, not its population prevalence.",
+      "verification_basis": "Primary project page retrieved and relevant sections inspected on 2026-11-19 (retrieval turn626460743view0). The linked Piccolo API patch was separately inspected for the producer, filter consumer and migration-version changes (turn844235270view1). Local native experiments supply separate evidence and do not validate the advisory's entire account-takeover sequence.",
+      "metadata_notes": "GHSA-2gh4-jmwq-rr8w; CVE-2026-55485. The project page was published by dantownsend on 19 June 2026 and reports Piccolo Admin <=1.13.0 affected and 1.14.0 patched. BibTeX uses a shortened descriptive title and collective maintainer attribution. Its actual page title is 'Privilege escalation - admin to superuser via session-token disclosure in GET /api/tables/sessions/.'. This is a software advisory, not a 65th scholarly article.",
+      "access_date": "2026-11-19",
+      "readable_primary_source": "https://github.com/piccolo-orm/piccolo_admin/security/advisories/GHSA-2gh4-jmwq-rr8w"
+    },
+    {
+      "citation_key": "healthchecks_api",
+      "reading_scope": "Authentication, List Existing Checks, Get a Single Check, response-code and read-only response paragraphs; not all API endpoints.",
+      "supported_claim": "The current API specifies project-scoped credentials, permitted read-only endpoints and response-field suppression.",
+      "verification_basis": "Primary documentation or repository record inspected on 2026-11-19. Exact metadata, source locators and claim-specific support are retained in references/healthchecks-sources.json. Runtime results are separate native-source evidence.",
+      "metadata_notes": "Official live manual with no observed publication date; n.d. records that absence and 2026-11-19 is the access date.",
+      "access_date": "2026-11-19",
+      "readable_primary_source": "https://healthchecks.io/docs/api/"
+    },
+    {
+      "citation_key": "caune2019readonly",
+      "reading_scope": "Commit metadata and relevant changed authorization, view, serializer, test and changelog hunks; no historical runtime execution. Also read CHANGELOG.md lines 1-32 at this exact commit to verify the Improvements classification.",
+      "supported_claim": "The July 2019 source change propagates read-only authorization context from decorators through views to serialization.",
+      "verification_basis": "Primary documentation or repository record inspected on 2026-11-19. Exact metadata, source locators and claim-specific support are retained in references/healthchecks-sources.json. Runtime results are separate native-source evidence.",
+      "metadata_notes": "Primary software change, dated 4 July 2019; the changelog places it under Improvements. Not identified as a newly discovered vulnerability.",
+      "access_date": "2026-11-19",
+      "readable_primary_source": "https://github.com/healthchecks/healthchecks/commit/1f1b1aedca949a52a592f8aefc523ad47b054ed9"
+    },
+    {
+      "citation_key": "jameskirsop2020readonly",
+      "reading_scope": "Issue metadata and full short report body; no deployment runtime log. The maintainer response and associated 24 March 2020 fix were also read at their relevant authorization, view and test hunks.",
+      "supported_claim": "Issue 346 reports over-rejection of single-check reads using read-only credentials; the associated fix separates method-specific authorization and preserves read-only serialization.",
+      "verification_basis": "Primary documentation or repository record inspected on 2026-11-19. Exact metadata, source locators and claim-specific support are retained in references/healthchecks-sources.json. Runtime results are separate native-source evidence.",
+      "metadata_notes": "Primary issue with original account attribution; the separately inspected fix is linked in the bibliography. The report concerns over-rejection, not an unauthorized write or a reproduced historical deployment.",
+      "access_date": "2026-11-19",
+      "readable_primary_source": "https://github.com/healthchecks/healthchecks/issues/346"
+    }
+  ]
+}

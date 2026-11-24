@@ -1,0 +1,67 @@
+{
+  "retained_scientific_data_modified": false,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-W",
+        "error",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_native_healthchecks_tree.py",
+        "-v"
+      ],
+      "elapsed_seconds": 45.688857878005365,
+      "errors": 0,
+      "failures": 0,
+      "log": "native-tests-ordinary.output.log",
+      "mode": "ordinary",
+      "native_test_http_requests": 78,
+      "native_test_trees": 2,
+      "passed": 21,
+      "returncode": 0,
+      "skipped": 0,
+      "tests": 21,
+      "unittest_elapsed_seconds": 45.538
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-W",
+        "error",
+        "-OO",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_native_healthchecks_tree.py",
+        "-v"
+      ],
+      "elapsed_seconds": 47.780159026995534,
+      "errors": 0,
+      "failures": 0,
+      "log": "native-tests-optimized.output.log",
+      "mode": "optimized",
+      "native_test_http_requests": 78,
+      "native_test_trees": 2,
+      "passed": 21,
+      "returncode": 0,
+      "skipped": 0,
+      "tests": 21,
+      "unittest_elapsed_seconds": 47.395
+    }
+  ],
+  "runs_executed_concurrently": true,
+  "status": "PASS",
+  "suite": "tests/test_native_healthchecks_tree.py",
+  "test_durations_are_benchmark_results": false,
+  "warnings_promoted_to_errors": true
+}

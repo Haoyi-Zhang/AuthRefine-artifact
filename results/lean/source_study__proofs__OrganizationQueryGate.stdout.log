@@ -1,0 +1,3 @@
+'AuthRefine.OrganizationQueryGate.query_gate_refines_relational_contract' depends on axioms: [propext, Quot.sound]
+'AuthRefine.OrganizationQueryGate.irrelevant_row_isolation' depends on axioms: [propext]
+'AuthRefine.OrganizationQueryGate.superuser_bypass' does not depend on any axioms

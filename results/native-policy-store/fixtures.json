@@ -1,0 +1,255 @@
+{
+  "alphabet": [
+    [
+      "api",
+      "row-1",
+      "add"
+    ],
+    [
+      "api",
+      "row-1",
+      "authorize"
+    ],
+    [
+      "api",
+      "row-1",
+      "remove"
+    ],
+    [
+      "api",
+      "row-1",
+      "restart"
+    ],
+    [
+      "api",
+      "row-2",
+      "add"
+    ],
+    [
+      "api",
+      "row-2",
+      "authorize"
+    ],
+    [
+      "api",
+      "row-2",
+      "remove"
+    ],
+    [
+      "api",
+      "row-2",
+      "restart"
+    ],
+    [
+      "api",
+      "row-3",
+      "add"
+    ],
+    [
+      "api",
+      "row-3",
+      "authorize"
+    ],
+    [
+      "api",
+      "row-3",
+      "remove"
+    ],
+    [
+      "api",
+      "row-3",
+      "restart"
+    ]
+  ],
+  "application": "Conet",
+  "arms": [
+    "original",
+    "repaired"
+  ],
+  "callers": {
+    "mutation-restart-query": {
+      "initial": 0,
+      "transitions": [
+        [
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          2,
+          null,
+          null,
+          null,
+          2,
+          null,
+          null,
+          null,
+          2
+        ],
+        [
+          null,
+          2,
+          null,
+          null,
+          null,
+          2,
+          null,
+          null,
+          null,
+          2,
+          null,
+          null
+        ]
+      ]
+    },
+    "one-mutation": {
+      "initial": 0,
+      "transitions": [
+        [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1
+        ]
+      ]
+    },
+    "query-only": {
+      "initial": 0,
+      "transitions": [
+        [
+          null,
+          0,
+          null,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          0,
+          null,
+          null
+        ]
+      ]
+    },
+    "unrestricted": {
+      "initial": 0,
+      "transitions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "family": [
+    {
+      "request-for-slot-1": "row-1",
+      "request-for-slot-2": "row-2",
+      "request-for-slot-3": "row-3"
+    },
+    {
+      "request-for-slot-1": "row-1",
+      "request-for-slot-2": "row-3",
+      "request-for-slot-3": "row-2"
+    },
+    {
+      "request-for-slot-1": "row-2",
+      "request-for-slot-2": "row-1",
+      "request-for-slot-3": "row-3"
+    },
+    {
+      "request-for-slot-1": "row-2",
+      "request-for-slot-2": "row-3",
+      "request-for-slot-3": "row-1"
+    },
+    {
+      "request-for-slot-1": "row-3",
+      "request-for-slot-2": "row-1",
+      "request-for-slot-3": "row-2"
+    },
+    {
+      "request-for-slot-1": "row-3",
+      "request-for-slot-2": "row-2",
+      "request-for-slot-3": "row-1"
+    }
+  ],
+  "family_origin": "Six review hypotheses pairing reference row slots with request tuples; the same bijection is fixed across add/remove/authorize and the entire history.",
+  "initial_policy_masks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "observation": "Boolean API return plus exact identified policy rows in the current instance and on disk.",
+  "reference": "Successful set mutations persist the complete new set; restart loads that set.",
+  "restart": "Construct a fresh original PolicyEngine instance using the same owned policy file.",
+  "restart_result": "Successful instance construction is encoded as an allowed interface event; the actual native result type is recorded separately.",
+  "row_origin": "The three owned ACL rows already supplied to source_study/repair_profiles.py.",
+  "rows": [
+    [
+      "finance",
+      "invoice.verify",
+      "invoke"
+    ],
+    [
+      "marketing",
+      "research.find_leads",
+      "invoke"
+    ],
+    [
+      "marketing",
+      "invoice.verify",
+      "invoke"
+    ]
+  ],
+  "scope": "Complete selected PolicyEngine module import and method execution, native Casbin FileAdapter and owned files; no service deployment or administrative-access claim."
+}

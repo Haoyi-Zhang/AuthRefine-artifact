@@ -1,0 +1,385 @@
+{
+  "matched-read-evidence": [
+    "fig:credential-handoff"
+  ],
+  "source-handoff-observer-listing": [
+    "fig:credential-handoff",
+    "sec:source-interfaces"
+  ],
+  "outside-integration": [
+    "sec:outside-integration",
+    "sec:retained-outside-integration",
+    "tab:outside-integration"
+  ],
+  "direct-observation": [
+    "sec:retained-direct-observations",
+    "tab:direct-source-pairs"
+  ],
+  "observation-cell-reuse": [
+    "sec:cell-reuse",
+    "sec:observation-output-cost"
+  ],
+  "prop:outside": [
+    "sec:validation-inputs"
+  ],
+  "lem:ordinary-adapter": [
+    "sec:validation-inputs"
+  ],
+  "prop:domain": [
+    "sec:validation-inputs"
+  ],
+  "primary-count": [
+    "tab:families"
+  ],
+  "primary-outcomes": [
+    "tab:families"
+  ],
+  "symbolic-outcomes": [
+    "sec:diagnostic-cohorts"
+  ],
+  "auxiliary-count": [
+    "sec:independent-diagnosis"
+  ],
+  "public-conversion": [
+    "sec:diagnostic-cohorts"
+  ],
+  "public-variants": [
+    "sec:diagnostic-cohorts"
+  ],
+  "generated-distinct": [
+    "tab:families"
+  ],
+  "multi-candidate": [
+    "tab:ambiguity"
+  ],
+  "mutation-detection": [
+    "sec:independent-diagnosis"
+  ],
+  "width-count": [
+    "fig:width"
+  ],
+  "chain-minimum": [
+    "sec:independent-diagnosis"
+  ],
+  "reification-count": [
+    "sec:independent-diagnosis"
+  ],
+  "scope": [
+    "sec:validity"
+  ],
+  "canonical-observable-quotient": [
+    "prop:quotient"
+  ],
+  "binding-failure-profile": [
+    "thm:profile"
+  ],
+  "observable-quotient-witness-bound": [
+    "cor:quotient-bound"
+  ],
+  "projection-step-law": [
+    "lem:step-projection"
+  ],
+  "projection-trace-and-certificates": [
+    "thm:projection"
+  ],
+  "restricted-binding-family": [
+    "prop:restricted"
+  ],
+  "two-stage-profile-example": [
+    "fig:workflow",
+    "sec:profile-example"
+  ],
+  "tab:closest": [
+    "sec:related-work"
+  ],
+  "extension-cross-checks": [
+    "sec:independent-diagnosis"
+  ],
+  "initial-diagnostic-boundary": [
+    "sec:independent-diagnosis"
+  ],
+  "streamed-family-budget": [
+    "sec:derived-implementation",
+    "sec:independent-diagnosis"
+  ],
+  "adversarial-cross-checks": [
+    "sec:independent-diagnosis"
+  ],
+  "complete-tiny-domain-audit": [
+    "sec:independent-diagnosis"
+  ],
+  "reference-integrity": [
+    "sec:related-work"
+  ],
+  "identifier-control-envelope": [
+    "sec:language",
+    "sec:language-envelope"
+  ],
+  "diagnostic-replay-contract": [
+    "alg:profile",
+    "sec:independent-diagnosis"
+  ],
+  "list-free-same-information": [
+    "sec:certificates",
+    "sec:observation-output-cost"
+  ],
+  "generated-semantic-diversity": [
+    "sec:diagnostic-cohorts"
+  ],
+  "reachable-work-interface": [
+    "sec:cell-reuse",
+    "sec:derived-implementation"
+  ],
+  "returned-guard-workflow": [
+    "sec:source-interfaces",
+    "sec:source-transfer-admission"
+  ],
+  "fixed-source-replication": [
+    "sec:fixed-source-study"
+  ],
+  "strengthened-source-paths": [
+    "tab:fixed-source-paths"
+  ],
+  "normal-policy-copy-repair": [
+    "sec:fixed-source-study"
+  ],
+  "credential-decision-projection": [
+    "sec:source-interfaces"
+  ],
+  "source-model-correspondence": [
+    "sec:model"
+  ],
+  "explicit-family-enumeration-cost": [
+    "alg:profile",
+    "thm:profile",
+    "prop:active-profile"
+  ],
+  "caller-protocol-witness-bound": [
+    "prop:protocol-bound"
+  ],
+  "independent-source-body-observer": [
+    "sec:direct-observations",
+    "tab:independent-source"
+  ],
+  "source-code-mutation-controls": [
+    "sec:source-mutation-controls"
+  ],
+  "connected-write-stateful-diagnosis": [
+    "sec:connected-state-diagnosis"
+  ],
+  "caller-protocol-mechanization": [
+    "sec:protocol-mechanization"
+  ],
+  "h19-native-matrix": [
+    "sec:native-h19",
+    "tab:native-h19"
+  ],
+  "h19-dependency-contract": [
+    "sec:native-h19",
+    "tab:native-h19"
+  ],
+  "h19-observation-boundary": [
+    "sec:native-h19",
+    "tab:native-h19"
+  ],
+  "native-session-observations": [
+    "sec:native-sessions"
+  ],
+  "native-session-fixed-binding-depth": [
+    "sec:native-sessions",
+    "fig:session-lifecycle"
+  ],
+  "native-session-observation-ablation": [
+    "tab:session-ablation",
+    "sec:native-sessions"
+  ],
+  "source-observation-denominators": [
+    "sec:direct-observations",
+    "sec:native-sessions"
+  ],
+  "support-indexed-diagnosis": [
+    "alg:profile",
+    "prop:active-profile",
+    "sec:family-implementation-audits"
+  ],
+  "support-indexed-finite-audit": [
+    "sec:support-profile-audit"
+  ],
+  "caller-family-profile": [
+    "sec:caller-family-audit"
+  ],
+  "caller-family-finite-audit": [
+    "sec:caller-family-audit",
+    "tab:caller-family-audit"
+  ],
+  "stateful-family-matched-benchmark": [
+    "sec:stateful-family-cost",
+    "tab:stateful-family-cost"
+  ],
+  "stateful-family-positive-cost": [
+    "tab:stateful-family-cost",
+    "fig:family-cost"
+  ],
+  "stateful-family-cost-boundaries": [
+    "sec:stateful-family-cost",
+    "fig:family-cost"
+  ],
+  "support-overlap-audit": [
+    "sec:overlap-validation",
+    "sec:overlap-audit"
+  ],
+  "support-overlap-fault-controls": [
+    "sec:overlap-validation",
+    "sec:overlap-audit"
+  ],
+  "timing-variation-envelopes": [
+    "sec:stateful-family-cost",
+    "fig:family-cost"
+  ],
+  "caller-support-grouping": [
+    "prop:protocol-groups",
+    "sec:protocol-grouping-audit"
+  ],
+  "caller-support-independent-audit": [
+    "tab:diagnostic-validation",
+    "sec:protocol-grouping-audit"
+  ],
+  "native-correlated-session-family": [
+    "sec:session-correspondence",
+    "fig:session-correspondence"
+  ],
+  "native-caller-discriminability": [
+    "sec:session-correspondence"
+  ],
+  "native-distinct-witness-replay": [
+    "sec:session-correspondence"
+  ],
+  "native-anchored-correspondences": [
+    "sec:session-correspondence"
+  ],
+  "native-correspondence-cost": [
+    "sec:session-correspondence-cost",
+    "fig:session-correspondence"
+  ],
+  "native-acquisition-cost": [
+    "sec:session-correspondence-cost"
+  ],
+  "symbolic-complete-legal-family": [
+    "sec:symbolic",
+    "sec:symbolic-family-validation"
+  ],
+  "symbolic-independent-equations": [
+    "sec:symbolic-family-validation"
+  ],
+  "unified-symbolic-cost-distributions": [
+    "sec:stateful-family-cost",
+    "fig:symbolic-comparison"
+  ],
+  "native-policy-store-execution": [
+    "sec:native-policy-store",
+    "sec:native-policy-store-details"
+  ],
+  "native-policy-store-repair-and-observation": [
+    "tab:native-policy-store",
+    "sec:native-policy-store-details"
+  ],
+  "native-policy-store-previous-table": [
+    "sec:native-policy-store-details"
+  ],
+  "native-rich-identity-replay": [
+    "sec:session-correspondence",
+    "sec:session-observation"
+  ],
+  "native-duplicate-token-family-premise": [
+    "sec:session-correspondence",
+    "sec:session-observation"
+  ],
+  "prior-complete-configuration-diagnosis": [
+    "sec:shared-family-work"
+  ],
+  "session-short-test-characterization": [
+    "prop:session-short-tests",
+    "lem:session-short-words",
+    "eq:session-first-exclusions"
+  ],
+  "session-selected-row-short-test-bound": [
+    "cor:session-identity-cover",
+    "sec:session-correspondence"
+  ],
+  "session-short-test-independent-audit": [
+    "sec:session-distinguishability"
+  ],
+  "native-healthchecks-execution": [
+    "sec:native-healthchecks",
+    "sec:native-healthchecks-contract"
+  ],
+  "native-healthchecks-observation-ablation": [
+    "tab:native-healthchecks",
+    "tab:native-healthchecks-prefixes"
+  ],
+  "native-healthchecks-fixed-prefix-encoding": [
+    "sec:native-healthchecks-contract"
+  ],
+  "native-healthchecks-fresh-replay": [
+    "sec:native-healthchecks-contract"
+  ],
+  "native-healthchecks-observer-integrity": [
+    "sec:native-healthchecks-contract"
+  ],
+  "session-operation-cost-theorem": [
+    "prop:session-operation-cost",
+    "prop:session-anchored-operation-cost"
+  ],
+  "session-operation-cost-independent-audit": [
+    "sec:session-distinguishability"
+  ],
+  "session-continuous-versus-individual-shortest": [
+    "prop:session-operation-cost",
+    "prop:session-anchored-operation-cost"
+  ],
+  "native-healthchecks-tree-execution": [
+    "sec:native-healthchecks-histories",
+    "sec:native-healthchecks-tree-contract"
+  ],
+  "native-healthchecks-tree-shortest-histories": [
+    "tab:native-healthchecks-histories",
+    "sec:native-healthchecks-tree-contract"
+  ],
+  "native-healthchecks-tree-negative-prefix-replay": [
+    "sec:native-healthchecks-histories",
+    "sec:native-healthchecks-tree-contract"
+  ],
+  "native-healthchecks-tree-independent-integrity": [
+    "sec:native-healthchecks-tree-contract"
+  ],
+  "native-http-type-and-prefix-admission": [
+    "sec:native-healthchecks-contract",
+    "sec:native-healthchecks-tree-contract"
+  ],
+  "session-initial-store-survivors": [
+    "prop:session-initial-state",
+    "prop:initial-store-survivors"
+  ],
+  "session-initial-store-cost": [
+    "prop:session-initial-state",
+    "prop:initial-store-cost"
+  ],
+  "session-initial-store-finite-audit": [
+    "sec:session-initial-state"
+  ],
+  "session-initial-store-native-strategies": [
+    "prop:session-initial-state",
+    "sec:session-initial-state"
+  ],
+  "credential-typed-observation-admission": [
+    "fig:credential-handoff",
+    "sec:source-interfaces"
+  ],
+  "source-body-complete-typed-admission": [
+    "sec:direct-observations",
+    "sec:source-mutation-controls"
+  ],
+  "complete-comparison-evidence-admission": [
+    "sec:stateful-family-cost"
+  ]
+}

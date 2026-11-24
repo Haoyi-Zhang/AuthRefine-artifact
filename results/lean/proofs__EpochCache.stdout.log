@@ -1,0 +1,2 @@
+'EpochCache.consumer_transparency' depends on axioms: [propext]
+'EpochCache.arbitrary_epoch_sequence_valid' depends on axioms: [propext]

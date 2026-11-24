@@ -1,0 +1,6 @@
+# Source-study evidence is byte-bound; preserve it across Windows/Linux checkouts.
+source_study/** -text
+# Compressed scientific records and compiled artifacts are binary.
+*.gz -text
+*.pdf -text
+*.sqlite -text

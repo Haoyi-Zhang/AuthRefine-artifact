@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, cite the manuscript in preferred-citation."
+title: "AuthRefine: Complete Diagnosis for Supplied Families of Authorization Correspondences"
+type: software
+authors:
+  - family-names: "Zhang"
+    given-names: "Haoyi"
+    orcid: "https://orcid.org/0009-0009-3693-786X"
+  - family-names: "Ran"
+    given-names: "Huaijin"
+    orcid: "https://orcid.org/0009-0009-2482-2344"
+  - family-names: "Yu"
+    given-names: "Jiongchi"
+    orcid: "https://orcid.org/0000-0002-2888-4499"
+  - family-names: "Sun"
+    given-names: "Yuqiang"
+    orcid: "https://orcid.org/0000-0003-4340-3371"
+  - family-names: "Liu"
+    given-names: "Yang"
+    orcid: "https://orcid.org/0000-0001-7300-9215"
+repository-code: "https://github.com/Haoyi-Zhang/AuthRefine-artifact"
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: "AuthRefine: Complete Diagnosis for Supplied Families of Authorization Correspondences"
+  authors:
+    - family-names: "Zhang"
+      given-names: "Haoyi"
+      orcid: "https://orcid.org/0009-0009-3693-786X"
+    - family-names: "Ran"
+      given-names: "Huaijin"
+      orcid: "https://orcid.org/0009-0009-2482-2344"
+    - family-names: "Yu"
+      given-names: "Jiongchi"
+      orcid: "https://orcid.org/0000-0002-2888-4499"
+    - family-names: "Sun"
+      given-names: "Yuqiang"
+      orcid: "https://orcid.org/0000-0003-4340-3371"
+    - family-names: "Liu"
+      given-names: "Yang"
+      orcid: "https://orcid.org/0000-0001-7300-9215"
+  notes: "Manuscript submitted to ACM Transactions on Software Engineering and Methodology."

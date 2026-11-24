@@ -1,0 +1,15 @@
+{
+  "file": "source_study/proofs/ActiveOrganizationOrder.lean",
+  "proof_sha256": "7573516436b9d910aaa7a868d9e5ec4eb7282fb22c2658396d11513741f59d58",
+  "command": [
+    "<lean>/bin/lean",
+    "<artifact>/source_study/proofs/ActiveOrganizationOrder.lean"
+  ],
+  "exit_code": 0,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "wall_seconds": 0.45212591499876,
+  "source_unchanged": true,
+  "sorry_warning": false,
+  "passed": true
+}

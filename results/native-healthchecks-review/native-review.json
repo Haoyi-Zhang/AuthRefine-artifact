@@ -1,0 +1,1344 @@
+{
+  "counts": {
+    "native_operations": 4440,
+    "native_sql_statements": 8652,
+    "native_http_requests": 4200,
+    "native_key_rotations": 240,
+    "sqlite_final_snapshots_checked": 120,
+    "unmodified_identity_zero_disagreements": 6,
+    "native_cases": 120
+  },
+  "imported_application_modules_per_arm": {
+    "original": 27,
+    "omit_readonly_context": 27,
+    "wrong_project_context": 27,
+    "omit_pause_persistence": 27,
+    "reject_readonly_get": 27
+  },
+  "distinct_initial_check_codes": 240,
+  "distinct_initial_channel_codes": 240,
+  "distinct_hashed_initial_keys": 240,
+  "distinct_rotated_keys": 240,
+  "cases": [
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "rich_first_length": null,
+      "http_first_length": null,
+      "disagreement_events": 0
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "rich_first_length": null,
+      "http_first_length": null,
+      "disagreement_events": 0
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "rich_first_length": null,
+      "http_first_length": null,
+      "disagreement_events": 0
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "rich_first_length": null,
+      "http_first_length": null,
+      "disagreement_events": 0
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "rich_first_length": null,
+      "http_first_length": null,
+      "disagreement_events": 0
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "rich_first_length": null,
+      "http_first_length": null,
+      "disagreement_events": 0
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": null,
+      "disagreement_events": 8
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": null,
+      "disagreement_events": 8
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": null,
+      "disagreement_events": 8
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": null,
+      "disagreement_events": 8
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": null,
+      "disagreement_events": 8
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": null,
+      "disagreement_events": 8
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 25
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 29
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 25
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 29
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 25
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 29
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 25
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 29
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 25
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 29
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 25
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 29
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 2,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "rich_first_length": 15,
+      "http_first_length": 18,
+      "disagreement_events": 23
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "rich_first_length": 15,
+      "http_first_length": 18,
+      "disagreement_events": 23
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "rich_first_length": 15,
+      "http_first_length": 18,
+      "disagreement_events": 23
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "rich_first_length": 15,
+      "http_first_length": 18,
+      "disagreement_events": 23
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "rich_first_length": 15,
+      "http_first_length": 18,
+      "disagreement_events": 23
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "rich_first_length": 15,
+      "http_first_length": 18,
+      "disagreement_events": 23
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 13,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 8
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 5,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 8
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 5,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 8
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 5,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 8
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 5,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 8
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 5,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 8
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 5,
+      "disagreement_events": 35
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 34
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "rich_first_length": 1,
+      "http_first_length": 1,
+      "disagreement_events": 35
+    }
+  ]
+}

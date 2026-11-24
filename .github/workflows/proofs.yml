@@ -1,0 +1,12 @@
+name: proofs
+on:
+  workflow_dispatch:
+jobs:
+  lean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: leanprover/lean-action@v1
+        with:
+          lean-version: '4.8.0'
+      - run: python -B evaluate.py --profile proofs --output "$RUNNER_TEMP/proofs"

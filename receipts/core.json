@@ -1,0 +1,63 @@
+{
+  "evidence_checks": [
+    {
+      "name": "credential-observations",
+      "status": "PASS"
+    },
+    {
+      "name": "source-observer",
+      "status": "PASS"
+    },
+    {
+      "name": "initial-store-native",
+      "status": "PASS"
+    },
+    {
+      "name": "initial-store-finite",
+      "status": "PASS"
+    }
+  ],
+  "figures": {
+    "byte_identical_to_manuscript": true,
+    "count": 16,
+    "status": "PASS"
+  },
+  "modes": [
+    {
+      "mode": "normal",
+      "modules": 14,
+      "passed": 169,
+      "skipped": 14,
+      "status": "PASS",
+      "tests": 183
+    },
+    {
+      "mode": "optimized",
+      "modules": 14,
+      "passed": 169,
+      "skipped": 14,
+      "status": "PASS",
+      "tests": 183
+    },
+    {
+      "mode": "strict",
+      "modules": 14,
+      "passed": 169,
+      "skipped": 14,
+      "status": "PASS",
+      "tests": 183
+    }
+  ],
+  "motivating_example": {
+    "omitted_delete_control": true,
+    "shortest_counterexample": [
+      "remove(row-a)",
+      "lookup(credential-a)"
+    ],
+    "status": "PASS"
+  },
+  "profile": "core",
+  "schema": 1,
+  "scope": "Contribution-critical finite diagnosis, selected source evidence, motivating example and exact figure reconstruction.",
+  "status": "PASS"
+}

@@ -1,0 +1,6 @@
+# Optional compiled decision-diagram comparison; CPython 3.12 on x86-64 Linux.
+dd==0.6.0
+astutils==0.0.6
+networkx==3.7
+ply==3.10
+setuptools==84.2.1

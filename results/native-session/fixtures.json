@@ -1,0 +1,1075 @@
+{
+  "alphabet": [
+    [
+      "client",
+      "credential-a",
+      "lookup"
+    ],
+    [
+      "client",
+      "credential-a",
+      "remove"
+    ],
+    [
+      "client",
+      "credential-b",
+      "lookup"
+    ],
+    [
+      "client",
+      "credential-b",
+      "remove"
+    ],
+    [
+      "client",
+      "missing",
+      "lookup"
+    ],
+    [
+      "client",
+      "missing",
+      "remove"
+    ],
+    [
+      "client",
+      "row-a",
+      "lookup"
+    ],
+    [
+      "client",
+      "row-a",
+      "remove"
+    ],
+    [
+      "client",
+      "row-b",
+      "lookup"
+    ],
+    [
+      "client",
+      "row-b",
+      "remove"
+    ]
+  ],
+  "clock": "2020-01-01T00:00:00",
+  "expiry_inputs": [
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-000",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-001",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-002",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-003",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-004",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-005",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-006",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-007",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-008",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-009",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-010",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-011",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-012",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-013",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-014",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-015",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-016",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": -1,
+      "id": "expiry-017",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-018",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-019",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-020",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-021",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-022",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-023",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-024",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-025",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-026",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-027",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-028",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-029",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-030",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-031",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-032",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-033",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-034",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 0,
+      "id": "expiry-035",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-036",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-037",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-038",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-039",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-040",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-041",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-042",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-043",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-044",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-045",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-046",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-047",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-048",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-049",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-050",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-051",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-052",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 10,
+      "id": "expiry-053",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-054",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-055",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-056",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-057",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-058",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-059",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-060",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-061",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-062",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-063",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-064",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-065",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-066",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-067",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-068",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-069",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-070",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 30,
+      "id": "expiry-071",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-072",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-073",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-074",
+      "increase_seconds": null,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-075",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-076",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-077",
+      "increase_seconds": 30,
+      "maximum_a_seconds": -1,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-078",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-079",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-080",
+      "increase_seconds": null,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-081",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-082",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-083",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 0,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-084",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-085",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-086",
+      "increase_seconds": null,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-087",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-a",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-088",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "credential-b",
+        "lookup"
+      ]
+    },
+    {
+      "expiry_a_seconds": 60,
+      "id": "expiry-089",
+      "increase_seconds": 30,
+      "maximum_a_seconds": 120,
+      "request": [
+        "client",
+        "missing",
+        "lookup"
+      ]
+    }
+  ],
+  "initial_rows": [
+    {
+      "expiry_date": "2020-01-01T00:01:00",
+      "id": 1,
+      "max_expiry_date": "2020-01-01T00:02:00",
+      "token": "authrefine-owned-session-a",
+      "user_id": 101
+    },
+    {
+      "expiry_date": "2020-01-01T00:01:00",
+      "id": 2,
+      "max_expiry_date": "2020-01-01T00:02:00",
+      "token": "authrefine-owned-session-b",
+      "user_id": 101
+    }
+  ],
+  "input_contract": {
+    "decision": "lookup returns a user id: allow; returns None: deny; completed remove: allow",
+    "identity_boundary": "raw selected row/token reveal the correspondence on a lookup; the finite contract intentionally compares decision and presence state",
+    "lifecycle_clock_and_expiry": "fixed clock; both stored sessions unexpired; increase_expiry=None",
+    "lookup": "presented credential label translated to the explicit token string",
+    "other_labels": "the same known-absent fixture token",
+    "reference_family": "two supplied bijections from presented credential labels to independently identified store rows",
+    "remove": "already resolved store-row label translated to its explicit token string",
+    "same_user": "both sessions belong to user 101, as with two devices for one account",
+    "separate_expiry_grid": "strict expiry and maximum boundaries, plus optional renewal; not included in the two-bit finite graph",
+    "state": "two presence bits for the identified persisted session rows"
+  }
+}

@@ -1,0 +1,3445 @@
+{
+  "all_canonical_witnesses_are_shortest": true,
+  "cases": [
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 6,
+          "work_operations": 18
+        },
+        "per-binding-target": {
+          "transition_evaluations": 6,
+          "work_operations": 18
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 191
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 179
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 0,
+          "transition_evaluations": 3,
+          "work_operations": 129
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 311
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 90
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 78
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 0,
+          "transition_evaluations": 18,
+          "work_operations": 36
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 210
+        },
+        "shared-target": {
+          "transition_evaluations": 6,
+          "work_operations": 210
+        },
+        "support-indexed": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 311
+        }
+      },
+      "arm": "original",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 6,
+            "indices": [
+              0,
+              3,
+              0
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "3": 6
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 6,
+            "indices": [
+              0,
+              3,
+              1
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "3": 6
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [],
+          "matching": 6,
+          "strata": {
+            "infinity": 6
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        }
+      },
+      "id": "original-initial-0",
+      "identity_boolean_shortest": 3,
+      "identity_boolean_workflow_shortest": 3,
+      "identity_full_shortest": 1,
+      "initial_mask": 0,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 396
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 10,
+          "work_operations": 22
+        },
+        "per-binding-target": {
+          "transition_evaluations": 10,
+          "work_operations": 22
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 7,
+          "work_operations": 222
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 8,
+          "work_operations": 241
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 5,
+          "work_operations": 155
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 8,
+          "work_operations": 373
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 8,
+          "work_operations": 92
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 10,
+          "work_operations": 82
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 10,
+          "work_operations": 32
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 10,
+          "work_operations": 214
+        },
+        "shared-target": {
+          "transition_evaluations": 10,
+          "work_operations": 214
+        },
+        "support-indexed": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 8,
+          "work_operations": 373
+        }
+      },
+      "arm": "original",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 4,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              2,
+              3,
+              0
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "1": 4,
+          "3": 2
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 4,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              2,
+              3,
+              1
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "1": 4,
+          "3": 2
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                1
+              ]
+            }
+          ],
+          "matching": 2,
+          "strata": {
+            "1": 4,
+            "infinity": 2
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        }
+      },
+      "id": "original-initial-1",
+      "identity_boolean_shortest": 3,
+      "identity_boolean_workflow_shortest": 3,
+      "identity_full_shortest": 1,
+      "initial_mask": 1,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 468
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 6,
+          "work_operations": 18
+        },
+        "per-binding-target": {
+          "transition_evaluations": 6,
+          "work_operations": 18
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 179
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 167
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 6,
+          "work_operations": 157
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 299
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 90
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 78
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 12,
+          "work_operations": 34
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 210
+        },
+        "shared-target": {
+          "transition_evaluations": 6,
+          "work_operations": 210
+        },
+        "support-indexed": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 299
+        }
+      },
+      "arm": "original",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0,
+              3,
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "1": 4,
+          "3": 2
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "1": 4,
+          "3": 2
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                1
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                5
+              ]
+            }
+          ],
+          "matching": 2,
+          "strata": {
+            "1": 4,
+            "infinity": 2
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        }
+      },
+      "id": "original-initial-2",
+      "identity_boolean_shortest": 3,
+      "identity_boolean_workflow_shortest": 3,
+      "identity_full_shortest": 1,
+      "initial_mask": 2,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 468
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 14,
+          "work_operations": 26
+        },
+        "per-binding-target": {
+          "transition_evaluations": 14,
+          "work_operations": 26
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 7,
+          "work_operations": 230
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 11,
+          "work_operations": 255
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 12,
+          "work_operations": 179
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 11,
+          "work_operations": 387
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 10,
+          "work_operations": 94
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 14,
+          "work_operations": 86
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 12,
+          "work_operations": 34
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 14,
+          "work_operations": 218
+        },
+        "shared-target": {
+          "transition_evaluations": 14,
+          "work_operations": 218
+        },
+        "support-indexed": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 11,
+          "work_operations": 387
+        }
+      },
+      "arm": "original",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "1": 4,
+          "3": 2
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "1": 4,
+          "3": 2
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                1
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                5
+              ]
+            }
+          ],
+          "matching": 2,
+          "strata": {
+            "1": 4,
+            "infinity": 2
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        }
+      },
+      "id": "original-initial-3",
+      "identity_boolean_shortest": 3,
+      "identity_boolean_workflow_shortest": 3,
+      "identity_full_shortest": 1,
+      "initial_mask": 3,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 492
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 6,
+          "work_operations": 18
+        },
+        "per-binding-target": {
+          "transition_evaluations": 6,
+          "work_operations": 18
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 179
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 167
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 6,
+          "work_operations": 157
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 299
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 90
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 78
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 12,
+          "work_operations": 34
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 210
+        },
+        "shared-target": {
+          "transition_evaluations": 6,
+          "work_operations": 210
+        },
+        "support-indexed": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 299
+        }
+      },
+      "arm": "original",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0,
+              3,
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "1": 4,
+          "3": 2
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "1": 4,
+          "3": 2
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                1
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                5
+              ]
+            }
+          ],
+          "matching": 2,
+          "strata": {
+            "1": 4,
+            "infinity": 2
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        }
+      },
+      "id": "original-initial-4",
+      "identity_boolean_shortest": 3,
+      "identity_boolean_workflow_shortest": 3,
+      "identity_full_shortest": 1,
+      "initial_mask": 4,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 468
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 14,
+          "work_operations": 26
+        },
+        "per-binding-target": {
+          "transition_evaluations": 14,
+          "work_operations": 26
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 7,
+          "work_operations": 230
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 11,
+          "work_operations": 255
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 12,
+          "work_operations": 179
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 11,
+          "work_operations": 387
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 10,
+          "work_operations": 94
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 14,
+          "work_operations": 86
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 12,
+          "work_operations": 34
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 14,
+          "work_operations": 218
+        },
+        "shared-target": {
+          "transition_evaluations": 14,
+          "work_operations": 218
+        },
+        "support-indexed": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 11,
+          "work_operations": 387
+        }
+      },
+      "arm": "original",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "1": 4,
+          "3": 2
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "1": 4,
+          "3": 2
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                1
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                5
+              ]
+            }
+          ],
+          "matching": 2,
+          "strata": {
+            "1": 4,
+            "infinity": 2
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        }
+      },
+      "id": "original-initial-5",
+      "identity_boolean_shortest": 3,
+      "identity_boolean_workflow_shortest": 3,
+      "identity_full_shortest": 1,
+      "initial_mask": 5,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 492
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 6,
+          "work_operations": 18
+        },
+        "per-binding-target": {
+          "transition_evaluations": 6,
+          "work_operations": 18
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 3,
+          "work_operations": 161
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 3,
+          "work_operations": 149
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 10,
+          "work_operations": 175
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 3,
+          "work_operations": 281
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 90
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 78
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 10,
+          "work_operations": 32
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 6,
+          "work_operations": 210
+        },
+        "shared-target": {
+          "transition_evaluations": 6,
+          "work_operations": 210
+        },
+        "support-indexed": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 3,
+          "work_operations": 281
+        }
+      },
+      "arm": "original",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 4,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0,
+              3,
+              0
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "1": 4,
+          "3": 2
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 4,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0,
+              3,
+              1
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "1": 4,
+          "3": 2
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                1
+              ]
+            }
+          ],
+          "matching": 2,
+          "strata": {
+            "1": 4,
+            "infinity": 2
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                0
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        }
+      },
+      "id": "original-initial-6",
+      "identity_boolean_shortest": 3,
+      "identity_boolean_workflow_shortest": 3,
+      "identity_full_shortest": 1,
+      "initial_mask": 6,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 492
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 18,
+          "work_operations": 30
+        },
+        "per-binding-target": {
+          "transition_evaluations": 18,
+          "work_operations": 30
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 7,
+          "work_operations": 246
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 13,
+          "work_operations": 275
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 0,
+          "transition_evaluations": 18,
+          "work_operations": 177
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 13,
+          "work_operations": 407
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 12,
+          "work_operations": 96
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 18,
+          "work_operations": 90
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 0,
+          "transition_evaluations": 18,
+          "work_operations": 36
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 18,
+          "work_operations": 222
+        },
+        "shared-target": {
+          "transition_evaluations": 18,
+          "work_operations": 222
+        },
+        "support-indexed": {
+          "replay_evaluations": 6,
+          "transition_evaluations": 13,
+          "work_operations": 407
+        }
+      },
+      "arm": "original",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 6,
+            "indices": [
+              2,
+              3,
+              0
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "3": 6
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 6,
+            "indices": [
+              2,
+              3,
+              1
+            ]
+          }
+        ],
+        "matching": 0,
+        "strata": {
+          "3": 6
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [],
+          "matching": 6,
+          "strata": {
+            "infinity": 6
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 6,
+              "indices": [
+                2
+              ]
+            }
+          ],
+          "matching": 0,
+          "strata": {
+            "1": 6
+          }
+        }
+      },
+      "id": "original-initial-7",
+      "identity_boolean_shortest": 3,
+      "identity_boolean_workflow_shortest": 3,
+      "identity_full_shortest": 1,
+      "initial_mask": 7,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 444
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 201,
+          "work_operations": 212
+        },
+        "per-binding-target": {
+          "transition_evaluations": 201,
+          "work_operations": 212
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 36,
+          "work_operations": 1137
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 42,
+          "work_operations": 1275
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 0,
+          "transition_evaluations": 3,
+          "work_operations": 129
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 198,
+          "work_operations": 6255
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 37,
+          "work_operations": 156
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 45,
+          "work_operations": 116
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 0,
+          "transition_evaluations": 18,
+          "work_operations": 36
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 201,
+          "work_operations": 404
+        },
+        "shared-target": {
+          "transition_evaluations": 201,
+          "work_operations": 404
+        },
+        "support-indexed": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 198,
+          "work_operations": 6255
+        }
+      },
+      "arm": "repaired",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [],
+        "matching": 6,
+        "strata": {
+          "infinity": 6
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [],
+        "matching": 6,
+        "strata": {
+          "infinity": 6
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [],
+          "matching": 6,
+          "strata": {
+            "infinity": 6
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        }
+      },
+      "id": "repaired-initial-0",
+      "identity_boolean_shortest": null,
+      "identity_boolean_workflow_shortest": null,
+      "identity_full_shortest": null,
+      "initial_mask": 0,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 396
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 201,
+          "work_operations": 212
+        },
+        "per-binding-target": {
+          "transition_evaluations": 201,
+          "work_operations": 212
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 36,
+          "work_operations": 1130
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 42,
+          "work_operations": 1272
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 5,
+          "work_operations": 155
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 198,
+          "work_operations": 6251
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 37,
+          "work_operations": 156
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 45,
+          "work_operations": 116
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 10,
+          "work_operations": 32
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 201,
+          "work_operations": 404
+        },
+        "shared-target": {
+          "transition_evaluations": 201,
+          "work_operations": 404
+        },
+        "support-indexed": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 198,
+          "work_operations": 6251
+        }
+      },
+      "arm": "repaired",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 4,
+            "indices": [
+              0
+            ]
+          }
+        ],
+        "matching": 2,
+        "strata": {
+          "1": 4,
+          "infinity": 2
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 4,
+            "indices": [
+              0
+            ]
+          }
+        ],
+        "matching": 2,
+        "strata": {
+          "1": 4,
+          "infinity": 2
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                1
+              ]
+            }
+          ],
+          "matching": 2,
+          "strata": {
+            "1": 4,
+            "infinity": 2
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        }
+      },
+      "id": "repaired-initial-1",
+      "identity_boolean_shortest": null,
+      "identity_boolean_workflow_shortest": null,
+      "identity_full_shortest": null,
+      "initial_mask": 1,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 468
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 201,
+          "work_operations": 212
+        },
+        "per-binding-target": {
+          "transition_evaluations": 201,
+          "work_operations": 212
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 37,
+          "work_operations": 1132
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 44,
+          "work_operations": 1276
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 6,
+          "work_operations": 157
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 200,
+          "work_operations": 6255
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 37,
+          "work_operations": 156
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 45,
+          "work_operations": 116
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 12,
+          "work_operations": 34
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 201,
+          "work_operations": 404
+        },
+        "shared-target": {
+          "transition_evaluations": 201,
+          "work_operations": 404
+        },
+        "support-indexed": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 200,
+          "work_operations": 6255
+        }
+      },
+      "arm": "repaired",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 2,
+        "strata": {
+          "1": 4,
+          "infinity": 2
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 2,
+        "strata": {
+          "1": 4,
+          "infinity": 2
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                1
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                5
+              ]
+            }
+          ],
+          "matching": 2,
+          "strata": {
+            "1": 4,
+            "infinity": 2
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        }
+      },
+      "id": "repaired-initial-2",
+      "identity_boolean_shortest": null,
+      "identity_boolean_workflow_shortest": null,
+      "identity_full_shortest": null,
+      "initial_mask": 2,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 468
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 205,
+          "work_operations": 216
+        },
+        "per-binding-target": {
+          "transition_evaluations": 205,
+          "work_operations": 216
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 36,
+          "work_operations": 1141
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 45,
+          "work_operations": 1289
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 12,
+          "work_operations": 179
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 201,
+          "work_operations": 6265
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 39,
+          "work_operations": 158
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 49,
+          "work_operations": 120
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 12,
+          "work_operations": 34
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 205,
+          "work_operations": 408
+        },
+        "shared-target": {
+          "transition_evaluations": 205,
+          "work_operations": 408
+        },
+        "support-indexed": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 201,
+          "work_operations": 6265
+        }
+      },
+      "arm": "repaired",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 2,
+        "strata": {
+          "1": 4,
+          "infinity": 2
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 2,
+        "strata": {
+          "1": 4,
+          "infinity": 2
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                2
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                2
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                1
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                5
+              ]
+            }
+          ],
+          "matching": 2,
+          "strata": {
+            "1": 4,
+            "infinity": 2
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                2
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                2
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        }
+      },
+      "id": "repaired-initial-3",
+      "identity_boolean_shortest": null,
+      "identity_boolean_workflow_shortest": null,
+      "identity_full_shortest": null,
+      "initial_mask": 3,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 492
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 201,
+          "work_operations": 212
+        },
+        "per-binding-target": {
+          "transition_evaluations": 201,
+          "work_operations": 212
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 37,
+          "work_operations": 1132
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 44,
+          "work_operations": 1276
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 6,
+          "work_operations": 157
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 200,
+          "work_operations": 6255
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 37,
+          "work_operations": 156
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 45,
+          "work_operations": 116
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 12,
+          "work_operations": 34
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 201,
+          "work_operations": 404
+        },
+        "shared-target": {
+          "transition_evaluations": 201,
+          "work_operations": 404
+        },
+        "support-indexed": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 200,
+          "work_operations": 6255
+        }
+      },
+      "arm": "repaired",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 2,
+        "strata": {
+          "1": 4,
+          "infinity": 2
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 2,
+        "strata": {
+          "1": 4,
+          "infinity": 2
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                1
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                5
+              ]
+            }
+          ],
+          "matching": 2,
+          "strata": {
+            "1": 4,
+            "infinity": 2
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        }
+      },
+      "id": "repaired-initial-4",
+      "identity_boolean_shortest": null,
+      "identity_boolean_workflow_shortest": null,
+      "identity_full_shortest": null,
+      "initial_mask": 4,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 468
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 205,
+          "work_operations": 216
+        },
+        "per-binding-target": {
+          "transition_evaluations": 205,
+          "work_operations": 216
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 36,
+          "work_operations": 1141
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 45,
+          "work_operations": 1289
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 12,
+          "work_operations": 179
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 201,
+          "work_operations": 6265
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 39,
+          "work_operations": 158
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 49,
+          "work_operations": 120
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 12,
+          "work_operations": 34
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 205,
+          "work_operations": 408
+        },
+        "shared-target": {
+          "transition_evaluations": 205,
+          "work_operations": 408
+        },
+        "support-indexed": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 201,
+          "work_operations": 6265
+        }
+      },
+      "arm": "repaired",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 2,
+        "strata": {
+          "1": 4,
+          "infinity": 2
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              0
+            ]
+          },
+          {
+            "excluded_bindings": 2,
+            "indices": [
+              4
+            ]
+          }
+        ],
+        "matching": 2,
+        "strata": {
+          "1": 4,
+          "infinity": 2
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                2
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                2
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                1
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                5
+              ]
+            }
+          ],
+          "matching": 2,
+          "strata": {
+            "1": 4,
+            "infinity": 2
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                2
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 2,
+              "indices": [
+                2
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                4
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        }
+      },
+      "id": "repaired-initial-5",
+      "identity_boolean_shortest": null,
+      "identity_boolean_workflow_shortest": null,
+      "identity_full_shortest": null,
+      "initial_mask": 5,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 492
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 203,
+          "work_operations": 214
+        },
+        "per-binding-target": {
+          "transition_evaluations": 203,
+          "work_operations": 214
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 34,
+          "work_operations": 1121
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 42,
+          "work_operations": 1267
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 10,
+          "work_operations": 175
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 198,
+          "work_operations": 6243
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 38,
+          "work_operations": 157
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 47,
+          "work_operations": 118
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 4,
+          "transition_evaluations": 10,
+          "work_operations": 32
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 203,
+          "work_operations": 406
+        },
+        "shared-target": {
+          "transition_evaluations": 203,
+          "work_operations": 406
+        },
+        "support-indexed": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 198,
+          "work_operations": 6243
+        }
+      },
+      "arm": "repaired",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 4,
+            "indices": [
+              0
+            ]
+          }
+        ],
+        "matching": 2,
+        "strata": {
+          "1": 4,
+          "infinity": 2
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [
+          {
+            "excluded_bindings": 4,
+            "indices": [
+              0
+            ]
+          }
+        ],
+        "matching": 2,
+        "strata": {
+          "1": 4,
+          "infinity": 2
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                6
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                6
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                1
+              ]
+            }
+          ],
+          "matching": 2,
+          "strata": {
+            "1": 4,
+            "infinity": 2
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                6
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                0
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                6
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        }
+      },
+      "id": "repaired-initial-6",
+      "identity_boolean_shortest": null,
+      "identity_boolean_workflow_shortest": null,
+      "identity_full_shortest": null,
+      "initial_mask": 6,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 492
+    },
+    {
+      "algorithm_counts": {
+        "per-binding-product": {
+          "transition_evaluations": 211,
+          "work_operations": 222
+        },
+        "per-binding-target": {
+          "transition_evaluations": 211,
+          "work_operations": 222
+        },
+        "protocol-grouped/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 36,
+          "work_operations": 1156
+        },
+        "protocol-grouped/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 48,
+          "work_operations": 1306
+        },
+        "protocol-grouped/query-only": {
+          "replay_evaluations": 0,
+          "transition_evaluations": 18,
+          "work_operations": 177
+        },
+        "protocol-grouped/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 204,
+          "work_operations": 6283
+        },
+        "protocol-scan/mutation-restart-query": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 42,
+          "work_operations": 161
+        },
+        "protocol-scan/one-mutation": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 55,
+          "work_operations": 126
+        },
+        "protocol-scan/query-only": {
+          "replay_evaluations": 0,
+          "transition_evaluations": 18,
+          "work_operations": 36
+        },
+        "protocol-scan/unrestricted": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 211,
+          "work_operations": 414
+        },
+        "shared-target": {
+          "transition_evaluations": 211,
+          "work_operations": 414
+        },
+        "support-indexed": {
+          "replay_evaluations": 5,
+          "transition_evaluations": 204,
+          "work_operations": 6283
+        }
+      },
+      "arm": "repaired",
+      "decision_only": {
+        "bindings": 6,
+        "canonical_words": [],
+        "matching": 6,
+        "strata": {
+          "infinity": 6
+        }
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "canonical_words": [],
+        "matching": 6,
+        "strata": {
+          "infinity": 6
+        }
+      },
+      "distinct_membership_cells": 96,
+      "full_observation": {
+        "mutation-restart-query": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                2
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                6
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                2
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                6
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "query-only": {
+          "bindings": 6,
+          "canonical_words": [],
+          "matching": 6,
+          "strata": {
+            "infinity": 6
+          }
+        },
+        "total": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                2
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                6
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "canonical_words": [
+            {
+              "excluded_bindings": 4,
+              "indices": [
+                2
+              ]
+            },
+            {
+              "excluded_bindings": 1,
+              "indices": [
+                6
+              ]
+            }
+          ],
+          "matching": 1,
+          "strata": {
+            "1": 5,
+            "infinity": 1
+          }
+        }
+      },
+      "id": "repaired-initial-7",
+      "identity_boolean_shortest": null,
+      "identity_boolean_workflow_shortest": null,
+      "identity_full_shortest": null,
+      "initial_mask": 7,
+      "measured_cells": 192,
+      "membership_states": 8,
+      "physical_states": 16,
+      "prefix_operations": 444
+    }
+  ],
+  "comparison_unit": "Repeated per-binding algorithm comparisons of the same native source cases, not independent source samples.",
+  "decision_only_contract": "Separate direct product search comparing API Booleans while withholding store observations; it is not an instance of the full-observation diagnosis theorem.",
+  "method_binding_comparisons": 1152,
+  "physical_state": "Both ordered native policy sets and raw disk text. Membership-equivalent physical nodes remain distinct in the target."
+}

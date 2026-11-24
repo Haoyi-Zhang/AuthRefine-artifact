@@ -1,0 +1,15 @@
+{
+  "file": "source_study/proofs/ClosureGuardComposition.lean",
+  "proof_sha256": "83b03195f864d8ccfc3553225b4a539cb9d14d1cebc70ad6947f983cd8eca7a6",
+  "command": [
+    "<lean>/bin/lean",
+    "<artifact>/source_study/proofs/ClosureGuardComposition.lean"
+  ],
+  "exit_code": 0,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "wall_seconds": 0.42580781700235093,
+  "source_unchanged": true,
+  "sorry_warning": false,
+  "passed": true
+}

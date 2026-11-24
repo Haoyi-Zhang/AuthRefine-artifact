@@ -1,0 +1,3 @@
+'AuthRefine.aggregation_conversion' depends on axioms: [propext, Quot.sound]
+'AuthRefine.correspondence_lifts_to_traces' does not depend on any axioms
+'AuthRefine.sequential_composition' does not depend on any axioms

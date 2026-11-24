@@ -1,0 +1,15 @@
+{
+  "file": "source_study/proofs/DRFGuardComposition.lean",
+  "proof_sha256": "009c67486b96c2a75e6ee76ee85fa9dce0c9f2c19a8380115264a71f53d10c2c",
+  "command": [
+    "<lean>/bin/lean",
+    "<artifact>/source_study/proofs/DRFGuardComposition.lean"
+  ],
+  "exit_code": 0,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "wall_seconds": 0.5155233789992053,
+  "source_unchanged": true,
+  "sorry_warning": false,
+  "passed": true
+}

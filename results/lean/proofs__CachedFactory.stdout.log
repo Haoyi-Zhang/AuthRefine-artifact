@@ -1,0 +1,3 @@
+'AuthRefine.CachedFactory.protocol_correspondence' depends on axioms: [propext]
+'AuthRefine.CachedFactory.measured_local_obligations' does not depend on any axioms
+'AuthRefine.CachedFactory.measured_component_traces' depends on axioms: [propext]

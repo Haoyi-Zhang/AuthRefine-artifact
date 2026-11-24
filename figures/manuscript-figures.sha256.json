@@ -1,0 +1,21 @@
+{
+  "description": "SHA-256 of the 16 vector figures in the accompanying manuscript (paper/figures/*.pdf). evaluate.py --profile core compares regenerated figures with ../paper/figures/ when present, otherwise with these digests.",
+  "sha256": {
+    "adaptation-handling.pdf": "adc5b51c7f8570aba4c0d3e75534c24934f86dfa5516256f14e3285f84e0983c",
+    "analysis-workflow.pdf": "640563f9b5f16989be362d525c9686cd08077c00616fbebff1e20cf4cc0062d5",
+    "authrefine-overview.pdf": "81faec24d6798b4e9e3df8f15c89d2743366a093d04bbaaa488e3e3b4852bd37",
+    "credential-algorithm-cost.pdf": "065be752ccc9f3b1d6dba5934034f98020ec55703c5db624c3966fea187d9759",
+    "credential-handoff.pdf": "3932223606756d7a6977f2a32bf679c8cbb2c2912052e362c8f5c905bc074bac",
+    "diagnostic-trace.pdf": "2888b5eba342dd21bb4123b419e5f11e9c674a923d06fa29e4a269fb39148a18",
+    "evaluation-design.pdf": "569876d0a2cd2181c6c11ae35364ba5217e0946873a43f9877e1a1b0db032292",
+    "family-diagnosis-cost.pdf": "7e79d734e93d1ddcbcfb61ba23287edddef9155fb8be22eeb2fb4a3bbead03ad",
+    "frontend-batch-cost.pdf": "e5de80882fa9016e0b526ff0b7ec2fc73783fb107eba8056f66e8a472df45fc2",
+    "semantic-square.pdf": "51d90d51a046449875158ff7b79a2c422d85b2d942285ec42150c17c7a6a7c29",
+    "session-correspondence.pdf": "100ad529752990e99e46a99faced9f8f70df55e44db32ec8db55da2e21ee75b5",
+    "session-lifecycle.pdf": "ec50b4f6909dd8c06ade04a7c860ed952cc83506acb12b7f8bb2fea769e3a5b0",
+    "source-interface-coverage.pdf": "69e86f352e3c01d51aa661cec253af4e6ba80cc804504edbbd3c15bf7cb2934e",
+    "source-screening.pdf": "b17e5b6b0a010bcf3b6c170d402a71477232b9f670de85a41e4df0335cb57070",
+    "symbolic-comparison.pdf": "1e73698473d2e057fd5628e4d059c223be15c10c74cb3a59ab1b3690d6750905",
+    "width.pdf": "50afa5c3feef858ef41ae3e9b4fd4dcae2dafcbd3c876cc87126bc5488a02377"
+  }
+}

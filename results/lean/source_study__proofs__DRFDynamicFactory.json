@@ -1,0 +1,15 @@
+{
+  "file": "source_study/proofs/DRFDynamicFactory.lean",
+  "proof_sha256": "6ae3cb7193da4840c90984aa3592262e25bffb764d4e6fed3d05db08d70540ea",
+  "command": [
+    "<lean>/bin/lean",
+    "<artifact>/source_study/proofs/DRFDynamicFactory.lean"
+  ],
+  "exit_code": 0,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "wall_seconds": 0.46968378600286087,
+  "source_unchanged": true,
+  "sorry_warning": false,
+  "passed": true
+}

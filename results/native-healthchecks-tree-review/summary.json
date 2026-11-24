@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "independent_native_executions": 0,
+  "production_checker_executions": 0,
+  "evidence_files_unchanged": 4068,
+  "main": {
+    "sqlite_images": 2400,
+    "sqlite_uncompressed_bytes": 697958400,
+    "native_record_edges": 2340,
+    "sql_statements": 8580,
+    "native_trees": 60,
+    "global_profiles": 120,
+    "minimal_bad_prefix_results": 396,
+    "root_branch_components": 360,
+    "production_method_comparisons": 720,
+    "decoded_replay_rows": 720
+  },
+  "combined": {
+    "sqlite_images": 3444,
+    "sqlite_uncompressed_bytes": 1001570304,
+    "native_record_edges": 3072,
+    "sql_statements": 11244,
+    "native_trees": 60,
+    "global_profiles": 120,
+    "minimal_bad_prefix_results": 396,
+    "root_branch_components": 360,
+    "production_method_comparisons": 720,
+    "decoded_replay_rows": 720,
+    "native_replay_words": 312,
+    "native_replayed_negative_results": 396,
+    "native_replay_http_requests": 732,
+    "replay_physical_checkpoints": 1044,
+    "replay_sql_statements": 2664
+  },
+  "unique_fixture_check_uuids": 744,
+  "provenance": {
+    "original_source_files": 34,
+    "executed_source_files": 170,
+    "exact_control_patches": 4,
+    "successful_native_process_receipts": 9,
+    "checked_collection_cases": 372,
+    "native_modules_per_process": 27,
+    "dependency_lock_entries": 17,
+    "dependency_receipt_scope": "Retained package/file identity records and lock agreement; no current environment import or dependency reacquisition."
+  },
+  "scope": "Independent standard-library lifecycle equations, complete physical SQLite readback and retained production replay decoding; no application or builder/auditor modules imported."
+}

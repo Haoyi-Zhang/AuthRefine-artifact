@@ -1,0 +1,126 @@
+{
+  "retrieved_date_utc": "2026-11-19",
+  "scope": "Publication identity and version metadata, with exact access limits.",
+  "records": [
+    {
+      "key": "xing2025cnlp",
+      "url": "https://arxiv.org/abs/2508.06942v1",
+      "reference": "turn320806471view3",
+      "title": "When Prompt Engineering Meets Software Engineering: CNL-P as Natural and Robust \"APIs\" for Human-AI Interaction",
+      "authors": [
+        "Zhenchang Xing",
+        "Yang Liu",
+        "Zhuo Cheng",
+        "Qing Huang",
+        "Dehai Zhao",
+        "Daniel Sun",
+        "Chenhua Liu"
+      ],
+      "year": 2025,
+      "version": "v1",
+      "publication_date": "2025-08-09",
+      "access": "Primary arXiv abstract page and submission metadata; v1 is the sole displayed version.",
+      "status": "verified"
+    },
+    {
+      "key": "vatsa2026autocedar",
+      "url": "https://arxiv.org/abs/2607.03656v2",
+      "reference": "turn320806471view2; turn908155353view0",
+      "title": "AutoCedar: An Agentic Framework for Verifier-Guided Access Control Policy Synthesis",
+      "authors": [
+        "Adarsh Vatsa",
+        "Sachi Shome",
+        "Yingming Zhou",
+        "William Eiers"
+      ],
+      "year": 2026,
+      "version": "v2",
+      "publication_date": "2026-11-15",
+      "access": "Primary arXiv v2 abstract, revision metadata and HTML Sections I–III; not an audit of all experiments or proofs.",
+      "status": "verified"
+    },
+    {
+      "key": "xu2026parametric",
+      "url": "https://arxiv.org/abs/2607.09637v1",
+      "reference": "turn701131922academia5; turn544395786academia52",
+      "title": "Network Analysis with Parametric NetKAT",
+      "authors": [
+        "Han Xu",
+        "Zachary Kincaid",
+        "David Walker"
+      ],
+      "year": 2026,
+      "version": "v1",
+      "publication_date": "2026-07-10",
+      "access": "Search-indexed primary arXiv abstract and metadata. Direct abstract/HTML/PDF retrieval is disabled; no current full-text read is claimed.",
+      "status": "verified_at_indexed_primary_metadata_level"
+    },
+    {
+      "key": "lamport1996refinement",
+      "url": "https://lamport.azurewebsites.net/pubs/refinement.pdf",
+      "reference": "turn426268362view3",
+      "title": "Refinement in State-Based Formalisms",
+      "authors": [
+        "Leslie Lamport"
+      ],
+      "year": 1996,
+      "report_number": "1996-001",
+      "publication_date": "1996-12-18",
+      "access": "Author-hosted SRC Technical Note front matter, clock example and mapped-transition discussion. The copyright year printed on the cover is 1997; the report date is 1996.",
+      "status": "verified"
+    },
+    {
+      "key": "piccolo2026sessions",
+      "url": "https://github.com/piccolo-orm/piccolo_admin/security/advisories/GHSA-2gh4-jmwq-rr8w",
+      "reference": "turn903479475view0; turn843754215view0",
+      "title": "Privilege escalation - admin to superuser via session-token disclosure in GET /api/tables/sessions/.",
+      "authors": [
+        "dantownsend (publishing maintainer account)"
+      ],
+      "year": 2026,
+      "publication_date": "2026-06-19",
+      "identifier": "GHSA-2gh4-jmwq-rr8w; CVE-2026-55485",
+      "access": "Primary project advisory metadata, summary, configuration preconditions and maintainer response. BibTeX uses a descriptive shorter title and collective Piccolo maintainer credit.",
+      "status": "verified"
+    },
+    {
+      "key": "healthchecks_api",
+      "url": "https://healthchecks.io/docs/api/",
+      "reference": "references/healthchecks-sources.json: hc-api-current",
+      "title": "Management API v3",
+      "authors": [
+        "Healthchecks.io"
+      ],
+      "year": "n.d.",
+      "publication_date": null,
+      "access": "Authentication, List Existing Checks, Get a Single Check, response-code and read-only response paragraphs; not all API endpoints.",
+      "status": "verified"
+    },
+    {
+      "key": "caune2019readonly",
+      "url": "https://github.com/healthchecks/healthchecks/commit/1f1b1aedca949a52a592f8aefc523ad47b054ed9",
+      "reference": "references/healthchecks-sources.json: hc-commit-2019",
+      "title": "Don't include ping URLs in API responses when the read-only key is used",
+      "authors": [
+        "Pēteris Caune"
+      ],
+      "year": 2019,
+      "publication_date": "2019-07-04",
+      "access": "Commit metadata and relevant changed authorization, view, serializer, test and changelog hunks; no historical runtime execution. Also read CHANGELOG.md lines 1-32 at this exact commit to verify the Improvements classification.",
+      "status": "verified"
+    },
+    {
+      "key": "jameskirsop2020readonly",
+      "url": "https://github.com/healthchecks/healthchecks/issues/346",
+      "reference": "references/healthchecks-sources.json: hc-issue-346",
+      "title": "API @authorize decorator doesn't allow read-only for Single Check",
+      "authors": [
+        "jameskirsop"
+      ],
+      "year": 2020,
+      "publication_date": "2020-03-24",
+      "access": "Issue metadata and full short report body; no deployment runtime log. The maintainer response and associated 24 March 2020 fix were also read at their relevant authorization, view and test hunks.",
+      "status": "verified"
+    }
+  ]
+}

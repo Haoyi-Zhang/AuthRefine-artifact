@@ -1,0 +1,2069 @@
+{
+  "references": 68,
+  "doi_records": 60,
+  "non_doi_records": 8,
+  "unresolved_field_mismatches": [],
+  "status": "pass",
+  "scope": "Current bibliographic identity against retained publisher-deposited DOI responses and primary non-DOI records. Counts are computed above. Undated documentation retains n.d.; access dates are not publication dates. Missing fields and indexed-only access remain explicit; this is not full-text or scientific-method verification.",
+  "results": [
+    {
+      "citation_key": "xing2025cnlp",
+      "identifier": "https://arxiv.org/abs/2508.06942v1",
+      "bibliography_title": "When Prompt Engineering Meets Software Engineering: {CNL-P} as Natural and Robust ``{APIs}'' for Human-{AI} Interaction",
+      "bibliography_year": "2025",
+      "metadata_type": "primary_non_doi_record",
+      "source": "https://arxiv.org/abs/2508.06942v1",
+      "source_ref": "turn320806471view3",
+      "scope": "Primary arXiv abstract page and submission metadata; v1 is the sole displayed version.",
+      "checks": {
+        "url": true,
+        "year": true,
+        "title": true,
+        "contributors": true
+      },
+      "notes": [],
+      "status": "verified"
+    },
+    {
+      "citation_key": "swamy2010fine",
+      "identifier": "10.1007/978-3-642-11957-6_28",
+      "bibliography_title": "Enforcing Stateful Authorization and Information Flow Policies in {FINE}",
+      "bibliography_year": "2010",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1007/978-3-642-11957-6_28",
+      "metadata_title": "Enforcing Stateful Authorization and Information Flow Policies in Fine",
+      "metadata_years": [
+        "2010"
+      ],
+      "metadata_contributors": [
+        "Nikhil Swamy",
+        "Juan Chen",
+        "Ravi Chugh"
+      ],
+      "metadata_containers": [
+        "Lecture Notes in Computer Science",
+        "Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "cutler2024cedar",
+      "identifier": "10.1145/3649835",
+      "bibliography_title": "{Cedar}: A New Language for Expressive, Fast, Safe, and Analyzable Authorization",
+      "bibliography_year": "2024",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/3649835",
+      "metadata_title": "Cedar: A New Language for Expressive, Fast, Safe, and Analyzable Authorization",
+      "metadata_years": [
+        "2024"
+      ],
+      "metadata_contributors": [
+        "Joseph W. Cutler",
+        "Craig Disselkoen",
+        "Aaron Eline",
+        "Shaobo He",
+        "Kyle Headley",
+        "Michael Hicks",
+        "Kesha Hietala",
+        "Eleftherios Ioannidis",
+        "John Kastner",
+        "Anwar Mamat",
+        "Darin McAdams",
+        "Matt McCutchen",
+        "Neha Rungta",
+        "Emina Torlak",
+        "Andrew M. Wells"
+      ],
+      "metadata_containers": [
+        "Proceedings of the ACM on Programming Languages"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "numpages": true
+      },
+      "notes": [
+        "This Crossref response omits the article number; that field retains its prior primary-publication check rather than being marked newly verified."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "liu2009linearizability",
+      "identifier": "10.1007/978-3-642-05089-3_21",
+      "bibliography_title": "Model Checking Linearizability via Refinement",
+      "bibliography_year": "2009",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1007/978-3-642-05089-3_21",
+      "metadata_title": "Model Checking Linearizability via Refinement",
+      "metadata_years": [
+        "2009"
+      ],
+      "metadata_contributors": [
+        "Yang Liu",
+        "Wei Chen",
+        "Yanhong A. Liu",
+        "Jun Sun"
+      ],
+      "metadata_containers": [
+        "Lecture Notes in Computer Science",
+        "FM 2009: Formal Methods"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "foster2007lenses",
+      "identifier": "10.1145/1232420.1232424",
+      "bibliography_title": "Combinators for Bidirectional Tree Transformations: A Linguistic Approach to the View-Update Problem",
+      "bibliography_year": "2007",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/1232420.1232424",
+      "metadata_title": "Combinators for bidirectional tree transformations A linguistic approach to the view-update problem",
+      "metadata_years": [
+        "2007"
+      ],
+      "metadata_contributors": [
+        "J. Nathan Foster",
+        "Michael B. Greenwald",
+        "Jonathan T. Moore",
+        "Benjamin C. Pierce",
+        "Alan Schmitt"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "articleno": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "lamport1996refinement",
+      "identifier": "https://lamport.azurewebsites.net/pubs/refinement.pdf",
+      "bibliography_title": "Refinement in State-Based Formalisms",
+      "bibliography_year": "1996",
+      "metadata_type": "primary_non_doi_record",
+      "source": "https://lamport.azurewebsites.net/pubs/refinement.pdf",
+      "source_ref": "turn426268362view3",
+      "scope": "Author-hosted SRC Technical Note front matter, clock example and mapped-transition discussion. The copyright year printed on the cover is 1997; the report date is 1996.",
+      "checks": {
+        "url": true,
+        "year": true,
+        "title": true,
+        "contributors": true
+      },
+      "notes": [],
+      "status": "verified"
+    },
+    {
+      "citation_key": "leroy2009backend",
+      "identifier": "10.1007/s10817-009-9155-4",
+      "bibliography_title": "A Formally Verified Compiler Back-End",
+      "bibliography_year": "2009",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1007/s10817-009-9155-4",
+      "metadata_title": "A Formally Verified Compiler Back-end",
+      "metadata_years": [
+        "2009"
+      ],
+      "metadata_contributors": [
+        "Xavier Leroy"
+      ],
+      "metadata_containers": [
+        "Journal of Automated Reasoning"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "lang2003independence",
+      "identifier": "10.1613/jair.1113",
+      "bibliography_title": "Propositional Independence: Formula-Variable Independence and Forgetting",
+      "bibliography_year": "2003",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1613/jair.1113",
+      "metadata_title": "Propositional Independence - Formula-Variable Independence and\nForgetting",
+      "metadata_years": [
+        "2003"
+      ],
+      "metadata_contributors": [
+        "J. Lang",
+        "P. Liberatore",
+        "P. Marquis"
+      ],
+      "metadata_containers": [
+        "Journal of Artificial Intelligence Research"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "pages": true
+      },
+      "notes": [
+        "The deposit uses abbreviated or incomplete given names. The comparison checks ordered surname/initial compatibility, not fresh verification of every expanded given name."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "bryant1986graphs",
+      "identifier": "10.1109/TC.1986.1676819",
+      "bibliography_title": "Graph-Based Algorithms for Boolean Function Manipulation",
+      "bibliography_year": "1986",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1109/TC.1986.1676819",
+      "metadata_title": "Graph-Based Algorithms for Boolean Function Manipulation",
+      "metadata_years": [
+        "1986"
+      ],
+      "metadata_contributors": [
+        "Bryant"
+      ],
+      "metadata_containers": [
+        "IEEE Transactions on Computers"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [
+        "The deposit uses abbreviated or incomplete given names. The comparison checks ordered surname/initial compatibility, not fresh verification of every expanded given name.",
+        "Crossref stores the surname only; the author-hosted primary manuscript identifies Randal E. Bryant."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "vatsa2026autocedar",
+      "identifier": "https://arxiv.org/abs/2607.03656v2",
+      "bibliography_title": "{AutoCedar}: An Agentic Framework for Verifier-Guided Access Control Policy Synthesis",
+      "bibliography_year": "2026",
+      "metadata_type": "primary_non_doi_record",
+      "source": "https://arxiv.org/abs/2607.03656v2",
+      "source_ref": "turn320806471view2; turn908155353view0",
+      "scope": "Primary arXiv v2 abstract, revision metadata and HTML Sections I\u2013III; not an audit of all experiments or proofs.",
+      "checks": {
+        "url": true,
+        "year": true,
+        "title": true,
+        "contributors": true
+      },
+      "notes": [],
+      "status": "verified"
+    },
+    {
+      "citation_key": "fournet2007authorization",
+      "identifier": "10.1145/1275497.1275500",
+      "bibliography_title": "A Type Discipline for Authorization Policies",
+      "bibliography_year": "2007",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/1275497.1275500",
+      "metadata_title": "A type discipline for authorization policies",
+      "metadata_years": [
+        "2007"
+      ],
+      "metadata_contributors": [
+        "C\u00e9dric Fournet",
+        "Andrew D. Gordon",
+        "Sergio Maffeis"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "articleno": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "bengtson2008refinement",
+      "identifier": "10.1145/1890028.1890031",
+      "bibliography_title": "Refinement Types for Secure Implementations",
+      "bibliography_year": "2011",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/1890028.1890031",
+      "metadata_title": "Refinement types for secure implementations",
+      "metadata_years": [
+        "2011"
+      ],
+      "metadata_contributors": [
+        "Jesper Bengtson",
+        "Karthikeyan Bhargavan",
+        "C\u00e9dric Fournet",
+        "Andrew D. Gordon",
+        "Sergio Maffeis"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "numpages": true
+      },
+      "notes": [
+        "This Crossref response omits the article number; that field retains its prior primary-publication check rather than being marked newly verified."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "lamport1994tla",
+      "identifier": "10.1145/177492.177726",
+      "bibliography_title": "The Temporal Logic of Actions",
+      "bibliography_year": "1994",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/177492.177726",
+      "metadata_title": "The temporal logic of actions",
+      "metadata_years": [
+        "1994"
+      ],
+      "metadata_contributors": [
+        "Leslie Lamport"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "clarke1994abstraction",
+      "identifier": "10.1145/186025.186051",
+      "bibliography_title": "Model Checking and Abstraction",
+      "bibliography_year": "1994",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/186025.186051",
+      "metadata_title": "Model checking and abstraction",
+      "metadata_years": [
+        "1994"
+      ],
+      "metadata_contributors": [
+        "Edmund M. Clarke",
+        "Orna Grumberg",
+        "David E. Long"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "rival2007partitioning",
+      "identifier": "10.1145/1275497.1275501",
+      "bibliography_title": "The Trace Partitioning Abstract Domain",
+      "bibliography_year": "2007",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/1275497.1275501",
+      "metadata_title": "The trace partitioning abstract domain",
+      "metadata_years": [
+        "2007"
+      ],
+      "metadata_contributors": [
+        "Xavier Rival",
+        "Laurent Mauborgne"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "articleno": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "necula2000validation",
+      "identifier": "10.1145/349299.349314",
+      "bibliography_title": "Translation Validation for an Optimizing Compiler",
+      "bibliography_year": "2000",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/349299.349314",
+      "metadata_title": "Translation validation for an optimizing compiler",
+      "metadata_years": [
+        "2000"
+      ],
+      "metadata_contributors": [
+        "George C. Necula"
+      ],
+      "metadata_containers": [
+        "Proceedings of the ACM SIGPLAN 2000 conference on Programming language design and implementation"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "schneider2000enforceable",
+      "identifier": "10.1145/353323.353382",
+      "bibliography_title": "Enforceable Security Policies",
+      "bibliography_year": "2000",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/353323.353382",
+      "metadata_title": "Enforceable security policies",
+      "metadata_years": [
+        "2000"
+      ],
+      "metadata_contributors": [
+        "Fred B. Schneider"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Information and System Security"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "hamlen2006enforcement",
+      "identifier": "10.1145/1111596.1111601",
+      "bibliography_title": "Computability Classes for Enforcement Mechanisms",
+      "bibliography_year": "2006",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/1111596.1111601",
+      "metadata_title": "Computability classes for enforcement mechanisms",
+      "metadata_years": [
+        "2006"
+      ],
+      "metadata_contributors": [
+        "Kevin W. Hamlen",
+        "Greg Morrisett",
+        "Fred B. Schneider"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "barthe2009translation",
+      "identifier": "10.1145/1538917.1538919",
+      "bibliography_title": "Certificate Translation for Optimizing Compilers",
+      "bibliography_year": "2009",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/1538917.1538919",
+      "metadata_title": "Certificate translation for optimizing compilers",
+      "metadata_years": [
+        "2009"
+      ],
+      "metadata_contributors": [
+        "Gilles Barthe",
+        "Benjamin Gr\u00e9goire",
+        "C\u00e9sar Kunz",
+        "Tamara Rezk"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "numpages": true
+      },
+      "notes": [
+        "This Crossref response omits the article number; that field retains its prior primary-publication check rather than being marked newly verified."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "barthe2011abstract",
+      "identifier": "10.1145/1985342.1985344",
+      "bibliography_title": "An Abstract Model of Certificate Translation",
+      "bibliography_year": "2011",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/1985342.1985344",
+      "metadata_title": "An Abstract Model of Certificate Translation",
+      "metadata_years": [
+        "2011"
+      ],
+      "metadata_contributors": [
+        "Gilles Barthe",
+        "C\u00e9sar Kunz"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "numpages": true
+      },
+      "notes": [
+        "This Crossref response omits the article number; that field retains its prior primary-publication check rather than being marked newly verified."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "clements2004stack",
+      "identifier": "10.1145/1034774.1034778",
+      "bibliography_title": "A Tail-Recursive Machine with Stack Inspection",
+      "bibliography_year": "2004",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/1034774.1034778",
+      "metadata_title": "A tail-recursive machine with stack inspection",
+      "metadata_years": [
+        "2004"
+      ],
+      "metadata_contributors": [
+        "John Clements",
+        "Matthias Felleisen"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "lamport2022prophecy",
+      "identifier": "10.1145/3492545",
+      "bibliography_title": "Prophecy Made Simple",
+      "bibliography_year": "2022",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/3492545",
+      "metadata_title": "Prophecy Made Simple",
+      "metadata_years": [
+        "2022"
+      ],
+      "metadata_contributors": [
+        "Leslie Lamport",
+        "Stephan Merz"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "numpages": true
+      },
+      "notes": [
+        "This Crossref response omits the article number; that field retains its prior primary-publication check rather than being marked newly verified."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "rendel2010invertible",
+      "identifier": "10.1145/1863523.1863525",
+      "bibliography_title": "Invertible Syntax Descriptions: Unifying Parsing and Pretty Printing",
+      "bibliography_year": "2010",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/1863523.1863525",
+      "metadata_title": "Invertible syntax descriptions unifying parsing and pretty printing",
+      "metadata_years": [
+        "2010"
+      ],
+      "metadata_contributors": [
+        "Tillmann Rendel",
+        "Klaus Ostermann"
+      ],
+      "metadata_containers": [
+        "Proceedings of the third ACM Haskell symposium on Haskell"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "kuhn2014survey",
+      "identifier": "10.1162/COLI_a_00168",
+      "bibliography_title": "A Survey and Classification of Controlled Natural Languages",
+      "bibliography_year": "2014",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1162/COLI_a_00168",
+      "metadata_title": "A Survey and Classification of Controlled Natural Languages",
+      "metadata_years": [
+        "2014"
+      ],
+      "metadata_contributors": [
+        "Tobias Kuhn"
+      ],
+      "metadata_containers": [
+        "Computational Linguistics"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "horwitz1990slicing",
+      "identifier": "10.1145/77606.77608",
+      "bibliography_title": "Interprocedural Slicing Using Dependence Graphs",
+      "bibliography_year": "1990",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/77606.77608",
+      "metadata_title": "Interprocedural slicing using dependence graphs",
+      "metadata_years": [
+        "1990"
+      ],
+      "metadata_contributors": [
+        "Susan Horwitz",
+        "Thomas Reps",
+        "David Binkley"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "jourdan2012parsers",
+      "identifier": "10.1007/978-3-642-28869-2_20",
+      "bibliography_title": "Validating {LR(1)} Parsers",
+      "bibliography_year": "2012",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1007/978-3-642-28869-2_20",
+      "metadata_title": "Validating LR(1) Parsers",
+      "metadata_years": [
+        "2012"
+      ],
+      "metadata_contributors": [
+        "Jacques-Henri Jourdan",
+        "Fran\u00e7ois Pottier",
+        "Xavier Leroy"
+      ],
+      "metadata_containers": [
+        "Lecture Notes in Computer Science",
+        "Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "tristan2008validators",
+      "identifier": "10.1145/1328438.1328444",
+      "bibliography_title": "Formal Verification of Translation Validators: A Case Study on Instruction Scheduling Optimizations",
+      "bibliography_year": "2008",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/1328438.1328444",
+      "metadata_title": "Formal verification of translation validators a case study on instruction scheduling optimizations",
+      "metadata_years": [
+        "2008"
+      ],
+      "metadata_contributors": [
+        "Jean-Baptiste Tristan",
+        "Xavier Leroy"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 35th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "bourke2017lustre",
+      "identifier": "10.1145/3062341.3062358",
+      "bibliography_title": "A Formally Verified Compiler for {Lustre}",
+      "bibliography_year": "2017",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/3062341.3062358",
+      "metadata_title": "A formally verified compiler for Lustre",
+      "metadata_years": [
+        "2017"
+      ],
+      "metadata_contributors": [
+        "Timothy Bourke",
+        "L\u00e9lio Brun",
+        "Pierre-\u00c9variste Dagand",
+        "Xavier Leroy",
+        "Marc Pouzet",
+        "Lionel Rieg"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "doenges2022leapfrog",
+      "identifier": "10.1145/3519939.3523715",
+      "bibliography_title": "{Leapfrog}: Certified Equivalence for Protocol Parsers",
+      "bibliography_year": "2022",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/3519939.3523715",
+      "metadata_title": "Leapfrog: certified equivalence for protocol parsers",
+      "metadata_years": [
+        "2022"
+      ],
+      "metadata_contributors": [
+        "Ryan Doenges",
+        "Tobias Kapp\u00e9",
+        "John Sarracino",
+        "Nate Foster",
+        "Greg Morrisett"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 43rd ACM SIGPLAN International Conference on Programming Language Design and Implementation"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "classen2011symbolic",
+      "identifier": "10.1145/1985793.1985838",
+      "bibliography_title": "Symbolic Model Checking of Software Product Lines",
+      "bibliography_year": "2011",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/1985793.1985838",
+      "metadata_title": "Symbolic model checking of software product lines",
+      "metadata_years": [
+        "2011"
+      ],
+      "metadata_contributors": [
+        "Andreas Classen",
+        "Patrick Heymans",
+        "Pierre-Yves Schobbens",
+        "Axel Legay"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 33rd International Conference on Software Engineering"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "abate2021traces",
+      "identifier": "10.1145/3460860",
+      "bibliography_title": "An Extended Account of Trace-Relating Compiler Correctness and Secure Compilation",
+      "bibliography_year": "2021",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/3460860",
+      "metadata_title": "An Extended Account of Trace-relating Compiler Correctness and Secure Compilation",
+      "metadata_years": [
+        "2021"
+      ],
+      "metadata_contributors": [
+        "Carmine Abate",
+        "Roberto Blanco",
+        "\u015etefan Ciob\u00e2c\u0103",
+        "Adrien Durier",
+        "Deepak Garg",
+        "C\u0103t\u0103lin Hri\u0163cu",
+        "Marco Patrignani",
+        "\u00c9ric Tanter",
+        "J\u00e9r\u00e9my Thibault"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "numpages": true
+      },
+      "notes": [
+        "This Crossref response omits the article number; that field retains its prior primary-publication check rather than being marked newly verified."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "patrignani2024uc",
+      "identifier": "10.1145/3698234",
+      "bibliography_title": "Universal Composability Is Robust Compilation",
+      "bibliography_year": "2024",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/3698234",
+      "metadata_title": "Universal Composability Is Robust Compilation",
+      "metadata_years": [
+        "2024"
+      ],
+      "metadata_contributors": [
+        "Marco Patrignani",
+        "Robert K\u00fcnnemann",
+        "Riad S. Wahby",
+        "Ethan Cecchetti"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "numpages": true
+      },
+      "notes": [
+        "This Crossref response omits the article number; that field retains its prior primary-publication check rather than being marked newly verified."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "chakarov2025cloud",
+      "identifier": "10.1109/ICSE55347.2025.00166",
+      "bibliography_title": "Formally Verified Cloud-Scale Authorization",
+      "bibliography_year": "2025",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1109/ICSE55347.2025.00166",
+      "metadata_title": "Formally Verified Cloud-Scale Authorization",
+      "metadata_years": [
+        "2025"
+      ],
+      "metadata_contributors": [
+        "Aleks Chakarov",
+        "Jaco Geldenhuys",
+        "Matthew Heck",
+        "Michael Hicks",
+        "Sam Huang",
+        "Georges-Axel Jaloyan",
+        "Anjali Joshi",
+        "K. Rustan M. Leino",
+        "Mikael Mayer",
+        "Sean McLaughlin",
+        "Akhilesh Mritunjai",
+        "Clement Pit-Claudel",
+        "Sorawee Porncharoenwase",
+        "Florian Rabe",
+        "Marianna Rapoport",
+        "Giles Reger",
+        "Cody Roux",
+        "Neha Rungta",
+        "Robin Salkeld",
+        "Matthias Schlaipfer",
+        "Daniel Schoepe",
+        "Johanna Schwartzentruber",
+        "Serdar Tasiran",
+        "Aaron Tomb",
+        "Emina Torlak",
+        "Jean-Baptiste Tristan",
+        "Lucas Wagner",
+        "Michael W. Whalen",
+        "Remy Willems",
+        "Tongtong Xiang",
+        "Tae Joon Byun",
+        "Joshua Cohen",
+        "Ruijie Fang",
+        "Junyoung Jang",
+        "Jakob Rath",
+        "Hira Taqdees Syeda",
+        "Dominik Wagner",
+        "Yongwei Yuan"
+      ],
+      "metadata_containers": [
+        "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "abadi1991mappings",
+      "identifier": "10.1016/0304-3975(91)90224-P",
+      "bibliography_title": "The Existence of Refinement Mappings",
+      "bibliography_year": "1991",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1016/0304-3975(91)90224-P",
+      "metadata_title": "The existence of refinement mappings",
+      "metadata_years": [
+        "1991"
+      ],
+      "metadata_contributors": [
+        "Mart\u00edn Abadi",
+        "Leslie Lamport"
+      ],
+      "metadata_containers": [
+        "Theoretical Computer Science"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "lynch1995simulations",
+      "identifier": "10.1006/inco.1995.1134",
+      "bibliography_title": "Forward and Backward Simulations. Part {I}: Untimed Systems",
+      "bibliography_year": "1995",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1006/inco.1995.1134",
+      "metadata_title": "Forward and Backward Simulations",
+      "metadata_years": [
+        "1995"
+      ],
+      "metadata_contributors": [
+        "N. Lynch",
+        "F. Vaandrager"
+      ],
+      "metadata_containers": [
+        "Information and Computation"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [
+        "Crossref omits the Part I subtitle; primary UvA publication record confirms the complete title: https://dare.uva.nl/id/88895f5a-e3b8-40b0-8c06-d9c1c7871db1",
+        "The deposit uses abbreviated or incomplete given names. The comparison checks ordered surname/initial compatibility, not fresh verification of every expanded given name."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "necula1997pcc",
+      "identifier": "10.1145/263699.263712",
+      "bibliography_title": "Proof-Carrying Code",
+      "bibliography_year": "1997",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/263699.263712",
+      "metadata_title": "Proof-carrying code",
+      "metadata_years": [
+        "1997"
+      ],
+      "metadata_contributors": [
+        "George C. Necula"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 24th ACM SIGPLAN-SIGACT symposium on Principles of programming languages  - POPL '97"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "pnueli1998validation",
+      "identifier": "10.1007/BFb0054170",
+      "bibliography_title": "Translation Validation",
+      "bibliography_year": "1998",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1007/BFb0054170",
+      "metadata_title": "Translation validation",
+      "metadata_years": [
+        "1998",
+        "2006"
+      ],
+      "metadata_contributors": [
+        "A. Pnueli",
+        "M. Siegel",
+        "E. Singerman"
+      ],
+      "metadata_containers": [
+        "Lecture Notes in Computer Science",
+        "Tools and Algorithms for the Construction and Analysis of Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [
+        "Publication dates have distinct online/print years; the bibliography year matches a deposited publication date.",
+        "The deposit uses abbreviated or incomplete given names. The comparison checks ordered surname/initial compatibility, not fresh verification of every expanded given name."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "fisler2005margrave",
+      "identifier": "10.1145/1062455.1062502",
+      "bibliography_title": "Verification and Change-Impact Analysis of Access-Control Policies",
+      "bibliography_year": "2005",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/1062455.1062502",
+      "metadata_title": "Verification and change-impact analysis of access-control policies",
+      "metadata_years": [
+        "2005"
+      ],
+      "metadata_contributors": [
+        "Kathi Fisler",
+        "Shriram Krishnamurthi",
+        "Leo A. Meyerovich",
+        "Michael Carl Tschantz"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 27th international conference on Software engineering  - ICSE '05"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [
+        "The ACM deposit supplies only first page 196; the separately retained IEEE co-publication deposit, DOI 10.1109/ICSE.2005.1553562, confirms 196\u2013205. The bibliography retains one ACM citation, not two records for the same work."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "dougherty2006dynamic",
+      "identifier": "10.1007/11814771_51",
+      "bibliography_title": "Specifying and Reasoning about Dynamic Access-Control Policies",
+      "bibliography_year": "2006",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1007/11814771_51",
+      "metadata_title": "Specifying and Reasoning About Dynamic Access-Control Policies",
+      "metadata_years": [
+        "2006"
+      ],
+      "metadata_contributors": [
+        "Daniel J. Dougherty",
+        "Kathi Fisler",
+        "Shriram Krishnamurthi"
+      ],
+      "metadata_containers": [
+        "Lecture Notes in Computer Science",
+        "Automated Reasoning"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "backes2018zelkova",
+      "identifier": "10.23919/FMCAD.2018.8602994",
+      "bibliography_title": "Semantic-based Automated Reasoning for {AWS} Access Policies using {SMT}",
+      "bibliography_year": "2018",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.23919/FMCAD.2018.8602994",
+      "metadata_title": "Semantic-based Automated Reasoning for AWS Access Policies using SMT",
+      "metadata_years": [
+        "2018"
+      ],
+      "metadata_contributors": [
+        "John Backes",
+        "Pauline Bolignano",
+        "Byron Cook",
+        "Catherine Dodge",
+        "Andrew Gacek",
+        "Kasper Luckow",
+        "Neha Rungta",
+        "Oksana Tkachuk",
+        "Carsten Varming"
+      ],
+      "metadata_containers": [
+        "2018 Formal Methods in Computer Aided Design (FMCAD)"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "bouchet2020public",
+      "identifier": "10.1145/3368089.3409728",
+      "bibliography_title": "Block Public Access: Trust Safety Verification of Access Control Policies",
+      "bibliography_year": "2020",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/3368089.3409728",
+      "metadata_title": "Block public access: trust safety verification of access control policies",
+      "metadata_years": [
+        "2020"
+      ],
+      "metadata_contributors": [
+        "Malik Bouchet",
+        "Byron Cook",
+        "Bryant Cutler",
+        "Anna Druzkina",
+        "Andrew Gacek",
+        "Liana Hadarean",
+        "Ranjit Jhala",
+        "Brad Marshall",
+        "Dan Peebles",
+        "Neha Rungta",
+        "Cole Schlesinger",
+        "Chriss Stephens",
+        "Carsten Varming",
+        "Andy Warfield"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "abadi1993access",
+      "identifier": "10.1145/155183.155225",
+      "bibliography_title": "A Calculus for Access Control in Distributed Systems",
+      "bibliography_year": "1993",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/155183.155225",
+      "metadata_title": "A calculus for access control in distributed systems",
+      "metadata_years": [
+        "1993"
+      ],
+      "metadata_contributors": [
+        "Mart\u00edn Abadi",
+        "Michael Burrows",
+        "Butler Lampson",
+        "Gordon Plotkin"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "becker2009dynpal",
+      "identifier": "10.1109/CSF.2009.14",
+      "bibliography_title": "Specification and Analysis of Dynamic Authorisation Policies",
+      "bibliography_year": "2009",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1109/CSF.2009.14",
+      "metadata_title": "Specification and Analysis of Dynamic Authorisation Policies",
+      "metadata_years": [
+        "2009"
+      ],
+      "metadata_contributors": [
+        "Moritz Y. Becker"
+      ],
+      "metadata_containers": [
+        "2009 22nd IEEE Computer Security Foundations Symposium"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "kozen1997kat",
+      "identifier": "10.1145/256167.256195",
+      "bibliography_title": "Kleene Algebra with Tests",
+      "bibliography_year": "1997",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/256167.256195",
+      "metadata_title": "Kleene algebra with tests",
+      "metadata_years": [
+        "1997"
+      ],
+      "metadata_contributors": [
+        "Dexter Kozen"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Programming Languages and Systems"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "anderson2014netkat",
+      "identifier": "10.1145/2535838.2535862",
+      "bibliography_title": "{NetKAT}: Semantic Foundations for Networks",
+      "bibliography_year": "2014",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/2535838.2535862",
+      "metadata_title": "NetKAT semantic foundations for networks",
+      "metadata_years": [
+        "2014"
+      ],
+      "metadata_contributors": [
+        "Carolyn Jane Anderson",
+        "Nate Foster",
+        "Arjun Guha",
+        "Jean-Baptiste Jeannin",
+        "Dexter Kozen",
+        "Cole Schlesinger",
+        "David Walker"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 41st ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "foster2015coalgebraic",
+      "identifier": "10.1145/2676726.2677011",
+      "bibliography_title": "A Coalgebraic Decision Procedure for {NetKAT}",
+      "bibliography_year": "2015",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/2676726.2677011",
+      "metadata_title": "A Coalgebraic Decision Procedure for NetKAT",
+      "metadata_years": [
+        "2015"
+      ],
+      "metadata_contributors": [
+        "Nate Foster",
+        "Dexter Kozen",
+        "Mae Milano",
+        "Alexandra Silva",
+        "Laure Thompson"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 42nd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "pous2015symbolic",
+      "identifier": "10.1145/2676726.2677007",
+      "bibliography_title": "Symbolic Algorithms for Language Equivalence and {Kleene} Algebra with Tests",
+      "bibliography_year": "2015",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/2676726.2677007",
+      "metadata_title": "Symbolic Algorithms for Language Equivalence and Kleene Algebra with Tests",
+      "metadata_years": [
+        "2015"
+      ],
+      "metadata_contributors": [
+        "Damien Pous"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 42nd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "smolka2020gkat",
+      "identifier": "10.1145/3371129",
+      "bibliography_title": "Guarded {Kleene} Algebra with Tests: Verification of Uninterpreted Programs in Nearly Linear Time",
+      "bibliography_year": "2020",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/3371129",
+      "metadata_title": "Guarded Kleene algebra with tests: verification of uninterpreted programs in nearly linear time",
+      "metadata_years": [
+        "2019",
+        "2020"
+      ],
+      "metadata_contributors": [
+        "Steffen Smolka",
+        "Nate Foster",
+        "Justin Hsu",
+        "Tobias Kapp\u00e9",
+        "Dexter Kozen",
+        "Alexandra Silva"
+      ],
+      "metadata_containers": [
+        "Proceedings of the ACM on Programming Languages"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "numpages": true
+      },
+      "notes": [
+        "Publication dates have distinct online/print years; the bibliography year matches a deposited publication date.",
+        "This Crossref response omits the article number; that field retains its prior primary-publication check rather than being marked newly verified."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "bonchi2013congruence",
+      "identifier": "10.1145/2429069.2429124",
+      "bibliography_title": "Checking {NFA} Equivalence with Bisimulations up to Congruence",
+      "bibliography_year": "2013",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/2429069.2429124",
+      "metadata_title": "Checking NFA equivalence with bisimulations up to congruence",
+      "metadata_years": [
+        "2013"
+      ],
+      "metadata_contributors": [
+        "Filippo Bonchi",
+        "Damien Pous"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 40th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "cousot1977abstract",
+      "identifier": "10.1145/512950.512973",
+      "bibliography_title": "Abstract Interpretation: A Unified Lattice Model for Static Analysis of Programs by Construction or Approximation of Fixpoints",
+      "bibliography_year": "1977",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/512950.512973",
+      "metadata_title": "Abstract interpretation a unified lattice model for static analysis of programs by construction or approximation of fixpoints",
+      "metadata_years": [
+        "1977"
+      ],
+      "metadata_contributors": [
+        "Patrick Cousot",
+        "Radhia Cousot"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 4th ACM SIGACT-SIGPLAN symposium on Principles of programming languages  - POPL '77"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "clarke2000cegar",
+      "identifier": "10.1007/10722167_15",
+      "bibliography_title": "Counterexample-Guided Abstraction Refinement",
+      "bibliography_year": "2000",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1007/10722167_15",
+      "metadata_title": "Counterexample-Guided Abstraction Refinement",
+      "metadata_years": [
+        "2000"
+      ],
+      "metadata_contributors": [
+        "Edmund Clarke",
+        "Orna Grumberg",
+        "Somesh Jha",
+        "Yuan Lu",
+        "Helmut Veith"
+      ],
+      "metadata_containers": [
+        "Lecture Notes in Computer Science",
+        "Computer Aided Verification"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "clarkson2010hyperproperties",
+      "identifier": "10.3233/JCS-2009-0393",
+      "bibliography_title": "Hyperproperties",
+      "bibliography_year": "2010",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.3233/JCS-2009-0393",
+      "metadata_title": "Hyperproperties",
+      "metadata_years": [
+        "2010"
+      ],
+      "metadata_contributors": [
+        "Michael R. Clarkson",
+        "Fred B. Schneider"
+      ],
+      "metadata_containers": [
+        "Journal of Computer Security"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "alpern1985liveness",
+      "identifier": "10.1016/0020-0190(85)90056-0",
+      "bibliography_title": "Defining Liveness",
+      "bibliography_year": "1985",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1016/0020-0190(85)90056-0",
+      "metadata_title": "Defining liveness",
+      "metadata_years": [
+        "1985"
+      ],
+      "metadata_contributors": [
+        "Bowen Alpern",
+        "Fred B. Schneider"
+      ],
+      "metadata_containers": [
+        "Information Processing Letters"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "fuchs2008attempto",
+      "identifier": "10.1007/978-3-540-85658-0_3",
+      "bibliography_title": "Attempto Controlled {English} for Knowledge Representation",
+      "bibliography_year": "2008",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1007/978-3-540-85658-0_3",
+      "metadata_title": "Attempto Controlled English for Knowledge Representation",
+      "metadata_years": [
+        "2008"
+      ],
+      "metadata_contributors": [
+        "Norbert E. Fuchs",
+        "Kaarel Kaljurand",
+        "Tobias Kuhn"
+      ],
+      "metadata_containers": [
+        "Lecture Notes in Computer Science",
+        "Reasoning Web"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "park2004ucon",
+      "identifier": "10.1145/984334.984339",
+      "bibliography_title": "The {UCON$_{ABC}$} Usage Control Model",
+      "bibliography_year": "2004",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/984334.984339",
+      "metadata_title": "The UCON\n                    <sub>ABC</sub>\n                    usage control model",
+      "metadata_years": [
+        "2004"
+      ],
+      "metadata_contributors": [
+        "Jaehong Park",
+        "Ravi Sandhu"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Information and System Security"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "moeller2024katch",
+      "identifier": "10.1145/3656454",
+      "bibliography_title": "{KATch}: A Fast Symbolic Verifier for {NetKAT}",
+      "bibliography_year": "2024",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/3656454",
+      "metadata_title": "KATch: A Fast Symbolic Verifier for NetKAT",
+      "metadata_years": [
+        "2024"
+      ],
+      "metadata_contributors": [
+        "Mark Moeller",
+        "Jules Jacobs",
+        "Olivier Savary Belanger",
+        "David Darais",
+        "Cole Schlesinger",
+        "Steffen Smolka",
+        "Nate Foster",
+        "Alexandra Silva"
+      ],
+      "metadata_containers": [
+        "Proceedings of the ACM on Programming Languages"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "numpages": true
+      },
+      "notes": [
+        "This Crossref response omits the article number; that field retains its prior primary-publication check rather than being marked newly verified."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "harrison1976protection",
+      "identifier": "10.1145/360303.360333",
+      "bibliography_title": "Protection in Operating Systems",
+      "bibliography_year": "1976",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/360303.360333",
+      "metadata_title": "Protection in operating systems",
+      "metadata_years": [
+        "1976"
+      ],
+      "metadata_contributors": [
+        "Michael A. Harrison",
+        "Walter L. Ruzzo",
+        "Jeffrey D. Ullman"
+      ],
+      "metadata_containers": [
+        "Communications of the ACM"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "xu2026relational",
+      "identifier": "10.1145/3776656",
+      "bibliography_title": "Network Change Validation with Relational {NetKAT}",
+      "bibliography_year": "2026",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/3776656",
+      "metadata_title": "Network Change Validation with Relational NetKAT",
+      "metadata_years": [
+        "2026"
+      ],
+      "metadata_contributors": [
+        "Han Xu",
+        "Zachary Kincaid",
+        "Ratul Mahajan",
+        "David Walker"
+      ],
+      "metadata_containers": [
+        "Proceedings of the ACM on Programming Languages"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "pages": true,
+        "numpages": true
+      },
+      "notes": [
+        "This Crossref response omits the article number; that field retains its prior primary-publication check rather than being marked newly verified."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "xu2026parametric",
+      "identifier": "https://arxiv.org/abs/2607.09637v1",
+      "bibliography_title": "Network Analysis with Parametric {NetKAT}",
+      "bibliography_year": "2026",
+      "metadata_type": "primary_non_doi_record",
+      "source": "https://arxiv.org/abs/2607.09637v1",
+      "source_ref": "turn701131922academia5; turn544395786academia52",
+      "scope": "Search-indexed primary arXiv abstract and metadata. Direct abstract/HTML/PDF retrieval is disabled; no current full-text read is claimed.",
+      "checks": {
+        "url": true,
+        "year": true,
+        "title": true,
+        "contributors": true
+      },
+      "notes": [],
+      "status": "verified_at_indexed_primary_metadata_level"
+    },
+    {
+      "citation_key": "hardt2012oauth",
+      "identifier": "10.17487/RFC6749",
+      "bibliography_title": "The {OAuth} 2.0 Authorization Framework",
+      "bibliography_year": "2012",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.17487/RFC6749",
+      "metadata_title": "The OAuth 2.0 Authorization Framework",
+      "metadata_years": [
+        "2012"
+      ],
+      "metadata_contributors": [
+        "D. Hardt"
+      ],
+      "metadata_containers": [],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true
+      },
+      "notes": [
+        "The deposit uses abbreviated or incomplete given names. The comparison checks ordered surname/initial compatibility, not fresh verification of every expanded given name.",
+        "The RFC deposit separates editor credits; the RFC Editor page verifies the full contributor list and roles."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "lodderstedt2013revocation",
+      "identifier": "10.17487/RFC7009",
+      "bibliography_title": "{OAuth} 2.0 Token Revocation",
+      "bibliography_year": "2013",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.17487/RFC7009",
+      "metadata_title": "OAuth 2.0 Token Revocation",
+      "metadata_years": [
+        "2013"
+      ],
+      "metadata_contributors": [
+        "T. Lodderstedt",
+        "S. Dronia",
+        "M. Scurtescu"
+      ],
+      "metadata_containers": [],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true
+      },
+      "notes": [
+        "The deposit uses abbreviated or incomplete given names. The comparison checks ordered surname/initial compatibility, not fresh verification of every expanded given name.",
+        "The RFC deposit separates editor credits; the RFC Editor page verifies the full contributor list and roles."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "bocic2016cancheck",
+      "identifier": "10.1145/2970276.2970350",
+      "bibliography_title": "Finding Access Control Bugs in Web Applications with {CanCheck}",
+      "bibliography_year": "2016",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/2970276.2970350",
+      "metadata_title": "Finding access control bugs in web applications with CanCheck",
+      "metadata_years": [
+        "2016"
+      ],
+      "metadata_contributors": [
+        "Ivan Boci\u0107",
+        "Tevfik Bultan"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "near2016space",
+      "identifier": "10.1145/2884781.2884836",
+      "bibliography_title": "Finding Security Bugs in Web Applications Using a Catalog of Access Control Patterns",
+      "bibliography_year": "2016",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/2884781.2884836",
+      "metadata_title": "Finding security bugs in web applications using a catalog of access control patterns",
+      "metadata_years": [
+        "2016"
+      ],
+      "metadata_contributors": [
+        "Joseph P. Near",
+        "Daniel Jackson"
+      ],
+      "metadata_containers": [
+        "Proceedings of the 38th International Conference on Software Engineering"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "pages": true
+      },
+      "notes": [],
+      "status": "matched"
+    },
+    {
+      "citation_key": "robol2023consent",
+      "identifier": "10.1145/3490754",
+      "bibliography_title": "Consent Verification Monitoring",
+      "bibliography_year": "2023",
+      "metadata_type": "publisher_deposited_crossref",
+      "source": "https://api.crossref.org/works/10.1145/3490754",
+      "metadata_title": "Consent Verification Monitoring",
+      "metadata_years": [
+        "2023"
+      ],
+      "metadata_contributors": [
+        "Marco Robol",
+        "Travis D. Breaux",
+        "Elda Paja",
+        "Paolo Giorgini"
+      ],
+      "metadata_containers": [
+        "ACM Transactions on Software Engineering and Methodology"
+      ],
+      "checks": {
+        "doi": true,
+        "title": true,
+        "year": true,
+        "contributors": true,
+        "volume": true,
+        "number": true,
+        "numpages": true
+      },
+      "notes": [
+        "This Crossref response omits the article number; that field retains its prior primary-publication check rather than being marked newly verified."
+      ],
+      "status": "matched"
+    },
+    {
+      "citation_key": "piccolo2026sessions",
+      "identifier": "https://github.com/piccolo-orm/piccolo_admin/security/advisories/GHSA-2gh4-jmwq-rr8w",
+      "bibliography_title": "Privilege Escalation via Session-Token Disclosure in {Piccolo Admin}",
+      "bibliography_year": "2026",
+      "metadata_type": "primary_non_doi_record",
+      "source": "https://github.com/piccolo-orm/piccolo_admin/security/advisories/GHSA-2gh4-jmwq-rr8w",
+      "source_ref": "turn903479475view0; turn843754215view0",
+      "scope": "Primary project advisory metadata, summary, configuration preconditions and maintainer response. BibTeX uses a descriptive shorter title and collective Piccolo maintainer credit.",
+      "checks": {
+        "url": true,
+        "year": true,
+        "title": true,
+        "contributors": true
+      },
+      "notes": [],
+      "status": "verified"
+    },
+    {
+      "citation_key": "healthchecks_api",
+      "identifier": "https://healthchecks.io/docs/api/",
+      "bibliography_title": "Management {API} v3",
+      "bibliography_year": "n.d.",
+      "metadata_type": "primary_non_doi_record",
+      "source": "https://healthchecks.io/docs/api/",
+      "source_ref": "references/healthchecks-sources.json: hc-api-current",
+      "scope": "Authentication, List Existing Checks, Get a Single Check, response-code and read-only response paragraphs; not all API endpoints.",
+      "checks": {
+        "url": true,
+        "year": true,
+        "title": true,
+        "contributors": true
+      },
+      "notes": [],
+      "status": "verified"
+    },
+    {
+      "citation_key": "caune2019readonly",
+      "identifier": "https://github.com/healthchecks/healthchecks/commit/1f1b1aedca949a52a592f8aefc523ad47b054ed9",
+      "bibliography_title": "Don't include ping {URLs} in {API} responses when the read-only key is used",
+      "bibliography_year": "2019",
+      "metadata_type": "primary_non_doi_record",
+      "source": "https://github.com/healthchecks/healthchecks/commit/1f1b1aedca949a52a592f8aefc523ad47b054ed9",
+      "source_ref": "references/healthchecks-sources.json: hc-commit-2019",
+      "scope": "Commit metadata and relevant changed authorization, view, serializer, test and changelog hunks; no historical runtime execution. Also read CHANGELOG.md lines 1-32 at this exact commit to verify the Improvements classification.",
+      "checks": {
+        "url": true,
+        "year": true,
+        "title": true,
+        "contributors": true
+      },
+      "notes": [],
+      "status": "verified"
+    },
+    {
+      "citation_key": "jameskirsop2020readonly",
+      "identifier": "https://github.com/healthchecks/healthchecks/issues/346",
+      "bibliography_title": "{API} @authorize decorator doesn't allow read-only for Single Check",
+      "bibliography_year": "2020",
+      "metadata_type": "primary_non_doi_record",
+      "source": "https://github.com/healthchecks/healthchecks/issues/346",
+      "source_ref": "references/healthchecks-sources.json: hc-issue-346",
+      "scope": "Issue metadata and full short report body; no deployment runtime log. The maintainer response and associated 24 March 2020 fix were also read at their relevant authorization, view and test hunks.",
+      "checks": {
+        "url": true,
+        "year": true,
+        "title": true,
+        "contributors": true
+      },
+      "notes": [],
+      "status": "verified"
+    }
+  ]
+}

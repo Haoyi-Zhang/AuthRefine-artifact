@@ -1,0 +1,2387 @@
+{
+  "status": "PASS",
+  "application": "Conet",
+  "native_cases": 16,
+  "original_initial_files": 8,
+  "repaired_initial_files": 8,
+  "measured_edges": 3072,
+  "prefix_operations": 7440,
+  "distinct_physical_state_request_pairs": {
+    "original": 1536,
+    "repaired": 192
+  },
+  "distinct_membership_request_pairs": {
+    "original": 768,
+    "repaired": 96
+  },
+  "source_method_calls": {
+    "PolicyEngine.__init__": 3856,
+    "PolicyEngine.add_policy_rule": 5352,
+    "PolicyEngine.authorize": 768,
+    "PolicyEngine.list_policy_rules": 27200,
+    "PolicyEngine.remove_policy_rule": 3624
+  },
+  "family_members_per_case": 6,
+  "method_binding_comparisons": 1152,
+  "native_witness_words": 69,
+  "native_witness_operations": 101,
+  "native_witness_binding_contract_checks": 544,
+  "full_store_identity_failure_length": 1,
+  "boolean_only_identity_failure_length": 3,
+  "prior_source_lowering": {
+    "source": "source_study/data/repair-profiles.json.gz",
+    "row_declaration": "source_study/repair_profiles.py",
+    "observation_map": "disk_0..2,memory_0..2 correspond to disk-1..3,memory-1..3; permission_i corresponds to row-(i+1).",
+    "compared_fields": [
+      "method outcome",
+      "before membership",
+      "after membership"
+    ],
+    "native_cell_comparisons": {
+      "original": 1536,
+      "repaired": 1536
+    },
+    "distinct_prior_cells_compared": {
+      "original": 768,
+      "repaired": 96
+    },
+    "prior_table_cells_per_arm": 768,
+    "unreached_prior_repaired_cells": 672,
+    "differences": 0
+  },
+  "algorithm_samples_are_not_independent_source_samples": true,
+  "cases": [
+    {
+      "id": "original-initial-0",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 6,
+          "strata": {
+            "infinity": 6
+          },
+          "canonical_words": []
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 6
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0,
+              3,
+              0
+            ],
+            "excluded_bindings": 6
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 6
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0,
+              3,
+              1
+            ],
+            "excluded_bindings": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "original-initial-1",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 2
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 2
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 2,
+          "strata": {
+            "infinity": 2,
+            "1": 4
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                1
+              ],
+              "excluded_bindings": 4
+            }
+          ]
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 2
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 2
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 4
+          },
+          {
+            "indices": [
+              2,
+              3,
+              0
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 4
+          },
+          {
+            "indices": [
+              2,
+              3,
+              1
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "original-initial-2",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 2,
+          "strata": {
+            "infinity": 2,
+            "1": 4
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                1
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                5
+              ],
+              "excluded_bindings": 2
+            }
+          ]
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              0,
+              3,
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              0,
+              3,
+              1
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "original-initial-3",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 4
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 4
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 2,
+          "strata": {
+            "infinity": 2,
+            "1": 4
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                1
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                5
+              ],
+              "excluded_bindings": 2
+            }
+          ]
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 4
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 4
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              2,
+              3,
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              2,
+              3,
+              1
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "original-initial-4",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 2,
+          "strata": {
+            "infinity": 2,
+            "1": 4
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                1
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                5
+              ],
+              "excluded_bindings": 2
+            }
+          ]
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              0,
+              3,
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              0,
+              3,
+              1
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "original-initial-5",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 4
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 4
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 2,
+          "strata": {
+            "infinity": 2,
+            "1": 4
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                1
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                5
+              ],
+              "excluded_bindings": 2
+            }
+          ]
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 4
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 4
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              2,
+              3,
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              2,
+              3,
+              1
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "original-initial-6",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 2,
+          "strata": {
+            "infinity": 2,
+            "1": 4
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                1
+              ],
+              "excluded_bindings": 4
+            }
+          ]
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 4
+          },
+          {
+            "indices": [
+              0,
+              3,
+              0
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 4
+          },
+          {
+            "indices": [
+              0,
+              3,
+              1
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "original-initial-7",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 6,
+          "strata": {
+            "infinity": 6
+          },
+          "canonical_words": []
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 0,
+          "strata": {
+            "1": 6
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 6
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 6
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              2,
+              3,
+              0
+            ],
+            "excluded_bindings": 6
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 0,
+        "strata": {
+          "3": 6
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              2,
+              3,
+              1
+            ],
+            "excluded_bindings": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "repaired-initial-0",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 6,
+          "strata": {
+            "infinity": 6
+          },
+          "canonical_words": []
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 6,
+        "strata": {
+          "infinity": 6
+        },
+        "canonical_words": []
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 6,
+        "strata": {
+          "infinity": 6
+        },
+        "canonical_words": []
+      }
+    },
+    {
+      "id": "repaired-initial-1",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 2,
+          "strata": {
+            "infinity": 2,
+            "1": 4
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                1
+              ],
+              "excluded_bindings": 4
+            }
+          ]
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 2,
+        "strata": {
+          "infinity": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 4
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 2,
+        "strata": {
+          "infinity": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "repaired-initial-2",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 2,
+          "strata": {
+            "infinity": 2,
+            "1": 4
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                1
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                5
+              ],
+              "excluded_bindings": 2
+            }
+          ]
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 2,
+        "strata": {
+          "infinity": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 2,
+        "strata": {
+          "infinity": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "repaired-initial-3",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 2,
+          "strata": {
+            "infinity": 2,
+            "1": 4
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                1
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                5
+              ],
+              "excluded_bindings": 2
+            }
+          ]
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 2,
+        "strata": {
+          "infinity": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 2,
+        "strata": {
+          "infinity": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "repaired-initial-4",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 2,
+          "strata": {
+            "infinity": 2,
+            "1": 4
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                1
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                5
+              ],
+              "excluded_bindings": 2
+            }
+          ]
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 2,
+        "strata": {
+          "infinity": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 2,
+        "strata": {
+          "infinity": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "repaired-initial-5",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 2,
+          "strata": {
+            "infinity": 2,
+            "1": 4
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                1
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                5
+              ],
+              "excluded_bindings": 2
+            }
+          ]
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 2
+            },
+            {
+              "indices": [
+                4
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 2,
+        "strata": {
+          "infinity": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 2,
+        "strata": {
+          "infinity": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 2
+          },
+          {
+            "indices": [
+              4
+            ],
+            "excluded_bindings": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "repaired-initial-6",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                6
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                6
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 2,
+          "strata": {
+            "infinity": 2,
+            "1": 4
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                1
+              ],
+              "excluded_bindings": 4
+            }
+          ]
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                6
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                0
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                6
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 2,
+        "strata": {
+          "infinity": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 4
+          }
+        ]
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 2,
+        "strata": {
+          "infinity": 2,
+          "1": 4
+        },
+        "canonical_words": [
+          {
+            "indices": [
+              0
+            ],
+            "excluded_bindings": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "repaired-initial-7",
+      "full_observation": {
+        "total": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                6
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "unrestricted": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                6
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "query-only": {
+          "bindings": 6,
+          "matching": 6,
+          "strata": {
+            "infinity": 6
+          },
+          "canonical_words": []
+        },
+        "one-mutation": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                6
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        },
+        "mutation-restart-query": {
+          "bindings": 6,
+          "matching": 1,
+          "strata": {
+            "infinity": 1,
+            "1": 5
+          },
+          "canonical_words": [
+            {
+              "indices": [
+                2
+              ],
+              "excluded_bindings": 4
+            },
+            {
+              "indices": [
+                6
+              ],
+              "excluded_bindings": 1
+            }
+          ]
+        }
+      },
+      "decision_only": {
+        "bindings": 6,
+        "matching": 6,
+        "strata": {
+          "infinity": 6
+        },
+        "canonical_words": []
+      },
+      "decision_only_workflow": {
+        "bindings": 6,
+        "matching": 6,
+        "strata": {
+          "infinity": 6
+        },
+        "canonical_words": []
+      }
+    }
+  ]
+}

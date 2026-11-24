@@ -1,0 +1,75 @@
+{
+  "observation_written_before_policy_evaluation": true,
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "records": [
+    {
+      "acquisition_wall_ns": 238319733,
+      "id": "original-initial-0"
+    },
+    {
+      "acquisition_wall_ns": 372676219,
+      "id": "original-initial-1"
+    },
+    {
+      "acquisition_wall_ns": 164310425,
+      "id": "original-initial-2"
+    },
+    {
+      "acquisition_wall_ns": 206893418,
+      "id": "original-initial-3"
+    },
+    {
+      "acquisition_wall_ns": 264690122,
+      "id": "original-initial-4"
+    },
+    {
+      "acquisition_wall_ns": 121046067,
+      "id": "original-initial-5"
+    },
+    {
+      "acquisition_wall_ns": 200009489,
+      "id": "original-initial-6"
+    },
+    {
+      "acquisition_wall_ns": 209189904,
+      "id": "original-initial-7"
+    },
+    {
+      "acquisition_wall_ns": 186350512,
+      "id": "repaired-initial-0"
+    },
+    {
+      "acquisition_wall_ns": 208227848,
+      "id": "repaired-initial-1"
+    },
+    {
+      "acquisition_wall_ns": 490381911,
+      "id": "repaired-initial-2"
+    },
+    {
+      "acquisition_wall_ns": 167319955,
+      "id": "repaired-initial-3"
+    },
+    {
+      "acquisition_wall_ns": 121968723,
+      "id": "repaired-initial-4"
+    },
+    {
+      "acquisition_wall_ns": 204901117,
+      "id": "repaired-initial-5"
+    },
+    {
+      "acquisition_wall_ns": 227915132,
+      "id": "repaired-initial-6"
+    },
+    {
+      "acquisition_wall_ns": 265047315,
+      "id": "repaired-initial-7"
+    }
+  ],
+  "scope": "Per-case native acquisition includes owned-file setup, complete source method calls, reaching-prefix replay, raw file and ordered-row reads, and graph construction; common dependency/source checks, module imports and output serialization are separate.",
+  "source_imports_replaced": false,
+  "source_module_imported_complete": true,
+  "status": "PASS"
+}

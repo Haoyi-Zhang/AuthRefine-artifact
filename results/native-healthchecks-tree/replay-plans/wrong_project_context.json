@@ -1,0 +1,506 @@
+[
+  {
+    "api_version": 1,
+    "directory": "word-0000",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/legacy-api-1-new.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-1-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0001",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/legacy-api-1-new.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-1-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "pause"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0002",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/legacy-api-1-new.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-1-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "resume"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0003",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/legacy-api-1-paused.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0004",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/legacy-api-1-paused.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "pause"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0005",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/legacy-api-1-paused.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "resume"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0006",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/legacy-api-2-new.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-2-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0007",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/legacy-api-2-new.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-2-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "pause"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0008",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/legacy-api-2-new.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-2-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "resume"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0009",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/legacy-api-2-paused.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0010",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/legacy-api-2-paused.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "pause"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0011",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/legacy-api-2-paused.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "resume"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0012",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/legacy-api-3-new.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-3-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0013",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/legacy-api-3-new.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-3-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "pause"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0014",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/legacy-api-3-new.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-3-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "resume"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0015",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/legacy-api-3-paused.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0016",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/legacy-api-3-paused.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "pause"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0017",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/legacy-api-3-paused.json.gz",
+    "main_record": "native/wrong_project_context/legacy-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "resume"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0018",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/hashed-api-1-new.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-1-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0019",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/hashed-api-1-new.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-1-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "pause"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0020",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/hashed-api-1-new.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-1-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "resume"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0021",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/hashed-api-1-paused.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0022",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/hashed-api-1-paused.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "pause"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0023",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/hashed-api-1-paused.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "resume"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0024",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/hashed-api-2-new.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-2-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0025",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/hashed-api-2-new.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-2-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "pause"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0026",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/hashed-api-2-new.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-2-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "resume"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0027",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/hashed-api-2-paused.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0028",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/hashed-api-2-paused.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "pause"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0029",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/hashed-api-2-paused.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "resume"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0030",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/hashed-api-3-new.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-3-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0031",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/hashed-api-3-new.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-3-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "pause"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0032",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/wrong_project_context/hashed-api-3-new.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-3-new/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "resume"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0033",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/hashed-api-3-paused.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0034",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/hashed-api-3-paused.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "pause"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0035",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/wrong_project_context/hashed-api-3-paused.json.gz",
+    "main_record": "native/wrong_project_context/hashed-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete"
+    ],
+    "word": [
+      "resume"
+    ]
+  }
+]

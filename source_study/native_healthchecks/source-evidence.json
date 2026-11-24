@@ -1,0 +1,257 @@
+{
+  "repository": "https://github.com/healthchecks/healthchecks",
+  "snapshot": "51a503531d845fc11d5ef270d576c59c300e3620",
+  "files": [
+    {
+      "path": "requirements.txt",
+      "upstream_git_blob": "e9d2db821e4e66d9d58400f884ad08176faa54af",
+      "upstream_bytes": 255
+    },
+    {
+      "path": "hc/settings.py",
+      "upstream_git_blob": "fad6079d7f108be43e784d04c64809ab65aa123d",
+      "upstream_bytes": 14901
+    },
+    {
+      "path": "hc/test.py",
+      "upstream_git_blob": "29fd47a3f9e9b0fead3ad35b0f76836f146f6540",
+      "upstream_bytes": 3860
+    },
+    {
+      "path": "hc/api/tests/test_get_check.py",
+      "upstream_git_blob": "f1d93efe57fa0c917dd1727228f8b3f534444364",
+      "upstream_bytes": 5791
+    },
+    {
+      "path": "hc/api/tests/test_pause.py",
+      "upstream_git_blob": "4ada1fa21aca8683de295aa11e214d4b1cc180dc",
+      "upstream_bytes": 4536
+    },
+    {
+      "path": "hc/api/tests/test_resume.py",
+      "upstream_git_blob": "89e1a9760500088200070b566a7997b8bf9e658b",
+      "upstream_bytes": 3561
+    },
+    {
+      "path": "hc/lib/emails.py",
+      "upstream_git_blob": "30c36162ef284f5d3d1aab29a9f78566ca568df1",
+      "upstream_bytes": 4588
+    },
+    {
+      "path": "hc/api/transports.py",
+      "upstream_git_blob": "0e876585f33de11ae00a0e52ac2f6bbfb85e806d",
+      "upstream_bytes": 7043
+    },
+    {
+      "path": "hc/lib/s3.py",
+      "upstream_git_blob": "2c634a65d68dad3ee564dc7ea3f9b361346e459e",
+      "upstream_bytes": 4774
+    },
+    {
+      "path": "hc/api/decorators.py",
+      "upstream_git_blob": "f5a70f2539108b7365869e65676627057701adf4",
+      "upstream_bytes": 3787
+    },
+    {
+      "path": "hc/accounts/models.py",
+      "upstream_git_blob": "dc62cc9e4ddf1c48e98b9250797c7f5a31b1f815",
+      "upstream_bytes": 23900
+    },
+    {
+      "path": "hc/api/models.py",
+      "upstream_git_blob": "a9aac472cca11d89cac4e05582dbeb392319a373",
+      "upstream_bytes": 57031
+    },
+    {
+      "path": "hc/api/views.py",
+      "upstream_git_blob": "6d33187cb0fc705e627a32e38609c2b91492e51e",
+      "upstream_bytes": 30960
+    },
+    {
+      "path": "hc/api/urls.py",
+      "upstream_git_blob": "32175248d0865fe11d1c3b6417c889157cb54b39",
+      "upstream_bytes": 2899
+    },
+    {
+      "path": "hc/api/apps.py",
+      "upstream_git_blob": "298d98cd98e081297c37358644e67ef9e537f032",
+      "upstream_bytes": 4242
+    },
+    {
+      "path": "hc/lib/curl.py",
+      "upstream_git_blob": "a6223bc5c8c3ac183b185d52b91aa76800fbd1aa",
+      "upstream_bytes": 7329
+    },
+    {
+      "path": "hc/lib/statsd.py",
+      "upstream_git_blob": "f099bc9571db48f7cdc44a0b040bb63d78e0eb39",
+      "upstream_bytes": 1034
+    },
+    {
+      "path": "hc/front/templatetags/hc_extras.py",
+      "upstream_git_blob": "7661dbb0714510f6d759644ace83620a9d66fb00",
+      "upstream_bytes": 7963
+    },
+    {
+      "path": "hc/lib/urls.py",
+      "upstream_git_blob": "46b0db8fd60684b3b846c41974db6652602ad3c5",
+      "upstream_bytes": 651
+    },
+    {
+      "path": "hc/api/forms.py",
+      "upstream_git_blob": "768d5eae9a72b5c9c9308f2fddd59d3becfce7a9",
+      "upstream_bytes": 876
+    },
+    {
+      "path": "hc/lib/badges.py",
+      "upstream_git_blob": "a7bd09818a416dfdd5088d5edc16f8402d5e226c",
+      "upstream_bytes": 2195
+    },
+    {
+      "path": "hc/lib/date.py",
+      "upstream_git_blob": "e9715c6cdc317f5b2b6dfcb5661c1da56f1ac431",
+      "upstream_bytes": 4227
+    },
+    {
+      "path": "hc/lib/signing.py",
+      "upstream_git_blob": "6a0598c41dc217aa41fa2ec1397630998d738ed3",
+      "upstream_bytes": 1876
+    },
+    {
+      "path": "hc/lib/string.py",
+      "upstream_git_blob": "d83dd3de77059349edd8b704b6c711cdb765f9cf",
+      "upstream_bytes": 1644
+    },
+    {
+      "path": "hc/lib/tz.py",
+      "upstream_git_blob": "a40b483f52be572436916ec4228bb1f3fbf0cafb",
+      "upstream_bytes": 15526
+    },
+    {
+      "path": "hc/lib/typealias.py",
+      "upstream_git_blob": "bfbd75a12b746ac94786b20986368fb3b721218a",
+      "upstream_bytes": 350
+    },
+    {
+      "path": "hc/__init__.py",
+      "upstream_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "upstream_bytes": 0
+    },
+    {
+      "path": "hc/accounts/__init__.py",
+      "upstream_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "upstream_bytes": 0
+    },
+    {
+      "path": "hc/api/__init__.py",
+      "upstream_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "upstream_bytes": 0
+    },
+    {
+      "path": "hc/lib/__init__.py",
+      "upstream_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "upstream_bytes": 0
+    },
+    {
+      "path": "hc/front/__init__.py",
+      "upstream_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "upstream_bytes": 0
+    },
+    {
+      "path": "hc/front/templatetags/__init__.py",
+      "upstream_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "upstream_bytes": 0
+    },
+    {
+      "path": "CHANGELOG.md",
+      "upstream_git_blob": "b7d21531fe8a0caeca28035ff99b30cd2e181fa3",
+      "upstream_bytes": 47021
+    },
+    {
+      "path": "LICENSE",
+      "upstream_git_blob": "233bf77f684deedad0bc90dacb45cf485909a1e7",
+      "upstream_bytes": 1507
+    }
+  ],
+  "history": [
+    {
+      "url": "https://github.com/healthchecks/healthchecks/commit/1f1b1aedca949a52a592f8aefc523ad47b054ed9",
+      "date": "2019-07-04T06:36:27Z",
+      "title": "Don't include ping URLs in API responses when the read-only key is used",
+      "parent": "3eef3c982f240f49c569f861a21e686ca2f99d1c",
+      "files": [
+        {
+          "path": "CHANGELOG.md",
+          "patch": "@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.\n - Show check's code instead of full URL on 992px - 1200px wide screens. (#253)\n - Add WhatsApp integration (uses Twilio same as the SMS integration)\n - Webhooks support the $TAGS placeholder\n+- Don't include ping URLs in API responses when the read-only key is used\n \n ### Bug Fixes\n - Fix badges for tags containing special characters (#240, #237)"
+        },
+        {
+          "path": "hc/api/decorators.py",
+          "patch": "@@ -27,6 +27,7 @@ def wrapper(request, *args, **kwds):\n         except Project.DoesNotExist:\n             return error(\"wrong api key\", 401)\n \n+        request.readonly = False\n         return f(request, *args, **kwds)\n \n     return wrapper\n@@ -50,6 +51,7 @@ def wrapper(request, *args, **kwds):\n         except Project.DoesNotExist:\n             return error(\"wrong api key\", 401)\n \n+        request.readonly = api_key == request.project.api_key_readonly\n         return f(request, *args, **kwds)\n \n     return wrapper"
+        },
+        {
+          "path": "hc/api/models.py",
+          "patch": "@@ -167,26 +167,34 @@ def tags_list(self):\n     def matches_tag_set(self, tag_set):\n         return tag_set.issubset(self.tags_list())\n \n-    def to_dict(self):\n-        update_rel_url = reverse(\"hc-api-update\", args=[self.code])\n-        pause_rel_url = reverse(\"hc-api-pause\", args=[self.code])\n-        channel_codes = [str(ch.code) for ch in self.channel_set.all()]\n+    def channels_str(self):\n+        \"\"\" Return a comma-separated string of assigned channel codes. \"\"\"\n+\n+        codes = self.channel_set.order_by(\"code\").values_list(\"code\", flat=True)\n+        return \",\".join(map(str, codes))\n+\n+    def to_dict(self, readonly=False):\n \n         result = {\n             \"name\": self.name,\n-            \"ping_url\": self.url(),\n-            \"update_url\": settings.SITE_ROOT + update_rel_url,\n-            \"pause_url\": settings.SITE_ROOT + pause_rel_url,\n             \"tags\": self.tags,\n             \"grace\": int(self.grace.total_seconds()),\n             \"n_pings\": self.n_pings,\n             \"status\": self.get_status(),\n-            \"channels\": \",\".join(sorted(channel_codes)),\n             \"last_ping\": isostring(self.last_ping),\n             \"next_ping\": isostring(self.get_grace_start()),\n-            \"desc\": self.desc,\n         }\n \n+        if not readonly:\n+            update_rel_url = reverse(\"hc-api-update\", args=[self.code])\n+            pause_rel_url = reverse(\"hc-api-pause\", args=[self.code])\n+\n+            result[\"ping_url\"] = self.url()\n+            result[\"update_url\"] = settings.SITE_ROOT + update_rel_url\n+            result[\"pause_url\"] = settings.SITE_ROOT + pause_rel_url\n+            result[\"channels\"] = self.channels_str()\n+            result[\"desc\"] = self.desc\n+\n         if self.kind == \"simple\":\n             result[\"timeout\"] = int(self.timeout.total_seconds())\n         elif self.kind == \"cron\":"
+        },
+        {
+          "path": "hc/api/tests/test_list_channels.py",
+          "patch": "@@ -51,10 +51,3 @@ def test_it_accepts_api_key_from_request_body(self):\n \n         self.assertEqual(r.status_code, 200)\n         self.assertContains(r, \"Email to Alice\")\n-\n-    def test_readonly_key_works(self):\n-        self.project.api_key_readonly = \"R\" * 32\n-        self.project.save()\n-\n-        r = self.client.get(\"/api/v1/channels/\", HTTP_X_API_KEY=\"R\" * 32)\n-        self.assertEqual(r.status_code, 200)"
+        },
+        {
+          "path": "hc/api/tests/test_list_checks.py",
+          "patch": "@@ -150,3 +150,6 @@ def test_readonly_key_works(self):\n \n         r = self.client.get(\"/api/v1/checks/\", HTTP_X_API_KEY=\"R\" * 32)\n         self.assertEqual(r.status_code, 200)\n+\n+        # When using readonly keys, the ping URLs should not be exposed:\n+        self.assertNotContains(r, self.a1.url())"
+        },
+        {
+          "path": "hc/api/views.py",
+          "patch": "@@ -121,7 +121,7 @@ def get_checks(request):\n     for check in q:\n         # precise, final filtering\n         if not tags or check.matches_tag_set(tags):\n-            checks.append(check.to_dict())\n+            checks.append(check.to_dict(readonly=request.readonly))\n \n     return JsonResponse({\"checks\": checks})\n \n@@ -153,7 +153,7 @@ def checks(request):\n \n @cors(\"GET\")\n @validate_json()\n-@authorize_read\n+@authorize\n def channels(request):\n     q = Channel.objects.filter(project=request.project)\n     channels = [ch.to_dict() for ch in q]"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/healthchecks/healthchecks/commit/76ae42bc8fe85ba8d12a24a842a08e17cf13682c",
+      "date": "2020-03-24T14:10:42Z",
+      "title": "\"Get a single check\" API call now supports read-only API keys. Fixes #346",
+      "parent": "5a297ba6a24b42f9496ba5a466f66cff9d1bddbe",
+      "files": [
+        {
+          "path": "CHANGELOG.md",
+          "patch": "@@ -1,6 +1,11 @@\n # Changelog\n All notable changes to this project will be documented in this file.\n \n+## v1.15.0-dev - Unreleased\n+\n+### Bug Fixes\n+- \"Get a single check\" API call now supports read-only API keys (#346)\n+\n ## v1.14.0 - 2020-03-23\n \n ### Improvements"
+        },
+        {
+          "path": "hc/api/tests/test_create_check.py",
+          "patch": "@@ -219,7 +219,7 @@ def test_it_obeys_check_limit(self):\n         r = self.post({\"api_key\": \"X\" * 32})\n         self.assertEqual(r.status_code, 403)\n \n-    def test_readonly_key_does_not_work(self):\n+    def test_it_rejects_readonly_key(self):\n         self.project.api_key_readonly = \"R\" * 32\n         self.project.save()\n "
+        },
+        {
+          "path": "hc/api/tests/test_get_check.py",
+          "patch": "@@ -23,9 +23,9 @@ def setUp(self):\n         self.c1 = Channel.objects.create(project=self.project)\n         self.a1.channel_set.add(self.c1)\n \n-    def get(self, code):\n+    def get(self, code, api_key=\"X\" * 32):\n         url = \"/api/v1/checks/%s\" % code\n-        return self.client.get(url, HTTP_X_API_KEY=\"X\" * 32)\n+        return self.client.get(url, HTTP_X_API_KEY=api_key)\n \n     def test_it_works(self):\n         r = self.get(self.a1.code)\n@@ -52,3 +52,13 @@ def test_it_handles_missing_check(self):\n         made_up_code = \"07c2f548-9850-4b27-af5d-6c9dc157ec02\"\n         r = self.get(made_up_code)\n         self.assertEqual(r.status_code, 404)\n+\n+    def test_readonly_key_works(self):\n+        self.project.api_key_readonly = \"R\" * 32\n+        self.project.save()\n+\n+        r = self.get(self.a1.code, api_key=self.project.api_key_readonly)\n+        self.assertEqual(r.status_code, 200)\n+\n+        # When using readonly keys, the ping URLs should not be exposed:\n+        self.assertNotContains(r, self.a1.url())"
+        },
+        {
+          "path": "hc/api/tests/test_update_check.py",
+          "patch": "@@ -218,3 +218,10 @@ def test_it_validates_cron_expression(self):\n         # Schedule should be unchanged\n         self.check.refresh_from_db()\n         self.assertEqual(self.check.schedule, \"5 * * * *\")\n+\n+    def test_it_rejects_readonly_key(self):\n+        self.project.api_key_readonly = \"R\" * 32\n+        self.project.save()\n+\n+        r = self.post(self.check.code, {\"api_key\": \"R\" * 32, \"name\": \"Foo\"})\n+        self.assertEqual(r.status_code, 401)"
+        },
+        {
+          "path": "hc/api/views.py",
+          "patch": "@@ -178,34 +178,53 @@ def channels(request):\n     return JsonResponse({\"channels\": channels})\n \n \n-@csrf_exempt\n-@cors(\"POST\", \"DELETE\", \"GET\")\n @validate_json()\n+@authorize_read\n+def get_check(request, code):\n+    check = get_object_or_404(Check, code=code)\n+    if check.project != request.project:\n+        return HttpResponseForbidden()\n+\n+    return JsonResponse(check.to_dict(readonly=request.readonly))\n+\n+\n+@validate_json(schemas.check)\n @authorize\n-def single(request, code):\n+def update_check(request, code):\n     check = get_object_or_404(Check, code=code)\n     if check.project != request.project:\n         return HttpResponseForbidden()\n \n-    if request.method == \"POST\":\n-        try:\n-            validate(request.json, schemas.check)\n-            _update(check, request.json)\n-        except (BadChannelException, ValidationError) as e:\n-            return JsonResponse({\"error\": str(e)}, status=400)\n+    try:\n+        _update(check, request.json)\n+    except BadChannelException as e:\n+        return JsonResponse({\"error\": str(e)}, status=400)\n+\n+    return JsonResponse(check.to_dict())\n \n-        return JsonResponse(check.to_dict())\n \n-    elif request.method == \"DELETE\":\n-        response = check.to_dict()\n-        check.delete()\n-        return JsonResponse(response)\n+@validate_json()\n+@authorize\n+def delete_check(request, code):\n+    check = get_object_or_404(Check, code=code)\n+    if check.project != request.project:\n+        return HttpResponseForbidden()\n+\n+    response = check.to_dict()\n+    check.delete()\n+    return JsonResponse(response)\n+\n+\n+@csrf_exempt\n+@cors(\"POST\", \"DELETE\", \"GET\")\n+def single(request, code):\n+    if request.method == \"POST\":\n+        return update_check(request, code)\n \n-    elif request.method == \"GET\":\n-        return JsonResponse(check.to_dict())\n+    if request.method == \"DELETE\":\n+        return delete_check(request, code)\n \n-    # Otherwise, method not allowed\n-    return HttpResponse(status=405)\n+    return get_check(request, code)\n \n \n @cors(\"POST\")"
+        },
+        {
+          "path": "templates/docs/api.html",
+          "patch": "@@ -109,35 +109,35 @@ <h3>Example Response</h3>\n <div class=\"highlight\"><pre><span></span><code><span class=\"p\">{</span>\n   <span class=\"nt\">&quot;checks&quot;</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n     <span class=\"p\">{</span>\n-      <span class=\"nt\">&quot;channels&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;4ec5a071-2d08-4baa-898a-eb4eb3cd6941,746a083e-f542-4554-be1a-707ce16d3acc&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;desc&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Longer free-form description goes here&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;grace&quot;</span><span class=\"p\">:</span> <span class=\"mi\">900</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;last_ping&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2017-01-04T13:24:39.903464+00:00&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;name&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Filesystem Backup&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;tags&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;backup fs&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;desc&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Runs incremental backup every hour&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;grace&quot;</span><span class=\"p\">:</span> <span class=\"mi\">600</span><span class=\"p\">,</span>\n       <span class=\"nt\">&quot;n_pings&quot;</span><span class=\"p\">:</span> <span class=\"mi\">1</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;name&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Api test 1&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;next_ping&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2017-01-04T14:24:39.903464+00:00&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;pause_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;SITE_ROOT/api/v1/checks/662ebe36-ecab-48db-afe3-e20029cb71e6/pause&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;ping_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;PING_ENDPOINT662ebe36-ecab-48db-afe3-e20029cb71e6&quot;</span><span class=\"p\">,</span>\n       <span class=\"nt\">&quot;status&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;up&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;tags&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;foo&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;timeout&quot;</span><span class=\"p\">:</span> <span class=\"mi\">3600</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;update_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;SITE_ROOT/api/v1/checks/662ebe36-ecab-48db-afe3-e20029cb71e6&quot;</span>\n+      <span class=\"nt\">&quot;last_ping&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2020-03-24T14:02:03+00:00&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;next_ping&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2020-03-24T15:02:03+00:00&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;ping_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;PING_ENDPOINT31365bce-8da9-4729-8ff3-aaa71d56b712&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;update_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;SITE_ROOT/api/v1/checks/31365bce-8da9-4729-8ff3-aaa71d56b712&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;pause_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;SITE_ROOT/api/v1/checks/31365bce-8da9-4729-8ff3-aaa71d56b712/pause&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;channels&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;1bdea468-03bf-47b8-ab27-29a9dd0e4b94,51c6eb2b-2ae1-456b-99fe-6f1e0a36cd3c&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;timeout&quot;</span><span class=\"p\">:</span> <span class=\"mi\">3600</span>\n     <span class=\"p\">},</span>\n     <span class=\"p\">{</span>\n-      <span class=\"nt\">&quot;channels&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;desc&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;grace&quot;</span><span class=\"p\">:</span> <span class=\"mi\">3600</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;last_ping&quot;</span><span class=\"p\">:</span> <span class=\"kc\">null</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;n_pings&quot;</span><span class=\"p\">:</span> <span class=\"mi\">0</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;name&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Api test 2&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;name&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Database Backup&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;tags&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;production db&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;desc&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Runs ~/db-backup.sh&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;grace&quot;</span><span class=\"p\">:</span> <span class=\"mi\">1200</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;n_pings&quot;</span><span class=\"p\">:</span> <span class=\"mi\">7</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;status&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;down&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;last_ping&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2020-03-23T10:19:32+00:00&quot;</span><span class=\"p\">,</span>\n       <span class=\"nt\">&quot;next_ping&quot;</span><span class=\"p\">:</span> <span class=\"kc\">null</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;pause_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;SITE_ROOT/api/v1/checks/9d17c61f-5c4f-4cab-b517-11e6b2679ced/pause&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;ping_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;PING_ENDPOINT9d17c61f-5c4f-4cab-b517-11e6b2679ced&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;schedule&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;0/10 * * * *&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;status&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;new&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;tags&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;bar baz&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;tz&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;UTC&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;update_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;SITE_ROOT/api/v1/checks/9d17c61f-5c4f-4cab-b517-11e6b2679ced&quot;</span>\n+      <span class=\"nt\">&quot;ping_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;PING_ENDPOINT803f680d-e89b-492b-82ef-2be7b774a92d&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;update_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;SITE_ROOT/api/v1/checks/803f680d-e89b-492b-82ef-2be7b774a92d&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;pause_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;SITE_ROOT/api/v1/checks/803f680d-e89b-492b-82ef-2be7b774a92d/pause&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;channels&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;1bdea468-03bf-47b8-ab27-29a9dd0e4b94,51c6eb2b-2ae1-456b-99fe-6f1e0a36cd3c&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;schedule&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;15 5 * * *&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;tz&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;UTC&quot;</span>\n     <span class=\"p\">}</span>\n   <span class=\"p\">]</span>\n <span class=\"p\">}</span>\n@@ -150,28 +150,29 @@ <h3>Example Response</h3>\n <div class=\"highlight\"><pre><span></span><code><span class=\"p\">{</span>\n   <span class=\"nt\">&quot;checks&quot;</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n     <span class=\"p\">{</span>\n-      <span class=\"nt\">&quot;desc&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Longer free-form description goes here&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;grace&quot;</span><span class=\"p\">:</span> <span class=\"mi\">900</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;last_ping&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2017-01-04T13:24:39.903464+00:00&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;name&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Filesystem Backup&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;tags&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;backup fs&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;desc&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Runs incremental backup every hour&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;grace&quot;</span><span class=\"p\">:</span> <span class=\"mi\">600</span><span class=\"p\">,</span>\n       <span class=\"nt\">&quot;n_pings&quot;</span><span class=\"p\">:</span> <span class=\"mi\">1</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;name&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Api test 1&quot;</span><span class=\"p\">,</span>\n       <span class=\"nt\">&quot;status&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;up&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;tags&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;foo&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;timeout&quot;</span><span class=\"p\">:</span> <span class=\"mi\">3600</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;unique_key&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2872190d95224bad120f41d3c06aab94b8175bb6&quot;</span>\n+      <span class=\"nt\">&quot;last_ping&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2020-03-24T14:02:03+00:00&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;next_ping&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2020-03-24T15:02:03+00:00&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;unique_key&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;a6c7b0a8a66bed0df66abfdab3c77736861703ee&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;timeout&quot;</span><span class=\"p\">:</span> <span class=\"mi\">3600</span>\n     <span class=\"p\">},</span>\n     <span class=\"p\">{</span>\n-      <span class=\"nt\">&quot;desc&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;grace&quot;</span><span class=\"p\">:</span> <span class=\"mi\">3600</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;last_ping&quot;</span><span class=\"p\">:</span> <span class=\"kc\">null</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;n_pings&quot;</span><span class=\"p\">:</span> <span class=\"mi\">0</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;name&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Api test 2&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;name&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Database Backup&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;tags&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;production db&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;desc&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Runs ~/db-backup.sh&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;grace&quot;</span><span class=\"p\">:</span> <span class=\"mi\">1200</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;n_pings&quot;</span><span class=\"p\">:</span> <span class=\"mi\">7</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;status&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;down&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;last_ping&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2020-03-23T10:19:32+00:00&quot;</span><span class=\"p\">,</span>\n       <span class=\"nt\">&quot;next_ping&quot;</span><span class=\"p\">:</span> <span class=\"kc\">null</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;schedule&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;0/10 * * * *&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;status&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;new&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;tags&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;bar baz&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;tz&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;UTC&quot;</span><span class=\"p\">,</span>\n-      <span class=\"nt\">&quot;unique_key&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;9b5fc29129560ff2c5c1803803a7415e4f80cf7e&quot;</span>\n+      <span class=\"nt\">&quot;unique_key&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;124f983e0e3dcaeba921cfcef46efd084576e783&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;schedule&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;15 5 * * *&quot;</span><span class=\"p\">,</span>\n+      <span class=\"nt\">&quot;tz&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;UTC&quot;</span>\n     <span class=\"p\">}</span>\n   <span class=\"p\">]</span>\n <span class=\"p\">}</span>\n@@ -199,19 +200,43 @@ <h3>Example Request</h3>\n \n <h3>Example Response</h3>\n <div class=\"highlight\"><pre><span></span><code><span class=\"p\">{</span>\n-  <span class=\"nt\">&quot;channels&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;4ec5a071-2d08-4baa-898a-eb4eb3cd6941,746a083e-f542-4554-be1a-707ce16d3acc&quot;</span><span class=\"p\">,</span>\n-  <span class=\"nt\">&quot;desc&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Longer free-form description goes here&quot;</span><span class=\"p\">,</span>\n-  <span class=\"nt\">&quot;grace&quot;</span><span class=\"p\">:</span> <span class=\"mi\">900</span><span class=\"p\">,</span>\n-  <span class=\"nt\">&quot;last_ping&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2017-01-04T13:24:39.903464+00:00&quot;</span><span class=\"p\">,</span>\n-  <span class=\"nt\">&quot;n_pings&quot;</span><span class=\"p\">:</span> <span class=\"mi\">1</span><span class=\"p\">,</span>\n-  <span class=\"nt\">&quot;name&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Api test 1&quot;</span><span class=\"p\">,</span>\n-  <span class=\"nt\">&quot;next_ping&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2017-01-04T14:24:39.903464+00:00&quot;</span><span class=\"p\">,</span>\n-  <span class=\"nt\">&quot;pause_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;SITE_ROOT/api/v1/checks/662ebe36-ecab-48db-afe3-e20029cb71e6/pause&quot;</span><span class=\"p\">,</span>\n-  <span class=\"nt\">&quot;ping_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;PING_ENDPOINT662ebe36-ecab-48db-afe3-e20029cb71e6&quot;</span><span class=\"p\">,</span>\n-  <span class=\"nt\">&quot;status&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;up&quot;</span><span class=\"p\">,</span>\n-  <span class=\"nt\">&quot;tags&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;foo&quot;</span><span class=\"p\">,</span>\n-  <span class=\"nt\">&quot;timeout&quot;</span><span class=\"p\">:</span> <span class=\"mi\">3600</span><span class=\"p\">,</span>\n-  <span class=\"nt\">&quot;update_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;SITE_ROOT/api/v1/checks/662ebe36-ecab-48db-afe3-e20029cb71e6&quot;</span>\n+  <span class=\"nt\">&quot;name&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Database Backup&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;tags&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;production db&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;desc&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Runs ~/db-backup.sh&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;grace&quot;</span><span class=\"p\">:</span> <span class=\"mi\">1200</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;n_pings&quot;</span><span class=\"p\">:</span> <span class=\"mi\">7</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;status&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;down&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;last_ping&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2020-03-23T10:19:32+00:00&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;next_ping&quot;</span><span class=\"p\">:</span> <span class=\"kc\">null</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;ping_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;PING_ENDPOINT803f680d-e89b-492b-82ef-2be7b774a92d&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;update_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;SITE_ROOT/api/v1/checks/803f680d-e89b-492b-82ef-2be7b774a92d&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;pause_url&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;SITE_ROOT/api/v1/checks/803f680d-e89b-492b-82ef-2be7b774a92d/pause&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;channels&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;1bdea468-03bf-47b8-ab27-29a9dd0e4b94,51c6eb2b-2ae1-456b-99fe-6f1e0a36cd3c&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;schedule&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;15 5 * * *&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;tz&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;UTC&quot;</span>\n+<span class=\"p\">}</span>\n+</code></pre></div>\n+\n+\n+<h3>Example Read-Only Response</h3>\n+<p>When using the read-only API key, the following fields are omitted:\n+<code>ping_url</code>, <code>update_url</code>, <code>pause_url</code>, <code>channels</code>.  An extra <code>unique_key</code> field is\n+added. This identifier is stable across API calls.</p>\n+<p>Note: the <code>ping_url</code>, <code>update_url</code> and <code>pause_url</code> fields, although omitted, are not\n+really secret. The client already knows the check's unique UUID and so can easily\n+construct these URLs by itself.</p>\n+<div class=\"highlight\"><pre><span></span><code><span class=\"p\">{</span>\n+  <span class=\"nt\">&quot;name&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Database Backup&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;tags&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;production db&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;desc&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;Runs ~/db-backup.sh&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;grace&quot;</span><span class=\"p\">:</span> <span class=\"mi\">1200</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;n_pings&quot;</span><span class=\"p\">:</span> <span class=\"mi\">7</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;status&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;down&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;last_ping&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;2020-03-23T10:19:32+00:00&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;next_ping&quot;</span><span class=\"p\">:</span> <span class=\"kc\">null</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;unique_key&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;124f983e0e3dcaeba921cfcef46efd084576e783&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;schedule&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;15 5 * * *&quot;</span><span class=\"p\">,</span>\n+  <span class=\"nt\">&quot;tz&quot;</span><span class=\"p\">:</span> <span class=\"s2\">&quot;UTC&quot;</span>\n <span class=\"p\">}</span>\n </code></pre></div>\n "
+        },
+        {
+          "path": "templates/docs/api.md",
+          "patch": "@@ -89,35 +89,35 @@ curl --header \"X-Api-Key: your-api-key\" SITE_ROOT/api/v1/checks/\n {\n   \"checks\": [\n     {\n-      \"channels\": \"4ec5a071-2d08-4baa-898a-eb4eb3cd6941,746a083e-f542-4554-be1a-707ce16d3acc\",\n-      \"desc\": \"Longer free-form description goes here\",\n-      \"grace\": 900,\n-      \"last_ping\": \"2017-01-04T13:24:39.903464+00:00\",\n+      \"name\": \"Filesystem Backup\",\n+      \"tags\": \"backup fs\",\n+      \"desc\": \"Runs incremental backup every hour\",\n+      \"grace\": 600,\n       \"n_pings\": 1,\n-      \"name\": \"Api test 1\",\n-      \"next_ping\": \"2017-01-04T14:24:39.903464+00:00\",\n-      \"pause_url\": \"SITE_ROOT/api/v1/checks/662ebe36-ecab-48db-afe3-e20029cb71e6/pause\",\n-      \"ping_url\": \"PING_ENDPOINT662ebe36-ecab-48db-afe3-e20029cb71e6\",\n       \"status\": \"up\",\n-      \"tags\": \"foo\",\n-      \"timeout\": 3600,\n-      \"update_url\": \"SITE_ROOT/api/v1/checks/662ebe36-ecab-48db-afe3-e20029cb71e6\"\n+      \"last_ping\": \"2020-03-24T14:02:03+00:00\",\n+      \"next_ping\": \"2020-03-24T15:02:03+00:00\",\n+      \"ping_url\": \"PING_ENDPOINT31365bce-8da9-4729-8ff3-aaa71d56b712\",\n+      \"update_url\": \"SITE_ROOT/api/v1/checks/31365bce-8da9-4729-8ff3-aaa71d56b712\",\n+      \"pause_url\": \"SITE_ROOT/api/v1/checks/31365bce-8da9-4729-8ff3-aaa71d56b712/pause\",\n+      \"channels\": \"1bdea468-03bf-47b8-ab27-29a9dd0e4b94,51c6eb2b-2ae1-456b-99fe-6f1e0a36cd3c\",\n+      \"timeout\": 3600\n     },\n     {\n-      \"channels\": \"\",\n-      \"desc\": \"\",\n-      \"grace\": 3600,\n-      \"last_ping\": null,\n-      \"n_pings\": 0,\n-      \"name\": \"Api test 2\",\n+      \"name\": \"Database Backup\",\n+      \"tags\": \"production db\",\n+      \"desc\": \"Runs ~/db-backup.sh\",\n+      \"grace\": 1200,\n+      \"n_pings\": 7,\n+      \"status\": \"down\",\n+      \"last_ping\": \"2020-03-23T10:19:32+00:00\",\n       \"next_ping\": null,\n-      \"pause_url\": \"SITE_ROOT/api/v1/checks/9d17c61f-5c4f-4cab-b517-11e6b2679ced/pause\",\n-      \"ping_url\": \"PING_ENDPOINT9d17c61f-5c4f-4cab-b517-11e6b2679ced\",\n-      \"schedule\": \"0/10 * * * *\",\n-      \"status\": \"new\",\n-      \"tags\": \"bar baz\",\n-      \"tz\": \"UTC\",\n-      \"update_url\": \"SITE_ROOT/api/v1/checks/9d17c61f-5c4f-4cab-b517-11e6b2679ced\"\n+      \"ping_url\": \"PING_ENDPOINT803f680d-e89b-492b-82ef-2be7b774a92d\",\n+      \"update_url\": \"SITE_ROOT/api/v1/checks/803f680d-e89b-492b-82ef-2be7b774a92d\",\n+      \"pause_url\": \"SITE_ROOT/api/v1/checks/803f680d-e89b-492b-82ef-2be7b774a92d/pause\",\n+      \"channels\": \"1bdea468-03bf-47b8-ab27-29a9dd0e4b94,51c6eb2b-2ae1-456b-99fe-6f1e0a36cd3c\",\n+      \"schedule\": \"15 5 * * *\",\n+      \"tz\": \"UTC\"\n     }\n   ]\n }\n@@ -131,28 +131,29 @@ is added. This identifier is stable across API calls. Example:\n {\n   \"checks\": [\n     {\n-      \"desc\": \"Longer free-form description goes here\",\n-      \"grace\": 900,\n-      \"last_ping\": \"2017-01-04T13:24:39.903464+00:00\",\n+      \"name\": \"Filesystem Backup\",\n+      \"tags\": \"backup fs\",\n+      \"desc\": \"Runs incremental backup every hour\",\n+      \"grace\": 600,\n       \"n_pings\": 1,\n-      \"name\": \"Api test 1\",\n       \"status\": \"up\",\n-      \"tags\": \"foo\",\n-      \"timeout\": 3600,\n-      \"unique_key\": \"2872190d95224bad120f41d3c06aab94b8175bb6\"\n+      \"last_ping\": \"2020-03-24T14:02:03+00:00\",\n+      \"next_ping\": \"2020-03-24T15:02:03+00:00\",\n+      \"unique_key\": \"a6c7b0a8a66bed0df66abfdab3c77736861703ee\",\n+      \"timeout\": 3600\n     },\n     {\n-      \"desc\": \"\",\n-      \"grace\": 3600,\n-      \"last_ping\": null,\n-      \"n_pings\": 0,\n-      \"name\": \"Api test 2\",\n+      \"name\": \"Database Backup\",\n+      \"tags\": \"production db\",\n+      \"desc\": \"Runs ~/db-backup.sh\",\n+      \"grace\": 1200,\n+      \"n_pings\": 7,\n+      \"status\": \"down\",\n+      \"last_ping\": \"2020-03-23T10:19:32+00:00\",\n       \"next_ping\": null,\n-      \"schedule\": \"0/10 * * * *\",\n-      \"status\": \"new\",\n-      \"tags\": \"bar baz\",\n-      \"tz\": \"UTC\",\n-      \"unique_key\": \"9b5fc29129560ff2c5c1803803a7415e4f80cf7e\"\n+      \"unique_key\": \"124f983e0e3dcaeba921cfcef46efd084576e783\",\n+      \"schedule\": \"15 5 * * *\",\n+      \"tz\": \"UTC\"\n     }\n   ]\n }\n@@ -188,19 +189,47 @@ curl --header \"X-Api-Key: your-api-key\" SITE_ROOT/api/v1/checks/<uuid>\n \n ```json\n {\n-  \"channels\": \"4ec5a071-2d08-4baa-898a-eb4eb3cd6941,746a083e-f542-4554-be1a-707ce16d3acc\",\n-  \"desc\": \"Longer free-form description goes here\",\n-  \"grace\": 900,\n-  \"last_ping\": \"2017-01-04T13:24:39.903464+00:00\",\n-  \"n_pings\": 1,\n-  \"name\": \"Api test 1\",\n-  \"next_ping\": \"2017-01-04T14:24:39.903464+00:00\",\n-  \"pause_url\": \"SITE_ROOT/api/v1/checks/662ebe36-ecab-48db-afe3-e20029cb71e6/pause\",\n-  \"ping_url\": \"PING_ENDPOINT662ebe36-ecab-48db-afe3-e20029cb71e6\",\n-  \"status\": \"up\",\n-  \"tags\": \"foo\",\n-  \"timeout\": 3600,\n-  \"update_url\": \"SITE_ROOT/api/v1/checks/662ebe36-ecab-48db-afe3-e20029cb71e6\"\n+  \"name\": \"Database Backup\",\n+  \"tags\": \"production db\",\n+  \"desc\": \"Runs ~/db-backup.sh\",\n+  \"grace\": 1200,\n+  \"n_pings\": 7,\n+  \"status\": \"down\",\n+  \"last_ping\": \"2020-03-23T10:19:32+00:00\",\n+  \"next_ping\": null,\n+  \"ping_url\": \"PING_ENDPOINT803f680d-e89b-492b-82ef-2be7b774a92d\",\n+  \"update_url\": \"SITE_ROOT/api/v1/checks/803f680d-e89b-492b-82ef-2be7b774a92d\",\n+  \"pause_url\": \"SITE_ROOT/api/v1/checks/803f680d-e89b-492b-82ef-2be7b774a92d/pause\",\n+  \"channels\": \"1bdea468-03bf-47b8-ab27-29a9dd0e4b94,51c6eb2b-2ae1-456b-99fe-6f1e0a36cd3c\",\n+  \"schedule\": \"15 5 * * *\",\n+  \"tz\": \"UTC\"\n+}\n+```\n+\n+### Example Read-Only Response\n+\n+When using the read-only API key, the following fields are omitted:\n+`ping_url`, `update_url`, `pause_url`, `channels`.  An extra `unique_key` field is\n+added. This identifier is stable across API calls.\n+\n+\n+Note: the `ping_url`, `update_url` and `pause_url` fields, although omitted, are not\n+really secret. The client already knows the check's unique UUID and so can easily\n+construct these URLs by itself.\n+\n+```json\n+{\n+  \"name\": \"Database Backup\",\n+  \"tags\": \"production db\",\n+  \"desc\": \"Runs ~/db-backup.sh\",\n+  \"grace\": 1200,\n+  \"n_pings\": 7,\n+  \"status\": \"down\",\n+  \"last_ping\": \"2020-03-23T10:19:32+00:00\",\n+  \"next_ping\": null,\n+  \"unique_key\": \"124f983e0e3dcaeba921cfcef46efd084576e783\",\n+  \"schedule\": \"15 5 * * *\",\n+  \"tz\": \"UTC\"\n }\n ```\n "
+        }
+      ]
+    }
+  ],
+  "issue": {
+    "url": "https://github.com/healthchecks/healthchecks/issues/346",
+    "title": "API @authorize decorator doesn't allow read-only for Single Check",
+    "body": "We need to rewrite the `@authorize` decorator to allow for a read-only API key to do a GET request on the `single` view.\r\n\r\nCurrent thought would be to merge the write and read-only decorators and handle the request based on the `request.method` parameter.\r\n\r\nWithout this, you currently need to use a full-access key to read a single check.",
+    "created_at": "2020-03-24T03:19:30Z",
+    "closed_at": "2020-03-24T14:10:53Z"
+  },
+  "official_contract_urls": [
+    "https://healthchecks.io/docs/api/",
+    "https://healthchecks.io/docs/projects_teams/"
+  ]
+}

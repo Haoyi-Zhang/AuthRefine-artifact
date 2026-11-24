@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "wire_only_type_corruption_rejected": [
+    {
+      "control": "contract admission",
+      "rejected": true,
+      "reason": "retained response object and actual body differ"
+    },
+    {
+      "control": "independent profile",
+      "rejected": true,
+      "reason": "retained response object and actual body differ"
+    },
+    {
+      "control": "production status profile",
+      "rejected": true,
+      "reason": "retained response object and actual body differ"
+    }
+  ],
+  "previous_native_and_review_files_compared": 541,
+  "previous_scientific_files_unchanged": true,
+  "new_native_executions": 0
+}

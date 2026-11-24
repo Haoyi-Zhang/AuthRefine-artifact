@@ -1,0 +1,33 @@
+{
+  "modes": [
+    {
+      "mode": "normal",
+      "modules": 71,
+      "passed": 796,
+      "skipped": 24,
+      "status": "PASS",
+      "tests": 820
+    },
+    {
+      "mode": "optimized",
+      "modules": 71,
+      "passed": 796,
+      "skipped": 24,
+      "status": "PASS",
+      "tests": 820
+    },
+    {
+      "mode": "strict",
+      "modules": 71,
+      "passed": 796,
+      "skipped": 24,
+      "status": "PASS",
+      "tests": 820
+    }
+  ],
+  "module_count": 71,
+  "profile": "portable",
+  "schema": 1,
+  "scope": "Every self-contained top-level test module, isolated by interpreter; optional framework, query and proof environments are separate.",
+  "status": "PASS"
+}

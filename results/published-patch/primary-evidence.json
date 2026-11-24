@@ -1,0 +1,19 @@
+{
+  "advisory": {
+    "url": "https://github.com/advisories/GHSA-2gh4-jmwq-rr8w",
+    "reviewed_scope": "Summary, configuration preconditions, dependency-secret-column explanation and patch references.",
+    "claim": "A reported real application disclosure motivates the field contract; the local experiment does not execute the impersonation chain."
+  },
+  "patch": {
+    "url": "https://github.com/piccolo-orm/piccolo_api/commit/520ec2567ae1d2cc417c8c0d1ad0ddc05549a8a4",
+    "reviewed_scope": "Complete diff, including Varchar(secret=True), filter exclusion and migration VERSION=1.34.0.",
+    "claim": "The migration records 1.34.0; this selects a second experimental dependency profile, not an inferred historical deployment lock."
+  },
+  "minimum": {
+    "local_path": "source_study/source/h19/orm-contract/api-requirements.txt",
+    "claim": "Pinned API requirements admit piccolo[postgres]>=1.16.0."
+  },
+  "source_read_date": "2026-11-18",
+  "population_prevalence_estimated": false,
+  "new_live_vulnerability_claimed": false
+}

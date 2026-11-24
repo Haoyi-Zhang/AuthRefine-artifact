@@ -1,0 +1,31 @@
+{
+  "actual_SELECT_statements": 1336,
+  "actual_native_contexts_executed": 1262,
+  "baseline_contexts_admitted": 1260,
+  "complete_three_mode_review": true,
+  "modes": [
+    "baseline_full",
+    "readonly_integer",
+    "version_boolean"
+  ],
+  "new_independent_applications": 0,
+  "original_application_modules_executed": false,
+  "output_sha256": {
+    "baseline_full.json": "7fde0a0b5820e1d5f5e8b972fd4004bde559c3a442a18f7070f7a97d004fd06d",
+    "baseline_full.observations.json.gz": "9a8bea4dbff104fb6431de26f44de8f9061961fb688177e69c7e633c4f268b81",
+    "readonly_integer.json": "94feabcd8b478048b2ffaa4b4074fe46662eb403675e26c3c8d11d7fc879ae4b",
+    "readonly_integer.observations.json.gz": "d0d9a67c918444e9d29fff1a0f97bab89daef9e8fedcd0b4dcf2cfbdd7614f97",
+    "version_boolean.json": "5925b2bd99111101865bfe82b8e6ab69e175c446519f3d2e023345105442edcb",
+    "version_boolean.observations.json.gz": "88d15a39174680d1f68437b5d1bee66f5eafef7a239efad963a389a2f51ab332"
+  },
+  "scope": "Selected closed IR bodies with real Django ORM/SQLite primitives; no complete application, service or bubblewrap execution",
+  "source_sha256": {
+    "benchmarks/audit_credential_admission.py": "102c492fa18ac5abc61597abab50ea179ac9396662c205a7d65cf553c8d020b4",
+    "source_study/code/credential_flow_contexts.py": "d3945c612a0c6417574e89920b902e0bc34a60408f58fb2148b3db23ef59b33c",
+    "source_study/code/credential_flow_ir.py": "11db50581003314e44e32ad32de91dacd1982eff7ee4b140ddabaed021bbbabe",
+    "source_study/code/credential_flow_native.py": "c37ffd0066f13f20299e45e18048bdccfc8d76c57f3fac42fa6ea59444121ae3",
+    "source_study/observation_evidence.py": "3d1f8c3cc8a83a7fb1f92ef0cc75fddd3777727defbf11b584c1a498d1612e3b",
+    "source_study/replay.py": "9d29299c4d2fb5de32d5d2f84876b660e4fe835a61820b9b60f169ea6b21041a"
+  },
+  "type_controls_rejected": 2
+}

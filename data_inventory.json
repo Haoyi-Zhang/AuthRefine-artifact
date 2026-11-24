@@ -1,0 +1,175 @@
+{
+  "directories": [
+    {
+      "bytes": 65268,
+      "category": "finite-audit",
+      "path": "results/caller-family",
+      "status": "fresh semantic recheck"
+    },
+    {
+      "bytes": 8346167,
+      "category": "finite-campaign",
+      "path": "results/chunks",
+      "status": "fresh campaign baseline"
+    },
+    {
+      "bytes": 23837,
+      "category": "source-evidence",
+      "path": "results/credential-admission-review",
+      "status": "retained input and controls"
+    },
+    {
+      "bytes": 664694,
+      "category": "finite-campaign",
+      "path": "results/examples",
+      "status": "recomputed examples"
+    },
+    {
+      "bytes": 5268243,
+      "category": "timing",
+      "path": "results/family-cost",
+      "status": "retained raw timing"
+    },
+    {
+      "bytes": 15267,
+      "category": "proof",
+      "path": "results/lean",
+      "status": "retained compiler receipt"
+    },
+    {
+      "bytes": 73622782,
+      "category": "native",
+      "path": "results/native-healthchecks",
+      "status": "retained raw native acquisition"
+    },
+    {
+      "bytes": 182014,
+      "category": "native-audit",
+      "path": "results/native-healthchecks-review",
+      "status": "fresh standard-library verification"
+    },
+    {
+      "bytes": 53621954,
+      "category": "native",
+      "path": "results/native-healthchecks-tree",
+      "status": "retained raw native history acquisition"
+    },
+    {
+      "bytes": 9503,
+      "category": "native-audit",
+      "path": "results/native-healthchecks-tree-review",
+      "status": "fresh standard-library verification"
+    },
+    {
+      "bytes": 23652,
+      "category": "native-audit",
+      "path": "results/native-healthchecks-tree-validation",
+      "status": "retained validation logs"
+    },
+    {
+      "bytes": 304596,
+      "category": "native",
+      "path": "results/native-policy-store",
+      "status": "retained native acquisition"
+    },
+    {
+      "bytes": 680395,
+      "category": "native",
+      "path": "results/native-session",
+      "status": "retained native acquisition"
+    },
+    {
+      "bytes": 3172306,
+      "category": "timing",
+      "path": "results/observation-reuse",
+      "status": "retained raw timing"
+    },
+    {
+      "bytes": 278108,
+      "category": "finite-campaign",
+      "path": "results/pilot",
+      "status": "recomputed pilot"
+    },
+    {
+      "bytes": 2791402,
+      "category": "finite-audit",
+      "path": "results/protocol-grouping",
+      "status": "fresh semantic recheck"
+    },
+    {
+      "bytes": 1417035,
+      "category": "historical-source",
+      "path": "results/published-patch",
+      "status": "retained public-version observations"
+    },
+    {
+      "bytes": 1716912,
+      "category": "native/timing",
+      "path": "results/session-correspondence",
+      "status": "retained raw native and timing data"
+    },
+    {
+      "bytes": 53626,
+      "category": "finite-audit",
+      "path": "results/session-distinguishability",
+      "status": "fresh semantic recheck"
+    },
+    {
+      "bytes": 133155,
+      "category": "finite/native",
+      "path": "results/session-initial-state",
+      "status": "fresh finite verification plus retained native traces"
+    },
+    {
+      "bytes": 390715,
+      "category": "finite/native",
+      "path": "results/session-observation",
+      "status": "retained source observations with fresh tests"
+    },
+    {
+      "bytes": 294021,
+      "category": "finite-audit",
+      "path": "results/session-operation-cost",
+      "status": "fresh equation audit"
+    },
+    {
+      "bytes": 5493850,
+      "category": "source-evidence",
+      "path": "results/source-observer",
+      "status": "fresh source-body reexecution"
+    },
+    {
+      "bytes": 414544,
+      "category": "finite-audit",
+      "path": "results/support-indexed",
+      "status": "fresh semantic recheck"
+    },
+    {
+      "bytes": 713914,
+      "category": "finite-audit",
+      "path": "results/support-overlap",
+      "status": "fresh semantic recheck"
+    },
+    {
+      "bytes": 9045777,
+      "category": "timing",
+      "path": "results/symbolic-comparison",
+      "status": "retained complete-output timing campaign"
+    },
+    {
+      "bytes": 26530,
+      "category": "timing-audit",
+      "path": "results/symbolic-comparison-review",
+      "status": "fresh record audit"
+    },
+    {
+      "bytes": 254764,
+      "category": "timing-audit",
+      "path": "results/timing-variation",
+      "status": "retained timing summary"
+    }
+  ],
+  "generated_utc": "2026-11-22T22:38:39.501564+00:00",
+  "policy": "Raw scientific evidence is retained; iteration folders, duplicate deterministic reruns and edit backups are excluded from the public repository.",
+  "schema": 1
+}

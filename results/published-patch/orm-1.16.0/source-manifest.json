@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "path": "before/piccolo_api/session_auth/tables.py",
+      "bytes": 3892,
+      "sha256": "6b84bdfba73a1135696d68398652f08a3c1a559fc1077cd8656bf2c9f07b4f25"
+    },
+    {
+      "path": "before/piccolo_api/crud/endpoints.py",
+      "bytes": 44276,
+      "sha256": "c03bccf1bbb35d30578ff266faf8407aea16875cdce32684e0ad3bfb9180a54d"
+    },
+    {
+      "path": "after/piccolo_api/session_auth/tables.py",
+      "bytes": 3837,
+      "sha256": "b1e06075e16681ff1119e36f66d785f118baeb53bf74c485c508eafdf272e531"
+    },
+    {
+      "path": "after/piccolo_api/crud/endpoints.py",
+      "bytes": 44413,
+      "sha256": "d3b56b7efa60d9be5f252c6bfaef18ffb3a051daf140aca30d55be247e227859"
+    }
+  ],
+  "producer_before_commit": "f2db7d9bfabe4baacd1e338cc973f63477d4eb23",
+  "producer_after_commit": "520ec2567ae1d2cc417c8c0d1ad0ddc05549a8a4"
+}

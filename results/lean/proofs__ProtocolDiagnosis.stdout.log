@@ -1,0 +1,10 @@
+'AuthRefine.Protocol.local_iff_admitted_trace_equivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuthRefine.Protocol.first_bad_cell_shortest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuthRefine.Protocol.shortest_path_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuthRefine.Protocol.shortest_path_finite_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuthRefine.Protocol.shortest_admitted_witness_bound' depends on axioms: [Classical.choice, propext, Quot.sound]
+'AuthRefine.Protocol.reachable_correspondence_lifts_to_traces' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AuthRefine.Protocol.initial_disagreement_empty_witness' does not depend on any axioms
+'AuthRefine.Protocol.caller_protocol_shortest_witness' depends on axioms: [Quot.sound, propext, Classical.choice]

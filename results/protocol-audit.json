@@ -1,0 +1,2490 @@
+{
+  "checked_at_utc": "2026-11-18T18:10:37.661811+00:00",
+  "scope": "Exhaustive declared two-state, two-request finite domain; no application prevalence claim",
+  "all_passed": true,
+  "reference_tables": 81,
+  "candidate_tables": 256,
+  "caller_protocols": 81,
+  "complete_declared_domain": true,
+  "cases": 1679616,
+  "status_counts": {
+    "inconclusive": 186624,
+    "equivalent": 129105,
+    "mismatch": 1363887
+  },
+  "shortest_mismatch_lengths": {
+    "1": 1259712,
+    "2": 99873,
+    "3": 4014,
+    "4": 288
+  },
+  "reachable_target_protocol_node_counts": {
+    "1": 419904,
+    "2": 736128,
+    "3": 292896,
+    "4": 230688
+  },
+  "oracle": "Direct word enumeration and independent reference-cell lookup; no reference_step or source-policy evaluator",
+  "oracle_completeness_basis": "ProtocolDiagnosis.lean shortest_admitted_witness_bound",
+  "implementation_contract": "No enabled event is inconclusive although the mathematical epsilon-only language is equivalent",
+  "comparison_fields": [
+    "status",
+    "shortest length",
+    "admissibility",
+    "every replay row",
+    "proper-prefix agreement",
+    "final disagreement",
+    "reachable-product bound",
+    "accepted reachable-product count"
+  ],
+  "ordered_comparison_sha256": "27bb075dfa248db00c51d36e0257007fc183e68d2db0bac17229fd10447cfb2f",
+  "wall_seconds": 157.63904796200222,
+  "source_sha256": {
+    "proofs/protocol_audit.py": "0a0dd1418cca546fa5c007a7b2907c0db31751b047c1fbe8509bb5f8e642423b",
+    "proofs/ProtocolDiagnosis.lean": "62788f05ea39f62c2f53a37254c5973b96c80bd79522488acabd745ad7a60596",
+    "src/protocol_check.py": "b2d3e3ed99b3cc69a25eb619a6f48bdc28f1b136ce2f4553dd0009c39b6595bf",
+    "src/checker.py": "4969c93a1a16da72cdb074b064a3175dd9a6de7e9e708e2ec0214cdd56f7676a"
+  },
+  "per_reference": [
+    {
+      "reference_index": 0,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 1,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 2,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 3,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 4,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 5,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 6,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 7,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 8,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 9,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 10,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 11,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 12,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 13,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 14,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 15,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 16,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 17,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 18,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17301,
+        "equivalent": 1131
+      }
+    },
+    {
+      "reference_index": 19,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17310,
+        "equivalent": 1122
+      }
+    },
+    {
+      "reference_index": 20,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17301,
+        "equivalent": 1131
+      }
+    },
+    {
+      "reference_index": 21,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17292,
+        "equivalent": 1140
+      }
+    },
+    {
+      "reference_index": 22,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17292,
+        "equivalent": 1140
+      }
+    },
+    {
+      "reference_index": 23,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17292,
+        "equivalent": 1140
+      }
+    },
+    {
+      "reference_index": 24,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17301,
+        "equivalent": 1131
+      }
+    },
+    {
+      "reference_index": 25,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17310,
+        "equivalent": 1122
+      }
+    },
+    {
+      "reference_index": 26,
+      "cells": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17301,
+        "equivalent": 1131
+      }
+    },
+    {
+      "reference_index": 27,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 28,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 29,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 30,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 31,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 32,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 33,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 34,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 35,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 2304,
+        "mismatch": 16128
+      }
+    },
+    {
+      "reference_index": 36,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 37,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 38,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 39,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 40,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 41,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 42,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 43,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 44,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 16128,
+        "equivalent": 2304
+      }
+    },
+    {
+      "reference_index": 45,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17301,
+        "equivalent": 1131
+      }
+    },
+    {
+      "reference_index": 46,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17310,
+        "equivalent": 1122
+      }
+    },
+    {
+      "reference_index": 47,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17301,
+        "equivalent": 1131
+      }
+    },
+    {
+      "reference_index": 48,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17292,
+        "equivalent": 1140
+      }
+    },
+    {
+      "reference_index": 49,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17292,
+        "equivalent": 1140
+      }
+    },
+    {
+      "reference_index": 50,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17292,
+        "equivalent": 1140
+      }
+    },
+    {
+      "reference_index": 51,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17301,
+        "equivalent": 1131
+      }
+    },
+    {
+      "reference_index": 52,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17310,
+        "equivalent": 1122
+      }
+    },
+    {
+      "reference_index": 53,
+      "cells": [
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17301,
+        "equivalent": 1131
+      }
+    },
+    {
+      "reference_index": 54,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 1131,
+        "mismatch": 17301
+      }
+    },
+    {
+      "reference_index": 55,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 1140,
+        "mismatch": 17292
+      }
+    },
+    {
+      "reference_index": 56,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 1131,
+        "mismatch": 17301
+      }
+    },
+    {
+      "reference_index": 57,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 1122,
+        "mismatch": 17310
+      }
+    },
+    {
+      "reference_index": 58,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 1140,
+        "mismatch": 17292
+      }
+    },
+    {
+      "reference_index": 59,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 1122,
+        "mismatch": 17310
+      }
+    },
+    {
+      "reference_index": 60,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 1131,
+        "mismatch": 17301
+      }
+    },
+    {
+      "reference_index": 61,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 1140,
+        "mismatch": 17292
+      }
+    },
+    {
+      "reference_index": 62,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "equivalent": 1131,
+        "mismatch": 17301
+      }
+    },
+    {
+      "reference_index": 63,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17301,
+        "equivalent": 1131
+      }
+    },
+    {
+      "reference_index": 64,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17292,
+        "equivalent": 1140
+      }
+    },
+    {
+      "reference_index": 65,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17301,
+        "equivalent": 1131
+      }
+    },
+    {
+      "reference_index": 66,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17310,
+        "equivalent": 1122
+      }
+    },
+    {
+      "reference_index": 67,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17292,
+        "equivalent": 1140
+      }
+    },
+    {
+      "reference_index": 68,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17310,
+        "equivalent": 1122
+      }
+    },
+    {
+      "reference_index": 69,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17301,
+        "equivalent": 1131
+      }
+    },
+    {
+      "reference_index": 70,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17292,
+        "equivalent": 1140
+      }
+    },
+    {
+      "reference_index": 71,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17301,
+        "equivalent": 1131
+      }
+    },
+    {
+      "reference_index": 72,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17823,
+        "equivalent": 609
+      }
+    },
+    {
+      "reference_index": 73,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17838,
+        "equivalent": 594
+      }
+    },
+    {
+      "reference_index": 74,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17823,
+        "equivalent": 609
+      }
+    },
+    {
+      "reference_index": 75,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17838,
+        "equivalent": 594
+      }
+    },
+    {
+      "reference_index": 76,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17835,
+        "equivalent": 597
+      }
+    },
+    {
+      "reference_index": 77,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17838,
+        "equivalent": 594
+      }
+    },
+    {
+      "reference_index": 78,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17823,
+        "equivalent": 609
+      }
+    },
+    {
+      "reference_index": 79,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          0
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17838,
+        "equivalent": 594
+      }
+    },
+    {
+      "reference_index": 80,
+      "cells": [
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "allow",
+          1
+        ]
+      ],
+      "counts": {
+        "inconclusive": 2304,
+        "mismatch": 17823,
+        "equivalent": 609
+      }
+    }
+  ],
+  "examples": {
+    "inconclusive": {
+      "reference_index": 0,
+      "candidate_index": 0,
+      "protocol_index": 0,
+      "reference": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "candidate": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ]
+      ],
+      "protocol": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "oracle": {
+        "status": "inconclusive",
+        "length": null,
+        "nodes": 1,
+        "word": null
+      }
+    },
+    "equivalent": {
+      "reference_index": 0,
+      "candidate_index": 0,
+      "protocol_index": 9,
+      "reference": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "candidate": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ]
+      ],
+      "protocol": [
+        null,
+        0,
+        null,
+        null
+      ],
+      "oracle": {
+        "status": "equivalent",
+        "length": null,
+        "nodes": 1,
+        "word": null
+      }
+    },
+    "mismatch_length_1": {
+      "reference_index": 0,
+      "candidate_index": 16,
+      "protocol_index": 9,
+      "reference": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "candidate": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ]
+      ],
+      "protocol": [
+        null,
+        0,
+        null,
+        null
+      ],
+      "oracle": {
+        "status": "mismatch",
+        "length": 1,
+        "nodes": 2,
+        "word": [
+          1
+        ]
+      }
+    },
+    "mismatch_length_2": {
+      "reference_index": 0,
+      "candidate_index": 16,
+      "protocol_index": 55,
+      "reference": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "candidate": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ]
+      ],
+      "protocol": [
+        1,
+        null,
+        null,
+        0
+      ],
+      "oracle": {
+        "status": "mismatch",
+        "length": 2,
+        "nodes": 3,
+        "word": [
+          0,
+          1
+        ]
+      }
+    },
+    "mismatch_length_3": {
+      "reference_index": 18,
+      "candidate_index": 48,
+      "protocol_index": 55,
+      "reference": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "candidate": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          0
+        ],
+        [
+          "deny",
+          0
+        ]
+      ],
+      "protocol": [
+        1,
+        null,
+        null,
+        0
+      ],
+      "oracle": {
+        "status": "mismatch",
+        "length": 3,
+        "nodes": 3,
+        "word": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "mismatch_length_4": {
+      "reference_index": 18,
+      "candidate_index": 52,
+      "protocol_index": 55,
+      "reference": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          1
+        ]
+      ],
+      "candidate": [
+        [
+          "deny",
+          0
+        ],
+        [
+          "allow",
+          1
+        ],
+        [
+          "deny",
+          1
+        ],
+        [
+          "deny",
+          0
+        ]
+      ],
+      "protocol": [
+        1,
+        null,
+        null,
+        0
+      ],
+      "oracle": {
+        "status": "mismatch",
+        "length": 4,
+        "nodes": 4,
+        "word": [
+          0,
+          1,
+          0,
+          1
+        ]
+      }
+    }
+  }
+}

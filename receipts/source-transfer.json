@@ -1,0 +1,13 @@
+{
+  "acquired_projects": 10,
+  "fault_controls": 3,
+  "mismatching_boundaries": 0,
+  "primary_complete_boundaries": 5,
+  "profile": "source-transfer",
+  "schema": 1,
+  "scope": "Project-disjoint source-level transfer; no original whole-application execution, independent human gold, or new vulnerability claim.",
+  "secondary_complete_boundaries": 9,
+  "selected_projects": 12,
+  "status": "PASS",
+  "unknown_contexts_after_adaptation": 0
+}

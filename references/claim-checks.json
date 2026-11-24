@@ -1,0 +1,748 @@
+{
+  "additional_native_records": {
+    "identity_binding_rows": 5232,
+    "identity_excluded": 5212,
+    "identity_only_exclusions": 5202,
+    "policy_file_cases": 16,
+    "policy_file_edges": 3072,
+    "policy_file_native_case_words": 69,
+    "policy_file_native_witness_operations": 101,
+    "policy_file_prefix_operations": 7440,
+    "richer_native_case_words": 35,
+    "scope": "Counts are retained native executions and repeated fixed-binding checks. Source methods and observation predicates are independently verified by their study commands.",
+    "state_exclusions": 10
+  },
+  "complete_symbolic_comparison": {
+    "cohorts": {
+      "family-cost": {
+        "cudd": {
+          "lower_median_than_indexed": 2,
+          "median_ratio_to_indexed": 9.057222177250107,
+          "tasks": 38
+        },
+        "finite-domain": {
+          "lower_median_than_indexed": 24,
+          "median_ratio_to_indexed": 0.9340803328468326,
+          "tasks": 38
+        },
+        "scan": {
+          "lower_median_than_indexed": 21,
+          "median_ratio_to_indexed": 0.8637242731502679,
+          "tasks": 38
+        }
+      },
+      "native-policy-store": {
+        "cudd": {
+          "lower_median_than_indexed": 0,
+          "median_ratio_to_indexed": 16.64500294829381,
+          "tasks": 80
+        },
+        "finite-domain": {
+          "lower_median_than_indexed": 23,
+          "median_ratio_to_indexed": 1.1560667918028442,
+          "tasks": 80
+        },
+        "scan": {
+          "lower_median_than_indexed": 40,
+          "median_ratio_to_indexed": 1.0001947392410904,
+          "tasks": 80
+        }
+      },
+      "session-correspondence": {
+        "cudd": {
+          "lower_median_than_indexed": 3,
+          "median_ratio_to_indexed": 5.939891221763224,
+          "tasks": 40
+        },
+        "finite-domain": {
+          "lower_median_than_indexed": 22,
+          "median_ratio_to_indexed": 0.7977329957321952,
+          "tasks": 40
+        },
+        "scan": {
+          "lower_median_than_indexed": 19,
+          "median_ratio_to_indexed": 1.0063405613513146,
+          "tasks": 40
+        }
+      }
+    },
+    "method_task_pairs": 760,
+    "processes": 42,
+    "scope": "The fixed tasks reuse source interfaces and caller languages; task fractions are not population estimates. All diagram construction and individual replay costs are timed.",
+    "tasks": 158,
+    "timed_records": 5320
+  },
+  "native_healthchecks_records": {
+    "configuration_profile_results": 720,
+    "identity_first_differences": {
+      "omit_pause_persistence": [
+        15,
+        18
+      ],
+      "omit_readonly_context": [
+        1,
+        null
+      ],
+      "original": [
+        null,
+        null
+      ],
+      "reject_readonly_get": [
+        1,
+        1
+      ],
+      "wrong_project_context": [
+        1,
+        2
+      ]
+    },
+    "native_cases": 120,
+    "native_http_requests": 4200,
+    "native_key_rotations": 240,
+    "native_operations": 4440,
+    "native_replay_cases": 114,
+    "native_replay_http_requests": 480,
+    "native_replay_operations": 480,
+    "native_replayed_witnesses": 600,
+    "native_sql_statements": 8652,
+    "production_component_comparisons": 2400,
+    "scope": "One native API interface with separate targets for each concrete routing. Reconciles raw event counts, caller profiles and actual replay records; the source-study and independent audit commands additionally verify complete observations, encodings and physical SQLite files."
+  },
+  "native_healthchecks_tree_records": {
+    "distinct_fresh_check_uuids": 744,
+    "global_profiles": 120,
+    "main_physical_checkpoints": 2400,
+    "minimal_bad_prefix_results": 396,
+    "native_http_edges": 2340,
+    "native_replay_http_requests": 732,
+    "native_replay_words": 312,
+    "native_replayed_negative_results": 396,
+    "native_sql_statements": 8580,
+    "native_trees": 60,
+    "production_method_comparisons": 720,
+    "replay_physical_checkpoints": 1044,
+    "replay_sql_statements": 2664,
+    "root_branch_components": 360,
+    "scope": "One application, fixed identity credential routing, all words of length at most three over get/pause/resume, two initial Check statuses, and separate singleton targets. Recomputes the full raw observation comparison, constant-table encoding, saved production witness and fresh negative-prefix replay. Counts complete SQLite inventories without rereading their contents; the independent native-tree audit supplies that physical-image check. Flip clock literals remain in the raw records and are compared by presence and equality-at-creation only.",
+    "shortest_history_strata": [
+      {
+        "arm": "omit_pause_persistence",
+        "differing_edges": 25,
+        "equivalent": false,
+        "initial_status": "new",
+        "minimal_bad_prefixes": 7,
+        "observation": "complete",
+        "repeated_strata": 6,
+        "shortest_length": 1,
+        "shortest_word": [
+          "pause"
+        ]
+      },
+      {
+        "arm": "omit_pause_persistence",
+        "differing_edges": 5,
+        "equivalent": false,
+        "initial_status": "new",
+        "minimal_bad_prefixes": 5,
+        "observation": "http_status",
+        "repeated_strata": 6,
+        "shortest_length": 2,
+        "shortest_word": [
+          "pause",
+          "resume"
+        ]
+      },
+      {
+        "arm": "omit_pause_persistence",
+        "differing_edges": 8,
+        "equivalent": false,
+        "initial_status": "paused",
+        "minimal_bad_prefixes": 5,
+        "observation": "complete",
+        "repeated_strata": 6,
+        "shortest_length": 2,
+        "shortest_word": [
+          "resume",
+          "pause"
+        ]
+      },
+      {
+        "arm": "omit_pause_persistence",
+        "differing_edges": 1,
+        "equivalent": false,
+        "initial_status": "paused",
+        "minimal_bad_prefixes": 1,
+        "observation": "http_status",
+        "repeated_strata": 6,
+        "shortest_length": 3,
+        "shortest_word": [
+          "resume",
+          "pause",
+          "resume"
+        ]
+      },
+      {
+        "arm": "omit_readonly_context",
+        "differing_edges": 13,
+        "equivalent": false,
+        "initial_status": "new",
+        "minimal_bad_prefixes": 7,
+        "observation": "complete",
+        "repeated_strata": 6,
+        "shortest_length": 1,
+        "shortest_word": [
+          "get"
+        ]
+      },
+      {
+        "arm": "omit_readonly_context",
+        "differing_edges": 0,
+        "equivalent": true,
+        "initial_status": "new",
+        "minimal_bad_prefixes": 0,
+        "observation": "http_status",
+        "repeated_strata": 6,
+        "shortest_length": null,
+        "shortest_word": null
+      },
+      {
+        "arm": "omit_readonly_context",
+        "differing_edges": 13,
+        "equivalent": false,
+        "initial_status": "paused",
+        "minimal_bad_prefixes": 7,
+        "observation": "complete",
+        "repeated_strata": 6,
+        "shortest_length": 1,
+        "shortest_word": [
+          "get"
+        ]
+      },
+      {
+        "arm": "omit_readonly_context",
+        "differing_edges": 0,
+        "equivalent": true,
+        "initial_status": "paused",
+        "minimal_bad_prefixes": 0,
+        "observation": "http_status",
+        "repeated_strata": 6,
+        "shortest_length": null,
+        "shortest_word": null
+      },
+      {
+        "arm": "original",
+        "differing_edges": 0,
+        "equivalent": true,
+        "initial_status": "new",
+        "minimal_bad_prefixes": 0,
+        "observation": "complete",
+        "repeated_strata": 6,
+        "shortest_length": null,
+        "shortest_word": null
+      },
+      {
+        "arm": "original",
+        "differing_edges": 0,
+        "equivalent": true,
+        "initial_status": "new",
+        "minimal_bad_prefixes": 0,
+        "observation": "http_status",
+        "repeated_strata": 6,
+        "shortest_length": null,
+        "shortest_word": null
+      },
+      {
+        "arm": "original",
+        "differing_edges": 0,
+        "equivalent": true,
+        "initial_status": "paused",
+        "minimal_bad_prefixes": 0,
+        "observation": "complete",
+        "repeated_strata": 6,
+        "shortest_length": null,
+        "shortest_word": null
+      },
+      {
+        "arm": "original",
+        "differing_edges": 0,
+        "equivalent": true,
+        "initial_status": "paused",
+        "minimal_bad_prefixes": 0,
+        "observation": "http_status",
+        "repeated_strata": 6,
+        "shortest_length": null,
+        "shortest_word": null
+      },
+      {
+        "arm": "reject_readonly_get",
+        "differing_edges": 13,
+        "equivalent": false,
+        "initial_status": "new",
+        "minimal_bad_prefixes": 7,
+        "observation": "complete",
+        "repeated_strata": 6,
+        "shortest_length": 1,
+        "shortest_word": [
+          "get"
+        ]
+      },
+      {
+        "arm": "reject_readonly_get",
+        "differing_edges": 13,
+        "equivalent": false,
+        "initial_status": "new",
+        "minimal_bad_prefixes": 7,
+        "observation": "http_status",
+        "repeated_strata": 6,
+        "shortest_length": 1,
+        "shortest_word": [
+          "get"
+        ]
+      },
+      {
+        "arm": "reject_readonly_get",
+        "differing_edges": 13,
+        "equivalent": false,
+        "initial_status": "paused",
+        "minimal_bad_prefixes": 7,
+        "observation": "complete",
+        "repeated_strata": 6,
+        "shortest_length": 1,
+        "shortest_word": [
+          "get"
+        ]
+      },
+      {
+        "arm": "reject_readonly_get",
+        "differing_edges": 13,
+        "equivalent": false,
+        "initial_status": "paused",
+        "minimal_bad_prefixes": 7,
+        "observation": "http_status",
+        "repeated_strata": 6,
+        "shortest_length": 1,
+        "shortest_word": [
+          "get"
+        ]
+      },
+      {
+        "arm": "wrong_project_context",
+        "differing_edges": 39,
+        "equivalent": false,
+        "initial_status": "new",
+        "minimal_bad_prefixes": 3,
+        "observation": "complete",
+        "repeated_strata": 6,
+        "shortest_length": 1,
+        "shortest_word": [
+          "get"
+        ]
+      },
+      {
+        "arm": "wrong_project_context",
+        "differing_edges": 0,
+        "equivalent": true,
+        "initial_status": "new",
+        "minimal_bad_prefixes": 0,
+        "observation": "http_status",
+        "repeated_strata": 6,
+        "shortest_length": null,
+        "shortest_word": null
+      },
+      {
+        "arm": "wrong_project_context",
+        "differing_edges": 39,
+        "equivalent": false,
+        "initial_status": "paused",
+        "minimal_bad_prefixes": 3,
+        "observation": "complete",
+        "repeated_strata": 6,
+        "shortest_length": 1,
+        "shortest_word": [
+          "get"
+        ]
+      },
+      {
+        "arm": "wrong_project_context",
+        "differing_edges": 0,
+        "equivalent": true,
+        "initial_status": "paused",
+        "minimal_bad_prefixes": 0,
+        "observation": "http_status",
+        "repeated_strata": 6,
+        "shortest_length": null,
+        "shortest_word": null
+      }
+    ]
+  },
+  "native_session_correspondence": {
+    "anchored_binding_comparisons": 1408,
+    "anchored_family_profiles": 80,
+    "applications": 1,
+    "baseline_cells": 2808,
+    "baseline_stores": 124,
+    "cases": 10,
+    "complete_profile_binding_comparisons": 17440,
+    "distinct_native_word_runs": 20,
+    "excluded_bindings_checked_against_native_words": 1739,
+    "introduced_control_cells": 90,
+    "native_witness_operations": 35,
+    "retained_acquisition_wall_ns": 47848607408,
+    "scope": "One source interface at five cardinalities; overlapping cells are not pooled as new applications.",
+    "selected_methods": 2
+  },
+  "native_timing": {
+    "case_records": 700,
+    "metric_summaries": 300,
+    "processes": 70,
+    "scope": "Diagnosis excludes separately recorded permutation preparation and native acquisition; ranges are observed extrema.",
+    "six_session_medians_ns": {
+      "per-binding-product": 352705925,
+      "per-binding-target": 382825401,
+      "protocol-grouped/lookup-only": 185130885,
+      "protocol-grouped/one-removal": 337243702,
+      "protocol-grouped/unrestricted": 242476226,
+      "protocol-scan/lookup-only": 137217111,
+      "protocol-scan/one-removal": 408995528,
+      "protocol-scan/unrestricted": 378625617,
+      "shared-target": 361108259,
+      "support-indexed": 275882699
+    }
+  },
+  "overlapping_supports": {
+    "binding_rows": 66560,
+    "distinct_target_binding_pairs": 520,
+    "executed_fault_controls": 3,
+    "family_classifications": {
+      "all": 1,
+      "none": 16447,
+      "some": 127
+    },
+    "family_contexts": 16575,
+    "replay_rows": 127744,
+    "shortest_lengths": {
+      "1": 16384,
+      "2": 40960,
+      "3": 6912,
+      "4": 2176,
+      "infinity": 128
+    }
+  },
+  "protocol_grouping": {
+    "executed_fault_controls": 4,
+    "one_request": {
+      "classified_binding_rows": 17820,
+      "family_cases": 18225,
+      "outcomes": {
+        "all": 600,
+        "inactive": 6075,
+        "missing": 3240,
+        "none": 5730,
+        "some": 2580
+      }
+    },
+    "overlapping_supports": {
+      "by_caller": {
+        "alternating_tick_probe": {
+          "all": 16,
+          "missing": 3315,
+          "none": 15292,
+          "some": 2032
+        },
+        "inactive": {
+          "inactive": 20655
+        },
+        "one_event": {
+          "all": 15555,
+          "missing": 1020,
+          "none": 4080
+        },
+        "probes_only": {
+          "all": 16830,
+          "missing": 765,
+          "none": 3060
+        },
+        "three_ticks_then_probes": {
+          "all": 51,
+          "missing": 1530,
+          "none": 12597,
+          "some": 6477
+        },
+        "unrestricted": {
+          "all": 1,
+          "missing": 4080,
+          "none": 16447,
+          "some": 127
+        }
+      },
+      "caller_protocols": 6,
+      "classified_binding_rows_across_families": 371712,
+      "distinct_admitted_target_caller_binding_answers": 2904,
+      "family_cases": 123930,
+      "nonempty_subfamilies": 255,
+      "outcomes": {
+        "all": 32453,
+        "inactive": 20655,
+        "missing": 10710,
+        "none": 51476,
+        "some": 8636
+      },
+      "replay_rows_across_families": 572416,
+      "shortest_lengths_across_families": {
+        "1": 53248,
+        "2": 96512,
+        "3": 12032,
+        "4": 68480,
+        "5": 512,
+        "6": 1664,
+        "7": 512,
+        "infinity": 138752
+      },
+      "target_tables": 81
+    }
+  },
+  "retained_family_cost": {
+    "case_records": 1064,
+    "cases": 38,
+    "metric_summaries": 456,
+    "processes": 28,
+    "ratio_envelopes": 38,
+    "scope": "Observed sample variation on the recorded host; no new measurement or confidence interval."
+  },
+  "retained_source_records": {
+    "credential_bindings": 112,
+    "credential_contexts": 1260,
+    "credential_empty_decoded_state": true,
+    "credential_profiles": 8,
+    "paired_observer_rows": 272,
+    "prospective": {
+      "primary": {
+        "boundaries": 9,
+        "complete_boundaries": 5,
+        "contexts": 78,
+        "unknown_contexts": 55
+      },
+      "secondary": {
+        "boundaries": 9,
+        "complete_boundaries": 9,
+        "contexts": 78,
+        "unknown_contexts": 0
+      }
+    },
+    "scope": "Retained scoped observations and declared projections; no universal source-extraction conclusion."
+  },
+  "scope": "Offline reconciliation of the supplied raw records, full profiles, counts and descriptive timing statistics. Semantic oracle tests and native reruns are separate commands in the claim ledger.",
+  "session_initial_state": {
+    "finite_constructions": {
+      "binding_trace_checks": 396960,
+      "construction_checks": 23284,
+      "infeasibility_contexts": 9452,
+      "initial_anchor_contexts": 5456,
+      "request_comparisons": 2033832
+    },
+    "finite_survivor_languages": {
+      "binding_products": 547472,
+      "contexts": 5456,
+      "profiles": 21824,
+      "transition_comparisons": 3796745,
+      "visited_product_states": 864098
+    },
+    "independent_optimal_search_cases": 180,
+    "native": {
+      "comparison_rule": "Every supplied binding is evaluated through every recorded request, including after its first disagreement.",
+      "history_rule": "One fixed binding per complete history; reconstruction preserves every earlier observation.",
+      "native_execution_scope": "258 complete newly executed words on one selected upstream session interface",
+      "optimal": {
+        "cases": 248,
+        "fixed_binding_histories": 100720,
+        "initial_store_contexts": 124,
+        "request_comparisons": 692432,
+        "requests": 1434,
+        "reset_initial": 0,
+        "restore_complete": 198
+      },
+      "optimal_by_observation": {
+        "projected": {
+          "cases": 124,
+          "requests": 918,
+          "restore_complete": 99
+        },
+        "selected-row": {
+          "cases": 124,
+          "requests": 516,
+          "restore_complete": 99
+        }
+      },
+      "reset_control": {
+        "cases": 10,
+        "fixed_binding_histories": 1744,
+        "initial_store_contexts": 5,
+        "request_comparisons": 40304,
+        "requests": 160,
+        "reset_initial": 20,
+        "restore_complete": 0
+      },
+      "status": "PASS"
+    },
+    "scope": "Recomputes complete native histories and exact finite survivor counts from retained evidence. The separate finite-audit command reruns every belief-state search and full-language product traversal. No new application request or timing sample is acquired here."
+  },
+  "session_operation_cost": {
+    "anchored_binding_cases": 2369,
+    "anchored_cases": 124,
+    "bfs_minimum_requests": {
+      "2": 2,
+      "3": 4,
+      "4": 6
+    },
+    "bfs_searches": 3,
+    "certificate_transition_comparisons": 458854,
+    "deletion_support_certificates": 645,
+    "lower_bound_certificates": 1290,
+    "maximal_one_removal_binding_comparisons": 13690,
+    "native_constructed_words": 5,
+    "new_native_executions": 0,
+    "query_support_certificates": 645,
+    "retained_native_edge_uses": 30,
+    "scope": "Offline reconciliation of complete retained profiles, constructed words, invariant-domain descriptions, CSV, BFS layers and original native-edge pointers. The independent audit checks transition equations and runs the finite BFS; the proof establishes arbitrary-length adaptive/reset bounds. No production checker or native source is executed here.",
+    "short_pair_binding_comparisons": 8962,
+    "sizes": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "unanchored_constructions": [
+      {
+        "continuous_requests": 2,
+        "first_exclusions": [
+          {
+            "bindings": 1,
+            "request_position": 2
+          }
+        ],
+        "individual_projected_shortest_length": 2,
+        "individual_selected_row_shortest_length": 1,
+        "projected_one_removal_runs": 1,
+        "selected_row_requests": 1,
+        "sessions": 2
+      },
+      {
+        "continuous_requests": 4,
+        "first_exclusions": [
+          {
+            "bindings": 4,
+            "request_position": 2
+          },
+          {
+            "bindings": 1,
+            "request_position": 4
+          }
+        ],
+        "individual_projected_shortest_length": 2,
+        "individual_selected_row_shortest_length": 1,
+        "projected_one_removal_runs": 2,
+        "selected_row_requests": 2,
+        "sessions": 3
+      },
+      {
+        "continuous_requests": 6,
+        "first_exclusions": [
+          {
+            "bindings": 18,
+            "request_position": 2
+          },
+          {
+            "bindings": 4,
+            "request_position": 4
+          },
+          {
+            "bindings": 1,
+            "request_position": 6
+          }
+        ],
+        "individual_projected_shortest_length": 2,
+        "individual_selected_row_shortest_length": 1,
+        "projected_one_removal_runs": 3,
+        "selected_row_requests": 3,
+        "sessions": 4
+      },
+      {
+        "continuous_requests": 8,
+        "first_exclusions": [
+          {
+            "bindings": 96,
+            "request_position": 2
+          },
+          {
+            "bindings": 18,
+            "request_position": 4
+          },
+          {
+            "bindings": 4,
+            "request_position": 6
+          },
+          {
+            "bindings": 1,
+            "request_position": 8
+          }
+        ],
+        "individual_projected_shortest_length": 2,
+        "individual_selected_row_shortest_length": 1,
+        "projected_one_removal_runs": 4,
+        "selected_row_requests": 4,
+        "sessions": 5
+      },
+      {
+        "continuous_requests": 10,
+        "first_exclusions": [
+          {
+            "bindings": 600,
+            "request_position": 2
+          },
+          {
+            "bindings": 96,
+            "request_position": 4
+          },
+          {
+            "bindings": 18,
+            "request_position": 6
+          },
+          {
+            "bindings": 4,
+            "request_position": 8
+          },
+          {
+            "bindings": 1,
+            "request_position": 10
+          }
+        ],
+        "individual_projected_shortest_length": 2,
+        "individual_selected_row_shortest_length": 1,
+        "projected_one_removal_runs": 5,
+        "selected_row_requests": 5,
+        "sessions": 6
+      }
+    ]
+  },
+  "session_short_test_bounds": {
+    "all_short_words": 1875,
+    "binding_word_comparisons": 576720,
+    "excluded_permutations": 867,
+    "identity_all_store_cells": 2808,
+    "identity_cover_subsets_checked": 99,
+    "lookup_only_closure_cells": 10948,
+    "observation_comparisons": 1153440,
+    "permutations": 872,
+    "projected_cover_subsets_checked": 69486,
+    "scope": "Reconciles complete short-word matrices and profile fields. The separate direct-equation audit verifies all smaller covers; the proof establishes the result for arbitrary n. No native source executions are added.",
+    "sizes": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "status": "PASS"
+}

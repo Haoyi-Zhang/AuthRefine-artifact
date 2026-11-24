@@ -1,0 +1,37 @@
+{
+  "branches": [
+    {
+      "ast_nodes": 104,
+      "caller_states": 6,
+      "enabled_edges": 13,
+      "reference_rules": 13,
+      "rich_codes": 26,
+      "state_bits": 5,
+      "target_states": 14
+    },
+    {
+      "ast_nodes": 104,
+      "caller_states": 6,
+      "enabled_edges": 13,
+      "reference_rules": 13,
+      "rich_codes": 26,
+      "state_bits": 5,
+      "target_states": 14
+    },
+    {
+      "ast_nodes": 104,
+      "caller_states": 6,
+      "enabled_edges": 13,
+      "reference_rules": 13,
+      "rich_codes": 26,
+      "state_bits": 5,
+      "target_states": 14
+    }
+  ],
+  "full_tree_edges": 39,
+  "full_tree_nodes": 40,
+  "native_execution": false,
+  "production_methods_checked": 2,
+  "purpose": "production schema and language bounds before acquisition",
+  "union_words": 40
+}

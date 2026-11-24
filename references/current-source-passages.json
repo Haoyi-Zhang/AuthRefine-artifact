@@ -1,0 +1,71 @@
+{
+  "scope": "Additional primary-source passages inspected during the current manuscript review; inherited reading records are unchanged.",
+  "reviews": [
+    {
+      "key": "classen2011symbolic",
+      "url": "https://pure.unamur.be/ws/portalfiles/portal/1064131/70973.pdf",
+      "reading_scope": "Institutional manuscript cover, abstract, introduction, featured-transition-system definitions and feature-CTL state/product satisfaction definitions. No complete proof or experiment reproduction.",
+      "supported_claim": "The work explicitly represents sets of fixed products and computes temporal-property satisfaction across them. Family-wise verification is an established objective.",
+      "retrieval_reference": "turn220684008view0"
+    },
+    {
+      "key": "robol2023consent",
+      "url": "https://iris.unitn.it/retrieve/4d688379-d9d7-42bf-8faa-57fc481f42da/3490754.pdf",
+      "reading_scope": "Published front matter, abstract, introduction and framework overview. Used to inspect the argument connecting consent evolution, formal framework and evaluation; no acceptance threshold or current page limit inferred.",
+      "supported_claim": "A relevant TOSEM framework paper connects a motivating change problem, formal semantics, executable cases and a scalability evaluation.",
+      "retrieval_reference": "turn677295818view2"
+    },
+    {
+      "key": "xu2026parametric",
+      "url": "https://arxiv.org/abs/2607.09637",
+      "reading_scope": "Search-indexed primary abstract; direct PDF and HTML retrieval failed. No new full-text reading.",
+      "supported_claim": "The abstract describes parameter-valuation enumeration over network models and evaluation on industrial-source benchmarks.",
+      "retrieval_reference": "turn414223775academia25"
+    },
+    {
+      "key": "classen2011symbolic",
+      "access_date": "2026-11-19",
+      "url": "https://pure.unamur.be/ws/portalfiles/portal/1064131/70973.pdf",
+      "reading_scope": "Additional primary full-text reading of Sections 4.2, 4.3 (Definition 18 and Theorem 19) and 5.2, physical pages 6–8. Original reading records are retained. No external artifact execution.",
+      "supported_claim": "The symbolic procedure computes the complete set of configurations violating the property. The manuscript now credits this capability explicitly.",
+      "retrieval_reference": "turn200724109view0; turn505434437view0; turn505434437view1",
+      "manuscript_anchor": "sec:shared-family-work"
+    },
+    {
+      "key": "xu2026parametric",
+      "access_date": "2026-11-20",
+      "url": "https://www.researchgate.net/publication/409183914_Network_Analysis_with_Parametric_NetKAT",
+      "primary_identity": "https://arxiv.org/abs/2607.09637v1",
+      "source_kind": "Primary author manuscript reproduced on a mirror",
+      "reading_scope": "Author manuscript body accessed through a ResearchGate mirror, identifiable as arXiv:2607.09637v1 dated 10 July 2026. Read Section 2 p.4; Section 5.2 pp.15–17; Section 5.3 Algorithms 1–2 and Theorems 5.3–5.4 pp.17–19. The current official arXiv HTML/PDF endpoints remained unavailable. No artifact execution or independent proof reproduction.",
+      "supported_claim": "Fixed valuations persist throughout traces. The algorithm returns all satisfying valuations and retires solved valuations. Weighted queries aggregate per-valuation path costs; the tropical example gives shortest-path costs.",
+      "retrieval_reference": "turn359112678view0; turn939217658view0; turn939217658view1; turn939217658view2",
+      "passage_locations": {
+        "fixed_valuation": "Section 5.2, p.16; retrieved lines 2952–2987",
+        "complete_valuation_set_and_retirement": "Section 5.3, Algorithm 1 and Theorem 5.3, pp.17–18; lines 3101–3128 and 3282–3345",
+        "weighted_per_valuation_aggregation": "Section 5.3, Algorithm 2 and Theorem 5.4, pp.18–19; lines 3347–3425",
+        "tropical_shortest_paths": "Section 2, p.4; lines 768–793"
+      },
+      "manuscript_anchor": "sec:shared-family-work",
+      "metadata_note": "Placeholder ACM 2018 publication fields are not bibliographic metadata."
+    }
+  ],
+  "failed_fetch_attempts": [
+    {
+      "url": "https://arxiv.org/html/2607.09637v1",
+      "result": "DisabledError",
+      "retrieval_reference": "turn677295818view0"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2607.09637",
+      "result": "DisabledError",
+      "retrieval_reference": "turn560909346view0"
+    }
+  ],
+  "additional_genre_comparison": {
+    "title": "Verification Witnesses",
+    "url": "https://www.sosy-lab.org/research/pub/2022-TOSEM.Verification_Witnesses.pdf",
+    "reading_scope": "Published first page, contents and introduction about exchangeable, independently validated witnesses and their use by engineers. Used for editorial assessment, not added to the cited bibliography.",
+    "retrieval_reference": "turn677295818view1"
+  }
+}

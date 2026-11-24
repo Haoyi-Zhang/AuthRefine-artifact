@@ -1,0 +1,124 @@
+{
+  "freshly_executed": [
+    "core tests and evidence",
+    "portable test matrix",
+    "10,000-case finite campaign",
+    "23,040-pair exhaustive semantic audit",
+    "18,225 caller-family audit",
+    "prospective source-transfer replay",
+    "reference and claim-ledger checks",
+    "16 vector figure reconstruction",
+    "independent standard-library verification of retained native records"
+  ],
+  "generated_utc": "2026-11-22T22:38:39.501564+00:00",
+  "overall": "PASS_WITH_EXTERNAL_ENVIRONMENTS_UNAVAILABLE",
+  "profiles": {
+    "campaign": {
+      "counted_obligations": 1340425,
+      "primary_cases": 10000,
+      "status": "PASS"
+    },
+    "core": {
+      "modes": [
+        {
+          "mode": "normal",
+          "modules": 14,
+          "passed": 169,
+          "skipped": 14,
+          "status": "PASS",
+          "tests": 183
+        },
+        {
+          "mode": "optimized",
+          "modules": 14,
+          "passed": 169,
+          "skipped": 14,
+          "status": "PASS",
+          "tests": 183
+        },
+        {
+          "mode": "strict",
+          "modules": 14,
+          "passed": 169,
+          "skipped": 14,
+          "status": "PASS",
+          "tests": 183
+        }
+      ],
+      "status": "PASS"
+    },
+    "framework": {
+      "reason": "the exact isolated Python environment is absent or mismatched",
+      "status": "UNAVAILABLE"
+    },
+    "native_record_audits": {
+      "fresh_native_execution": false,
+      "healthchecks_cases": 120,
+      "history_trees": 60,
+      "meaning": "Retained application records were independently rechecked; the third-party applications were not reacquired in this environment.",
+      "status": "PASS"
+    },
+    "portable": {
+      "modes": [
+        {
+          "mode": "normal",
+          "modules": 71,
+          "passed": 796,
+          "skipped": 24,
+          "status": "PASS",
+          "tests": 820
+        },
+        {
+          "mode": "optimized",
+          "modules": 71,
+          "passed": 796,
+          "skipped": 24,
+          "status": "PASS",
+          "tests": 820
+        },
+        {
+          "mode": "strict",
+          "modules": 71,
+          "passed": 796,
+          "skipped": 24,
+          "status": "PASS",
+          "tests": 820
+        }
+      ],
+      "module_count": 71,
+      "status": "PASS"
+    },
+    "proofs": {
+      "reason": "Lean is not installed on PATH",
+      "status": "UNAVAILABLE"
+    },
+    "query": {
+      "reason": "the exact isolated Python environment is absent or mismatched",
+      "status": "UNAVAILABLE"
+    },
+    "references": {
+      "citation_occurrences": 83,
+      "references": 68,
+      "status": "PASS"
+    },
+    "research_depth": {
+      "status": "PASS"
+    },
+    "source_transfer": {
+      "acquired_projects": 10,
+      "status": "PASS"
+    }
+  },
+  "retained_not_reacquired": [
+    "full optional framework/native acquisitions requiring exact third-party environments",
+    "compiled CUDD timing campaign",
+    "Lean kernel compilation",
+    "environment-dependent historical timing measurements"
+  ],
+  "schema": 1,
+  "scientific_scope": [
+    "Completeness is relative to a supplied finite legal correspondence family and declared observation boundary.",
+    "The source-transfer study is source-level and lacks a whole-application human gold standard.",
+    "Finite and component proof evidence does not prove the entire Python implementation for unbounded systems."
+  ]
+}

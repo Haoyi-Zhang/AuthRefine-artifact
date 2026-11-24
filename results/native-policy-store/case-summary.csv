@@ -1,0 +1,17 @@
+id,arm,initial_mask,physical_states,membership_states,measured_cells,prefix_operations,family_members,matching_full,matching_query_only,matching_one_mutation,matching_workflow,matching_boolean_only,matching_boolean_workflow,identity_full_shortest,identity_boolean_shortest,identity_boolean_workflow_shortest
+original-initial-0,original,0,16,8,192,396,6,0,6,0,0,0,0,1,3,3
+original-initial-1,original,1,16,8,192,468,6,0,2,0,0,0,0,1,3,3
+original-initial-2,original,2,16,8,192,468,6,0,2,0,0,0,0,1,3,3
+original-initial-3,original,3,16,8,192,492,6,0,2,0,0,0,0,1,3,3
+original-initial-4,original,4,16,8,192,468,6,0,2,0,0,0,0,1,3,3
+original-initial-5,original,5,16,8,192,492,6,0,2,0,0,0,0,1,3,3
+original-initial-6,original,6,16,8,192,492,6,0,2,0,0,0,0,1,3,3
+original-initial-7,original,7,16,8,192,444,6,0,6,0,0,0,0,1,3,3
+repaired-initial-0,repaired,0,16,8,192,396,6,1,6,1,1,6,6,,,
+repaired-initial-1,repaired,1,16,8,192,468,6,1,2,1,1,2,2,,,
+repaired-initial-2,repaired,2,16,8,192,468,6,1,2,1,1,2,2,,,
+repaired-initial-3,repaired,3,16,8,192,492,6,1,2,1,1,2,2,,,
+repaired-initial-4,repaired,4,16,8,192,468,6,1,2,1,1,2,2,,,
+repaired-initial-5,repaired,5,16,8,192,492,6,1,2,1,1,2,2,,,
+repaired-initial-6,repaired,6,16,8,192,492,6,1,2,1,1,2,2,,,
+repaired-initial-7,repaired,7,16,8,192,444,6,1,6,1,1,6,6,,,

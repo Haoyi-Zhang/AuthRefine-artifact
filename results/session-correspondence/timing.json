@@ -1,0 +1,5684 @@
+{
+  "case_records": 700,
+  "cases": [
+    {
+      "arm": "baseline",
+      "id": "sessions-2-baseline",
+      "methods": {
+        "per-binding-product": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 651018,
+            "median": 570999,
+            "minimum": 448757,
+            "samples": [
+              539352,
+              570999,
+              448757,
+              651018,
+              545251,
+              574775,
+              636937
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 666853,
+            "median": 594574,
+            "minimum": 547894,
+            "samples": [
+              547894,
+              594574,
+              553393,
+              666853,
+              566492,
+              595655,
+              654474
+            ]
+          },
+          "graph_cells": 51,
+          "id": "sessions-2-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 771,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 51,
+          "serialization_ns": {
+            "maximum": 168934,
+            "median": 50025,
+            "minimum": 46329,
+            "samples": [
+              48753,
+              47942,
+              154432,
+              50025,
+              46329,
+              168934,
+              51527
+            ]
+          },
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 2006476,
+            "median": 571100,
+            "minimum": 390701,
+            "samples": [
+              2006476,
+              390701,
+              571100,
+              598080,
+              397321,
+              415989,
+              604429
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 2015481,
+            "median": 583578,
+            "minimum": 400682,
+            "samples": [
+              2015481,
+              400682,
+              583578,
+              611590,
+              410267,
+              429406,
+              616376
+            ]
+          },
+          "graph_cells": 51,
+          "id": "sessions-2-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 771,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 51,
+          "serialization_ns": {
+            "maximum": 54612,
+            "median": 38538,
+            "minimum": 35193,
+            "samples": [
+              37427,
+              38538,
+              51387,
+              54482,
+              35193,
+              36535,
+              54612
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 451661,
+            "median": 377061,
+            "minimum": 281289,
+            "samples": [
+              281289,
+              434917,
+              377061,
+              367366,
+              287528,
+              407046,
+              451661
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 475365,
+            "median": 391078,
+            "minimum": 291518,
+            "samples": [
+              291518,
+              464518,
+              389075,
+              391078,
+              306421,
+              429977,
+              475365
+            ]
+          },
+          "graph_cells": 10,
+          "id": "sessions-2-baseline",
+          "index_memberships_created": 2,
+          "index_memberships_removed": 0,
+          "matching": 2,
+          "output_bytes": 301,
+          "peak_cached_memberships": 2,
+          "replay_steps": 0,
+          "semantic_steps": 10,
+          "serialization_ns": {
+            "maximum": 68583,
+            "median": 37136,
+            "minimum": 29774,
+            "samples": [
+              29774,
+              39920,
+              35624,
+              40250,
+              33330,
+              37136,
+              68583
+            ]
+          },
+          "support_queries": 5
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 1202700,
+            "median": 705891,
+            "minimum": 536027,
+            "samples": [
+              584329,
+              952648,
+              536027,
+              1202700,
+              616578,
+              758649,
+              705891
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 1216680,
+            "median": 718130,
+            "minimum": 544509,
+            "samples": [
+              592892,
+              977220,
+              544509,
+              1216680,
+              629567,
+              781906,
+              718130
+            ]
+          },
+          "graph_cells": 40,
+          "id": "sessions-2-baseline",
+          "index_memberships_created": 7,
+          "index_memberships_removed": 3,
+          "matching": 1,
+          "output_bytes": 877,
+          "peak_cached_memberships": 6,
+          "replay_steps": 2,
+          "semantic_steps": 36,
+          "serialization_ns": {
+            "maximum": 131788,
+            "median": 48704,
+            "minimum": 37807,
+            "samples": [
+              37807,
+              56505,
+              131788,
+              53580,
+              41102,
+              48052,
+              48704
+            ]
+          },
+          "support_queries": 25
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 1018085,
+            "median": 956874,
+            "minimum": 604099,
+            "samples": [
+              978236,
+              956874,
+              1018085,
+              674544,
+              604099,
+              611349,
+              1017608
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 1059403,
+            "median": 984070,
+            "minimum": 613122,
+            "samples": [
+              987545,
+              984070,
+              1041696,
+              695095,
+              613122,
+              646492,
+              1059403
+            ]
+          },
+          "graph_cells": 40,
+          "id": "sessions-2-baseline",
+          "index_memberships_created": 7,
+          "index_memberships_removed": 3,
+          "matching": 1,
+          "output_bytes": 877,
+          "peak_cached_memberships": 6,
+          "replay_steps": 2,
+          "semantic_steps": 46,
+          "serialization_ns": {
+            "maximum": 2220494,
+            "median": 57927,
+            "minimum": 37957,
+            "samples": [
+              2220494,
+              57927,
+              65118,
+              44587,
+              37957,
+              38188,
+              84637
+            ]
+          },
+          "support_queries": 40
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 361197,
+            "median": 263932,
+            "minimum": 236923,
+            "samples": [
+              239356,
+              236923,
+              361197,
+              352144,
+              263932,
+              254469,
+              309410
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 386561,
+            "median": 328183,
+            "minimum": 246530,
+            "samples": [
+              257027,
+              246530,
+              386561,
+              373752,
+              339090,
+              265919,
+              328183
+            ]
+          },
+          "graph_cells": 10,
+          "id": "sessions-2-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 2,
+          "output_bytes": 301,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 10,
+          "serialization_ns": {
+            "maximum": 56034,
+            "median": 31908,
+            "minimum": 28163,
+            "samples": [
+              29865,
+              56034,
+              41022,
+              35243,
+              31908,
+              28163,
+              28854
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 639041,
+            "median": 481747,
+            "minimum": 382089,
+            "samples": [
+              382089,
+              587314,
+              388278,
+              551120,
+              481747,
+              391493,
+              639041
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 673002,
+            "median": 498650,
+            "minimum": 395505,
+            "samples": [
+              395505,
+              614283,
+              399781,
+              571519,
+              498650,
+              405070,
+              673002
+            ]
+          },
+          "graph_cells": 40,
+          "id": "sessions-2-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 877,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 41,
+          "serialization_ns": {
+            "maximum": 169435,
+            "median": 47982,
+            "minimum": 37076,
+            "samples": [
+              37076,
+              52830,
+              38918,
+              49335,
+              39800,
+              169435,
+              47982
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 712941,
+            "median": 586072,
+            "minimum": 441908,
+            "samples": [
+              512803,
+              441908,
+              462939,
+              586072,
+              712941,
+              612071,
+              695185
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 795296,
+            "median": 597899,
+            "minimum": 451809,
+            "samples": [
+              521914,
+              451809,
+              479821,
+              597899,
+              750358,
+              624740,
+              795296
+            ]
+          },
+          "graph_cells": 40,
+          "id": "sessions-2-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 877,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 51,
+          "serialization_ns": {
+            "maximum": 68063,
+            "median": 49274,
+            "minimum": 36555,
+            "samples": [
+              40601,
+              36555,
+              39940,
+              49274,
+              68063,
+              50877,
+              59499
+            ]
+          },
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 686882,
+            "median": 639873,
+            "minimum": 434667,
+            "samples": [
+              639873,
+              615406,
+              648295,
+              600263,
+              641625,
+              434667,
+              686882
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 700023,
+            "median": 649968,
+            "minimum": 448284,
+            "samples": [
+              653643,
+              644829,
+              674555,
+              622817,
+              649968,
+              448284,
+              700023
+            ]
+          },
+          "graph_cells": 40,
+          "id": "sessions-2-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 771,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 51,
+          "serialization_ns": {
+            "maximum": 59509,
+            "median": 54752,
+            "minimum": 38017,
+            "samples": [
+              54772,
+              54752,
+              54883,
+              54231,
+              47051,
+              38017,
+              59509
+            ]
+          },
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 1077153,
+            "median": 865698,
+            "minimum": 574805,
+            "samples": [
+              681725,
+              983864,
+              922713,
+              865698,
+              574805,
+              828052,
+              1077153
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 4241728,
+            "median": 888446,
+            "minimum": 583929,
+            "samples": [
+              689106,
+              1011752,
+              937661,
+              888446,
+              583929,
+              875346,
+              4241728
+            ]
+          },
+          "graph_cells": 40,
+          "id": "sessions-2-baseline",
+          "index_memberships_created": 7,
+          "index_memberships_removed": 3,
+          "matching": 1,
+          "output_bytes": 771,
+          "peak_cached_memberships": 6,
+          "replay_steps": 2,
+          "semantic_steps": 46,
+          "serialization_ns": {
+            "maximum": 95444,
+            "median": 53751,
+            "minimum": 35563,
+            "samples": [
+              40831,
+              95444,
+              53941,
+              53751,
+              35563,
+              52619,
+              62674
+            ]
+          },
+          "support_queries": 40
+        }
+      },
+      "sessions": 2
+    },
+    {
+      "arm": "omit-delete",
+      "id": "sessions-2-omit-delete",
+      "methods": {
+        "per-binding-product": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 259195,
+            "median": 186668,
+            "minimum": 172476,
+            "samples": [
+              235551,
+              176272,
+              186668,
+              173568,
+              259195,
+              172476,
+              242741
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 258559,
+            "median": 187101,
+            "minimum": 172520,
+            "samples": [
+              234863,
+              176365,
+              187101,
+              173521,
+              258559,
+              172520,
+              241904
+            ]
+          },
+          "graph_cells": 16,
+          "id": "sessions-2-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 759,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 16,
+          "serialization_ns": {
+            "maximum": 24627,
+            "median": 19339,
+            "minimum": 16204,
+            "samples": [
+              22483,
+              17787,
+              19339,
+              17106,
+              22554,
+              16204,
+              24627
+            ]
+          },
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 1115600,
+            "median": 231043,
+            "minimum": 164144,
+            "samples": [
+              1115600,
+              164144,
+              231043,
+              254148,
+              164946,
+              181910,
+              251835
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 1114656,
+            "median": 230957,
+            "minimum": 164067,
+            "samples": [
+              1114656,
+              164067,
+              230957,
+              253721,
+              164999,
+              181854,
+              251358
+            ]
+          },
+          "graph_cells": 16,
+          "id": "sessions-2-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 759,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 16,
+          "serialization_ns": {
+            "maximum": 26479,
+            "median": 20431,
+            "minimum": 15193,
+            "samples": [
+              20431,
+              15193,
+              22934,
+              24416,
+              15874,
+              16585,
+              26479
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 265916,
+            "median": 248069,
+            "minimum": 166238,
+            "samples": [
+              170714,
+              248069,
+              265916,
+              256832,
+              166238,
+              224664,
+              262440
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 265690,
+            "median": 247923,
+            "minimum": 166129,
+            "samples": [
+              170706,
+              247923,
+              265690,
+              256365,
+              166129,
+              224527,
+              261754
+            ]
+          },
+          "graph_cells": 10,
+          "id": "sessions-2-omit-delete",
+          "index_memberships_created": 2,
+          "index_memberships_removed": 0,
+          "matching": 2,
+          "output_bytes": 301,
+          "peak_cached_memberships": 2,
+          "replay_steps": 0,
+          "semantic_steps": 10,
+          "serialization_ns": {
+            "maximum": 21893,
+            "median": 13210,
+            "minimum": 9945,
+            "samples": [
+              10716,
+              13210,
+              14111,
+              14502,
+              9945,
+              11948,
+              21893
+            ]
+          },
+          "support_queries": 5
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 438563,
+            "median": 282140,
+            "minimum": 230993,
+            "samples": [
+              261229,
+              383300,
+              245064,
+              438563,
+              230993,
+              313326,
+              282140
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 437137,
+            "median": 282014,
+            "minimum": 230967,
+            "samples": [
+              260842,
+              382585,
+              245589,
+              437137,
+              230967,
+              313010,
+              282014
+            ]
+          },
+          "graph_cells": 20,
+          "id": "sessions-2-omit-delete",
+          "index_memberships_created": 4,
+          "index_memberships_removed": 4,
+          "matching": 0,
+          "output_bytes": 865,
+          "peak_cached_memberships": 4,
+          "replay_steps": 2,
+          "semantic_steps": 12,
+          "serialization_ns": {
+            "maximum": 28052,
+            "median": 21302,
+            "minimum": 17496,
+            "samples": [
+              19379,
+              26811,
+              19449,
+              28052,
+              17496,
+              23346,
+              21302
+            ]
+          },
+          "support_queries": 8
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 364542,
+            "median": 338553,
+            "minimum": 220799,
+            "samples": [
+              338553,
+              339255,
+              364542,
+              225766,
+              240928,
+              220799,
+              363631
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 364208,
+            "median": 339070,
+            "minimum": 220652,
+            "samples": [
+              339931,
+              339070,
+              364208,
+              225589,
+              240702,
+              220652,
+              363006
+            ]
+          },
+          "graph_cells": 10,
+          "id": "sessions-2-omit-delete",
+          "index_memberships_created": 4,
+          "index_memberships_removed": 4,
+          "matching": 0,
+          "output_bytes": 865,
+          "peak_cached_memberships": 4,
+          "replay_steps": 2,
+          "semantic_steps": 12,
+          "serialization_ns": {
+            "maximum": 55894,
+            "median": 30837,
+            "minimum": 16926,
+            "samples": [
+              31698,
+              55894,
+              30837,
+              16926,
+              17917,
+              17196,
+              33170
+            ]
+          },
+          "support_queries": 8
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 202091,
+            "median": 145767,
+            "minimum": 135111,
+            "samples": [
+              168131,
+              135511,
+              202091,
+              179948,
+              136453,
+              135111,
+              145767
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 201614,
+            "median": 148614,
+            "minimum": 134933,
+            "samples": [
+              167752,
+              135484,
+              201614,
+              179530,
+              136335,
+              134933,
+              148614
+            ]
+          },
+          "graph_cells": 10,
+          "id": "sessions-2-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 2,
+          "output_bytes": 301,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 10,
+          "serialization_ns": {
+            "maximum": 12729,
+            "median": 10446,
+            "minimum": 9705,
+            "samples": [
+              10045,
+              10465,
+              12258,
+              12729,
+              10446,
+              9705,
+              10345
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 317412,
+            "median": 218906,
+            "minimum": 181179,
+            "samples": [
+              218906,
+              317412,
+              181179,
+              237153,
+              277032,
+              200379,
+              197824
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 316386,
+            "median": 218598,
+            "minimum": 181042,
+            "samples": [
+              218598,
+              316386,
+              181042,
+              237017,
+              276125,
+              200661,
+              197276
+            ]
+          },
+          "graph_cells": 20,
+          "id": "sessions-2-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 865,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 16,
+          "serialization_ns": {
+            "maximum": 82975,
+            "median": 21142,
+            "minimum": 17377,
+            "samples": [
+              82975,
+              24857,
+              17377,
+              23015,
+              19899,
+              18177,
+              21142
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 311153,
+            "median": 250392,
+            "minimum": 180298,
+            "samples": [
+              183583,
+              180298,
+              183123,
+              279225,
+              311153,
+              250392,
+              300477
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 310617,
+            "median": 250206,
+            "minimum": 180301,
+            "samples": [
+              183406,
+              180301,
+              183045,
+              278439,
+              310617,
+              250206,
+              299430
+            ]
+          },
+          "graph_cells": 10,
+          "id": "sessions-2-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 865,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 16,
+          "serialization_ns": {
+            "maximum": 31217,
+            "median": 25418,
+            "minimum": 16916,
+            "samples": [
+              16916,
+              17556,
+              17927,
+              25919,
+              31217,
+              25418,
+              29695
+            ]
+          },
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 290172,
+            "median": 261238,
+            "minimum": 169502,
+            "samples": [
+              273397,
+              290172,
+              261238,
+              239427,
+              249220,
+              169502,
+              282471
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 289415,
+            "median": 261142,
+            "minimum": 169385,
+            "samples": [
+              272851,
+              289415,
+              261142,
+              239280,
+              248914,
+              169385,
+              282234
+            ]
+          },
+          "graph_cells": 10,
+          "id": "sessions-2-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 759,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 16,
+          "serialization_ns": {
+            "maximum": 60651,
+            "median": 25128,
+            "minimum": 15093,
+            "samples": [
+              51318,
+              25128,
+              22284,
+              22964,
+              25970,
+              15093,
+              60651
+            ]
+          },
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 2,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 357492,
+            "median": 299035,
+            "minimum": 210404,
+            "samples": [
+              210404,
+              334879,
+              357492,
+              282260,
+              266277,
+              319175,
+              299035
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 356717,
+            "median": 298869,
+            "minimum": 210387,
+            "samples": [
+              210387,
+              335104,
+              356717,
+              282275,
+              266060,
+              318569,
+              298869
+            ]
+          },
+          "graph_cells": 10,
+          "id": "sessions-2-omit-delete",
+          "index_memberships_created": 4,
+          "index_memberships_removed": 4,
+          "matching": 0,
+          "output_bytes": 759,
+          "peak_cached_memberships": 4,
+          "replay_steps": 2,
+          "semantic_steps": 12,
+          "serialization_ns": {
+            "maximum": 24827,
+            "median": 23746,
+            "minimum": 15593,
+            "samples": [
+              15593,
+              24817,
+              24497,
+              20540,
+              15864,
+              23746,
+              24827
+            ]
+          },
+          "support_queries": 8
+        }
+      },
+      "sessions": 2
+    },
+    {
+      "arm": "baseline",
+      "id": "sessions-3-baseline",
+      "methods": {
+        "per-binding-product": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 1766408,
+            "median": 1343910,
+            "minimum": 1200146,
+            "samples": [
+              1626170,
+              1204121,
+              1200146,
+              1343910,
+              1752598,
+              1254848,
+              1766408
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 1765445,
+            "median": 1342659,
+            "minimum": 1199774,
+            "samples": [
+              1624963,
+              1203259,
+              1199774,
+              1342659,
+              1751774,
+              1254076,
+              1765445
+            ]
+          },
+          "graph_cells": 203,
+          "id": "sessions-3-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 3860,
+          "peak_cached_memberships": 0,
+          "replay_steps": 10,
+          "semantic_steps": 203,
+          "serialization_ns": {
+            "maximum": 136705,
+            "median": 58518,
+            "minimum": 40571,
+            "samples": [
+              60562,
+              136705,
+              40571,
+              45689,
+              58518,
+              43426,
+              58848
+            ]
+          },
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 1840799,
+            "median": 1174868,
+            "minimum": 1098174,
+            "samples": [
+              1174868,
+              1119236,
+              1777415,
+              1672929,
+              1098174,
+              1100167,
+              1840799
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 1839005,
+            "median": 1174306,
+            "minimum": 1097821,
+            "samples": [
+              1174306,
+              1118893,
+              1776402,
+              1671914,
+              1097821,
+              1100015,
+              1839005
+            ]
+          },
+          "graph_cells": 203,
+          "id": "sessions-3-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 3860,
+          "peak_cached_memberships": 0,
+          "replay_steps": 10,
+          "semantic_steps": 203,
+          "serialization_ns": {
+            "maximum": 72179,
+            "median": 36875,
+            "minimum": 34231,
+            "samples": [
+              36875,
+              34231,
+              64477,
+              59349,
+              34902,
+              36756,
+              72179
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 771628,
+            "median": 561916,
+            "minimum": 361458,
+            "samples": [
+              361458,
+              582707,
+              561916,
+              568346,
+              385534,
+              545902,
+              771628
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 1072433,
+            "median": 561535,
+            "minimum": 361324,
+            "samples": [
+              361324,
+              582296,
+              561535,
+              567813,
+              385279,
+              545420,
+              1072433
+            ]
+          },
+          "graph_cells": 14,
+          "id": "sessions-3-baseline",
+          "index_memberships_created": 6,
+          "index_memberships_removed": 0,
+          "matching": 6,
+          "output_bytes": 1129,
+          "peak_cached_memberships": 6,
+          "replay_steps": 0,
+          "semantic_steps": 42,
+          "serialization_ns": {
+            "maximum": 32359,
+            "median": 21242,
+            "minimum": 14091,
+            "samples": [
+              14091,
+              22724,
+              20701,
+              22644,
+              15253,
+              21242,
+              32359
+            ]
+          },
+          "support_queries": 7
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 1876682,
+            "median": 1650516,
+            "minimum": 1151303,
+            "samples": [
+              1151303,
+              1876682,
+              1199475,
+              1768943,
+              1367505,
+              1729123,
+              1650516
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 1875220,
+            "median": 1648869,
+            "minimum": 1150810,
+            "samples": [
+              1150810,
+              1875220,
+              1198732,
+              1767107,
+              1366194,
+              1728028,
+              1648869
+            ]
+          },
+          "graph_cells": 70,
+          "id": "sessions-3-baseline",
+          "index_memberships_created": 21,
+          "index_memberships_removed": 16,
+          "matching": 1,
+          "output_bytes": 4390,
+          "peak_cached_memberships": 18,
+          "replay_steps": 10,
+          "semantic_steps": 125,
+          "serialization_ns": {
+            "maximum": 68193,
+            "median": 53240,
+            "minimum": 42023,
+            "samples": [
+              42023,
+              68193,
+              42905,
+              53240,
+              44297,
+              65979,
+              58167
+            ]
+          },
+          "support_queries": 42
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 2893035,
+            "median": 2672857,
+            "minimum": 1780550,
+            "samples": [
+              2893035,
+              2755761,
+              2879224,
+              1801751,
+              1780550,
+              1951595,
+              2672857
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 3127693,
+            "median": 2753641,
+            "minimum": 1779786,
+            "samples": [
+              2891799,
+              2753641,
+              2877968,
+              1800518,
+              1779786,
+              1949252,
+              3127693
+            ]
+          },
+          "graph_cells": 112,
+          "id": "sessions-3-baseline",
+          "index_memberships_created": 24,
+          "index_memberships_removed": 16,
+          "matching": 1,
+          "output_bytes": 4390,
+          "peak_cached_memberships": 18,
+          "replay_steps": 10,
+          "semantic_steps": 160,
+          "serialization_ns": {
+            "maximum": 89465,
+            "median": 62243,
+            "minimum": 46119,
+            "samples": [
+              51788,
+              81253,
+              89465,
+              62243,
+              60762,
+              46119,
+              79930
+            ]
+          },
+          "support_queries": 112
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 534205,
+            "median": 336001,
+            "minimum": 303272,
+            "samples": [
+              310482,
+              303272,
+              534205,
+              458232,
+              307057,
+              396861,
+              336001
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 533413,
+            "median": 337748,
+            "minimum": 303155,
+            "samples": [
+              310236,
+              303155,
+              533413,
+              458189,
+              306931,
+              396226,
+              337748
+            ]
+          },
+          "graph_cells": 14,
+          "id": "sessions-3-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 6,
+          "output_bytes": 1129,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 42,
+          "serialization_ns": {
+            "maximum": 21683,
+            "median": 15674,
+            "minimum": 13431,
+            "samples": [
+              13431,
+              13881,
+              21201,
+              21683,
+              14412,
+              17246,
+              15674
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 1544178,
+            "median": 1068069,
+            "minimum": 938617,
+            "samples": [
+              1068069,
+              1544178,
+              1140147,
+              1483297,
+              938617,
+              1017995,
+              1036723
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 1542990,
+            "median": 1067545,
+            "minimum": 938161,
+            "samples": [
+              1067545,
+              1542990,
+              1138953,
+              1482189,
+              938161,
+              1016729,
+              1036519
+            ]
+          },
+          "graph_cells": 70,
+          "id": "sessions-3-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 4390,
+          "peak_cached_memberships": 0,
+          "replay_steps": 10,
+          "semantic_steps": 160,
+          "serialization_ns": {
+            "maximum": 68463,
+            "median": 45188,
+            "minimum": 41292,
+            "samples": [
+              42635,
+              68463,
+              45188,
+              59669,
+              41292,
+              43646,
+              46219
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 1967918,
+            "median": 1852167,
+            "minimum": 1241257,
+            "samples": [
+              1435946,
+              1246064,
+              1241257,
+              1852167,
+              1963272,
+              1967918,
+              1927639
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 1967018,
+            "median": 1860368,
+            "minimum": 1241056,
+            "samples": [
+              1435178,
+              1245813,
+              1241056,
+              1860368,
+              1961149,
+              1967018,
+              1926056
+            ]
+          },
+          "graph_cells": 112,
+          "id": "sessions-3-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 4390,
+          "peak_cached_memberships": 0,
+          "replay_steps": 10,
+          "semantic_steps": 203,
+          "serialization_ns": {
+            "maximum": 100461,
+            "median": 66821,
+            "minimum": 39510,
+            "samples": [
+              45348,
+              40101,
+              39510,
+              66821,
+              100461,
+              70146,
+              72189
+            ]
+          },
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 2027778,
+            "median": 1898415,
+            "minimum": 1141769,
+            "samples": [
+              1785917,
+              1938865,
+              1898415,
+              1811856,
+              2027778,
+              1141769,
+              1937473
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 2026487,
+            "median": 1897323,
+            "minimum": 1141486,
+            "samples": [
+              1784814,
+              1937013,
+              1897323,
+              1810783,
+              2026487,
+              1141486,
+              1936191
+            ]
+          },
+          "graph_cells": 112,
+          "id": "sessions-3-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 3860,
+          "peak_cached_memberships": 0,
+          "replay_steps": 10,
+          "semantic_steps": 203,
+          "serialization_ns": {
+            "maximum": 71367,
+            "median": 63786,
+            "minimum": 37136,
+            "samples": [
+              63105,
+              67081,
+              58578,
+              63786,
+              63967,
+              37136,
+              71367
+            ]
+          },
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 2699677,
+            "median": 2436365,
+            "minimum": 1663276,
+            "samples": [
+              1663276,
+              2699677,
+              2657175,
+              2436365,
+              1937453,
+              2435023,
+              2645978
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 4444644,
+            "median": 2433680,
+            "minimum": 1662470,
+            "samples": [
+              1662470,
+              2695924,
+              2655443,
+              2433419,
+              1936312,
+              2433680,
+              4444644
+            ]
+          },
+          "graph_cells": 112,
+          "id": "sessions-3-baseline",
+          "index_memberships_created": 24,
+          "index_memberships_removed": 16,
+          "matching": 1,
+          "output_bytes": 3860,
+          "peak_cached_memberships": 18,
+          "replay_steps": 10,
+          "semantic_steps": 160,
+          "serialization_ns": {
+            "maximum": 73351,
+            "median": 63185,
+            "minimum": 38678,
+            "samples": [
+              38678,
+              70385,
+              53821,
+              65729,
+              42324,
+              63185,
+              73351
+            ]
+          },
+          "support_queries": 112
+        }
+      },
+      "sessions": 3
+    },
+    {
+      "arm": "omit-delete",
+      "id": "sessions-3-omit-delete",
+      "methods": {
+        "per-binding-product": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 1012387,
+            "median": 565652,
+            "minimum": 412854,
+            "samples": [
+              565652,
+              444201,
+              555967,
+              412854,
+              639442,
+              1012387,
+              659862
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 1010820,
+            "median": 565380,
+            "minimum": 412740,
+            "samples": [
+              565380,
+              445039,
+              555014,
+              412740,
+              639171,
+              1010820,
+              659201
+            ]
+          },
+          "graph_cells": 60,
+          "id": "sessions-3-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 2731,
+          "peak_cached_memberships": 0,
+          "replay_steps": 6,
+          "semantic_steps": 60,
+          "serialization_ns": {
+            "maximum": 85448,
+            "median": 34131,
+            "minimum": 24898,
+            "samples": [
+              34131,
+              24898,
+              85448,
+              25679,
+              38157,
+              33020,
+              39689
+            ]
+          },
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 5575607,
+            "median": 642486,
+            "minimum": 406555,
+            "samples": [
+              5575607,
+              424742,
+              652251,
+              642486,
+              408989,
+              406555,
+              746691
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 5574242,
+            "median": 641715,
+            "minimum": 406462,
+            "samples": [
+              5574242,
+              424488,
+              652010,
+              641715,
+              408834,
+              406462,
+              745561
+            ]
+          },
+          "graph_cells": 60,
+          "id": "sessions-3-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 2731,
+          "peak_cached_memberships": 0,
+          "replay_steps": 6,
+          "semantic_steps": 60,
+          "serialization_ns": {
+            "maximum": 49895,
+            "median": 38918,
+            "minimum": 23365,
+            "samples": [
+              38918,
+              23566,
+              39490,
+              42584,
+              23365,
+              24116,
+              49895
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 628815,
+            "median": 521896,
+            "minimum": 330331,
+            "samples": [
+              330331,
+              569848,
+              564880,
+              511632,
+              330572,
+              521896,
+              628815
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 646182,
+            "median": 521444,
+            "minimum": 330266,
+            "samples": [
+              330266,
+              569106,
+              563637,
+              511219,
+              330457,
+              521444,
+              646182
+            ]
+          },
+          "graph_cells": 14,
+          "id": "sessions-3-omit-delete",
+          "index_memberships_created": 6,
+          "index_memberships_removed": 0,
+          "matching": 6,
+          "output_bytes": 1129,
+          "peak_cached_memberships": 6,
+          "replay_steps": 0,
+          "semantic_steps": 42,
+          "serialization_ns": {
+            "maximum": 32479,
+            "median": 19830,
+            "minimum": 10826,
+            "samples": [
+              10826,
+              20181,
+              19830,
+              18868,
+              11678,
+              20101,
+              32479
+            ]
+          },
+          "support_queries": 7
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 696567,
+            "median": 538522,
+            "minimum": 424472,
+            "samples": [
+              425033,
+              696567,
+              487646,
+              615116,
+              424472,
+              604410,
+              538522
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 695686,
+            "median": 537959,
+            "minimum": 424428,
+            "samples": [
+              424719,
+              695686,
+              486722,
+              613963,
+              424428,
+              604408,
+              537959
+            ]
+          },
+          "graph_cells": 28,
+          "id": "sessions-3-omit-delete",
+          "index_memberships_created": 12,
+          "index_memberships_removed": 12,
+          "matching": 0,
+          "output_bytes": 3049,
+          "peak_cached_memberships": 12,
+          "replay_steps": 6,
+          "semantic_steps": 35,
+          "serialization_ns": {
+            "maximum": 70065,
+            "median": 39229,
+            "minimum": 28292,
+            "samples": [
+              28292,
+              48123,
+              31767,
+              44627,
+              30145,
+              70065,
+              39229
+            ]
+          },
+          "support_queries": 10
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 728955,
+            "median": 506934,
+            "minimum": 412924,
+            "samples": [
+              432894,
+              696727,
+              728955,
+              506934,
+              412924,
+              415248,
+              699952
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 728195,
+            "median": 506162,
+            "minimum": 412911,
+            "samples": [
+              432931,
+              695976,
+              728195,
+              506162,
+              412911,
+              415194,
+              705922
+            ]
+          },
+          "graph_cells": 14,
+          "id": "sessions-3-omit-delete",
+          "index_memberships_created": 12,
+          "index_memberships_removed": 12,
+          "matching": 0,
+          "output_bytes": 3049,
+          "peak_cached_memberships": 12,
+          "replay_steps": 6,
+          "semantic_steps": 35,
+          "serialization_ns": {
+            "maximum": 61232,
+            "median": 35834,
+            "minimum": 28763,
+            "samples": [
+              32098,
+              54231,
+              61232,
+              35834,
+              28763,
+              29524,
+              54672
+            ]
+          },
+          "support_queries": 10
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 474797,
+            "median": 380727,
+            "minimum": 272205,
+            "samples": [
+              272205,
+              380727,
+              474797,
+              441406,
+              468757,
+              311263,
+              317232
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 474163,
+            "median": 379761,
+            "minimum": 272109,
+            "samples": [
+              272109,
+              379761,
+              474163,
+              440512,
+              467233,
+              310908,
+              332950
+            ]
+          },
+          "graph_cells": 14,
+          "id": "sessions-3-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 6,
+          "output_bytes": 1129,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 42,
+          "serialization_ns": {
+            "maximum": 21222,
+            "median": 16755,
+            "minimum": 10746,
+            "samples": [
+              10746,
+              16755,
+              19499,
+              19749,
+              21222,
+              13210,
+              12749
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 974470,
+            "median": 804958,
+            "minimum": 555617,
+            "samples": [
+              927610,
+              974470,
+              555617,
+              771518,
+              906870,
+              579693,
+              804958
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 973554,
+            "median": 803458,
+            "minimum": 555285,
+            "samples": [
+              926563,
+              973554,
+              555285,
+              770358,
+              905051,
+              579381,
+              803458
+            ]
+          },
+          "graph_cells": 28,
+          "id": "sessions-3-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 3049,
+          "peak_cached_memberships": 0,
+          "replay_steps": 6,
+          "semantic_steps": 60,
+          "serialization_ns": {
+            "maximum": 80491,
+            "median": 35303,
+            "minimum": 30936,
+            "samples": [
+              35303,
+              80491,
+              32098,
+              45929,
+              34401,
+              30936,
+              38878
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 682185,
+            "median": 579082,
+            "minimum": 434757,
+            "samples": [
+              466995,
+              444442,
+              434757,
+              579082,
+              671470,
+              682185,
+              610448
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 681495,
+            "median": 578570,
+            "minimum": 434463,
+            "samples": [
+              466582,
+              444319,
+              434463,
+              578570,
+              670798,
+              681495,
+              610068
+            ]
+          },
+          "graph_cells": 14,
+          "id": "sessions-3-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 3049,
+          "peak_cached_memberships": 0,
+          "replay_steps": 6,
+          "semantic_steps": 60,
+          "serialization_ns": {
+            "maximum": 74311,
+            "median": 40922,
+            "minimum": 28182,
+            "samples": [
+              31418,
+              28182,
+              29204,
+              40922,
+              53009,
+              48863,
+              74311
+            ]
+          },
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 742255,
+            "median": 701914,
+            "minimum": 432855,
+            "samples": [
+              742255,
+              696256,
+              739811,
+              644989,
+              701914,
+              432855,
+              732740
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 741285,
+            "median": 700653,
+            "minimum": 432711,
+            "samples": [
+              741285,
+              695817,
+              737038,
+              644259,
+              700653,
+              432711,
+              731440
+            ]
+          },
+          "graph_cells": 14,
+          "id": "sessions-3-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 2731,
+          "peak_cached_memberships": 0,
+          "replay_steps": 6,
+          "semantic_steps": 60,
+          "serialization_ns": {
+            "maximum": 51298,
+            "median": 46120,
+            "minimum": 26099,
+            "samples": [
+              45568,
+              46120,
+              51298,
+              45007,
+              48082,
+              26099,
+              49794
+            ]
+          },
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 6,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 704158,
+            "median": 612101,
+            "minimum": 391583,
+            "samples": [
+              391583,
+              704158,
+              638850,
+              567755,
+              428908,
+              612101,
+              664809
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 703388,
+            "median": 611670,
+            "minimum": 391578,
+            "samples": [
+              391578,
+              703388,
+              637639,
+              567494,
+              428785,
+              611670,
+              663758
+            ]
+          },
+          "graph_cells": 14,
+          "id": "sessions-3-omit-delete",
+          "index_memberships_created": 12,
+          "index_memberships_removed": 12,
+          "matching": 0,
+          "output_bytes": 2731,
+          "peak_cached_memberships": 12,
+          "replay_steps": 6,
+          "semantic_steps": 35,
+          "serialization_ns": {
+            "maximum": 50946,
+            "median": 42204,
+            "minimum": 25729,
+            "samples": [
+              25729,
+              46480,
+              50946,
+              38669,
+              27512,
+              42204,
+              48824
+            ]
+          },
+          "support_queries": 10
+        }
+      },
+      "sessions": 3
+    },
+    {
+      "arm": "baseline",
+      "id": "sessions-4-baseline",
+      "methods": {
+        "per-binding-product": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 8636432,
+            "median": 6233156,
+            "minimum": 6060824,
+            "samples": [
+              7351740,
+              6109311,
+              6309469,
+              6204102,
+              6060824,
+              6233156,
+              8636432
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 8734244,
+            "median": 6228296,
+            "minimum": 6057493,
+            "samples": [
+              7347989,
+              6107204,
+              6307574,
+              6202427,
+              6057493,
+              6228296,
+              8734244
+            ]
+          },
+          "graph_cells": 845,
+          "id": "sessions-4-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 19846,
+          "peak_cached_memberships": 0,
+          "replay_steps": 46,
+          "semantic_steps": 845,
+          "serialization_ns": {
+            "maximum": 270477,
+            "median": 160000,
+            "minimum": 149024,
+            "samples": [
+              161423,
+              149024,
+              155353,
+              176094,
+              151738,
+              160000,
+              270477
+            ]
+          },
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 20396011,
+            "median": 8104930,
+            "minimum": 5281549,
+            "samples": [
+              20396011,
+              5382490,
+              8251759,
+              8104930,
+              5722195,
+              5281549,
+              8837520
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 20392504,
+            "median": 8101602,
+            "minimum": 5280180,
+            "samples": [
+              20392504,
+              5381863,
+              8247893,
+              8101602,
+              5720663,
+              5280180,
+              10744457
+            ]
+          },
+          "graph_cells": 845,
+          "id": "sessions-4-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 19846,
+          "peak_cached_memberships": 0,
+          "replay_steps": 46,
+          "semantic_steps": 845,
+          "serialization_ns": {
+            "maximum": 245660,
+            "median": 174192,
+            "minimum": 133891,
+            "samples": [
+              170466,
+              133891,
+              245660,
+              244969,
+              145769,
+              174192,
+              245109
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 2749009,
+            "median": 2384869,
+            "minimum": 1546081,
+            "samples": [
+              1546081,
+              2637805,
+              2526790,
+              2384117,
+              1561443,
+              2384869,
+              2749009
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 9497652,
+            "median": 2383464,
+            "minimum": 1545614,
+            "samples": [
+              1545614,
+              2636264,
+              2526359,
+              2382743,
+              1560918,
+              2383464,
+              9497652
+            ]
+          },
+          "graph_cells": 18,
+          "id": "sessions-4-baseline",
+          "index_memberships_created": 24,
+          "index_memberships_removed": 0,
+          "matching": 24,
+          "output_bytes": 5425,
+          "peak_cached_memberships": 24,
+          "replay_steps": 0,
+          "semantic_steps": 216,
+          "serialization_ns": {
+            "maximum": 82093,
+            "median": 60922,
+            "minimum": 35293,
+            "samples": [
+              36575,
+              63735,
+              63054,
+              60922,
+              35293,
+              60511,
+              82093
+            ]
+          },
+          "support_queries": 9
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 7037222,
+            "median": 5442910,
+            "minimum": 4415701,
+            "samples": [
+              5442910,
+              7037222,
+              4415701,
+              5270783,
+              5091156,
+              6553753,
+              5695716
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 7033847,
+            "median": 5440701,
+            "minimum": 4414308,
+            "samples": [
+              5440701,
+              7033847,
+              4414308,
+              5268222,
+              5089243,
+              6551382,
+              5692540
+            ]
+          },
+          "graph_cells": 108,
+          "id": "sessions-4-baseline",
+          "index_memberships_created": 81,
+          "index_memberships_removed": 75,
+          "matching": 1,
+          "output_bytes": 22330,
+          "peak_cached_memberships": 72,
+          "replay_steps": 46,
+          "semantic_steps": 560,
+          "serialization_ns": {
+            "maximum": 298929,
+            "median": 234603,
+            "minimum": 151298,
+            "samples": [
+              261904,
+              298929,
+              151298,
+              182314,
+              182785,
+              265319,
+              234603
+            ]
+          },
+          "support_queries": 63
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 10015313,
+            "median": 7135528,
+            "minimum": 5616127,
+            "samples": [
+              7135528,
+              9619144,
+              10015313,
+              6322769,
+              5616127,
+              5743667,
+              8967748
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 11703459,
+            "median": 7133707,
+            "minimum": 5614803,
+            "samples": [
+              7133707,
+              9612364,
+              10010844,
+              6342828,
+              5614803,
+              5742265,
+              11703459
+            ]
+          },
+          "graph_cells": 288,
+          "id": "sessions-4-baseline",
+          "index_memberships_created": 91,
+          "index_memberships_removed": 75,
+          "matching": 1,
+          "output_bytes": 22330,
+          "peak_cached_memberships": 72,
+          "replay_steps": 46,
+          "semantic_steps": 578,
+          "serialization_ns": {
+            "maximum": 348995,
+            "median": 275394,
+            "minimum": 152720,
+            "samples": [
+              174022,
+              325590,
+              348995,
+              275394,
+              152720,
+              154512,
+              275404
+            ]
+          },
+          "support_queries": 288
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 2151221,
+            "median": 1443348,
+            "minimum": 1345453,
+            "samples": [
+              1456087,
+              1434344,
+              2151221,
+              2045854,
+              1345453,
+              1368657,
+              1443348
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 2150364,
+            "median": 1455399,
+            "minimum": 1344481,
+            "samples": [
+              1455399,
+              1433425,
+              2150364,
+              2044444,
+              1344481,
+              1367897,
+              1791163
+            ]
+          },
+          "graph_cells": 18,
+          "id": "sessions-4-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 24,
+          "output_bytes": 5425,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 216,
+          "serialization_ns": {
+            "maximum": 69084,
+            "median": 40471,
+            "minimum": 35774,
+            "samples": [
+              37216,
+              37567,
+              69084,
+              61603,
+              40471,
+              35774,
+              40481
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 8011392,
+            "median": 5219447,
+            "minimum": 4886953,
+            "samples": [
+              5292596,
+              8011392,
+              4886953,
+              7836371,
+              5219447,
+              4943436,
+              5152637
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 8006650,
+            "median": 5216885,
+            "minimum": 4885877,
+            "samples": [
+              5291697,
+              8006650,
+              4885877,
+              7832037,
+              5216885,
+              4941781,
+              5151907
+            ]
+          },
+          "graph_cells": 108,
+          "id": "sessions-4-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 22330,
+          "peak_cached_memberships": 0,
+          "replay_steps": 46,
+          "semantic_steps": 767,
+          "serialization_ns": {
+            "maximum": 315294,
+            "median": 171218,
+            "minimum": 153691,
+            "samples": [
+              156285,
+              315294,
+              234813,
+              289265,
+              171218,
+              157377,
+              153691
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 8592827,
+            "median": 7929400,
+            "minimum": 5258715,
+            "samples": [
+              7929400,
+              5344823,
+              5258715,
+              7693779,
+              8592827,
+              8214474,
+              8546176
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 10681631,
+            "median": 7926980,
+            "minimum": 5257696,
+            "samples": [
+              7926980,
+              5344196,
+              5257696,
+              7699067,
+              8585269,
+              8212830,
+              10681631
+            ]
+          },
+          "graph_cells": 288,
+          "id": "sessions-4-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 22330,
+          "peak_cached_memberships": 0,
+          "replay_steps": 46,
+          "semantic_steps": 845,
+          "serialization_ns": {
+            "maximum": 393281,
+            "median": 271178,
+            "minimum": 146170,
+            "samples": [
+              271178,
+              156466,
+              146170,
+              295614,
+              305589,
+              266711,
+              393281
+            ]
+          },
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 9201222,
+            "median": 8618144,
+            "minimum": 5315761,
+            "samples": [
+              8151671,
+              9166711,
+              9201222,
+              8455512,
+              8618144,
+              5315761,
+              8970669
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 9195207,
+            "median": 8612111,
+            "minimum": 5314812,
+            "samples": [
+              8148583,
+              9160674,
+              9195207,
+              8450236,
+              8612111,
+              5314812,
+              8965752
+            ]
+          },
+          "graph_cells": 288,
+          "id": "sessions-4-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 19846,
+          "peak_cached_memberships": 0,
+          "replay_steps": 46,
+          "semantic_steps": 845,
+          "serialization_ns": {
+            "maximum": 317517,
+            "median": 253972,
+            "minimum": 132148,
+            "samples": [
+              237276,
+              249194,
+              253972,
+              269395,
+              260091,
+              132148,
+              317517
+            ]
+          },
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 9466547,
+            "median": 8394321,
+            "minimum": 5723187,
+            "samples": [
+              6698187,
+              9466547,
+              9111248,
+              8372660,
+              5723187,
+              8394321,
+              8851479
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 14784982,
+            "median": 8389705,
+            "minimum": 5722144,
+            "samples": [
+              6696409,
+              9460526,
+              9108196,
+              8309125,
+              5722144,
+              8389705,
+              14784982
+            ]
+          },
+          "graph_cells": 288,
+          "id": "sessions-4-baseline",
+          "index_memberships_created": 91,
+          "index_memberships_removed": 75,
+          "matching": 1,
+          "output_bytes": 19846,
+          "peak_cached_memberships": 72,
+          "replay_steps": 46,
+          "semantic_steps": 578,
+          "serialization_ns": {
+            "maximum": 286842,
+            "median": 252860,
+            "minimum": 136335,
+            "samples": [
+              249155,
+              286842,
+              252860,
+              234953,
+              136335,
+              281673,
+              265690
+            ]
+          },
+          "support_queries": 288
+        }
+      },
+      "sessions": 4
+    },
+    {
+      "arm": "omit-delete",
+      "id": "sessions-4-omit-delete",
+      "methods": {
+        "per-binding-product": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 3116808,
+            "median": 2349696,
+            "minimum": 1978775,
+            "samples": [
+              2349696,
+              2379091,
+              2478368,
+              1978775,
+              2058183,
+              2107586,
+              3116808
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 3115285,
+            "median": 2348211,
+            "minimum": 1978365,
+            "samples": [
+              2348211,
+              2377245,
+              2476814,
+              1978365,
+              2057454,
+              2106558,
+              3115285
+            ]
+          },
+          "graph_cells": 288,
+          "id": "sessions-4-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 12817,
+          "peak_cached_memberships": 0,
+          "replay_steps": 24,
+          "semantic_steps": 288,
+          "serialization_ns": {
+            "maximum": 227632,
+            "median": 100411,
+            "minimum": 91357,
+            "samples": [
+              227632,
+              99410,
+              100411,
+              91357,
+              114352,
+              98768,
+              154753
+            ]
+          },
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 3460508,
+            "median": 2614430,
+            "minimum": 1945465,
+            "samples": [
+              2614430,
+              1959075,
+              3175786,
+              3058161,
+              2031894,
+              1945465,
+              3460508
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 3931862,
+            "median": 2613350,
+            "minimum": 1945315,
+            "samples": [
+              2613350,
+              1958805,
+              3175315,
+              3056165,
+              2031215,
+              1945315,
+              3931862
+            ]
+          },
+          "graph_cells": 288,
+          "id": "sessions-4-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 12817,
+          "peak_cached_memberships": 0,
+          "replay_steps": 24,
+          "semantic_steps": 288,
+          "serialization_ns": {
+            "maximum": 181493,
+            "median": 97817,
+            "minimum": 84517,
+            "samples": [
+              97817,
+              95363,
+              180672,
+              159770,
+              90806,
+              84517,
+              181493
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 2377859,
+            "median": 2169489,
+            "minimum": 1407955,
+            "samples": [
+              1502586,
+              2377859,
+              2375144,
+              2181296,
+              1407955,
+              2169489,
+              1947117
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 2730085,
+            "median": 2179999,
+            "minimum": 1407577,
+            "samples": [
+              1501858,
+              2376734,
+              2373970,
+              2179999,
+              1407577,
+              2168631,
+              2730085
+            ]
+          },
+          "graph_cells": 18,
+          "id": "sessions-4-omit-delete",
+          "index_memberships_created": 24,
+          "index_memberships_removed": 0,
+          "matching": 24,
+          "output_bytes": 5425,
+          "peak_cached_memberships": 24,
+          "replay_steps": 0,
+          "semantic_steps": 216,
+          "serialization_ns": {
+            "maximum": 67141,
+            "median": 59840,
+            "minimum": 35293,
+            "samples": [
+              39500,
+              66260,
+              67141,
+              65498,
+              35293,
+              59840,
+              55894
+            ]
+          },
+          "support_queries": 9
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 2445749,
+            "median": 1659439,
+            "minimum": 1463899,
+            "samples": [
+              2350768,
+              2445749,
+              1659439,
+              1483237,
+              1463899,
+              1581393,
+              1935550
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 2444345,
+            "median": 1761159,
+            "minimum": 1463792,
+            "samples": [
+              2349773,
+              2444345,
+              1761159,
+              1482188,
+              1463792,
+              1580968,
+              1934379
+            ]
+          },
+          "graph_cells": 36,
+          "id": "sessions-4-omit-delete",
+          "index_memberships_created": 48,
+          "index_memberships_removed": 48,
+          "matching": 0,
+          "output_bytes": 14113,
+          "peak_cached_memberships": 48,
+          "replay_steps": 24,
+          "semantic_steps": 150,
+          "serialization_ns": {
+            "maximum": 192300,
+            "median": 137507,
+            "minimum": 91838,
+            "samples": [
+              192300,
+              174513,
+              98027,
+              177197,
+              91838,
+              97166,
+              137507
+            ]
+          },
+          "support_queries": 12
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 2508543,
+            "median": 1765036,
+            "minimum": 1436608,
+            "samples": [
+              1601573,
+              2502785,
+              2508543,
+              1765036,
+              1436608,
+              1605178,
+              1943834
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 5250304,
+            "median": 1764484,
+            "minimum": 1436039,
+            "samples": [
+              1601048,
+              2498918,
+              2508221,
+              1764484,
+              1436039,
+              1603932,
+              5250304
+            ]
+          },
+          "graph_cells": 18,
+          "id": "sessions-4-omit-delete",
+          "index_memberships_created": 48,
+          "index_memberships_removed": 48,
+          "matching": 0,
+          "output_bytes": 14113,
+          "peak_cached_memberships": 48,
+          "replay_steps": 24,
+          "semantic_steps": 150,
+          "serialization_ns": {
+            "maximum": 241693,
+            "median": 116936,
+            "minimum": 93270,
+            "samples": [
+              134853,
+              241693,
+              182314,
+              105208,
+              96245,
+              93270,
+              116936
+            ]
+          },
+          "support_queries": 12
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 2325791,
+            "median": 1799818,
+            "minimum": 1304201,
+            "samples": [
+              1799818,
+              1304201,
+              2325791,
+              2125914,
+              1937904,
+              1338502,
+              1617408
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 3719102,
+            "median": 1936752,
+            "minimum": 1303931,
+            "samples": [
+              1797874,
+              1303931,
+              2324926,
+              2124385,
+              1936752,
+              1337691,
+              3719102
+            ]
+          },
+          "graph_cells": 18,
+          "id": "sessions-4-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 24,
+          "output_bytes": 5425,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 216,
+          "serialization_ns": {
+            "maximum": 93610,
+            "median": 44698,
+            "minimum": 35503,
+            "samples": [
+              42033,
+              35604,
+              93610,
+              63315,
+              48213,
+              35503,
+              44698
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 3405458,
+            "median": 2130040,
+            "minimum": 1987748,
+            "samples": [
+              2130040,
+              3405458,
+              1987748,
+              3345058,
+              2045294,
+              2023892,
+              2179123
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 3402716,
+            "median": 2128921,
+            "minimum": 1987699,
+            "samples": [
+              2128921,
+              3402716,
+              1987699,
+              3342567,
+              2044454,
+              2023123,
+              2179077
+            ]
+          },
+          "graph_cells": 36,
+          "id": "sessions-4-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 14113,
+          "peak_cached_memberships": 0,
+          "replay_steps": 24,
+          "semantic_steps": 288,
+          "serialization_ns": {
+            "maximum": 236796,
+            "median": 110356,
+            "minimum": 96284,
+            "samples": [
+              219350,
+              236796,
+              96284,
+              187572,
+              98588,
+              97256,
+              110356
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 4980661,
+            "median": 3230998,
+            "minimum": 1980447,
+            "samples": [
+              3285609,
+              1980447,
+              4980661,
+              3223056,
+              3230998,
+              3110559,
+              3373621
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 7714940,
+            "median": 3228225,
+            "minimum": 1979897,
+            "samples": [
+              3284479,
+              1979897,
+              4978587,
+              3222205,
+              3228225,
+              3108815,
+              7714940
+            ]
+          },
+          "graph_cells": 18,
+          "id": "sessions-4-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 14113,
+          "peak_cached_memberships": 0,
+          "replay_steps": 24,
+          "semantic_steps": 288,
+          "serialization_ns": {
+            "maximum": 234723,
+            "median": 177136,
+            "minimum": 106981,
+            "samples": [
+              175985,
+              106981,
+              116285,
+              177738,
+              177136,
+              198899,
+              234723
+            ]
+          },
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 3431326,
+            "median": 3157869,
+            "minimum": 1937474,
+            "samples": [
+              2443906,
+              3383545,
+              3431326,
+              3028937,
+              3157869,
+              1937474,
+              3358548
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 3428286,
+            "median": 3156988,
+            "minimum": 1937203,
+            "samples": [
+              2443093,
+              3382447,
+              3428286,
+              3026992,
+              3156988,
+              1937203,
+              3357760
+            ]
+          },
+          "graph_cells": 18,
+          "id": "sessions-4-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 12817,
+          "peak_cached_memberships": 0,
+          "replay_steps": 24,
+          "semantic_steps": 288,
+          "serialization_ns": {
+            "maximum": 189245,
+            "median": 173090,
+            "minimum": 89504,
+            "samples": [
+              98167,
+              189245,
+              179750,
+              163496,
+              176496,
+              89504,
+              173090
+            ]
+          },
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 24,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 2497877,
+            "median": 2251150,
+            "minimum": 1415006,
+            "samples": [
+              1795772,
+              2497877,
+              2370728,
+              2200414,
+              1415006,
+              2251150,
+              2442955
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 5900362,
+            "median": 2251346,
+            "minimum": 1414647,
+            "samples": [
+              1795480,
+              2495973,
+              2369364,
+              2199127,
+              1414647,
+              2251346,
+              5900362
+            ]
+          },
+          "graph_cells": 18,
+          "id": "sessions-4-omit-delete",
+          "index_memberships_created": 48,
+          "index_memberships_removed": 48,
+          "matching": 0,
+          "output_bytes": 12817,
+          "peak_cached_memberships": 48,
+          "replay_steps": 24,
+          "semantic_steps": 150,
+          "serialization_ns": {
+            "maximum": 202955,
+            "median": 158899,
+            "minimum": 87672,
+            "samples": [
+              87672,
+              170787,
+              158899,
+              158368,
+              100652,
+              160872,
+              202955
+            ]
+          },
+          "support_queries": 12
+        }
+      },
+      "sessions": 4
+    },
+    {
+      "arm": "baseline",
+      "id": "sessions-5-baseline",
+      "methods": {
+        "per-binding-product": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 53483788,
+            "median": 40793764,
+            "minimum": 31256122,
+            "samples": [
+              44927325,
+              35671661,
+              32299774,
+              40793764,
+              31256122,
+              41756907,
+              53483788
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 53836045,
+            "median": 40790798,
+            "minimum": 31252126,
+            "samples": [
+              44924634,
+              36268289,
+              32296675,
+              40790798,
+              31252126,
+              41752195,
+              53836045
+            ]
+          },
+          "graph_cells": 4137,
+          "id": "sessions-5-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 115338,
+          "peak_cached_memberships": 0,
+          "replay_steps": 238,
+          "semantic_steps": 4137,
+          "serialization_ns": {
+            "maximum": 1483972,
+            "median": 888926,
+            "minimum": 753273,
+            "samples": [
+              1483972,
+              796848,
+              888926,
+              910118,
+              753273,
+              753723,
+              1308497
+            ]
+          },
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 46317574,
+            "median": 35278823,
+            "minimum": 29237918,
+            "samples": [
+              35278823,
+              29237918,
+              45288843,
+              46317574,
+              30827855,
+              30179850,
+              46172074
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 66088314,
+            "median": 35275599,
+            "minimum": 29242322,
+            "samples": [
+              35275599,
+              29242322,
+              45285807,
+              46314294,
+              30822630,
+              30174746,
+              66088314
+            ]
+          },
+          "graph_cells": 4137,
+          "id": "sessions-5-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 115338,
+          "peak_cached_memberships": 0,
+          "replay_steps": 238,
+          "semantic_steps": 4137,
+          "serialization_ns": {
+            "maximum": 1368438,
+            "median": 873334,
+            "minimum": 707745,
+            "samples": [
+              873334,
+              707745,
+              1231262,
+              1237290,
+              782937,
+              841075,
+              1368438
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 15245216,
+            "median": 14126441,
+            "minimum": 9335682,
+            "samples": [
+              9534438,
+              15245216,
+              14644923,
+              14126441,
+              9335682,
+              14198958,
+              13160733
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 15212906,
+            "median": 14210229,
+            "minimum": 9333335,
+            "samples": [
+              9533135,
+              15212906,
+              14642468,
+              14121685,
+              9333335,
+              14210229,
+              14563900
+            ]
+          },
+          "graph_cells": 22,
+          "id": "sessions-5-baseline",
+          "index_memberships_created": 120,
+          "index_memberships_removed": 0,
+          "matching": 120,
+          "output_bytes": 31681,
+          "peak_cached_memberships": 120,
+          "replay_steps": 0,
+          "semantic_steps": 1320,
+          "serialization_ns": {
+            "maximum": 323596,
+            "median": 306190,
+            "minimum": 163836,
+            "samples": [
+              163836,
+              323596,
+              306381,
+              306190,
+              172890,
+              303757,
+              319641
+            ]
+          },
+          "support_queries": 11
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 41473405,
+            "median": 35050638,
+            "minimum": 25029166,
+            "samples": [
+              40094775,
+              41473405,
+              36150320,
+              35050638,
+              27014490,
+              25029166,
+              34379860
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 41919967,
+            "median": 36147681,
+            "minimum": 25032222,
+            "samples": [
+              40089712,
+              41919967,
+              36147681,
+              35047993,
+              27010057,
+              25032222,
+              40307822
+            ]
+          },
+          "graph_cells": 154,
+          "id": "sessions-5-baseline",
+          "index_memberships_created": 393,
+          "index_memberships_removed": 386,
+          "matching": 1,
+          "output_bytes": 128190,
+          "peak_cached_memberships": 360,
+          "replay_steps": 238,
+          "semantic_steps": 3173,
+          "serialization_ns": {
+            "maximum": 1583341,
+            "median": 1415458,
+            "minimum": 859762,
+            "samples": [
+              1417211,
+              1583341,
+              1415458,
+              1119553,
+              928567,
+              859762,
+              1497472
+            ]
+          },
+          "support_queries": 88
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 41227380,
+            "median": 27841831,
+            "minimum": 24583011,
+            "samples": [
+              40555780,
+              40525716,
+              41227380,
+              26022333,
+              24583011,
+              25726783,
+              27841831
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 41223971,
+            "median": 37254368,
+            "minimum": 24579412,
+            "samples": [
+              40551658,
+              40519350,
+              41223971,
+              26018214,
+              24579412,
+              25723381,
+              37254368
+            ]
+          },
+          "graph_cells": 704,
+          "id": "sessions-5-baseline",
+          "index_memberships_created": 418,
+          "index_memberships_removed": 386,
+          "matching": 1,
+          "output_bytes": 128190,
+          "peak_cached_memberships": 360,
+          "replay_steps": 238,
+          "semantic_steps": 2480,
+          "serialization_ns": {
+            "maximum": 1688539,
+            "median": 1098492,
+            "minimum": 775386,
+            "samples": [
+              1326715,
+              1566956,
+              1688539,
+              1098492,
+              775386,
+              841065,
+              869458
+            ]
+          },
+          "support_queries": 704
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 14055456,
+            "median": 9296253,
+            "minimum": 8591955,
+            "samples": [
+              9296253,
+              8591955,
+              14055456,
+              13234935,
+              9378105,
+              9220481,
+              9158109
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 14050920,
+            "median": 9373066,
+            "minimum": 8591369,
+            "samples": [
+              9291983,
+              8591369,
+              14050920,
+              13230345,
+              9373066,
+              9216820,
+              9419034
+            ]
+          },
+          "graph_cells": 22,
+          "id": "sessions-5-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 120,
+          "output_bytes": 31681,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 1320,
+          "serialization_ns": {
+            "maximum": 362265,
+            "median": 190256,
+            "minimum": 159620,
+            "samples": [
+              187001,
+              159620,
+              362265,
+              316025,
+              190256,
+              174552,
+              199320
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 52915402,
+            "median": 34109197,
+            "minimum": 31500355,
+            "samples": [
+              34109197,
+              52915402,
+              32377400,
+              47589357,
+              34449954,
+              31500355,
+              33829401
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 52910722,
+            "median": 34444696,
+            "minimum": 31494279,
+            "samples": [
+              34104453,
+              52910722,
+              32374793,
+              47584875,
+              34444696,
+              31494279,
+              36731844
+            ]
+          },
+          "graph_cells": 154,
+          "id": "sessions-5-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 128190,
+          "peak_cached_memberships": 0,
+          "replay_steps": 238,
+          "semantic_steps": 4482,
+          "serialization_ns": {
+            "maximum": 1573075,
+            "median": 943769,
+            "minimum": 827284,
+            "samples": [
+              943769,
+              1573075,
+              1012623,
+              1482800,
+              847615,
+              858601,
+              827284
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 47887861,
+            "median": 46343573,
+            "minimum": 30778130,
+            "samples": [
+              47887861,
+              30778130,
+              41298536,
+              35952522,
+              46454417,
+              46343573,
+              47341457
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 54189693,
+            "median": 46339303,
+            "minimum": 30774896,
+            "samples": [
+              47884394,
+              30774896,
+              41293635,
+              36332504,
+              46449186,
+              46339303,
+              54189693
+            ]
+          },
+          "graph_cells": 704,
+          "id": "sessions-5-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 128190,
+          "peak_cached_memberships": 0,
+          "replay_steps": 238,
+          "semantic_steps": 4137,
+          "serialization_ns": {
+            "maximum": 1492014,
+            "median": 1436860,
+            "minimum": 832923,
+            "samples": [
+              1436860,
+              878130,
+              832923,
+              889447,
+              1492014,
+              1491522,
+              1450741
+            ]
+          },
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 49692887,
+            "median": 32498379,
+            "minimum": 30427418,
+            "samples": [
+              30862125,
+              49692887,
+              47886408,
+              48142440,
+              32498379,
+              30427418,
+              31152767
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 49688788,
+            "median": 32502676,
+            "minimum": 30423248,
+            "samples": [
+              30872633,
+              49688788,
+              48468826,
+              48138878,
+              32502676,
+              30423248,
+              31282250
+            ]
+          },
+          "graph_cells": 704,
+          "id": "sessions-5-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 115338,
+          "peak_cached_memberships": 0,
+          "replay_steps": 238,
+          "semantic_steps": 4137,
+          "serialization_ns": {
+            "maximum": 1452384,
+            "median": 874515,
+            "minimum": 702836,
+            "samples": [
+              702836,
+              1379424,
+              1357131,
+              1452384,
+              874515,
+              763879,
+              754415
+            ]
+          },
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 41748706,
+            "median": 36548317,
+            "minimum": 24315483,
+            "samples": [
+              26151966,
+              41748706,
+              33852966,
+              36548317,
+              24315483,
+              37156542,
+              38288623
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 75562891,
+            "median": 36545885,
+            "minimum": 24313532,
+            "samples": [
+              26148360,
+              41742048,
+              33847969,
+              36545885,
+              24313532,
+              37151957,
+              75562891
+            ]
+          },
+          "graph_cells": 704,
+          "id": "sessions-5-baseline",
+          "index_memberships_created": 418,
+          "index_memberships_removed": 386,
+          "matching": 1,
+          "output_bytes": 115338,
+          "peak_cached_memberships": 360,
+          "replay_steps": 238,
+          "semantic_steps": 2480,
+          "serialization_ns": {
+            "maximum": 1607727,
+            "median": 1232724,
+            "minimum": 746984,
+            "samples": [
+              760143,
+              1476751,
+              1060315,
+              1232724,
+              746984,
+              1294998,
+              1607727
+            ]
+          },
+          "support_queries": 704
+        }
+      },
+      "sessions": 5
+    },
+    {
+      "arm": "omit-delete",
+      "id": "sessions-5-omit-delete",
+      "methods": {
+        "per-binding-product": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 21291894,
+            "median": 15536610,
+            "minimum": 13124180,
+            "samples": [
+              17966141,
+              13604614,
+              15536610,
+              21291894,
+              13124180,
+              13344377,
+              20594544
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 21286158,
+            "median": 15534340,
+            "minimum": 13120571,
+            "samples": [
+              17965610,
+              13603787,
+              15534340,
+              21286158,
+              13120571,
+              13339639,
+              20743002
+            ]
+          },
+          "graph_cells": 1680,
+          "id": "sessions-5-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 73201,
+          "peak_cached_memberships": 0,
+          "replay_steps": 120,
+          "semantic_steps": 1680,
+          "serialization_ns": {
+            "maximum": 906793,
+            "median": 520453,
+            "minimum": 449966,
+            "samples": [
+              742697,
+              449966,
+              520453,
+              906793,
+              477728,
+              515575,
+              829027
+            ]
+          },
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 20828504,
+            "median": 16535056,
+            "minimum": 12613680,
+            "samples": [
+              16535056,
+              12613680,
+              19628118,
+              20140561,
+              14075606,
+              13151751,
+              20828504
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 31134207,
+            "median": 16521243,
+            "minimum": 12613337,
+            "samples": [
+              16521243,
+              12613337,
+              19626192,
+              20137561,
+              14072692,
+              13147431,
+              31134207
+            ]
+          },
+          "graph_cells": 1680,
+          "id": "sessions-5-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 73201,
+          "peak_cached_memberships": 0,
+          "replay_steps": 120,
+          "semantic_steps": 1680,
+          "serialization_ns": {
+            "maximum": 826193,
+            "median": 573412,
+            "minimum": 442545,
+            "samples": [
+              487643,
+              442545,
+              728575,
+              795606,
+              483457,
+              573412,
+              826193
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 15027242,
+            "median": 13888507,
+            "minimum": 9087953,
+            "samples": [
+              9306939,
+              15027242,
+              14692574,
+              13888507,
+              9087953,
+              14248703,
+              13561456
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 25505974,
+            "median": 14244520,
+            "minimum": 9083469,
+            "samples": [
+              9304190,
+              15023340,
+              14688648,
+              13884178,
+              9083469,
+              14244520,
+              25505974
+            ]
+          },
+          "graph_cells": 22,
+          "id": "sessions-5-omit-delete",
+          "index_memberships_created": 120,
+          "index_memberships_removed": 0,
+          "matching": 120,
+          "output_bytes": 31681,
+          "peak_cached_memberships": 120,
+          "replay_steps": 0,
+          "semantic_steps": 1320,
+          "serialization_ns": {
+            "maximum": 323987,
+            "median": 306141,
+            "minimum": 170617,
+            "samples": [
+              170617,
+              323987,
+              319731,
+              304528,
+              198969,
+              314092,
+              306141
+            ]
+          },
+          "support_queries": 11
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 13548331,
+            "median": 9582690,
+            "minimum": 8764302,
+            "samples": [
+              8839345,
+              13548331,
+              10950846,
+              9582690,
+              8852133,
+              8764302,
+              12628353
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 13545029,
+            "median": 9580366,
+            "minimum": 8761214,
+            "samples": [
+              8838370,
+              13545029,
+              10950967,
+              9580366,
+              8850339,
+              8761214,
+              12656542
+            ]
+          },
+          "graph_cells": 44,
+          "id": "sessions-5-omit-delete",
+          "index_memberships_created": 240,
+          "index_memberships_removed": 240,
+          "matching": 0,
+          "output_bytes": 79681,
+          "peak_cached_memberships": 240,
+          "replay_steps": 120,
+          "semantic_steps": 847,
+          "serialization_ns": {
+            "maximum": 931040,
+            "median": 709838,
+            "minimum": 469937,
+            "samples": [
+              493232,
+              931040,
+              469937,
+              709838,
+              507623,
+              722126,
+              880194
+            ]
+          },
+          "support_queries": 14
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 13807157,
+            "median": 8561400,
+            "minimum": 8132942,
+            "samples": [
+              9498685,
+              13678074,
+              13807157,
+              8508030,
+              8420860,
+              8561400,
+              8132942
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 13806241,
+            "median": 8559892,
+            "minimum": 8130565,
+            "samples": [
+              9497271,
+              13676235,
+              13806241,
+              8515135,
+              8419730,
+              8559892,
+              8130565
+            ]
+          },
+          "graph_cells": 22,
+          "id": "sessions-5-omit-delete",
+          "index_memberships_created": 240,
+          "index_memberships_removed": 240,
+          "matching": 0,
+          "output_bytes": 79681,
+          "peak_cached_memberships": 240,
+          "replay_steps": 120,
+          "semantic_steps": 847,
+          "serialization_ns": {
+            "maximum": 957861,
+            "median": 564138,
+            "minimum": 474744,
+            "samples": [
+              586061,
+              951281,
+              957861,
+              564138,
+              474744,
+              500783,
+              488645
+            ]
+          },
+          "support_queries": 14
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 13870250,
+            "median": 9072941,
+            "minimum": 8681316,
+            "samples": [
+              8844502,
+              8701318,
+              13870250,
+              13012835,
+              9072941,
+              9574678,
+              8681316
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 13867163,
+            "median": 9571823,
+            "minimum": 8699011,
+            "samples": [
+              9258693,
+              8699011,
+              13867163,
+              13008652,
+              9069788,
+              9571823,
+              9577372
+            ]
+          },
+          "graph_cells": 22,
+          "id": "sessions-5-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 120,
+          "output_bytes": 31681,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 1320,
+          "serialization_ns": {
+            "maximum": 317778,
+            "median": 189505,
+            "minimum": 184167,
+            "samples": [
+              184928,
+              184167,
+              317778,
+              310096,
+              188464,
+              213951,
+              189505
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 21606281,
+            "median": 14275594,
+            "minimum": 12582935,
+            "samples": [
+              14275594,
+              21606281,
+              14174893,
+              19773114,
+              14984198,
+              12582935,
+              13096508
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 21615803,
+            "median": 14273593,
+            "minimum": 12580768,
+            "samples": [
+              14273593,
+              21615803,
+              14173213,
+              19768076,
+              14981518,
+              12580768,
+              14021885
+            ]
+          },
+          "graph_cells": 44,
+          "id": "sessions-5-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 79681,
+          "peak_cached_memberships": 0,
+          "replay_steps": 120,
+          "semantic_steps": 1680,
+          "serialization_ns": {
+            "maximum": 970389,
+            "median": 651219,
+            "minimum": 480883,
+            "samples": [
+              769307,
+              970389,
+              588815,
+              905282,
+              651219,
+              480883,
+              636497
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 20498143,
+            "median": 19117066,
+            "minimum": 13129588,
+            "samples": [
+              20498143,
+              13129588,
+              14746889,
+              15822355,
+              19990297,
+              20142413,
+              19117066
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 30740854,
+            "median": 19985863,
+            "minimum": 13127460,
+            "samples": [
+              20495419,
+              13127460,
+              14729585,
+              15832277,
+              19985863,
+              20137902,
+              30740854
+            ]
+          },
+          "graph_cells": 22,
+          "id": "sessions-5-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 79681,
+          "peak_cached_memberships": 0,
+          "replay_steps": 120,
+          "semantic_steps": 1680,
+          "serialization_ns": {
+            "maximum": 892622,
+            "median": 834324,
+            "minimum": 479391,
+            "samples": [
+              892622,
+              479391,
+              556797,
+              561594,
+              834324,
+              880524,
+              866062
+            ]
+          },
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 43822671,
+            "median": 14132280,
+            "minimum": 12439101,
+            "samples": [
+              13466609,
+              21536047,
+              19898190,
+              43822671,
+              12439101,
+              14132280,
+              13164881
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 43814796,
+            "median": 14129898,
+            "minimum": 12437152,
+            "samples": [
+              13464917,
+              21532228,
+              19895538,
+              43814796,
+              12437152,
+              14129898,
+              13310285
+            ]
+          },
+          "graph_cells": 22,
+          "id": "sessions-5-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 73201,
+          "peak_cached_memberships": 0,
+          "replay_steps": 120,
+          "semantic_steps": 1680,
+          "serialization_ns": {
+            "maximum": 8990198,
+            "median": 576067,
+            "minimum": 468384,
+            "samples": [
+              468384,
+              919172,
+              806433,
+              8990198,
+              501875,
+              470958,
+              576067
+            ]
+          },
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 120,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 13678585,
+            "median": 12454914,
+            "minimum": 8383976,
+            "samples": [
+              8653727,
+              13678585,
+              9404224,
+              12677755,
+              8383976,
+              12454914,
+              12881760
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 23417822,
+            "median": 12452175,
+            "minimum": 8382635,
+            "samples": [
+              8652881,
+              13672059,
+              9401528,
+              12676572,
+              8382635,
+              12452175,
+              23417822
+            ]
+          },
+          "graph_cells": 22,
+          "id": "sessions-5-omit-delete",
+          "index_memberships_created": 240,
+          "index_memberships_removed": 240,
+          "matching": 0,
+          "output_bytes": 73201,
+          "peak_cached_memberships": 240,
+          "replay_steps": 120,
+          "semantic_steps": 847,
+          "serialization_ns": {
+            "maximum": 842186,
+            "median": 751089,
+            "minimum": 453973,
+            "samples": [
+              463026,
+              811871,
+              453973,
+              762586,
+              644018,
+              751089,
+              842186
+            ]
+          },
+          "support_queries": 14
+        }
+      },
+      "sessions": 5
+    },
+    {
+      "arm": "baseline",
+      "id": "sessions-6-baseline",
+      "methods": {
+        "per-binding-product": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 538873055,
+            "median": 350870242,
+            "minimum": 300245889,
+            "samples": [
+              393444664,
+              350870242,
+              300245889,
+              538873055,
+              333764237,
+              336516872,
+              369264326
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 538903773,
+            "median": 352705925,
+            "minimum": 300246685,
+            "samples": [
+              394158875,
+              352705925,
+              300246685,
+              538903773,
+              333762138,
+              336543094,
+              471969844
+            ]
+          },
+          "graph_cells": 25221,
+          "id": "sessions-6-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 777542,
+          "peak_cached_memberships": 0,
+          "replay_steps": 1438,
+          "semantic_steps": 25221,
+          "serialization_ns": {
+            "maximum": 19518851,
+            "median": 7914742,
+            "minimum": 5799872,
+            "samples": [
+              7731996,
+              8201032,
+              19518851,
+              12241869,
+              7914742,
+              5799872,
+              7808052
+            ]
+          },
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 451638459,
+            "median": 382825173,
+            "minimum": 257300123,
+            "samples": [
+              328487139,
+              382825173,
+              398615280,
+              395800723,
+              257300123,
+              271852887,
+              451638459
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 544444056,
+            "median": 382825401,
+            "minimum": 257356052,
+            "samples": [
+              328498508,
+              382825401,
+              398618720,
+              395801266,
+              257356052,
+              272028260,
+              544444056
+            ]
+          },
+          "graph_cells": 25221,
+          "id": "sessions-6-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 777542,
+          "peak_cached_memberships": 0,
+          "replay_steps": 1438,
+          "semantic_steps": 25221,
+          "serialization_ns": {
+            "maximum": 8543187,
+            "median": 5023384,
+            "minimum": 4552736,
+            "samples": [
+              4582641,
+              8543187,
+              7635892,
+              7701050,
+              4552736,
+              4801580,
+              5023384
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 214229520,
+            "median": 185122677,
+            "minimum": 140582507,
+            "samples": [
+              214229520,
+              200919063,
+              154082751,
+              185122677,
+              140582507,
+              149149982,
+              185236450
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 213996776,
+            "median": 185130885,
+            "minimum": 140579028,
+            "samples": [
+              213996776,
+              200917613,
+              154092095,
+              185130885,
+              140579028,
+              149409138,
+              199354535
+            ]
+          },
+          "graph_cells": 26,
+          "id": "sessions-6-baseline",
+          "index_memberships_created": 720,
+          "index_memberships_removed": 0,
+          "matching": 720,
+          "output_bytes": 217441,
+          "peak_cached_memberships": 720,
+          "replay_steps": 0,
+          "semantic_steps": 9360,
+          "serialization_ns": {
+            "maximum": 2329232,
+            "median": 2032466,
+            "minimum": 1138642,
+            "samples": [
+              2329232,
+              2130123,
+              1148828,
+              2032466,
+              1138642,
+              1271402,
+              2114780
+            ]
+          },
+          "support_queries": 13
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 392389095,
+            "median": 337222042,
+            "minimum": 224819138,
+            "samples": [
+              233213048,
+              392389095,
+              224819138,
+              337222042,
+              250477400,
+              352336564,
+              358219168
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 392390651,
+            "median": 337243702,
+            "minimum": 224820617,
+            "samples": [
+              233255731,
+              392390651,
+              224820617,
+              337243702,
+              250486472,
+              352338276,
+              363585184
+            ]
+          },
+          "graph_cells": 208,
+          "id": "sessions-6-baseline",
+          "index_memberships_created": 2313,
+          "index_memberships_removed": 2305,
+          "matching": 1,
+          "output_bytes": 855194,
+          "peak_cached_memberships": 2160,
+          "replay_steps": 1438,
+          "semantic_steps": 21602,
+          "serialization_ns": {
+            "maximum": 22698583,
+            "median": 9199163,
+            "minimum": 6123959,
+            "samples": [
+              6123959,
+              11796960,
+              6273904,
+              9199163,
+              6495077,
+              9571153,
+              22698583
+            ]
+          },
+          "support_queries": 117
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 312489269,
+            "median": 225147551,
+            "minimum": 207307104,
+            "samples": [
+              219380751,
+              312489269,
+              255956288,
+              225147551,
+              224585351,
+              207307104,
+              269874685
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 312530667,
+            "median": 242476226,
+            "minimum": 207305222,
+            "samples": [
+              219389721,
+              312530667,
+              255958365,
+              225148234,
+              242476226,
+              207305222,
+              286600529
+            ]
+          },
+          "graph_cells": 1664,
+          "id": "sessions-6-baseline",
+          "index_memberships_created": 2369,
+          "index_memberships_removed": 2305,
+          "matching": 1,
+          "output_bytes": 855194,
+          "peak_cached_memberships": 2160,
+          "replay_steps": 1438,
+          "semantic_steps": 13802,
+          "serialization_ns": {
+            "maximum": 10377215,
+            "median": 6225001,
+            "minimum": 5830507,
+            "samples": [
+              6028395,
+              10377215,
+              6225001,
+              6098581,
+              7158124,
+              7155340,
+              5830507
+            ]
+          },
+          "support_queries": 1664
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 176431633,
+            "median": 137191491,
+            "minimum": 107396664,
+            "samples": [
+              122980244,
+              107396664,
+              150198327,
+              176431633,
+              137191491,
+              125940109,
+              167109901
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 176752447,
+            "median": 137217111,
+            "minimum": 107394310,
+            "samples": [
+              122986544,
+              107394310,
+              150198211,
+              176752447,
+              137217111,
+              125935765,
+              176642147
+            ]
+          },
+          "graph_cells": 26,
+          "id": "sessions-6-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 720,
+          "output_bytes": 217441,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 9360,
+          "serialization_ns": {
+            "maximum": 2066026,
+            "median": 1272784,
+            "minimum": 1153084,
+            "samples": [
+              1153084,
+              1185823,
+              1529069,
+              2066026,
+              1241457,
+              1272784,
+              1692796
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 510000871,
+            "median": 399208269,
+            "minimum": 352907013,
+            "samples": [
+              435838672,
+              491268556,
+              352907013,
+              510000871,
+              396438386,
+              399208269,
+              395318693
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 510013340,
+            "median": 408995528,
+            "minimum": 352924188,
+            "samples": [
+              435839611,
+              491301327,
+              352924188,
+              510013340,
+              396154256,
+              399236964,
+              408995528
+            ]
+          },
+          "graph_cells": 208,
+          "id": "sessions-6-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 855194,
+          "peak_cached_memberships": 0,
+          "replay_steps": 1438,
+          "semantic_steps": 30949,
+          "serialization_ns": {
+            "maximum": 26811338,
+            "median": 10574912,
+            "minimum": 7127659,
+            "samples": [
+              9599204,
+              10574912,
+              12252013,
+              14305802,
+              26811338,
+              8349245,
+              7127659
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 436504756,
+            "median": 378596946,
+            "minimum": 302811850,
+            "samples": [
+              302811850,
+              399265961,
+              378596946,
+              436504756,
+              335635311,
+              391550617,
+              325723526
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 438529048,
+            "median": 378625617,
+            "minimum": 314891952,
+            "samples": [
+              314891952,
+              422080403,
+              378625617,
+              438529048,
+              335638303,
+              391583070,
+              347359454
+            ]
+          },
+          "graph_cells": 1664,
+          "id": "sessions-6-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 855194,
+          "peak_cached_memberships": 0,
+          "replay_steps": 1438,
+          "semantic_steps": 25221,
+          "serialization_ns": {
+            "maximum": 22054253,
+            "median": 9467587,
+            "minimum": 5712090,
+            "samples": [
+              14354285,
+              22054253,
+              9467587,
+              7690534,
+              5712090,
+              9511563,
+              7001487
+            ]
+          },
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 566603500,
+            "median": 328523935,
+            "minimum": 260098349,
+            "samples": [
+              260098349,
+              415769698,
+              408321795,
+              566603500,
+              268148536,
+              289152236,
+              328523935
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 566654682,
+            "median": 361108259,
+            "minimum": 260246242,
+            "samples": [
+              260246242,
+              415771110,
+              408392925,
+              566654682,
+              268147529,
+              289153408,
+              361108259
+            ]
+          },
+          "graph_cells": 1664,
+          "id": "sessions-6-baseline",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "output_bytes": 777542,
+          "peak_cached_memberships": 0,
+          "replay_steps": 1438,
+          "semantic_steps": 25221,
+          "serialization_ns": {
+            "maximum": 8624860,
+            "median": 8273461,
+            "minimum": 4500538,
+            "samples": [
+              4802181,
+              8433682,
+              8273461,
+              8619302,
+              4500538,
+              8624860,
+              7912588
+            ]
+          },
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 319754860,
+            "median": 275437472,
+            "minimum": 195415544,
+            "samples": [
+              224585021,
+              319754860,
+              247544003,
+              275437472,
+              195415544,
+              283779736,
+              301588373
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 397727841,
+            "median": 275882699,
+            "minimum": 195415127,
+            "samples": [
+              224586000,
+              319782371,
+              247424396,
+              275882699,
+              195415127,
+              283800482,
+              397727841
+            ]
+          },
+          "graph_cells": 1664,
+          "id": "sessions-6-baseline",
+          "index_memberships_created": 2369,
+          "index_memberships_removed": 2305,
+          "matching": 1,
+          "output_bytes": 777542,
+          "peak_cached_memberships": 2160,
+          "replay_steps": 1438,
+          "semantic_steps": 13802,
+          "serialization_ns": {
+            "maximum": 21525188,
+            "median": 8451859,
+            "minimum": 4579936,
+            "samples": [
+              4910023,
+              8927445,
+              21525188,
+              8451859,
+              4579936,
+              8019139,
+              9044179
+            ]
+          },
+          "support_queries": 1664
+        }
+      },
+      "sessions": 6
+    },
+    {
+      "arm": "omit-delete",
+      "id": "sessions-6-omit-delete",
+      "methods": {
+        "per-binding-product": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 168156389,
+            "median": 153159733,
+            "minimum": 106129729,
+            "samples": [
+              153998051,
+              168156389,
+              159070730,
+              152250250,
+              153159733,
+              106129729,
+              150929928
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 211038445,
+            "median": 154033641,
+            "minimum": 106142551,
+            "samples": [
+              154033641,
+              168166321,
+              159078458,
+              152254139,
+              153172956,
+              106142551,
+              211038445
+            ]
+          },
+          "graph_cells": 11520,
+          "id": "sessions-6-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 493921,
+          "peak_cached_memberships": 0,
+          "replay_steps": 720,
+          "semantic_steps": 11520,
+          "serialization_ns": {
+            "maximum": 5640072,
+            "median": 5162943,
+            "minimum": 3311570,
+            "samples": [
+              5330325,
+              5640072,
+              5152278,
+              5162943,
+              4327132,
+              3311570,
+              5469484
+            ]
+          },
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 186288474,
+            "median": 126734721,
+            "minimum": 97800144,
+            "samples": [
+              186288474,
+              126734721,
+              157407945,
+              152641472,
+              97800144,
+              112371637,
+              109063294
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 188741250,
+            "median": 152644745,
+            "minimum": 97797875,
+            "samples": [
+              188741250,
+              126736966,
+              157418943,
+              152644745,
+              97797875,
+              112371658,
+              154359695
+            ]
+          },
+          "graph_cells": 11520,
+          "id": "sessions-6-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 493921,
+          "peak_cached_memberships": 0,
+          "replay_steps": 720,
+          "semantic_steps": 11520,
+          "serialization_ns": {
+            "maximum": 16246059,
+            "median": 4799907,
+            "minimum": 3106031,
+            "samples": [
+              16246059,
+              3408716,
+              4896473,
+              4799907,
+              3106031,
+              3257559,
+              7940590
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 122528342,
+            "median": 104756060,
+            "minimum": 76035467,
+            "samples": [
+              77133390,
+              122528342,
+              76035467,
+              114054001,
+              76194743,
+              107487720,
+              104756060
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 145551499,
+            "median": 107123426,
+            "minimum": 76033683,
+            "samples": [
+              77129380,
+              122540426,
+              76033683,
+              114053415,
+              76190863,
+              107123426,
+              145551499
+            ]
+          },
+          "graph_cells": 26,
+          "id": "sessions-6-omit-delete",
+          "index_memberships_created": 720,
+          "index_memberships_removed": 0,
+          "matching": 720,
+          "output_bytes": 217441,
+          "peak_cached_memberships": 720,
+          "replay_steps": 0,
+          "semantic_steps": 9360,
+          "serialization_ns": {
+            "maximum": 3912314,
+            "median": 1584122,
+            "minimum": 1201987,
+            "samples": [
+              1584122,
+              2295642,
+              1233194,
+              1932486,
+              1201987,
+              3912314,
+              1218512
+            ]
+          },
+          "support_queries": 13
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 99086879,
+            "median": 93109324,
+            "minimum": 61104198,
+            "samples": [
+              93109324,
+              94931836,
+              61104198,
+              95291812,
+              65161505,
+              81768809,
+              99086879
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 127686877,
+            "median": 93106835,
+            "minimum": 61104274,
+            "samples": [
+              93106835,
+              94956862,
+              61104274,
+              95291553,
+              65170700,
+              81802049,
+              127686877
+            ]
+          },
+          "graph_cells": 52,
+          "id": "sessions-6-omit-delete",
+          "index_memberships_created": 1440,
+          "index_memberships_removed": 1440,
+          "matching": 0,
+          "output_bytes": 532801,
+          "peak_cached_memberships": 1440,
+          "replay_steps": 720,
+          "semantic_steps": 5768,
+          "serialization_ns": {
+            "maximum": 49743048,
+            "median": 3708907,
+            "minimum": 3046701,
+            "samples": [
+              49743048,
+              3708907,
+              3046701,
+              4397633,
+              3363438,
+              3295826,
+              5683466
+            ]
+          },
+          "support_queries": 16
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 102544614,
+            "median": 68239365,
+            "minimum": 63632095,
+            "samples": [
+              67721875,
+              102544614,
+              78154444,
+              63632095,
+              66126742,
+              68239365,
+              74086395
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 102559771,
+            "median": 68239325,
+            "minimum": 63630747,
+            "samples": [
+              67702485,
+              102559771,
+              78153839,
+              63630747,
+              66127660,
+              68239325,
+              79613200
+            ]
+          },
+          "graph_cells": 26,
+          "id": "sessions-6-omit-delete",
+          "index_memberships_created": 1440,
+          "index_memberships_removed": 1440,
+          "matching": 0,
+          "output_bytes": 532801,
+          "peak_cached_memberships": 1440,
+          "replay_steps": 720,
+          "semantic_steps": 5768,
+          "serialization_ns": {
+            "maximum": 6143338,
+            "median": 3564510,
+            "minimum": 3231940,
+            "samples": [
+              3564510,
+              6143338,
+              4263191,
+              3338840,
+              3231940,
+              3479963,
+              5332218
+            ]
+          },
+          "support_queries": 16
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 105732148,
+            "median": 80175758,
+            "minimum": 69449346,
+            "samples": [
+              72492124,
+              69449346,
+              80175758,
+              105589405,
+              79567323,
+              81270597,
+              105732148
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 109631275,
+            "median": 80174323,
+            "minimum": 69647680,
+            "samples": [
+              72488691,
+              69647680,
+              80174323,
+              105587404,
+              80131749,
+              81265512,
+              109631275
+            ]
+          },
+          "graph_cells": 26,
+          "id": "sessions-6-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 720,
+          "output_bytes": 217441,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 9360,
+          "serialization_ns": {
+            "maximum": 2061440,
+            "median": 1917664,
+            "minimum": 1152173,
+            "samples": [
+              2061440,
+              1536510,
+              1152173,
+              2038306,
+              1182579,
+              1917664,
+              1984204
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 182336085,
+            "median": 138037811,
+            "minimum": 100224181,
+            "samples": [
+              162609365,
+              138037811,
+              100224181,
+              182336085,
+              118454850,
+              122940984,
+              145817193
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 221725134,
+            "median": 138041044,
+            "minimum": 100406583,
+            "samples": [
+              162610338,
+              138041044,
+              100406583,
+              182337150,
+              118455459,
+              122941612,
+              221725134
+            ]
+          },
+          "graph_cells": 52,
+          "id": "sessions-6-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 532801,
+          "peak_cached_memberships": 0,
+          "replay_steps": 720,
+          "semantic_steps": 11520,
+          "serialization_ns": {
+            "maximum": 5943007,
+            "median": 4222540,
+            "minimum": 3270058,
+            "samples": [
+              5943007,
+              3576558,
+              5086930,
+              3794927,
+              4222540,
+              3270058,
+              4892767
+            ]
+          },
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 153494952,
+            "median": 136801882,
+            "minimum": 100040808,
+            "samples": [
+              107190468,
+              126125418,
+              137304214,
+              153494952,
+              100040808,
+              143541555,
+              136801882
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 153496906,
+            "median": 136858869,
+            "minimum": 100037302,
+            "samples": [
+              108332729,
+              126590822,
+              137312179,
+              153496906,
+              100037302,
+              147019434,
+              136858869
+            ]
+          },
+          "graph_cells": 26,
+          "id": "sessions-6-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 532801,
+          "peak_cached_memberships": 0,
+          "replay_steps": 720,
+          "semantic_steps": 11520,
+          "serialization_ns": {
+            "maximum": 17046803,
+            "median": 5477347,
+            "minimum": 3216096,
+            "samples": [
+              4204983,
+              7532988,
+              3216096,
+              17046803,
+              3503678,
+              5477347,
+              5577146
+            ]
+          },
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 283334714,
+            "median": 135701995,
+            "minimum": 98937128,
+            "samples": [
+              116264280,
+              283334714,
+              110430990,
+              153098202,
+              98937128,
+              135701995,
+              155574585
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 283234634,
+            "median": 135703073,
+            "minimum": 98988686,
+            "samples": [
+              116264667,
+              283234634,
+              110431231,
+              153100040,
+              98988686,
+              135703073,
+              162222559
+            ]
+          },
+          "graph_cells": 26,
+          "id": "sessions-6-omit-delete",
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "output_bytes": 493921,
+          "peak_cached_memberships": 0,
+          "replay_steps": 720,
+          "semantic_steps": 11520,
+          "serialization_ns": {
+            "maximum": 31760829,
+            "median": 3765683,
+            "minimum": 2920752,
+            "samples": [
+              3101704,
+              31760829,
+              2920752,
+              4922832,
+              3318250,
+              3765683,
+              5269785
+            ]
+          },
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 720,
+          "complete_output_equal": true,
+          "diagnosis_cpu_ns": {
+            "maximum": 111081808,
+            "median": 99900169,
+            "minimum": 60640668,
+            "samples": [
+              61349613,
+              111081808,
+              99900169,
+              107707987,
+              108025991,
+              60640668,
+              92861845
+            ]
+          },
+          "diagnosis_wall_ns": {
+            "maximum": 112943348,
+            "median": 107816300,
+            "minimum": 60642251,
+            "samples": [
+              61372725,
+              111102185,
+              99900336,
+              107901443,
+              107816300,
+              60642251,
+              112943348
+            ]
+          },
+          "graph_cells": 26,
+          "id": "sessions-6-omit-delete",
+          "index_memberships_created": 1440,
+          "index_memberships_removed": 1440,
+          "matching": 0,
+          "output_bytes": 493921,
+          "peak_cached_memberships": 1440,
+          "replay_steps": 720,
+          "semantic_steps": 5768,
+          "serialization_ns": {
+            "maximum": 12901121,
+            "median": 5501402,
+            "minimum": 2814883,
+            "samples": [
+              3182415,
+              5606200,
+              6490651,
+              5501402,
+              12901121,
+              2814883,
+              5063574
+            ]
+          },
+          "support_queries": 16
+        }
+      },
+      "sessions": 6
+    }
+  ],
+  "comparison": "Each timed complete semantic profile is compared exactly with the independently checked retained profile after the diagnosis clock stops.",
+  "fresh_processes": 70,
+  "ordering": "One fresh process per method per repeat, rotated method order, sequential execution on one host.",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "repeats": 7,
+  "status": "PASS",
+  "timing_scope": "Diagnosis includes schema validation, normalization and copying of the supplied family, graph construction, reference comparisons, index management and complete fixed-binding witness replay. Permutation enumeration and contract/caller construction are common input preparation. Native observation acquisition, worker module imports, subprocess startup and input parsing are outside per-case clocks. Output encoding is timed separately.",
+  "uncertainty": "Ranges are observed sample minima and maxima; no population confidence level is assigned."
+}

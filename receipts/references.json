@@ -1,0 +1,12 @@
+{
+  "citation_occurrences": 83,
+  "claim_rows": 214,
+  "doi_records": 60,
+  "non_doi_records": 8,
+  "profile": "references",
+  "references": 68,
+  "schema": 1,
+  "scope": "Current bibliographic identity against retained publisher-deposited DOI responses and primary non-DOI records. Counts are computed above. Undated documentation retains n.d.; access dates are not publication dates. Missing fields and indexed-only access remain explicit; this is not full-text or scientific-method verification.",
+  "status": "PASS",
+  "unresolved_field_mismatches": []
+}

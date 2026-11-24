@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "controls": [
+    {
+      "control": "changed JSON error body",
+      "first_event": 11,
+      "fields": [
+        "complete_http_response"
+      ]
+    },
+    {
+      "control": "changed previously omitted response field",
+      "first_event": 1,
+      "fields": [
+        "complete_http_response",
+        "response_content"
+      ]
+    },
+    {
+      "control": "wrong manager-to-request object handoff",
+      "first_event": 1,
+      "fields": [
+        "native_manager_identity_handoff"
+      ]
+    },
+    {
+      "control": "rotation corrupts another credential slot",
+      "first_event": 30,
+      "fields": [
+        "complete_persisted_rows:projects"
+      ]
+    },
+    {
+      "control": "wrong preflight response metadata",
+      "first_event": 21,
+      "fields": [
+        "complete_http_response"
+      ]
+    },
+    {
+      "control": "unexpected error response cookie",
+      "first_event": 11,
+      "fields": [
+        "complete_http_response"
+      ]
+    },
+    {
+      "control": "changed non-JSON error body",
+      "first_event": 10,
+      "fields": [
+        "complete_http_response"
+      ]
+    }
+  ],
+  "eventwise_first_failure_lengths": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+  ],
+  "cors_method_order_preserves_equivalence": true,
+  "new_native_executions": 0
+}

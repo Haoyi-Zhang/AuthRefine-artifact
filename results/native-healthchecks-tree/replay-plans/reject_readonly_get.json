@@ -1,0 +1,1382 @@
+[
+  {
+    "api_version": 1,
+    "directory": "word-0000",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0001",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0002",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0003",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0004",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0005",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0006",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0007",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0008",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0009",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0010",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0011",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0012",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0013",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0014",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0015",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0016",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0017",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0018",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0019",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0020",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0021",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0022",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0023",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0024",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0025",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0026",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0027",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0028",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0029",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0030",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0031",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0032",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0033",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0034",
+    "format": "legacy",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0035",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0036",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0037",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0038",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0039",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0040",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0041",
+    "format": "legacy",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/legacy-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/legacy-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0042",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0043",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0044",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0045",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0046",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0047",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0048",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0049",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0050",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0051",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0052",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0053",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0054",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 1,
+    "directory": "word-0055",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-1-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-1-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0056",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0057",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0058",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0059",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0060",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0061",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0062",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0063",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0064",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0065",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0066",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0067",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0068",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 2,
+    "directory": "word-0069",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-2-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-2-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0070",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0071",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0072",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0073",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0074",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0075",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0076",
+    "format": "hashed",
+    "initial_status": "new",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-new.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-new/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0077",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0078",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0079",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0080",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0081",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "pause",
+      "resume",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0082",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "pause",
+      "get"
+    ]
+  },
+  {
+    "api_version": 3,
+    "directory": "word-0083",
+    "format": "hashed",
+    "initial_status": "paused",
+    "main_profile": "profiles/reject_readonly_get/hashed-api-3-paused.json.gz",
+    "main_record": "native/reject_readonly_get/hashed-api-3-paused/observations.json.gz",
+    "modes": [
+      "complete",
+      "http_status"
+    ],
+    "word": [
+      "resume",
+      "resume",
+      "get"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "candidate_change": "Two direct mutation returns become mutation/save-if-True/return.",
+  "candidate_sha256": "11602cda8af8253a30a3099b8cbb6ad4afb230945075a21fe80a819cfd7c02ac",
+  "files": {
+    "LICENSE": "53b3ad6baaef8dbbec3024b1661587615ea0075a27297dfeea570a4cf4b3b911",
+    "NOTICE": "5f5e07ce94836290e11ce3168b5618487d75faa328475e029ef2225cd4d41401",
+    "pyproject.toml": "1bcc16c49b8d33104ea42e07b30a08de2d65d0e0c8f9bf56a8429136d2bffa0c",
+    "src/conet/control/policy.py": "1084e3eed7adbc32ffddd27585741fec1275fc571d4242dd0ca1296ad9dbff36",
+    "src/conet/control/policy_model.conf": "10f281d006f6e3b3210e56fa0ffc1771993156fdc5e131f8bdc975b03ef0ef26"
+  },
+  "original_module": "source_study/source/repair-profiles/conet/src/conet/control/policy.py",
+  "original_module_modified": false
+}

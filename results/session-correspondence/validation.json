@@ -1,0 +1,31 @@
+{
+  "anchored_binding_comparisons": 1408,
+  "anchored_profiles": 80,
+  "focused_tests": {
+    "discovered": 14,
+    "native_environment_passed": 14,
+    "optimized_portable_native_skips": 2,
+    "optimized_portable_passed": 12,
+    "portable_native_skips": 2,
+    "portable_passed": 12
+  },
+  "independent_binding_comparisons": 17440,
+  "native_replay_binding_checks": 1739,
+  "native_replay_operations": 35,
+  "native_rich_records": 10434,
+  "native_word_runs": 20,
+  "record_mutation_controls": [
+    "selected-token corruption",
+    "missing reaching-prefix record",
+    "changed timing median",
+    "changed supplied family",
+    "changed selected-identity witness length"
+  ],
+  "status": "PASS",
+  "table_rows": {
+    "case-summary.csv": 10,
+    "timing-summary.csv": 100
+  },
+  "timing_case_records": 700,
+  "timing_processes": 70
+}

@@ -1,0 +1,3 @@
+'AuthRefine.Diagnosis.matching_prefixes' depends on axioms: [propext]
+'AuthRefine.Diagnosis.first_bad_cell_is_a_shortest_fixed_binding_witness' depends on axioms: [propext]
+'AuthRefine.Diagnosis.rank_bound_from_edges' depends on axioms: [propext]

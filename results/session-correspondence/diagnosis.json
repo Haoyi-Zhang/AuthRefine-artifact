@@ -1,0 +1,2327 @@
+{
+  "anchored_binding_comparisons": 1408,
+  "anchored_family_profiles": 80,
+  "baseline_edges": 2808,
+  "cases": [
+    {
+      "anchored_families": [
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1"
+          },
+          "exact_restriction_check": true,
+          "excluded": 0,
+          "family_members": 1,
+          "matching": 1,
+          "name": "first-1-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 1,
+          "family_members": 1,
+          "matching": 0,
+          "name": "inconsistent-first-row"
+        }
+      ],
+      "arm": "baseline",
+      "caller_outcomes": {
+        "lookup-only": {
+          "excluded": 0,
+          "matching": 2,
+          "shortest_excluded_length": null
+        },
+        "one-removal": {
+          "excluded": 1,
+          "matching": 1,
+          "shortest_excluded_length": 2
+        },
+        "unrestricted": {
+          "excluded": 1,
+          "matching": 1,
+          "shortest_excluded_length": 2
+        }
+      },
+      "cartesian_family_members": 4,
+      "distinct_native_words_requested": 1,
+      "family_members": 2,
+      "id": "sessions-2-baseline",
+      "native_edges": 40,
+      "native_prefix_operations": 40,
+      "native_rich_record_checks": 80,
+      "native_states": 4,
+      "selected_identity_excluded_length": 1,
+      "selected_identity_matching": {
+        "lookup-only": 1,
+        "one-removal": 1,
+        "unrestricted": 1
+      },
+      "sessions": 2,
+      "witness_coverage": [
+        {
+          "excluded_bindings": 1,
+          "indices": [
+            7,
+            0
+          ],
+          "requests": [
+            [
+              "client",
+              "row-1",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-1",
+              "lookup"
+            ]
+          ]
+        }
+      ],
+      "work": {
+        "per-binding-product": {
+          "bindings": 2,
+          "graph_cells": 51,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 51,
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 2,
+          "graph_cells": 51,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 51,
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 2,
+          "graph_cells": 10,
+          "index_memberships_created": 2,
+          "index_memberships_removed": 0,
+          "matching": 2,
+          "peak_cached_memberships": 2,
+          "replay_steps": 0,
+          "semantic_steps": 10,
+          "support_queries": 5
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 2,
+          "graph_cells": 40,
+          "index_memberships_created": 7,
+          "index_memberships_removed": 3,
+          "matching": 1,
+          "peak_cached_memberships": 6,
+          "replay_steps": 2,
+          "semantic_steps": 36,
+          "support_queries": 25
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 2,
+          "graph_cells": 40,
+          "index_memberships_created": 7,
+          "index_memberships_removed": 3,
+          "matching": 1,
+          "peak_cached_memberships": 6,
+          "replay_steps": 2,
+          "semantic_steps": 46,
+          "support_queries": 40
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 2,
+          "graph_cells": 10,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 2,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 10,
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 2,
+          "graph_cells": 40,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 41,
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 2,
+          "graph_cells": 40,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 51,
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 2,
+          "graph_cells": 40,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 51,
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 2,
+          "graph_cells": 40,
+          "index_memberships_created": 7,
+          "index_memberships_removed": 3,
+          "matching": 1,
+          "peak_cached_memberships": 6,
+          "replay_steps": 2,
+          "semantic_steps": 46,
+          "support_queries": 40
+        }
+      }
+    },
+    {
+      "anchored_families": [
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1"
+          },
+          "exact_restriction_check": true,
+          "excluded": 1,
+          "family_members": 1,
+          "matching": 0,
+          "name": "first-1-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 1,
+          "family_members": 1,
+          "matching": 0,
+          "name": "inconsistent-first-row"
+        }
+      ],
+      "arm": "omit-delete",
+      "caller_outcomes": {
+        "lookup-only": {
+          "excluded": 0,
+          "matching": 2,
+          "shortest_excluded_length": null
+        },
+        "one-removal": {
+          "excluded": 2,
+          "matching": 0,
+          "shortest_excluded_length": 1
+        },
+        "unrestricted": {
+          "excluded": 2,
+          "matching": 0,
+          "shortest_excluded_length": 1
+        }
+      },
+      "cartesian_family_members": 4,
+      "distinct_native_words_requested": 1,
+      "family_members": 2,
+      "id": "sessions-2-omit-delete",
+      "native_edges": 10,
+      "native_prefix_operations": 0,
+      "native_rich_record_checks": 10,
+      "native_states": 1,
+      "selected_identity_excluded_length": 1,
+      "selected_identity_matching": {
+        "lookup-only": 1,
+        "one-removal": 0,
+        "unrestricted": 0
+      },
+      "sessions": 2,
+      "witness_coverage": [
+        {
+          "excluded_bindings": 2,
+          "indices": [
+            7
+          ],
+          "requests": [
+            [
+              "client",
+              "row-1",
+              "remove"
+            ]
+          ]
+        }
+      ],
+      "work": {
+        "per-binding-product": {
+          "bindings": 2,
+          "graph_cells": 16,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 16,
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 2,
+          "graph_cells": 16,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 16,
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 2,
+          "graph_cells": 10,
+          "index_memberships_created": 2,
+          "index_memberships_removed": 0,
+          "matching": 2,
+          "peak_cached_memberships": 2,
+          "replay_steps": 0,
+          "semantic_steps": 10,
+          "support_queries": 5
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 2,
+          "graph_cells": 20,
+          "index_memberships_created": 4,
+          "index_memberships_removed": 4,
+          "matching": 0,
+          "peak_cached_memberships": 4,
+          "replay_steps": 2,
+          "semantic_steps": 12,
+          "support_queries": 8
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 2,
+          "graph_cells": 10,
+          "index_memberships_created": 4,
+          "index_memberships_removed": 4,
+          "matching": 0,
+          "peak_cached_memberships": 4,
+          "replay_steps": 2,
+          "semantic_steps": 12,
+          "support_queries": 8
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 2,
+          "graph_cells": 10,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 2,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 10,
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 2,
+          "graph_cells": 20,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 16,
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 2,
+          "graph_cells": 10,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 16,
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 2,
+          "graph_cells": 10,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 2,
+          "semantic_steps": 16,
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 2,
+          "graph_cells": 10,
+          "index_memberships_created": 4,
+          "index_memberships_removed": 4,
+          "matching": 0,
+          "peak_cached_memberships": 4,
+          "replay_steps": 2,
+          "semantic_steps": 12,
+          "support_queries": 8
+        }
+      }
+    },
+    {
+      "anchored_families": [
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1"
+          },
+          "exact_restriction_check": true,
+          "excluded": 1,
+          "family_members": 2,
+          "matching": 1,
+          "name": "first-1-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 0,
+          "family_members": 1,
+          "matching": 1,
+          "name": "first-2-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 2,
+          "family_members": 2,
+          "matching": 0,
+          "name": "inconsistent-first-row"
+        }
+      ],
+      "arm": "baseline",
+      "caller_outcomes": {
+        "lookup-only": {
+          "excluded": 0,
+          "matching": 6,
+          "shortest_excluded_length": null
+        },
+        "one-removal": {
+          "excluded": 5,
+          "matching": 1,
+          "shortest_excluded_length": 2
+        },
+        "unrestricted": {
+          "excluded": 5,
+          "matching": 1,
+          "shortest_excluded_length": 2
+        }
+      },
+      "cartesian_family_members": 27,
+      "distinct_native_words_requested": 2,
+      "family_members": 6,
+      "id": "sessions-3-baseline",
+      "native_edges": 112,
+      "native_prefix_operations": 168,
+      "native_rich_record_checks": 280,
+      "native_states": 8,
+      "selected_identity_excluded_length": 1,
+      "selected_identity_matching": {
+        "lookup-only": 1,
+        "one-removal": 1,
+        "unrestricted": 1
+      },
+      "sessions": 3,
+      "witness_coverage": [
+        {
+          "excluded_bindings": 4,
+          "indices": [
+            9,
+            0
+          ],
+          "requests": [
+            [
+              "client",
+              "row-1",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-1",
+              "lookup"
+            ]
+          ]
+        },
+        {
+          "excluded_bindings": 1,
+          "indices": [
+            11,
+            2
+          ],
+          "requests": [
+            [
+              "client",
+              "row-2",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-2",
+              "lookup"
+            ]
+          ]
+        }
+      ],
+      "work": {
+        "per-binding-product": {
+          "bindings": 6,
+          "graph_cells": 203,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 10,
+          "semantic_steps": 203,
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 6,
+          "graph_cells": 203,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 10,
+          "semantic_steps": 203,
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 6,
+          "graph_cells": 14,
+          "index_memberships_created": 6,
+          "index_memberships_removed": 0,
+          "matching": 6,
+          "peak_cached_memberships": 6,
+          "replay_steps": 0,
+          "semantic_steps": 42,
+          "support_queries": 7
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 6,
+          "graph_cells": 70,
+          "index_memberships_created": 21,
+          "index_memberships_removed": 16,
+          "matching": 1,
+          "peak_cached_memberships": 18,
+          "replay_steps": 10,
+          "semantic_steps": 125,
+          "support_queries": 42
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 6,
+          "graph_cells": 112,
+          "index_memberships_created": 24,
+          "index_memberships_removed": 16,
+          "matching": 1,
+          "peak_cached_memberships": 18,
+          "replay_steps": 10,
+          "semantic_steps": 160,
+          "support_queries": 112
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 6,
+          "graph_cells": 14,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 6,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 42,
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 6,
+          "graph_cells": 70,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 10,
+          "semantic_steps": 160,
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 6,
+          "graph_cells": 112,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 10,
+          "semantic_steps": 203,
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 6,
+          "graph_cells": 112,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 10,
+          "semantic_steps": 203,
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 6,
+          "graph_cells": 112,
+          "index_memberships_created": 24,
+          "index_memberships_removed": 16,
+          "matching": 1,
+          "peak_cached_memberships": 18,
+          "replay_steps": 10,
+          "semantic_steps": 160,
+          "support_queries": 112
+        }
+      }
+    },
+    {
+      "anchored_families": [
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1"
+          },
+          "exact_restriction_check": true,
+          "excluded": 2,
+          "family_members": 2,
+          "matching": 0,
+          "name": "first-1-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 1,
+          "family_members": 1,
+          "matching": 0,
+          "name": "first-2-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 2,
+          "family_members": 2,
+          "matching": 0,
+          "name": "inconsistent-first-row"
+        }
+      ],
+      "arm": "omit-delete",
+      "caller_outcomes": {
+        "lookup-only": {
+          "excluded": 0,
+          "matching": 6,
+          "shortest_excluded_length": null
+        },
+        "one-removal": {
+          "excluded": 6,
+          "matching": 0,
+          "shortest_excluded_length": 1
+        },
+        "unrestricted": {
+          "excluded": 6,
+          "matching": 0,
+          "shortest_excluded_length": 1
+        }
+      },
+      "cartesian_family_members": 27,
+      "distinct_native_words_requested": 1,
+      "family_members": 6,
+      "id": "sessions-3-omit-delete",
+      "native_edges": 14,
+      "native_prefix_operations": 0,
+      "native_rich_record_checks": 14,
+      "native_states": 1,
+      "selected_identity_excluded_length": 1,
+      "selected_identity_matching": {
+        "lookup-only": 1,
+        "one-removal": 0,
+        "unrestricted": 0
+      },
+      "sessions": 3,
+      "witness_coverage": [
+        {
+          "excluded_bindings": 6,
+          "indices": [
+            9
+          ],
+          "requests": [
+            [
+              "client",
+              "row-1",
+              "remove"
+            ]
+          ]
+        }
+      ],
+      "work": {
+        "per-binding-product": {
+          "bindings": 6,
+          "graph_cells": 60,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 6,
+          "semantic_steps": 60,
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 6,
+          "graph_cells": 60,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 6,
+          "semantic_steps": 60,
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 6,
+          "graph_cells": 14,
+          "index_memberships_created": 6,
+          "index_memberships_removed": 0,
+          "matching": 6,
+          "peak_cached_memberships": 6,
+          "replay_steps": 0,
+          "semantic_steps": 42,
+          "support_queries": 7
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 6,
+          "graph_cells": 28,
+          "index_memberships_created": 12,
+          "index_memberships_removed": 12,
+          "matching": 0,
+          "peak_cached_memberships": 12,
+          "replay_steps": 6,
+          "semantic_steps": 35,
+          "support_queries": 10
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 6,
+          "graph_cells": 14,
+          "index_memberships_created": 12,
+          "index_memberships_removed": 12,
+          "matching": 0,
+          "peak_cached_memberships": 12,
+          "replay_steps": 6,
+          "semantic_steps": 35,
+          "support_queries": 10
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 6,
+          "graph_cells": 14,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 6,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 42,
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 6,
+          "graph_cells": 28,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 6,
+          "semantic_steps": 60,
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 6,
+          "graph_cells": 14,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 6,
+          "semantic_steps": 60,
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 6,
+          "graph_cells": 14,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 6,
+          "semantic_steps": 60,
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 6,
+          "graph_cells": 14,
+          "index_memberships_created": 12,
+          "index_memberships_removed": 12,
+          "matching": 0,
+          "peak_cached_memberships": 12,
+          "replay_steps": 6,
+          "semantic_steps": 35,
+          "support_queries": 10
+        }
+      }
+    },
+    {
+      "anchored_families": [
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1"
+          },
+          "exact_restriction_check": true,
+          "excluded": 5,
+          "family_members": 6,
+          "matching": 1,
+          "name": "first-1-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 1,
+          "family_members": 2,
+          "matching": 1,
+          "name": "first-2-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2",
+            "credential-for-row-3": "credential-3"
+          },
+          "exact_restriction_check": true,
+          "excluded": 0,
+          "family_members": 1,
+          "matching": 1,
+          "name": "first-3-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 6,
+          "family_members": 6,
+          "matching": 0,
+          "name": "inconsistent-first-row"
+        }
+      ],
+      "arm": "baseline",
+      "caller_outcomes": {
+        "lookup-only": {
+          "excluded": 0,
+          "matching": 24,
+          "shortest_excluded_length": null
+        },
+        "one-removal": {
+          "excluded": 23,
+          "matching": 1,
+          "shortest_excluded_length": 2
+        },
+        "unrestricted": {
+          "excluded": 23,
+          "matching": 1,
+          "shortest_excluded_length": 2
+        }
+      },
+      "cartesian_family_members": 256,
+      "distinct_native_words_requested": 3,
+      "family_members": 24,
+      "id": "sessions-4-baseline",
+      "native_edges": 288,
+      "native_prefix_operations": 576,
+      "native_rich_record_checks": 864,
+      "native_states": 16,
+      "selected_identity_excluded_length": 1,
+      "selected_identity_matching": {
+        "lookup-only": 1,
+        "one-removal": 1,
+        "unrestricted": 1
+      },
+      "sessions": 4,
+      "witness_coverage": [
+        {
+          "excluded_bindings": 18,
+          "indices": [
+            11,
+            0
+          ],
+          "requests": [
+            [
+              "client",
+              "row-1",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-1",
+              "lookup"
+            ]
+          ]
+        },
+        {
+          "excluded_bindings": 4,
+          "indices": [
+            13,
+            2
+          ],
+          "requests": [
+            [
+              "client",
+              "row-2",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-2",
+              "lookup"
+            ]
+          ]
+        },
+        {
+          "excluded_bindings": 1,
+          "indices": [
+            15,
+            4
+          ],
+          "requests": [
+            [
+              "client",
+              "row-3",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-3",
+              "lookup"
+            ]
+          ]
+        }
+      ],
+      "work": {
+        "per-binding-product": {
+          "bindings": 24,
+          "graph_cells": 845,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 46,
+          "semantic_steps": 845,
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 24,
+          "graph_cells": 845,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 46,
+          "semantic_steps": 845,
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 24,
+          "graph_cells": 18,
+          "index_memberships_created": 24,
+          "index_memberships_removed": 0,
+          "matching": 24,
+          "peak_cached_memberships": 24,
+          "replay_steps": 0,
+          "semantic_steps": 216,
+          "support_queries": 9
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 24,
+          "graph_cells": 108,
+          "index_memberships_created": 81,
+          "index_memberships_removed": 75,
+          "matching": 1,
+          "peak_cached_memberships": 72,
+          "replay_steps": 46,
+          "semantic_steps": 560,
+          "support_queries": 63
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 24,
+          "graph_cells": 288,
+          "index_memberships_created": 91,
+          "index_memberships_removed": 75,
+          "matching": 1,
+          "peak_cached_memberships": 72,
+          "replay_steps": 46,
+          "semantic_steps": 578,
+          "support_queries": 288
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 24,
+          "graph_cells": 18,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 24,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 216,
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 24,
+          "graph_cells": 108,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 46,
+          "semantic_steps": 767,
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 24,
+          "graph_cells": 288,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 46,
+          "semantic_steps": 845,
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 24,
+          "graph_cells": 288,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 46,
+          "semantic_steps": 845,
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 24,
+          "graph_cells": 288,
+          "index_memberships_created": 91,
+          "index_memberships_removed": 75,
+          "matching": 1,
+          "peak_cached_memberships": 72,
+          "replay_steps": 46,
+          "semantic_steps": 578,
+          "support_queries": 288
+        }
+      }
+    },
+    {
+      "anchored_families": [
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1"
+          },
+          "exact_restriction_check": true,
+          "excluded": 6,
+          "family_members": 6,
+          "matching": 0,
+          "name": "first-1-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 2,
+          "family_members": 2,
+          "matching": 0,
+          "name": "first-2-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2",
+            "credential-for-row-3": "credential-3"
+          },
+          "exact_restriction_check": true,
+          "excluded": 1,
+          "family_members": 1,
+          "matching": 0,
+          "name": "first-3-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 6,
+          "family_members": 6,
+          "matching": 0,
+          "name": "inconsistent-first-row"
+        }
+      ],
+      "arm": "omit-delete",
+      "caller_outcomes": {
+        "lookup-only": {
+          "excluded": 0,
+          "matching": 24,
+          "shortest_excluded_length": null
+        },
+        "one-removal": {
+          "excluded": 24,
+          "matching": 0,
+          "shortest_excluded_length": 1
+        },
+        "unrestricted": {
+          "excluded": 24,
+          "matching": 0,
+          "shortest_excluded_length": 1
+        }
+      },
+      "cartesian_family_members": 256,
+      "distinct_native_words_requested": 1,
+      "family_members": 24,
+      "id": "sessions-4-omit-delete",
+      "native_edges": 18,
+      "native_prefix_operations": 0,
+      "native_rich_record_checks": 18,
+      "native_states": 1,
+      "selected_identity_excluded_length": 1,
+      "selected_identity_matching": {
+        "lookup-only": 1,
+        "one-removal": 0,
+        "unrestricted": 0
+      },
+      "sessions": 4,
+      "witness_coverage": [
+        {
+          "excluded_bindings": 24,
+          "indices": [
+            11
+          ],
+          "requests": [
+            [
+              "client",
+              "row-1",
+              "remove"
+            ]
+          ]
+        }
+      ],
+      "work": {
+        "per-binding-product": {
+          "bindings": 24,
+          "graph_cells": 288,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 24,
+          "semantic_steps": 288,
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 24,
+          "graph_cells": 288,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 24,
+          "semantic_steps": 288,
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 24,
+          "graph_cells": 18,
+          "index_memberships_created": 24,
+          "index_memberships_removed": 0,
+          "matching": 24,
+          "peak_cached_memberships": 24,
+          "replay_steps": 0,
+          "semantic_steps": 216,
+          "support_queries": 9
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 24,
+          "graph_cells": 36,
+          "index_memberships_created": 48,
+          "index_memberships_removed": 48,
+          "matching": 0,
+          "peak_cached_memberships": 48,
+          "replay_steps": 24,
+          "semantic_steps": 150,
+          "support_queries": 12
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 24,
+          "graph_cells": 18,
+          "index_memberships_created": 48,
+          "index_memberships_removed": 48,
+          "matching": 0,
+          "peak_cached_memberships": 48,
+          "replay_steps": 24,
+          "semantic_steps": 150,
+          "support_queries": 12
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 24,
+          "graph_cells": 18,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 24,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 216,
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 24,
+          "graph_cells": 36,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 24,
+          "semantic_steps": 288,
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 24,
+          "graph_cells": 18,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 24,
+          "semantic_steps": 288,
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 24,
+          "graph_cells": 18,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 24,
+          "semantic_steps": 288,
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 24,
+          "graph_cells": 18,
+          "index_memberships_created": 48,
+          "index_memberships_removed": 48,
+          "matching": 0,
+          "peak_cached_memberships": 48,
+          "replay_steps": 24,
+          "semantic_steps": 150,
+          "support_queries": 12
+        }
+      }
+    },
+    {
+      "anchored_families": [
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1"
+          },
+          "exact_restriction_check": true,
+          "excluded": 23,
+          "family_members": 24,
+          "matching": 1,
+          "name": "first-1-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 5,
+          "family_members": 6,
+          "matching": 1,
+          "name": "first-2-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2",
+            "credential-for-row-3": "credential-3"
+          },
+          "exact_restriction_check": true,
+          "excluded": 1,
+          "family_members": 2,
+          "matching": 1,
+          "name": "first-3-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2",
+            "credential-for-row-3": "credential-3",
+            "credential-for-row-4": "credential-4"
+          },
+          "exact_restriction_check": true,
+          "excluded": 0,
+          "family_members": 1,
+          "matching": 1,
+          "name": "first-4-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 24,
+          "family_members": 24,
+          "matching": 0,
+          "name": "inconsistent-first-row"
+        }
+      ],
+      "arm": "baseline",
+      "caller_outcomes": {
+        "lookup-only": {
+          "excluded": 0,
+          "matching": 120,
+          "shortest_excluded_length": null
+        },
+        "one-removal": {
+          "excluded": 119,
+          "matching": 1,
+          "shortest_excluded_length": 2
+        },
+        "unrestricted": {
+          "excluded": 119,
+          "matching": 1,
+          "shortest_excluded_length": 2
+        }
+      },
+      "cartesian_family_members": 3125,
+      "distinct_native_words_requested": 4,
+      "family_members": 120,
+      "id": "sessions-5-baseline",
+      "native_edges": 704,
+      "native_prefix_operations": 1760,
+      "native_rich_record_checks": 2464,
+      "native_states": 32,
+      "selected_identity_excluded_length": 1,
+      "selected_identity_matching": {
+        "lookup-only": 1,
+        "one-removal": 1,
+        "unrestricted": 1
+      },
+      "sessions": 5,
+      "witness_coverage": [
+        {
+          "excluded_bindings": 96,
+          "indices": [
+            13,
+            0
+          ],
+          "requests": [
+            [
+              "client",
+              "row-1",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-1",
+              "lookup"
+            ]
+          ]
+        },
+        {
+          "excluded_bindings": 18,
+          "indices": [
+            15,
+            2
+          ],
+          "requests": [
+            [
+              "client",
+              "row-2",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-2",
+              "lookup"
+            ]
+          ]
+        },
+        {
+          "excluded_bindings": 4,
+          "indices": [
+            17,
+            4
+          ],
+          "requests": [
+            [
+              "client",
+              "row-3",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-3",
+              "lookup"
+            ]
+          ]
+        },
+        {
+          "excluded_bindings": 1,
+          "indices": [
+            19,
+            6
+          ],
+          "requests": [
+            [
+              "client",
+              "row-4",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-4",
+              "lookup"
+            ]
+          ]
+        }
+      ],
+      "work": {
+        "per-binding-product": {
+          "bindings": 120,
+          "graph_cells": 4137,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 238,
+          "semantic_steps": 4137,
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 120,
+          "graph_cells": 4137,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 238,
+          "semantic_steps": 4137,
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 120,
+          "graph_cells": 22,
+          "index_memberships_created": 120,
+          "index_memberships_removed": 0,
+          "matching": 120,
+          "peak_cached_memberships": 120,
+          "replay_steps": 0,
+          "semantic_steps": 1320,
+          "support_queries": 11
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 120,
+          "graph_cells": 154,
+          "index_memberships_created": 393,
+          "index_memberships_removed": 386,
+          "matching": 1,
+          "peak_cached_memberships": 360,
+          "replay_steps": 238,
+          "semantic_steps": 3173,
+          "support_queries": 88
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 120,
+          "graph_cells": 704,
+          "index_memberships_created": 418,
+          "index_memberships_removed": 386,
+          "matching": 1,
+          "peak_cached_memberships": 360,
+          "replay_steps": 238,
+          "semantic_steps": 2480,
+          "support_queries": 704
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 120,
+          "graph_cells": 22,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 120,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 1320,
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 120,
+          "graph_cells": 154,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 238,
+          "semantic_steps": 4482,
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 120,
+          "graph_cells": 704,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 238,
+          "semantic_steps": 4137,
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 120,
+          "graph_cells": 704,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 238,
+          "semantic_steps": 4137,
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 120,
+          "graph_cells": 704,
+          "index_memberships_created": 418,
+          "index_memberships_removed": 386,
+          "matching": 1,
+          "peak_cached_memberships": 360,
+          "replay_steps": 238,
+          "semantic_steps": 2480,
+          "support_queries": 704
+        }
+      }
+    },
+    {
+      "anchored_families": [
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1"
+          },
+          "exact_restriction_check": true,
+          "excluded": 24,
+          "family_members": 24,
+          "matching": 0,
+          "name": "first-1-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 6,
+          "family_members": 6,
+          "matching": 0,
+          "name": "first-2-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2",
+            "credential-for-row-3": "credential-3"
+          },
+          "exact_restriction_check": true,
+          "excluded": 2,
+          "family_members": 2,
+          "matching": 0,
+          "name": "first-3-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2",
+            "credential-for-row-3": "credential-3",
+            "credential-for-row-4": "credential-4"
+          },
+          "exact_restriction_check": true,
+          "excluded": 1,
+          "family_members": 1,
+          "matching": 0,
+          "name": "first-4-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 24,
+          "family_members": 24,
+          "matching": 0,
+          "name": "inconsistent-first-row"
+        }
+      ],
+      "arm": "omit-delete",
+      "caller_outcomes": {
+        "lookup-only": {
+          "excluded": 0,
+          "matching": 120,
+          "shortest_excluded_length": null
+        },
+        "one-removal": {
+          "excluded": 120,
+          "matching": 0,
+          "shortest_excluded_length": 1
+        },
+        "unrestricted": {
+          "excluded": 120,
+          "matching": 0,
+          "shortest_excluded_length": 1
+        }
+      },
+      "cartesian_family_members": 3125,
+      "distinct_native_words_requested": 1,
+      "family_members": 120,
+      "id": "sessions-5-omit-delete",
+      "native_edges": 22,
+      "native_prefix_operations": 0,
+      "native_rich_record_checks": 22,
+      "native_states": 1,
+      "selected_identity_excluded_length": 1,
+      "selected_identity_matching": {
+        "lookup-only": 1,
+        "one-removal": 0,
+        "unrestricted": 0
+      },
+      "sessions": 5,
+      "witness_coverage": [
+        {
+          "excluded_bindings": 120,
+          "indices": [
+            13
+          ],
+          "requests": [
+            [
+              "client",
+              "row-1",
+              "remove"
+            ]
+          ]
+        }
+      ],
+      "work": {
+        "per-binding-product": {
+          "bindings": 120,
+          "graph_cells": 1680,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 120,
+          "semantic_steps": 1680,
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 120,
+          "graph_cells": 1680,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 120,
+          "semantic_steps": 1680,
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 120,
+          "graph_cells": 22,
+          "index_memberships_created": 120,
+          "index_memberships_removed": 0,
+          "matching": 120,
+          "peak_cached_memberships": 120,
+          "replay_steps": 0,
+          "semantic_steps": 1320,
+          "support_queries": 11
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 120,
+          "graph_cells": 44,
+          "index_memberships_created": 240,
+          "index_memberships_removed": 240,
+          "matching": 0,
+          "peak_cached_memberships": 240,
+          "replay_steps": 120,
+          "semantic_steps": 847,
+          "support_queries": 14
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 120,
+          "graph_cells": 22,
+          "index_memberships_created": 240,
+          "index_memberships_removed": 240,
+          "matching": 0,
+          "peak_cached_memberships": 240,
+          "replay_steps": 120,
+          "semantic_steps": 847,
+          "support_queries": 14
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 120,
+          "graph_cells": 22,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 120,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 1320,
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 120,
+          "graph_cells": 44,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 120,
+          "semantic_steps": 1680,
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 120,
+          "graph_cells": 22,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 120,
+          "semantic_steps": 1680,
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 120,
+          "graph_cells": 22,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 120,
+          "semantic_steps": 1680,
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 120,
+          "graph_cells": 22,
+          "index_memberships_created": 240,
+          "index_memberships_removed": 240,
+          "matching": 0,
+          "peak_cached_memberships": 240,
+          "replay_steps": 120,
+          "semantic_steps": 847,
+          "support_queries": 14
+        }
+      }
+    },
+    {
+      "anchored_families": [
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1"
+          },
+          "exact_restriction_check": true,
+          "excluded": 119,
+          "family_members": 120,
+          "matching": 1,
+          "name": "first-1-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 23,
+          "family_members": 24,
+          "matching": 1,
+          "name": "first-2-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2",
+            "credential-for-row-3": "credential-3"
+          },
+          "exact_restriction_check": true,
+          "excluded": 5,
+          "family_members": 6,
+          "matching": 1,
+          "name": "first-3-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2",
+            "credential-for-row-3": "credential-3",
+            "credential-for-row-4": "credential-4"
+          },
+          "exact_restriction_check": true,
+          "excluded": 1,
+          "family_members": 2,
+          "matching": 1,
+          "name": "first-4-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2",
+            "credential-for-row-3": "credential-3",
+            "credential-for-row-4": "credential-4",
+            "credential-for-row-5": "credential-5"
+          },
+          "exact_restriction_check": true,
+          "excluded": 0,
+          "family_members": 1,
+          "matching": 1,
+          "name": "first-5-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 120,
+          "family_members": 120,
+          "matching": 0,
+          "name": "inconsistent-first-row"
+        }
+      ],
+      "arm": "baseline",
+      "caller_outcomes": {
+        "lookup-only": {
+          "excluded": 0,
+          "matching": 720,
+          "shortest_excluded_length": null
+        },
+        "one-removal": {
+          "excluded": 719,
+          "matching": 1,
+          "shortest_excluded_length": 2
+        },
+        "unrestricted": {
+          "excluded": 719,
+          "matching": 1,
+          "shortest_excluded_length": 2
+        }
+      },
+      "cartesian_family_members": 46656,
+      "distinct_native_words_requested": 5,
+      "family_members": 720,
+      "id": "sessions-6-baseline",
+      "native_edges": 1664,
+      "native_prefix_operations": 4992,
+      "native_rich_record_checks": 6656,
+      "native_states": 64,
+      "selected_identity_excluded_length": 1,
+      "selected_identity_matching": {
+        "lookup-only": 1,
+        "one-removal": 1,
+        "unrestricted": 1
+      },
+      "sessions": 6,
+      "witness_coverage": [
+        {
+          "excluded_bindings": 600,
+          "indices": [
+            15,
+            0
+          ],
+          "requests": [
+            [
+              "client",
+              "row-1",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-1",
+              "lookup"
+            ]
+          ]
+        },
+        {
+          "excluded_bindings": 96,
+          "indices": [
+            17,
+            2
+          ],
+          "requests": [
+            [
+              "client",
+              "row-2",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-2",
+              "lookup"
+            ]
+          ]
+        },
+        {
+          "excluded_bindings": 18,
+          "indices": [
+            19,
+            4
+          ],
+          "requests": [
+            [
+              "client",
+              "row-3",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-3",
+              "lookup"
+            ]
+          ]
+        },
+        {
+          "excluded_bindings": 4,
+          "indices": [
+            21,
+            6
+          ],
+          "requests": [
+            [
+              "client",
+              "row-4",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-4",
+              "lookup"
+            ]
+          ]
+        },
+        {
+          "excluded_bindings": 1,
+          "indices": [
+            23,
+            8
+          ],
+          "requests": [
+            [
+              "client",
+              "row-5",
+              "remove"
+            ],
+            [
+              "client",
+              "credential-5",
+              "lookup"
+            ]
+          ]
+        }
+      ],
+      "work": {
+        "per-binding-product": {
+          "bindings": 720,
+          "graph_cells": 25221,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 1438,
+          "semantic_steps": 25221,
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 720,
+          "graph_cells": 25221,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 1438,
+          "semantic_steps": 25221,
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 720,
+          "graph_cells": 26,
+          "index_memberships_created": 720,
+          "index_memberships_removed": 0,
+          "matching": 720,
+          "peak_cached_memberships": 720,
+          "replay_steps": 0,
+          "semantic_steps": 9360,
+          "support_queries": 13
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 720,
+          "graph_cells": 208,
+          "index_memberships_created": 2313,
+          "index_memberships_removed": 2305,
+          "matching": 1,
+          "peak_cached_memberships": 2160,
+          "replay_steps": 1438,
+          "semantic_steps": 21602,
+          "support_queries": 117
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 720,
+          "graph_cells": 1664,
+          "index_memberships_created": 2369,
+          "index_memberships_removed": 2305,
+          "matching": 1,
+          "peak_cached_memberships": 2160,
+          "replay_steps": 1438,
+          "semantic_steps": 13802,
+          "support_queries": 1664
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 720,
+          "graph_cells": 26,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 720,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 9360,
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 720,
+          "graph_cells": 208,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 1438,
+          "semantic_steps": 30949,
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 720,
+          "graph_cells": 1664,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 1438,
+          "semantic_steps": 25221,
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 720,
+          "graph_cells": 1664,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 1,
+          "peak_cached_memberships": 0,
+          "replay_steps": 1438,
+          "semantic_steps": 25221,
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 720,
+          "graph_cells": 1664,
+          "index_memberships_created": 2369,
+          "index_memberships_removed": 2305,
+          "matching": 1,
+          "peak_cached_memberships": 2160,
+          "replay_steps": 1438,
+          "semantic_steps": 13802,
+          "support_queries": 1664
+        }
+      }
+    },
+    {
+      "anchored_families": [
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1"
+          },
+          "exact_restriction_check": true,
+          "excluded": 120,
+          "family_members": 120,
+          "matching": 0,
+          "name": "first-1-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 24,
+          "family_members": 24,
+          "matching": 0,
+          "name": "first-2-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2",
+            "credential-for-row-3": "credential-3"
+          },
+          "exact_restriction_check": true,
+          "excluded": 6,
+          "family_members": 6,
+          "matching": 0,
+          "name": "first-3-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2",
+            "credential-for-row-3": "credential-3",
+            "credential-for-row-4": "credential-4"
+          },
+          "exact_restriction_check": true,
+          "excluded": 2,
+          "family_members": 2,
+          "matching": 0,
+          "name": "first-4-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-1",
+            "credential-for-row-2": "credential-2",
+            "credential-for-row-3": "credential-3",
+            "credential-for-row-4": "credential-4",
+            "credential-for-row-5": "credential-5"
+          },
+          "exact_restriction_check": true,
+          "excluded": 1,
+          "family_members": 1,
+          "matching": 0,
+          "name": "first-5-rows-known"
+        },
+        {
+          "anchor": {
+            "credential-for-row-1": "credential-2"
+          },
+          "exact_restriction_check": true,
+          "excluded": 120,
+          "family_members": 120,
+          "matching": 0,
+          "name": "inconsistent-first-row"
+        }
+      ],
+      "arm": "omit-delete",
+      "caller_outcomes": {
+        "lookup-only": {
+          "excluded": 0,
+          "matching": 720,
+          "shortest_excluded_length": null
+        },
+        "one-removal": {
+          "excluded": 720,
+          "matching": 0,
+          "shortest_excluded_length": 1
+        },
+        "unrestricted": {
+          "excluded": 720,
+          "matching": 0,
+          "shortest_excluded_length": 1
+        }
+      },
+      "cartesian_family_members": 46656,
+      "distinct_native_words_requested": 1,
+      "family_members": 720,
+      "id": "sessions-6-omit-delete",
+      "native_edges": 26,
+      "native_prefix_operations": 0,
+      "native_rich_record_checks": 26,
+      "native_states": 1,
+      "selected_identity_excluded_length": 1,
+      "selected_identity_matching": {
+        "lookup-only": 1,
+        "one-removal": 0,
+        "unrestricted": 0
+      },
+      "sessions": 6,
+      "witness_coverage": [
+        {
+          "excluded_bindings": 720,
+          "indices": [
+            15
+          ],
+          "requests": [
+            [
+              "client",
+              "row-1",
+              "remove"
+            ]
+          ]
+        }
+      ],
+      "work": {
+        "per-binding-product": {
+          "bindings": 720,
+          "graph_cells": 11520,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 720,
+          "semantic_steps": 11520,
+          "support_queries": 0
+        },
+        "per-binding-target": {
+          "bindings": 720,
+          "graph_cells": 11520,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 720,
+          "semantic_steps": 11520,
+          "support_queries": 0
+        },
+        "protocol-grouped/lookup-only": {
+          "bindings": 720,
+          "graph_cells": 26,
+          "index_memberships_created": 720,
+          "index_memberships_removed": 0,
+          "matching": 720,
+          "peak_cached_memberships": 720,
+          "replay_steps": 0,
+          "semantic_steps": 9360,
+          "support_queries": 13
+        },
+        "protocol-grouped/one-removal": {
+          "bindings": 720,
+          "graph_cells": 52,
+          "index_memberships_created": 1440,
+          "index_memberships_removed": 1440,
+          "matching": 0,
+          "peak_cached_memberships": 1440,
+          "replay_steps": 720,
+          "semantic_steps": 5768,
+          "support_queries": 16
+        },
+        "protocol-grouped/unrestricted": {
+          "bindings": 720,
+          "graph_cells": 26,
+          "index_memberships_created": 1440,
+          "index_memberships_removed": 1440,
+          "matching": 0,
+          "peak_cached_memberships": 1440,
+          "replay_steps": 720,
+          "semantic_steps": 5768,
+          "support_queries": 16
+        },
+        "protocol-scan/lookup-only": {
+          "bindings": 720,
+          "graph_cells": 26,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 720,
+          "peak_cached_memberships": 0,
+          "replay_steps": 0,
+          "semantic_steps": 9360,
+          "support_queries": 0
+        },
+        "protocol-scan/one-removal": {
+          "bindings": 720,
+          "graph_cells": 52,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 720,
+          "semantic_steps": 11520,
+          "support_queries": 0
+        },
+        "protocol-scan/unrestricted": {
+          "bindings": 720,
+          "graph_cells": 26,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 720,
+          "semantic_steps": 11520,
+          "support_queries": 0
+        },
+        "shared-target": {
+          "bindings": 720,
+          "graph_cells": 26,
+          "index_memberships_created": 0,
+          "index_memberships_removed": 0,
+          "matching": 0,
+          "peak_cached_memberships": 0,
+          "replay_steps": 720,
+          "semantic_steps": 11520,
+          "support_queries": 0
+        },
+        "support-indexed": {
+          "bindings": 720,
+          "graph_cells": 26,
+          "index_memberships_created": 1440,
+          "index_memberships_removed": 1440,
+          "matching": 0,
+          "peak_cached_memberships": 1440,
+          "replay_steps": 720,
+          "semantic_steps": 5768,
+          "support_queries": 16
+        }
+      }
+    }
+  ],
+  "complete_profile_comparisons": 17440,
+  "control_edges": 90,
+  "distinct_upstream_methods": 2,
+  "family_design": "Supplied bijections, enumerated exhaustively for each session count; cardinality scaling within one real source interface.",
+  "independent_oracle": "Direct session equations and an explicit reference \u00d7 target \u00d7 caller BFS; no production evaluator or support routine.",
+  "method_names": [
+    "per-binding-product",
+    "per-binding-target",
+    "shared-target",
+    "support-indexed",
+    "protocol-scan/unrestricted",
+    "protocol-grouped/unrestricted",
+    "protocol-scan/lookup-only",
+    "protocol-grouped/lookup-only",
+    "protocol-scan/one-removal",
+    "protocol-grouped/one-removal"
+  ],
+  "native_acquisition_not_in_diagnosis_timing": true,
+  "native_source_applications": 1,
+  "status": "PASS"
+}

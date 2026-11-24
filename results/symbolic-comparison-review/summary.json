@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "tasks": 158,
+  "case_method_pairs": 760,
+  "repeats": 7,
+  "processes": 42,
+  "timed_task_records": 5320,
+  "cohort_tasks": {
+    "family-cost": 38,
+    "native-policy-store": 80,
+    "session-correspondence": 40
+  },
+  "methods": [
+    "per-binding-product",
+    "per-binding-target",
+    "scan",
+    "support-indexed",
+    "finite-domain",
+    "cudd"
+  ],
+  "complete_binding_profiles": 10529,
+  "campaign_files": 89,
+  "historical_source_files": 9,
+  "original_scientific_input_files": 4,
+  "bytes_and_modification_times_unchanged": true,
+  "scope": {
+    "operation": "read-only reconciliation of retained evidence",
+    "executed_diagnosis_or_backend": false,
+    "process_identity": "one retained stdout/stderr pair and one parent receipt per method and repetition",
+    "backend_identity": "worker-reported package and runtime metadata, checked against the retained environment and dependency pins",
+    "output_identity": "canonical complete-output byte count and digest, checked against every retained legal-binding profile",
+    "limits": [
+      "The historical worker record does not retain a process identifier or executable binary digest.",
+      "The worker reports complete-output comparison; its retained digest binds that report to the expected output, not to an independent execution transcript.",
+      "This audit does not execute CUDD, repeat timings, or independently re-prove the semantic correctness of the expected profiles."
+    ]
+  }
+}

@@ -1,0 +1,8117 @@
+{
+  "counts": {
+    "configuration_profile_results": 720,
+    "production_component_comparisons": 2400,
+    "decoded_core_replay_rows": 3552,
+    "native_replay_cases": 114,
+    "native_replay_operations": 480,
+    "native_replay_http_requests": 480,
+    "negative_witnesses_reproduced": 600,
+    "upstream_tests": 30
+  },
+  "fresh_replay_check_codes": 228,
+  "profiles": [
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "original",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_readonly_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "wrong_project_context",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 2
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 15
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 18
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 15
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 18
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 15
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 18
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 15
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 18
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 15
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 18
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 15
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 18
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 13
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "omit_pause_persistence",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 5
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 5
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 5
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 5
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 5
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 5
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "legacy",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 5
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 5
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        1,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 5
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 5
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        2,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "identity"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": null
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 5
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_privilege"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 5
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_project"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "read_surface",
+      "mode": "http_status",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "complete",
+      "first_length": 1
+    },
+    {
+      "case": [
+        "reject_readonly_get",
+        "hashed",
+        3,
+        "swap_both"
+      ],
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "first_length": 1
+    }
+  ],
+  "matching_profiles": [
+    {
+      "arm": "omit_pause_persistence",
+      "caller": "lifecycle",
+      "mode": "complete",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "omit_pause_persistence",
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "omit_pause_persistence",
+      "caller": "read_surface",
+      "mode": "complete",
+      "matching_of_24": 6
+    },
+    {
+      "arm": "omit_pause_persistence",
+      "caller": "read_surface",
+      "mode": "http_status",
+      "matching_of_24": 12
+    },
+    {
+      "arm": "omit_pause_persistence",
+      "caller": "single_check_read",
+      "mode": "complete",
+      "matching_of_24": 6
+    },
+    {
+      "arm": "omit_pause_persistence",
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "matching_of_24": 12
+    },
+    {
+      "arm": "omit_readonly_context",
+      "caller": "lifecycle",
+      "mode": "complete",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "omit_readonly_context",
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "matching_of_24": 6
+    },
+    {
+      "arm": "omit_readonly_context",
+      "caller": "read_surface",
+      "mode": "complete",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "omit_readonly_context",
+      "caller": "read_surface",
+      "mode": "http_status",
+      "matching_of_24": 12
+    },
+    {
+      "arm": "omit_readonly_context",
+      "caller": "single_check_read",
+      "mode": "complete",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "omit_readonly_context",
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "matching_of_24": 12
+    },
+    {
+      "arm": "original",
+      "caller": "lifecycle",
+      "mode": "complete",
+      "matching_of_24": 6
+    },
+    {
+      "arm": "original",
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "matching_of_24": 6
+    },
+    {
+      "arm": "original",
+      "caller": "read_surface",
+      "mode": "complete",
+      "matching_of_24": 6
+    },
+    {
+      "arm": "original",
+      "caller": "read_surface",
+      "mode": "http_status",
+      "matching_of_24": 12
+    },
+    {
+      "arm": "original",
+      "caller": "single_check_read",
+      "mode": "complete",
+      "matching_of_24": 6
+    },
+    {
+      "arm": "original",
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "matching_of_24": 12
+    },
+    {
+      "arm": "reject_readonly_get",
+      "caller": "lifecycle",
+      "mode": "complete",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "reject_readonly_get",
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "reject_readonly_get",
+      "caller": "read_surface",
+      "mode": "complete",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "reject_readonly_get",
+      "caller": "read_surface",
+      "mode": "http_status",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "reject_readonly_get",
+      "caller": "single_check_read",
+      "mode": "complete",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "reject_readonly_get",
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "matching_of_24": 6
+    },
+    {
+      "arm": "wrong_project_context",
+      "caller": "lifecycle",
+      "mode": "complete",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "wrong_project_context",
+      "caller": "lifecycle",
+      "mode": "http_status",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "wrong_project_context",
+      "caller": "read_surface",
+      "mode": "complete",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "wrong_project_context",
+      "caller": "read_surface",
+      "mode": "http_status",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "wrong_project_context",
+      "caller": "single_check_read",
+      "mode": "complete",
+      "matching_of_24": 0
+    },
+    {
+      "arm": "wrong_project_context",
+      "caller": "single_check_read",
+      "mode": "http_status",
+      "matching_of_24": 0
+    }
+  ]
+}

@@ -1,0 +1,8630 @@
+[
+  {
+    "case_index": 1,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-001/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-001",
+        "--arm",
+        "original",
+        "--one",
+        "legacy",
+        "1",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 2,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-002/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-002",
+        "--arm",
+        "original",
+        "--one",
+        "legacy",
+        "1",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 3,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-003/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-003",
+        "--arm",
+        "original",
+        "--one",
+        "legacy",
+        "1",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 5,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-005/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-005",
+        "--arm",
+        "original",
+        "--one",
+        "legacy",
+        "2",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 6,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-006/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-006",
+        "--arm",
+        "original",
+        "--one",
+        "legacy",
+        "2",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 7,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-007/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-007",
+        "--arm",
+        "original",
+        "--one",
+        "legacy",
+        "2",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 9,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-009/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-009",
+        "--arm",
+        "original",
+        "--one",
+        "legacy",
+        "3",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 10,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-010/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-010",
+        "--arm",
+        "original",
+        "--one",
+        "legacy",
+        "3",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 11,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-011/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-011",
+        "--arm",
+        "original",
+        "--one",
+        "legacy",
+        "3",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 13,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-013/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-013",
+        "--arm",
+        "original",
+        "--one",
+        "hashed",
+        "1",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 14,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-014/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-014",
+        "--arm",
+        "original",
+        "--one",
+        "hashed",
+        "1",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 15,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-015/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-015",
+        "--arm",
+        "original",
+        "--one",
+        "hashed",
+        "1",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 17,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-017/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-017",
+        "--arm",
+        "original",
+        "--one",
+        "hashed",
+        "2",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 18,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-018/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-018",
+        "--arm",
+        "original",
+        "--one",
+        "hashed",
+        "2",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 19,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-019/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-019",
+        "--arm",
+        "original",
+        "--one",
+        "hashed",
+        "2",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 21,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-021/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-021",
+        "--arm",
+        "original",
+        "--one",
+        "hashed",
+        "3",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 22,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-022/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-022",
+        "--arm",
+        "original",
+        "--one",
+        "hashed",
+        "3",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 23,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-023/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-023",
+        "--arm",
+        "original",
+        "--one",
+        "hashed",
+        "3",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"original\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 24,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-024/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-024",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "legacy",
+        "1",
+        "identity",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 25,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-025/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-025",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "legacy",
+        "1",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 26,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-026/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-026",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "legacy",
+        "1",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 27,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-027/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-027",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "legacy",
+        "1",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 28,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-028/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-028",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "legacy",
+        "2",
+        "identity",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 29,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-029/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-029",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "legacy",
+        "2",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 30,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-030/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-030",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "legacy",
+        "2",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 31,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-031/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-031",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "legacy",
+        "2",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 32,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-032/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-032",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "legacy",
+        "3",
+        "identity",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 33,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-033/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-033",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "legacy",
+        "3",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 34,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-034/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-034",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "legacy",
+        "3",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 35,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-035/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-035",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "legacy",
+        "3",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 36,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-036/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-036",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "hashed",
+        "1",
+        "identity",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 37,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-037/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-037",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "hashed",
+        "1",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 38,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-038/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-038",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "hashed",
+        "1",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 39,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-039/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-039",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "hashed",
+        "1",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 40,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-040/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-040",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "hashed",
+        "2",
+        "identity",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 41,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-041/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-041",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "hashed",
+        "2",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 42,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-042/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-042",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "hashed",
+        "2",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 43,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-043/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-043",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "hashed",
+        "2",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 44,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-044/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-044",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "hashed",
+        "3",
+        "identity",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 45,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-045/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-045",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "hashed",
+        "3",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 46,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-046/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-046",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "hashed",
+        "3",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 47,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-047/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-047",
+        "--arm",
+        "omit_readonly_context",
+        "--one",
+        "hashed",
+        "3",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_readonly_context\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 48,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-048/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-048",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "legacy",
+        "1",
+        "identity",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 49,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-049/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-049",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "legacy",
+        "1",
+        "swap_privilege",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 50,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-050/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-050",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "legacy",
+        "1",
+        "swap_project",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 51,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-051/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-051",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "legacy",
+        "1",
+        "swap_both",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 52,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-052/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-052",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "legacy",
+        "2",
+        "identity",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 53,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-053/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-053",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "legacy",
+        "2",
+        "swap_privilege",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 54,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-054/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-054",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "legacy",
+        "2",
+        "swap_project",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 55,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-055/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-055",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "legacy",
+        "2",
+        "swap_both",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 56,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-056/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-056",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "legacy",
+        "3",
+        "identity",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 57,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-057/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-057",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "legacy",
+        "3",
+        "swap_privilege",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 58,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-058/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-058",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "legacy",
+        "3",
+        "swap_project",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 59,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-059/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-059",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "legacy",
+        "3",
+        "swap_both",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 60,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-060/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-060",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "hashed",
+        "1",
+        "identity",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 61,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-061/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-061",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "hashed",
+        "1",
+        "swap_privilege",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 62,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-062/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-062",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "hashed",
+        "1",
+        "swap_project",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 63,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-063/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-063",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "hashed",
+        "1",
+        "swap_both",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 64,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-064/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-064",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "hashed",
+        "2",
+        "identity",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 65,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-065/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-065",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "hashed",
+        "2",
+        "swap_privilege",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 66,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-066/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-066",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "hashed",
+        "2",
+        "swap_project",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 67,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-067/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-067",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "hashed",
+        "2",
+        "swap_both",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 68,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-068/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-068",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "hashed",
+        "3",
+        "identity",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 69,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-069/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-069",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "hashed",
+        "3",
+        "swap_privilege",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 70,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-070/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-070",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "hashed",
+        "3",
+        "swap_project",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 71,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1
+        ],
+        "length": 2,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 2,
+    "native_record": "native-replay/case-071/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-071",
+        "--arm",
+        "wrong_project_context",
+        "--one",
+        "hashed",
+        "3",
+        "swap_both",
+        "--limit",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"wrong_project_context\", \"cases\": 1, \"operations\": 2, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 72,
+    "checked_witnesses": [
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "length": 15,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "length": 18,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 18,
+    "native_record": "native-replay/case-072/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-072",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "legacy",
+        "1",
+        "identity",
+        "--limit",
+        "18"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 18, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 73,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-073/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-073",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "legacy",
+        "1",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 74,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-074/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-074",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "legacy",
+        "1",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 75,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-075/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-075",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "legacy",
+        "1",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 76,
+    "checked_witnesses": [
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "length": 15,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "length": 18,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 18,
+    "native_record": "native-replay/case-076/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-076",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "legacy",
+        "2",
+        "identity",
+        "--limit",
+        "18"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 18, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 77,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-077/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-077",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "legacy",
+        "2",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 78,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-078/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-078",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "legacy",
+        "2",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 79,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-079/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-079",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "legacy",
+        "2",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 80,
+    "checked_witnesses": [
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "length": 15,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "length": 18,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 18,
+    "native_record": "native-replay/case-080/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-080",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "legacy",
+        "3",
+        "identity",
+        "--limit",
+        "18"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 18, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 81,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-081/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-081",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "legacy",
+        "3",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 82,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-082/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-082",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "legacy",
+        "3",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 83,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-083/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-083",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "legacy",
+        "3",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 84,
+    "checked_witnesses": [
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "length": 15,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "length": 18,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 18,
+    "native_record": "native-replay/case-084/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-084",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "hashed",
+        "1",
+        "identity",
+        "--limit",
+        "18"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 18, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 85,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-085/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-085",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "hashed",
+        "1",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 86,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-086/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-086",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "hashed",
+        "1",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 87,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-087/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-087",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "hashed",
+        "1",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 88,
+    "checked_witnesses": [
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "length": 15,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "length": 18,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 18,
+    "native_record": "native-replay/case-088/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-088",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "hashed",
+        "2",
+        "identity",
+        "--limit",
+        "18"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 18, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 89,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-089/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-089",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "hashed",
+        "2",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 90,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-090/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-090",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "hashed",
+        "2",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 91,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-091/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-091",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "hashed",
+        "2",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 92,
+    "checked_witnesses": [
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "length": 15,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "length": 18,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 18,
+    "native_record": "native-replay/case-092/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-092",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "hashed",
+        "3",
+        "identity",
+        "--limit",
+        "18"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 18, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 93,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "length": 13,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 13,
+    "native_record": "native-replay/case-093/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-093",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "hashed",
+        "3",
+        "swap_privilege",
+        "--limit",
+        "13"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 13, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 94,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-094/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-094",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "hashed",
+        "3",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 95,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-095/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-095",
+        "--arm",
+        "omit_pause_persistence",
+        "--one",
+        "hashed",
+        "3",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"omit_pause_persistence\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 96,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-096/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-096",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "legacy",
+        "1",
+        "identity",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 97,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "length": 5,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "length": 5,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 5,
+    "native_record": "native-replay/case-097/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-097",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "legacy",
+        "1",
+        "swap_privilege",
+        "--limit",
+        "5"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 5, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 98,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-098/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-098",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "legacy",
+        "1",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 99,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-099/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-099",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "legacy",
+        "1",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 100,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-100/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-100",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "legacy",
+        "2",
+        "identity",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 101,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "length": 5,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "length": 5,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 5,
+    "native_record": "native-replay/case-101/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-101",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "legacy",
+        "2",
+        "swap_privilege",
+        "--limit",
+        "5"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 5, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 102,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-102/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-102",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "legacy",
+        "2",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 103,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-103/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-103",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "legacy",
+        "2",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 104,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-104/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-104",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "legacy",
+        "3",
+        "identity",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 105,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "length": 5,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "length": 5,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 5,
+    "native_record": "native-replay/case-105/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-105",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "legacy",
+        "3",
+        "swap_privilege",
+        "--limit",
+        "5"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 5, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 106,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-106/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-106",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "legacy",
+        "3",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 107,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-107/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-107",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "legacy",
+        "3",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 108,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-108/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-108",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "hashed",
+        "1",
+        "identity",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 109,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "length": 5,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "length": 5,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 5,
+    "native_record": "native-replay/case-109/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-109",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "hashed",
+        "1",
+        "swap_privilege",
+        "--limit",
+        "5"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 5, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 110,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-110/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-110",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "hashed",
+        "1",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 111,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-111/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-111",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "hashed",
+        "1",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 112,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-112/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-112",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "hashed",
+        "2",
+        "identity",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 113,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "length": 5,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "length": 5,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 5,
+    "native_record": "native-replay/case-113/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-113",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "hashed",
+        "2",
+        "swap_privilege",
+        "--limit",
+        "5"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 5, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 114,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-114/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-114",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "hashed",
+        "2",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 115,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-115/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-115",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "hashed",
+        "2",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 116,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-116/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-116",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "hashed",
+        "3",
+        "identity",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 117,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "length": 5,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "length": 5,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 5,
+    "native_record": "native-replay/case-117/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-117",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "hashed",
+        "3",
+        "swap_privilege",
+        "--limit",
+        "5"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 5, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 118,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-118/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-118",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "hashed",
+        "3",
+        "swap_project",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  },
+  {
+    "case_index": 119,
+    "checked_witnesses": [
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "single_check_read",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "read_surface",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "complete"
+      },
+      {
+        "caller": "lifecycle",
+        "indices": [
+          0
+        ],
+        "length": 1,
+        "mode": "http_status"
+      }
+    ],
+    "collected_prefix_length": 1,
+    "native_record": "native-replay/case-119/observations.json.gz",
+    "receipt": {
+      "command": [
+        "python3",
+        "-m",
+        "native_healthchecks.native",
+        "--source",
+        "<artifact>/results/native-healthchecks/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks/native-replay/case-119",
+        "--arm",
+        "reject_readonly_get",
+        "--one",
+        "hashed",
+        "3",
+        "swap_both",
+        "--limit",
+        "1"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\": \"reject_readonly_get\", \"cases\": 1, \"operations\": 1, \"imported_modules\": 27}\n"
+    }
+  }
+]

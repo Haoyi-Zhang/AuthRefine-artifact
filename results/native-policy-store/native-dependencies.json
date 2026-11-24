@@ -1,0 +1,77 @@
+{
+  "complete_module_import": true,
+  "no_replaced_or_stubbed_imports": true,
+  "packages": [
+    {
+      "distribution": "casbin",
+      "installed_record_sha256": "129ca1e0253aee2934a94bb928999fddc0ccb7b7e67bdd94a064619a680cbaa1",
+      "installed_version": "1.43.0",
+      "verified_installed_bytes": 1770181,
+      "verified_installed_files": 125
+    },
+    {
+      "distribution": "simpleeval",
+      "installed_record_sha256": "e648a9c10c5ad40ecae2d0c144da7cdfbc60a3e49a5686ab541884db8c66f63d",
+      "installed_version": "1.0.8",
+      "verified_installed_bytes": 54558,
+      "verified_installed_files": 5
+    },
+    {
+      "distribution": "python-jose",
+      "installed_record_sha256": "5b10a724d39062ebc1eac812f2a22ff11d25f851a0e572b7faf2ef8825c1ff7d",
+      "installed_version": "3.5.0",
+      "verified_installed_bytes": 112023,
+      "verified_installed_files": 21
+    },
+    {
+      "distribution": "cryptography",
+      "installed_record_sha256": "a775460a2412a3be9f33dcc766614124af042673766f7ca602b657791ca69129",
+      "installed_version": "50.0.2",
+      "verified_installed_bytes": 14987422,
+      "verified_installed_files": 120
+    },
+    {
+      "distribution": "cffi",
+      "installed_record_sha256": "ba1e3a64193dd0e133ff98c3419a6e91fb409538a9a31bd572ee81fcd0c3c3bf",
+      "installed_version": "2.1.1",
+      "verified_installed_bytes": 733030,
+      "verified_installed_files": 32
+    },
+    {
+      "distribution": "pycparser",
+      "installed_record_sha256": "aa4140358193698685bab079a76cdb95f9eccc370b0be2278f783657dd6d23ea",
+      "installed_version": "3.12",
+      "verified_installed_bytes": 261080,
+      "verified_installed_files": 13
+    },
+    {
+      "distribution": "ecdsa",
+      "installed_record_sha256": "f4ad4be9bc4c2345b1e0f16f607d9a1973ae820ed7f7cfc7de606dc9489e1946",
+      "installed_version": "0.19.2",
+      "verified_installed_bytes": 595117,
+      "verified_installed_files": 35
+    },
+    {
+      "distribution": "rsa",
+      "installed_record_sha256": "44cf6451886824546f554a1958e0e0e00e26db48108ece01d640ed8fcc435c03",
+      "installed_version": "4.9.1",
+      "verified_installed_bytes": 94020,
+      "verified_installed_files": 26
+    },
+    {
+      "distribution": "pyasn1",
+      "installed_record_sha256": "7bcbe99922961125830a4bc74adbad36937042fa91f5737404f244f39e968148",
+      "installed_version": "0.6.5",
+      "verified_installed_bytes": 381784,
+      "verified_installed_files": 38
+    },
+    {
+      "distribution": "six",
+      "installed_record_sha256": "bca2421b394ae3f68e3d1e382607bf181b14f891ad1626aeedb9fc98f9525f4e",
+      "installed_version": "1.17.0",
+      "verified_installed_bytes": 37544,
+      "verified_installed_files": 6
+    }
+  ],
+  "source_declaration": "casbin>=1.36,<2.0; python-jose[cryptography]>=3.3,<4.0"
+}

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/workspace/scratch/044b0c825c44/audit/deep-review/application/env/bin/python",
+    "-m",
+    "django",
+    "test",
+    "hc.api.tests.test_get_check",
+    "hc.api.tests.test_pause",
+    "hc.api.tests.test_resume",
+    "--noinput",
+    "--verbosity",
+    "1"
+  ],
+  "returncode": 0,
+  "stderr": "Creating test database for alias 'default'...\nSystem check identified some issues:\n\nWARNINGS:\n?: (hc.api.W002) No SMTP configuration, cannot send email\n\tHINT: See https://github.com/healthchecks/healthchecks#sending-emails\n?: (mail.W001) Your MAILERS setting has no 'default' entry. Sending email without a valid mailer will fail.\n\tHINT: Add a 'default' entry to MAILERS.\n\nSystem check identified 2 issues (0 silenced).\nNot Found: /api/v1/checks/not-an-uuid\n.Not Found: /api/v1/checks/07c2f548-9850-4b27-af5d-6c9dc157ec02\n..Method Not Allowed: /api/v1/checks/0fd4b8676cb28962cc9d83db2bfcbef9c39df96a\n...........Not Found: /api/v1/checks/07c2f548-9850-4b27-af5d-6c9dc157ec02/pause\n..Method Not Allowed: /api/v3/checks/acf67c25-9241-46d7-9bd4-30ecdaa56277/pause\n.Bad Request: /api/v3/checks/fc3f09c5-10f5-4c20-b249-cff5bdea9b96/pause\n.Forbidden: /api/v1/checks/5bdbead1-01da-4807-b644-0fcc4e49b860/pause\n.Not Found: /api/v1/checks/not-uuid/pause\n...Not Found: /api/v1/checks/07c2f548-9850-4b27-af5d-6c9dc157ec02/resume\n.Conflict: /api/v1/checks/51226306-2378-408d-9651-c4e809c713bb/resume\n..Method Not Allowed: /api/v1/checks/e0f3f3ae-52cf-40a5-a760-ad12ae821bac/resume\n.Bad Request: /api/v1/checks/4196d5d4-2b5a-464a-b19d-bb27f8fc48da/resume\n.Forbidden: /api/v1/checks/97503e8e-da31-48af-ba3b-10c31258c370/resume\n.Not Found: /api/v1/checks/not-uuid/resume\n..\n----------------------------------------------------------------------\nRan 30 tests in 0.153s\n\nOK\nDestroying test database for alias 'default'...\n",
+  "stdout": "Found 30 test(s).\n",
+  "test_configuration": "selected native API apps and original API URLConf; SQLite model synchronization",
+  "test_modules_unmodified": true
+}

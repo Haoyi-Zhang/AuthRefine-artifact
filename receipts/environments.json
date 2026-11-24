@@ -1,0 +1,18 @@
+{
+  "meaning": "UNAVAILABLE records an absent exact external environment; it is neither a scientific pass nor a failed executed experiment.",
+  "profiles": {
+    "framework": {
+      "reason": "the exact isolated Python environment is absent or mismatched",
+      "status": "UNAVAILABLE"
+    },
+    "proofs": {
+      "reason": "Lean is not installed on PATH",
+      "status": "UNAVAILABLE"
+    },
+    "query": {
+      "reason": "the exact isolated Python environment is absent or mismatched",
+      "status": "UNAVAILABLE"
+    }
+  },
+  "schema": 1
+}

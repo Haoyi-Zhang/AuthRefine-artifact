@@ -1,0 +1,400 @@
+{
+  "arm": "wrong_project_context",
+  "cases": [
+    {
+      "api_version": 1,
+      "directory": "word-0000",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "new",
+      "word": [
+        "get"
+      ]
+    },
+    {
+      "api_version": 1,
+      "directory": "word-0001",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "new",
+      "word": [
+        "pause"
+      ]
+    },
+    {
+      "api_version": 1,
+      "directory": "word-0002",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "new",
+      "word": [
+        "resume"
+      ]
+    },
+    {
+      "api_version": 1,
+      "directory": "word-0003",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "paused",
+      "word": [
+        "get"
+      ]
+    },
+    {
+      "api_version": 1,
+      "directory": "word-0004",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "paused",
+      "word": [
+        "pause"
+      ]
+    },
+    {
+      "api_version": 1,
+      "directory": "word-0005",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "paused",
+      "word": [
+        "resume"
+      ]
+    },
+    {
+      "api_version": 2,
+      "directory": "word-0006",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "new",
+      "word": [
+        "get"
+      ]
+    },
+    {
+      "api_version": 2,
+      "directory": "word-0007",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "new",
+      "word": [
+        "pause"
+      ]
+    },
+    {
+      "api_version": 2,
+      "directory": "word-0008",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "new",
+      "word": [
+        "resume"
+      ]
+    },
+    {
+      "api_version": 2,
+      "directory": "word-0009",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "paused",
+      "word": [
+        "get"
+      ]
+    },
+    {
+      "api_version": 2,
+      "directory": "word-0010",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "paused",
+      "word": [
+        "pause"
+      ]
+    },
+    {
+      "api_version": 2,
+      "directory": "word-0011",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "paused",
+      "word": [
+        "resume"
+      ]
+    },
+    {
+      "api_version": 3,
+      "directory": "word-0012",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "new",
+      "word": [
+        "get"
+      ]
+    },
+    {
+      "api_version": 3,
+      "directory": "word-0013",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "new",
+      "word": [
+        "pause"
+      ]
+    },
+    {
+      "api_version": 3,
+      "directory": "word-0014",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "new",
+      "word": [
+        "resume"
+      ]
+    },
+    {
+      "api_version": 3,
+      "directory": "word-0015",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "paused",
+      "word": [
+        "get"
+      ]
+    },
+    {
+      "api_version": 3,
+      "directory": "word-0016",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "paused",
+      "word": [
+        "pause"
+      ]
+    },
+    {
+      "api_version": 3,
+      "directory": "word-0017",
+      "edges": 1,
+      "format": "legacy",
+      "initial_status": "paused",
+      "word": [
+        "resume"
+      ]
+    },
+    {
+      "api_version": 1,
+      "directory": "word-0018",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "new",
+      "word": [
+        "get"
+      ]
+    },
+    {
+      "api_version": 1,
+      "directory": "word-0019",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "new",
+      "word": [
+        "pause"
+      ]
+    },
+    {
+      "api_version": 1,
+      "directory": "word-0020",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "new",
+      "word": [
+        "resume"
+      ]
+    },
+    {
+      "api_version": 1,
+      "directory": "word-0021",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "paused",
+      "word": [
+        "get"
+      ]
+    },
+    {
+      "api_version": 1,
+      "directory": "word-0022",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "paused",
+      "word": [
+        "pause"
+      ]
+    },
+    {
+      "api_version": 1,
+      "directory": "word-0023",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "paused",
+      "word": [
+        "resume"
+      ]
+    },
+    {
+      "api_version": 2,
+      "directory": "word-0024",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "new",
+      "word": [
+        "get"
+      ]
+    },
+    {
+      "api_version": 2,
+      "directory": "word-0025",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "new",
+      "word": [
+        "pause"
+      ]
+    },
+    {
+      "api_version": 2,
+      "directory": "word-0026",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "new",
+      "word": [
+        "resume"
+      ]
+    },
+    {
+      "api_version": 2,
+      "directory": "word-0027",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "paused",
+      "word": [
+        "get"
+      ]
+    },
+    {
+      "api_version": 2,
+      "directory": "word-0028",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "paused",
+      "word": [
+        "pause"
+      ]
+    },
+    {
+      "api_version": 2,
+      "directory": "word-0029",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "paused",
+      "word": [
+        "resume"
+      ]
+    },
+    {
+      "api_version": 3,
+      "directory": "word-0030",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "new",
+      "word": [
+        "get"
+      ]
+    },
+    {
+      "api_version": 3,
+      "directory": "word-0031",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "new",
+      "word": [
+        "pause"
+      ]
+    },
+    {
+      "api_version": 3,
+      "directory": "word-0032",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "new",
+      "word": [
+        "resume"
+      ]
+    },
+    {
+      "api_version": 3,
+      "directory": "word-0033",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "paused",
+      "word": [
+        "get"
+      ]
+    },
+    {
+      "api_version": 3,
+      "directory": "word-0034",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "paused",
+      "word": [
+        "pause"
+      ]
+    },
+    {
+      "api_version": 3,
+      "directory": "word-0035",
+      "edges": 1,
+      "format": "hashed",
+      "initial_status": "paused",
+      "word": [
+        "resume"
+      ]
+    }
+  ],
+  "checkpoint_clock_restored": false,
+  "complete_sqlite_checkpoints": true,
+  "cookie_state_preserved": true,
+  "framework": "6.1.2",
+  "imported_application_modules": {
+    "hc": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/__init__.py",
+    "hc.accounts": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/accounts/__init__.py",
+    "hc.accounts.models": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/accounts/models.py",
+    "hc.api": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/api/__init__.py",
+    "hc.api.apps": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/api/apps.py",
+    "hc.api.decorators": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/api/decorators.py",
+    "hc.api.forms": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/api/forms.py",
+    "hc.api.models": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/api/models.py",
+    "hc.api.transports": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/api/transports.py",
+    "hc.api.urls": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/api/urls.py",
+    "hc.api.views": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/api/views.py",
+    "hc.front": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/front/__init__.py",
+    "hc.front.templatetags": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/front/templatetags/__init__.py",
+    "hc.front.templatetags.hc_extras": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/front/templatetags/hc_extras.py",
+    "hc.lib": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/lib/__init__.py",
+    "hc.lib.badges": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/lib/badges.py",
+    "hc.lib.curl": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/lib/curl.py",
+    "hc.lib.date": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/lib/date.py",
+    "hc.lib.emails": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/lib/emails.py",
+    "hc.lib.s3": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/lib/s3.py",
+    "hc.lib.signing": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/lib/signing.py",
+    "hc.lib.statsd": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/lib/statsd.py",
+    "hc.lib.string": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/lib/string.py",
+    "hc.lib.typealias": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/lib/typealias.py",
+    "hc.lib.tz": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/lib/tz.py",
+    "hc.lib.urls": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/lib/urls.py",
+    "hc.settings": "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context/hc/settings.py"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "source_imports_replaced": false
+}

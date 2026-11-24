@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "family_diagnoses": 16575,
+  "target_tables": 65,
+  "explicit_families_per_target": 255,
+  "binding_profiles_checked": 66560,
+  "witness_replay_rows_checked": 127744,
+  "family_classifications": {
+    "all": 1,
+    "none": 16447,
+    "some": 127
+  },
+  "binding_shortest_lengths": {
+    "1": 16384,
+    "2": 40960,
+    "3": 6912,
+    "4": 2176,
+    "infinity": 128
+  },
+  "families_by_cardinality": {
+    "1": 520,
+    "2": 1820,
+    "3": 3640,
+    "4": 4550,
+    "5": 3640,
+    "6": 1820,
+    "7": 520,
+    "8": 65
+  },
+  "baseline": {
+    "classification": "some",
+    "strata": {
+      "infinity": 1,
+      "3": 1,
+      "2": 6
+    },
+    "cached_supports": 4,
+    "index_memberships_created": 32,
+    "index_memberships_removed": 28,
+    "peak_cached_memberships": 32,
+    "transition_evaluations": 31,
+    "replay_evaluations": 15
+  },
+  "mutation_controls": [
+    {
+      "name": "reuse-earlier-support-projection-decision",
+      "detected": true,
+      "reason": "complete profile or fixed-binding replay differs from direct tables",
+      "detection_stage": "independent-comparison",
+      "expected_bindings": 8,
+      "actual_bindings": 8,
+      "expected_matching": 1,
+      "actual_matching": 8
+    },
+    {
+      "name": "omit-overlapping-support-coordinate",
+      "detected": true,
+      "reason": "complete profile or fixed-binding replay differs from direct tables",
+      "detection_stage": "independent-comparison",
+      "expected_bindings": 8,
+      "actual_bindings": 8,
+      "expected_matching": 1,
+      "actual_matching": 2
+    },
+    {
+      "name": "cartesian-complete-an-explicit-correlated-family",
+      "detected": true,
+      "reason": "complete profile or fixed-binding replay differs from direct tables",
+      "detection_stage": "independent-comparison",
+      "expected_bindings": 2,
+      "actual_bindings": 8,
+      "expected_matching": 1,
+      "actual_matching": 1
+    }
+  ],
+  "profiles_uncompressed_sha256": "d993d965f228b4af5bb4df0b1a52bc1078ad88a3b735ba9c57f5b6f7d91f0136",
+  "inputs_sha256": "6ff7f92fad9a510d72e0ab9e76c08edd33c965131b84db2d419a43412bcfa87a",
+  "source_sha256": {
+    "proofs/audit_support_overlap.py": "3c4744dd3b446caa9f5ed7b9b3ec85a831a4082f0bf23e7109735cd3bbcd16bf",
+    "src/family_diagnosis.py": "c6d0e72c7cf0096fd643a0ae04e65e2fa0045d94941390920fd0bc5f16434983",
+    "src/checker.py": "4969c93a1a16da72cdb074b064a3175dd9a6de7e9e708e2ec0214cdd56f7676a",
+    "src/extensions.py": "085cf7e3430a9cfb4e5aca40d203bff728e3190569a51230b0b5689547079875"
+  },
+  "scope": [
+    "One constructed four-state/four-request contract with three binary aliases and recurring pairwise-overlapping supports.",
+    "Every nonempty subset of the eight joint bindings, independently crossed with the 65 baseline/single-cell-perturbed target tables.",
+    "The oracle uses direct source tables and an explicit source/target product, without production stepping, support discovery, family normalization, or target traversal.",
+    "Complete semantic profiles, deterministic shortest words, all replay fields, and family aggregates are compared.",
+    "This is a bounded verification domain, not additional applications, sampled vulnerabilities, or a performance benchmark."
+  ]
+}

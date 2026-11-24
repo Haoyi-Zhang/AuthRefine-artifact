@@ -1,0 +1,16 @@
+name: repository
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -B .github/scripts/check_repository.py
+      - run: cd references && python -B verify.py
+      - run: python -B verify_research_depth.py --output "$RUNNER_TEMP/research-depth.json"

@@ -1,0 +1,15 @@
+{
+  "file": "proofs/NativeConversion.lean",
+  "proof_sha256": "4aebc6887fefb0e56457f1b9641f44cccf15c4dce4861d5b74f9f8f145e274a5",
+  "command": [
+    "<lean>/bin/lean",
+    "<artifact>/proofs/NativeConversion.lean"
+  ],
+  "exit_code": 0,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "wall_seconds": 0.7578835169988452,
+  "source_unchanged": true,
+  "sorry_warning": false,
+  "passed": true
+}

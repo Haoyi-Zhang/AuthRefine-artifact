@@ -1,0 +1,18 @@
+{
+  "source_files_checked": 170,
+  "source_changes": {
+    "original": [],
+    "omit_readonly_context": [
+      "hc/api/views.py"
+    ],
+    "wrong_project_context": [
+      "hc/api/decorators.py"
+    ],
+    "omit_pause_persistence": [
+      "hc/api/views.py"
+    ],
+    "reject_readonly_get": [
+      "hc/api/views.py"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "arm": "reject_readonly_get",
+  "cases": [
+    {
+      "api_version": 1,
+      "directory": "legacy-api-1-new",
+      "edges": 39,
+      "format": "legacy",
+      "initial_status": "new",
+      "word": null
+    },
+    {
+      "api_version": 1,
+      "directory": "legacy-api-1-paused",
+      "edges": 39,
+      "format": "legacy",
+      "initial_status": "paused",
+      "word": null
+    },
+    {
+      "api_version": 2,
+      "directory": "legacy-api-2-new",
+      "edges": 39,
+      "format": "legacy",
+      "initial_status": "new",
+      "word": null
+    },
+    {
+      "api_version": 2,
+      "directory": "legacy-api-2-paused",
+      "edges": 39,
+      "format": "legacy",
+      "initial_status": "paused",
+      "word": null
+    },
+    {
+      "api_version": 3,
+      "directory": "legacy-api-3-new",
+      "edges": 39,
+      "format": "legacy",
+      "initial_status": "new",
+      "word": null
+    },
+    {
+      "api_version": 3,
+      "directory": "legacy-api-3-paused",
+      "edges": 39,
+      "format": "legacy",
+      "initial_status": "paused",
+      "word": null
+    },
+    {
+      "api_version": 1,
+      "directory": "hashed-api-1-new",
+      "edges": 39,
+      "format": "hashed",
+      "initial_status": "new",
+      "word": null
+    },
+    {
+      "api_version": 1,
+      "directory": "hashed-api-1-paused",
+      "edges": 39,
+      "format": "hashed",
+      "initial_status": "paused",
+      "word": null
+    },
+    {
+      "api_version": 2,
+      "directory": "hashed-api-2-new",
+      "edges": 39,
+      "format": "hashed",
+      "initial_status": "new",
+      "word": null
+    },
+    {
+      "api_version": 2,
+      "directory": "hashed-api-2-paused",
+      "edges": 39,
+      "format": "hashed",
+      "initial_status": "paused",
+      "word": null
+    },
+    {
+      "api_version": 3,
+      "directory": "hashed-api-3-new",
+      "edges": 39,
+      "format": "hashed",
+      "initial_status": "new",
+      "word": null
+    },
+    {
+      "api_version": 3,
+      "directory": "hashed-api-3-paused",
+      "edges": 39,
+      "format": "hashed",
+      "initial_status": "paused",
+      "word": null
+    }
+  ],
+  "checkpoint_clock_restored": false,
+  "complete_sqlite_checkpoints": true,
+  "cookie_state_preserved": true,
+  "framework": "6.1.2",
+  "imported_application_modules": {
+    "hc": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/__init__.py",
+    "hc.accounts": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/accounts/__init__.py",
+    "hc.accounts.models": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/accounts/models.py",
+    "hc.api": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/api/__init__.py",
+    "hc.api.apps": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/api/apps.py",
+    "hc.api.decorators": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/api/decorators.py",
+    "hc.api.forms": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/api/forms.py",
+    "hc.api.models": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/api/models.py",
+    "hc.api.transports": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/api/transports.py",
+    "hc.api.urls": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/api/urls.py",
+    "hc.api.views": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/api/views.py",
+    "hc.front": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/front/__init__.py",
+    "hc.front.templatetags": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/front/templatetags/__init__.py",
+    "hc.front.templatetags.hc_extras": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/front/templatetags/hc_extras.py",
+    "hc.lib": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/lib/__init__.py",
+    "hc.lib.badges": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/lib/badges.py",
+    "hc.lib.curl": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/lib/curl.py",
+    "hc.lib.date": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/lib/date.py",
+    "hc.lib.emails": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/lib/emails.py",
+    "hc.lib.s3": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/lib/s3.py",
+    "hc.lib.signing": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/lib/signing.py",
+    "hc.lib.statsd": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/lib/statsd.py",
+    "hc.lib.string": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/lib/string.py",
+    "hc.lib.typealias": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/lib/typealias.py",
+    "hc.lib.tz": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/lib/tz.py",
+    "hc.lib.urls": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/lib/urls.py",
+    "hc.settings": "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get/hc/settings.py"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "source_imports_replaced": false
+}

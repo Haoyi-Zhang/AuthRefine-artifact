@@ -1,0 +1,482 @@
+[
+  {
+    "api_version": 1,
+    "arm": "original",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/original/legacy-api-1-new.json.gz",
+    "source_record": "native/original/legacy-api-1-new/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "original",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/original/legacy-api-1-paused.json.gz",
+    "source_record": "native/original/legacy-api-1-paused/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "original",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/original/legacy-api-2-new.json.gz",
+    "source_record": "native/original/legacy-api-2-new/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "original",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/original/legacy-api-2-paused.json.gz",
+    "source_record": "native/original/legacy-api-2-paused/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "original",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/original/legacy-api-3-new.json.gz",
+    "source_record": "native/original/legacy-api-3-new/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "original",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/original/legacy-api-3-paused.json.gz",
+    "source_record": "native/original/legacy-api-3-paused/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "original",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/original/hashed-api-1-new.json.gz",
+    "source_record": "native/original/hashed-api-1-new/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "original",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/original/hashed-api-1-paused.json.gz",
+    "source_record": "native/original/hashed-api-1-paused/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "original",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/original/hashed-api-2-new.json.gz",
+    "source_record": "native/original/hashed-api-2-new/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "original",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/original/hashed-api-2-paused.json.gz",
+    "source_record": "native/original/hashed-api-2-paused/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "original",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/original/hashed-api-3-new.json.gz",
+    "source_record": "native/original/hashed-api-3-new/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "original",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/original/hashed-api-3-paused.json.gz",
+    "source_record": "native/original/hashed-api-3-paused/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "omit_readonly_context",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/omit_readonly_context/legacy-api-1-new.json.gz",
+    "source_record": "native/omit_readonly_context/legacy-api-1-new/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "omit_readonly_context",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/omit_readonly_context/legacy-api-1-paused.json.gz",
+    "source_record": "native/omit_readonly_context/legacy-api-1-paused/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "omit_readonly_context",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/omit_readonly_context/legacy-api-2-new.json.gz",
+    "source_record": "native/omit_readonly_context/legacy-api-2-new/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "omit_readonly_context",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/omit_readonly_context/legacy-api-2-paused.json.gz",
+    "source_record": "native/omit_readonly_context/legacy-api-2-paused/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "omit_readonly_context",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/omit_readonly_context/legacy-api-3-new.json.gz",
+    "source_record": "native/omit_readonly_context/legacy-api-3-new/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "omit_readonly_context",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/omit_readonly_context/legacy-api-3-paused.json.gz",
+    "source_record": "native/omit_readonly_context/legacy-api-3-paused/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "omit_readonly_context",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/omit_readonly_context/hashed-api-1-new.json.gz",
+    "source_record": "native/omit_readonly_context/hashed-api-1-new/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "omit_readonly_context",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/omit_readonly_context/hashed-api-1-paused.json.gz",
+    "source_record": "native/omit_readonly_context/hashed-api-1-paused/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "omit_readonly_context",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/omit_readonly_context/hashed-api-2-new.json.gz",
+    "source_record": "native/omit_readonly_context/hashed-api-2-new/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "omit_readonly_context",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/omit_readonly_context/hashed-api-2-paused.json.gz",
+    "source_record": "native/omit_readonly_context/hashed-api-2-paused/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "omit_readonly_context",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/omit_readonly_context/hashed-api-3-new.json.gz",
+    "source_record": "native/omit_readonly_context/hashed-api-3-new/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "omit_readonly_context",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/omit_readonly_context/hashed-api-3-paused.json.gz",
+    "source_record": "native/omit_readonly_context/hashed-api-3-paused/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "wrong_project_context",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/wrong_project_context/legacy-api-1-new.json.gz",
+    "source_record": "native/wrong_project_context/legacy-api-1-new/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "wrong_project_context",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/wrong_project_context/legacy-api-1-paused.json.gz",
+    "source_record": "native/wrong_project_context/legacy-api-1-paused/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "wrong_project_context",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/wrong_project_context/legacy-api-2-new.json.gz",
+    "source_record": "native/wrong_project_context/legacy-api-2-new/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "wrong_project_context",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/wrong_project_context/legacy-api-2-paused.json.gz",
+    "source_record": "native/wrong_project_context/legacy-api-2-paused/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "wrong_project_context",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/wrong_project_context/legacy-api-3-new.json.gz",
+    "source_record": "native/wrong_project_context/legacy-api-3-new/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "wrong_project_context",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/wrong_project_context/legacy-api-3-paused.json.gz",
+    "source_record": "native/wrong_project_context/legacy-api-3-paused/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "wrong_project_context",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/wrong_project_context/hashed-api-1-new.json.gz",
+    "source_record": "native/wrong_project_context/hashed-api-1-new/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "wrong_project_context",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/wrong_project_context/hashed-api-1-paused.json.gz",
+    "source_record": "native/wrong_project_context/hashed-api-1-paused/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "wrong_project_context",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/wrong_project_context/hashed-api-2-new.json.gz",
+    "source_record": "native/wrong_project_context/hashed-api-2-new/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "wrong_project_context",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/wrong_project_context/hashed-api-2-paused.json.gz",
+    "source_record": "native/wrong_project_context/hashed-api-2-paused/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "wrong_project_context",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/wrong_project_context/hashed-api-3-new.json.gz",
+    "source_record": "native/wrong_project_context/hashed-api-3-new/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "wrong_project_context",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/wrong_project_context/hashed-api-3-paused.json.gz",
+    "source_record": "native/wrong_project_context/hashed-api-3-paused/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "omit_pause_persistence",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/omit_pause_persistence/legacy-api-1-new.json.gz",
+    "source_record": "native/omit_pause_persistence/legacy-api-1-new/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "omit_pause_persistence",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/omit_pause_persistence/legacy-api-1-paused.json.gz",
+    "source_record": "native/omit_pause_persistence/legacy-api-1-paused/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "omit_pause_persistence",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/omit_pause_persistence/legacy-api-2-new.json.gz",
+    "source_record": "native/omit_pause_persistence/legacy-api-2-new/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "omit_pause_persistence",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/omit_pause_persistence/legacy-api-2-paused.json.gz",
+    "source_record": "native/omit_pause_persistence/legacy-api-2-paused/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "omit_pause_persistence",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/omit_pause_persistence/legacy-api-3-new.json.gz",
+    "source_record": "native/omit_pause_persistence/legacy-api-3-new/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "omit_pause_persistence",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/omit_pause_persistence/legacy-api-3-paused.json.gz",
+    "source_record": "native/omit_pause_persistence/legacy-api-3-paused/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "omit_pause_persistence",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/omit_pause_persistence/hashed-api-1-new.json.gz",
+    "source_record": "native/omit_pause_persistence/hashed-api-1-new/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "omit_pause_persistence",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/omit_pause_persistence/hashed-api-1-paused.json.gz",
+    "source_record": "native/omit_pause_persistence/hashed-api-1-paused/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "omit_pause_persistence",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/omit_pause_persistence/hashed-api-2-new.json.gz",
+    "source_record": "native/omit_pause_persistence/hashed-api-2-new/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "omit_pause_persistence",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/omit_pause_persistence/hashed-api-2-paused.json.gz",
+    "source_record": "native/omit_pause_persistence/hashed-api-2-paused/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "omit_pause_persistence",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/omit_pause_persistence/hashed-api-3-new.json.gz",
+    "source_record": "native/omit_pause_persistence/hashed-api-3-new/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "omit_pause_persistence",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/omit_pause_persistence/hashed-api-3-paused.json.gz",
+    "source_record": "native/omit_pause_persistence/hashed-api-3-paused/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "reject_readonly_get",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/reject_readonly_get/legacy-api-1-new.json.gz",
+    "source_record": "native/reject_readonly_get/legacy-api-1-new/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "reject_readonly_get",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/reject_readonly_get/legacy-api-1-paused.json.gz",
+    "source_record": "native/reject_readonly_get/legacy-api-1-paused/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "reject_readonly_get",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/reject_readonly_get/legacy-api-2-new.json.gz",
+    "source_record": "native/reject_readonly_get/legacy-api-2-new/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "reject_readonly_get",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/reject_readonly_get/legacy-api-2-paused.json.gz",
+    "source_record": "native/reject_readonly_get/legacy-api-2-paused/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "reject_readonly_get",
+    "format": "legacy",
+    "initial_status": "new",
+    "profile": "profiles/reject_readonly_get/legacy-api-3-new.json.gz",
+    "source_record": "native/reject_readonly_get/legacy-api-3-new/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "reject_readonly_get",
+    "format": "legacy",
+    "initial_status": "paused",
+    "profile": "profiles/reject_readonly_get/legacy-api-3-paused.json.gz",
+    "source_record": "native/reject_readonly_get/legacy-api-3-paused/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "reject_readonly_get",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/reject_readonly_get/hashed-api-1-new.json.gz",
+    "source_record": "native/reject_readonly_get/hashed-api-1-new/observations.json.gz"
+  },
+  {
+    "api_version": 1,
+    "arm": "reject_readonly_get",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/reject_readonly_get/hashed-api-1-paused.json.gz",
+    "source_record": "native/reject_readonly_get/hashed-api-1-paused/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "reject_readonly_get",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/reject_readonly_get/hashed-api-2-new.json.gz",
+    "source_record": "native/reject_readonly_get/hashed-api-2-new/observations.json.gz"
+  },
+  {
+    "api_version": 2,
+    "arm": "reject_readonly_get",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/reject_readonly_get/hashed-api-2-paused.json.gz",
+    "source_record": "native/reject_readonly_get/hashed-api-2-paused/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "reject_readonly_get",
+    "format": "hashed",
+    "initial_status": "new",
+    "profile": "profiles/reject_readonly_get/hashed-api-3-new.json.gz",
+    "source_record": "native/reject_readonly_get/hashed-api-3-new/observations.json.gz"
+  },
+  {
+    "api_version": 3,
+    "arm": "reject_readonly_get",
+    "format": "hashed",
+    "initial_status": "paused",
+    "profile": "profiles/reject_readonly_get/hashed-api-3-paused.json.gz",
+    "source_record": "native/reject_readonly_get/hashed-api-3-paused/observations.json.gz"
+  }
+]

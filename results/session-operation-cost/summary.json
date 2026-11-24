@@ -1,0 +1,3432 @@
+{
+  "cases": [
+    {
+      "anchor_mask": 0,
+      "anchors": [],
+      "certificate_transition_comparisons": 20,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 4,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 2,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 1,
+      "anchors": [
+        1
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 2,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 2,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 2,
+      "anchors": [
+        2
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 2,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 2,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 3,
+      "anchors": [
+        1,
+        2
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 0,
+      "maximal_one_removal_binding_comparisons": 2,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 2,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 0,
+      "anchors": [],
+      "certificate_transition_comparisons": 225,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 18,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 3,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 1,
+      "anchors": [
+        1
+      ],
+      "certificate_transition_comparisons": 60,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 6,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 3,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 2,
+      "anchors": [
+        2
+      ],
+      "certificate_transition_comparisons": 60,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 6,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 3,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 3,
+      "anchors": [
+        1,
+        2
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 3,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 3,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 4,
+      "anchors": [
+        3
+      ],
+      "certificate_transition_comparisons": 60,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 6,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 3,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 5,
+      "anchors": [
+        1,
+        3
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 3,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 3,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 6,
+      "anchors": [
+        2,
+        3
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 3,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 3,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 7,
+      "anchors": [
+        1,
+        2,
+        3
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 0,
+      "maximal_one_removal_binding_comparisons": 3,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 3,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 0,
+      "anchors": [],
+      "certificate_transition_comparisons": 1566,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 96,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 1,
+      "anchors": [
+        1
+      ],
+      "certificate_transition_comparisons": 606,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 24,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 2,
+      "anchors": [
+        2
+      ],
+      "certificate_transition_comparisons": 606,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 24,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 3,
+      "anchors": [
+        1,
+        2
+      ],
+      "certificate_transition_comparisons": 160,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 8,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 4,
+      "anchors": [
+        3
+      ],
+      "certificate_transition_comparisons": 606,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 24,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 5,
+      "anchors": [
+        1,
+        3
+      ],
+      "certificate_transition_comparisons": 160,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 8,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 6,
+      "anchors": [
+        2,
+        3
+      ],
+      "certificate_transition_comparisons": 160,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 8,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 7,
+      "anchors": [
+        1,
+        2,
+        3
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 4,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 8,
+      "anchors": [
+        4
+      ],
+      "certificate_transition_comparisons": 606,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 24,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 9,
+      "anchors": [
+        1,
+        4
+      ],
+      "certificate_transition_comparisons": 160,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 8,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 10,
+      "anchors": [
+        2,
+        4
+      ],
+      "certificate_transition_comparisons": 160,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 8,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 11,
+      "anchors": [
+        1,
+        2,
+        4
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 4,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 12,
+      "anchors": [
+        3,
+        4
+      ],
+      "certificate_transition_comparisons": 160,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 8,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 13,
+      "anchors": [
+        1,
+        3,
+        4
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 4,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 14,
+      "anchors": [
+        2,
+        3,
+        4
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 4,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 15,
+      "anchors": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 0,
+      "maximal_one_removal_binding_comparisons": 4,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 4,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 0,
+      "anchors": [],
+      "certificate_transition_comparisons": 8831,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 96,
+          "request_position": 2
+        },
+        {
+          "bindings": 18,
+          "request_position": 4
+        },
+        {
+          "bindings": 4,
+          "request_position": 6
+        },
+        {
+          "bindings": 1,
+          "request_position": 8
+        }
+      ],
+      "deletion_support_certificates": 26,
+      "family_members": 120,
+      "free_coordinates": 5,
+      "maximal_one_removal_binding_comparisons": 600,
+      "minimum_one_removal_runs": 4,
+      "minimum_projected_requests": 8,
+      "minimum_selected_row_requests": 4,
+      "query_support_certificates": 26,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 480
+    },
+    {
+      "anchor_mask": 1,
+      "anchors": [
+        1
+      ],
+      "certificate_transition_comparisons": 3968,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 120,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 2,
+      "anchors": [
+        2
+      ],
+      "certificate_transition_comparisons": 3968,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 120,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 3,
+      "anchors": [
+        1,
+        2
+      ],
+      "certificate_transition_comparisons": 1524,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 30,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 4,
+      "anchors": [
+        3
+      ],
+      "certificate_transition_comparisons": 3968,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 120,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 5,
+      "anchors": [
+        1,
+        3
+      ],
+      "certificate_transition_comparisons": 1524,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 30,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 6,
+      "anchors": [
+        2,
+        3
+      ],
+      "certificate_transition_comparisons": 1524,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 30,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 7,
+      "anchors": [
+        1,
+        2,
+        3
+      ],
+      "certificate_transition_comparisons": 400,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 10,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 8,
+      "anchors": [
+        4
+      ],
+      "certificate_transition_comparisons": 3968,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 120,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 9,
+      "anchors": [
+        1,
+        4
+      ],
+      "certificate_transition_comparisons": 1524,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 30,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 10,
+      "anchors": [
+        2,
+        4
+      ],
+      "certificate_transition_comparisons": 1524,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 30,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 11,
+      "anchors": [
+        1,
+        2,
+        4
+      ],
+      "certificate_transition_comparisons": 400,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 10,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 12,
+      "anchors": [
+        3,
+        4
+      ],
+      "certificate_transition_comparisons": 1524,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 30,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 13,
+      "anchors": [
+        1,
+        3,
+        4
+      ],
+      "certificate_transition_comparisons": 400,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 10,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 14,
+      "anchors": [
+        2,
+        3,
+        4
+      ],
+      "certificate_transition_comparisons": 400,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 10,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 15,
+      "anchors": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 5,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 16,
+      "anchors": [
+        5
+      ],
+      "certificate_transition_comparisons": 3968,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 120,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 17,
+      "anchors": [
+        1,
+        5
+      ],
+      "certificate_transition_comparisons": 1524,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 30,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 18,
+      "anchors": [
+        2,
+        5
+      ],
+      "certificate_transition_comparisons": 1524,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 30,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 19,
+      "anchors": [
+        1,
+        2,
+        5
+      ],
+      "certificate_transition_comparisons": 400,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 10,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 20,
+      "anchors": [
+        3,
+        5
+      ],
+      "certificate_transition_comparisons": 1524,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 30,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 21,
+      "anchors": [
+        1,
+        3,
+        5
+      ],
+      "certificate_transition_comparisons": 400,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 10,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 22,
+      "anchors": [
+        2,
+        3,
+        5
+      ],
+      "certificate_transition_comparisons": 400,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 10,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 23,
+      "anchors": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 5,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 24,
+      "anchors": [
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 1524,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 30,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 25,
+      "anchors": [
+        1,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 400,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 10,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 26,
+      "anchors": [
+        2,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 400,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 10,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 27,
+      "anchors": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 5,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 28,
+      "anchors": [
+        3,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 400,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 10,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 29,
+      "anchors": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 5,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 30,
+      "anchors": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 5,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 31,
+      "anchors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 0,
+      "maximal_one_removal_binding_comparisons": 5,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 5,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 0,
+      "anchors": [],
+      "certificate_transition_comparisons": 44524,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 600,
+          "request_position": 2
+        },
+        {
+          "bindings": 96,
+          "request_position": 4
+        },
+        {
+          "bindings": 18,
+          "request_position": 6
+        },
+        {
+          "bindings": 4,
+          "request_position": 8
+        },
+        {
+          "bindings": 1,
+          "request_position": 10
+        }
+      ],
+      "deletion_support_certificates": 57,
+      "family_members": 720,
+      "free_coordinates": 6,
+      "maximal_one_removal_binding_comparisons": 4320,
+      "minimum_one_removal_runs": 5,
+      "minimum_projected_requests": 10,
+      "minimum_selected_row_requests": 5,
+      "query_support_certificates": 57,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 3600
+    },
+    {
+      "anchor_mask": 1,
+      "anchors": [
+        1
+      ],
+      "certificate_transition_comparisons": 21514,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 96,
+          "request_position": 2
+        },
+        {
+          "bindings": 18,
+          "request_position": 4
+        },
+        {
+          "bindings": 4,
+          "request_position": 6
+        },
+        {
+          "bindings": 1,
+          "request_position": 8
+        }
+      ],
+      "deletion_support_certificates": 26,
+      "family_members": 120,
+      "free_coordinates": 5,
+      "maximal_one_removal_binding_comparisons": 720,
+      "minimum_one_removal_runs": 4,
+      "minimum_projected_requests": 8,
+      "minimum_selected_row_requests": 4,
+      "query_support_certificates": 26,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 480
+    },
+    {
+      "anchor_mask": 2,
+      "anchors": [
+        2
+      ],
+      "certificate_transition_comparisons": 21514,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 96,
+          "request_position": 2
+        },
+        {
+          "bindings": 18,
+          "request_position": 4
+        },
+        {
+          "bindings": 4,
+          "request_position": 6
+        },
+        {
+          "bindings": 1,
+          "request_position": 8
+        }
+      ],
+      "deletion_support_certificates": 26,
+      "family_members": 120,
+      "free_coordinates": 5,
+      "maximal_one_removal_binding_comparisons": 720,
+      "minimum_one_removal_runs": 4,
+      "minimum_projected_requests": 8,
+      "minimum_selected_row_requests": 4,
+      "query_support_certificates": 26,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 480
+    },
+    {
+      "anchor_mask": 3,
+      "anchors": [
+        1,
+        2
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 4,
+      "anchors": [
+        3
+      ],
+      "certificate_transition_comparisons": 21514,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 96,
+          "request_position": 2
+        },
+        {
+          "bindings": 18,
+          "request_position": 4
+        },
+        {
+          "bindings": 4,
+          "request_position": 6
+        },
+        {
+          "bindings": 1,
+          "request_position": 8
+        }
+      ],
+      "deletion_support_certificates": 26,
+      "family_members": 120,
+      "free_coordinates": 5,
+      "maximal_one_removal_binding_comparisons": 720,
+      "minimum_one_removal_runs": 4,
+      "minimum_projected_requests": 8,
+      "minimum_selected_row_requests": 4,
+      "query_support_certificates": 26,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 480
+    },
+    {
+      "anchor_mask": 5,
+      "anchors": [
+        1,
+        3
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 6,
+      "anchors": [
+        2,
+        3
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 7,
+      "anchors": [
+        1,
+        2,
+        3
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 8,
+      "anchors": [
+        4
+      ],
+      "certificate_transition_comparisons": 21514,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 96,
+          "request_position": 2
+        },
+        {
+          "bindings": 18,
+          "request_position": 4
+        },
+        {
+          "bindings": 4,
+          "request_position": 6
+        },
+        {
+          "bindings": 1,
+          "request_position": 8
+        }
+      ],
+      "deletion_support_certificates": 26,
+      "family_members": 120,
+      "free_coordinates": 5,
+      "maximal_one_removal_binding_comparisons": 720,
+      "minimum_one_removal_runs": 4,
+      "minimum_projected_requests": 8,
+      "minimum_selected_row_requests": 4,
+      "query_support_certificates": 26,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 480
+    },
+    {
+      "anchor_mask": 9,
+      "anchors": [
+        1,
+        4
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 10,
+      "anchors": [
+        2,
+        4
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 11,
+      "anchors": [
+        1,
+        2,
+        4
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 12,
+      "anchors": [
+        3,
+        4
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 13,
+      "anchors": [
+        1,
+        3,
+        4
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 14,
+      "anchors": [
+        2,
+        3,
+        4
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 15,
+      "anchors": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 16,
+      "anchors": [
+        5
+      ],
+      "certificate_transition_comparisons": 21514,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 96,
+          "request_position": 2
+        },
+        {
+          "bindings": 18,
+          "request_position": 4
+        },
+        {
+          "bindings": 4,
+          "request_position": 6
+        },
+        {
+          "bindings": 1,
+          "request_position": 8
+        }
+      ],
+      "deletion_support_certificates": 26,
+      "family_members": 120,
+      "free_coordinates": 5,
+      "maximal_one_removal_binding_comparisons": 720,
+      "minimum_one_removal_runs": 4,
+      "minimum_projected_requests": 8,
+      "minimum_selected_row_requests": 4,
+      "query_support_certificates": 26,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 480
+    },
+    {
+      "anchor_mask": 17,
+      "anchors": [
+        1,
+        5
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 18,
+      "anchors": [
+        2,
+        5
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 19,
+      "anchors": [
+        1,
+        2,
+        5
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 20,
+      "anchors": [
+        3,
+        5
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 21,
+      "anchors": [
+        1,
+        3,
+        5
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 22,
+      "anchors": [
+        2,
+        3,
+        5
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 23,
+      "anchors": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 24,
+      "anchors": [
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 25,
+      "anchors": [
+        1,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 26,
+      "anchors": [
+        2,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 27,
+      "anchors": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 28,
+      "anchors": [
+        3,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 29,
+      "anchors": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 30,
+      "anchors": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 31,
+      "anchors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 6,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 32,
+      "anchors": [
+        6
+      ],
+      "certificate_transition_comparisons": 21514,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 96,
+          "request_position": 2
+        },
+        {
+          "bindings": 18,
+          "request_position": 4
+        },
+        {
+          "bindings": 4,
+          "request_position": 6
+        },
+        {
+          "bindings": 1,
+          "request_position": 8
+        }
+      ],
+      "deletion_support_certificates": 26,
+      "family_members": 120,
+      "free_coordinates": 5,
+      "maximal_one_removal_binding_comparisons": 720,
+      "minimum_one_removal_runs": 4,
+      "minimum_projected_requests": 8,
+      "minimum_selected_row_requests": 4,
+      "query_support_certificates": 26,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 480
+    },
+    {
+      "anchor_mask": 33,
+      "anchors": [
+        1,
+        6
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 34,
+      "anchors": [
+        2,
+        6
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 35,
+      "anchors": [
+        1,
+        2,
+        6
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 36,
+      "anchors": [
+        3,
+        6
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 37,
+      "anchors": [
+        1,
+        3,
+        6
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 38,
+      "anchors": [
+        2,
+        3,
+        6
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 39,
+      "anchors": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 40,
+      "anchors": [
+        4,
+        6
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 41,
+      "anchors": [
+        1,
+        4,
+        6
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 42,
+      "anchors": [
+        2,
+        4,
+        6
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 43,
+      "anchors": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 44,
+      "anchors": [
+        3,
+        4,
+        6
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 45,
+      "anchors": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 46,
+      "anchors": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 47,
+      "anchors": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 6,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 48,
+      "anchors": [
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 9608,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 18,
+          "request_position": 2
+        },
+        {
+          "bindings": 4,
+          "request_position": 4
+        },
+        {
+          "bindings": 1,
+          "request_position": 6
+        }
+      ],
+      "deletion_support_certificates": 11,
+      "family_members": 24,
+      "free_coordinates": 4,
+      "maximal_one_removal_binding_comparisons": 144,
+      "minimum_one_removal_runs": 3,
+      "minimum_projected_requests": 6,
+      "minimum_selected_row_requests": 3,
+      "query_support_certificates": 11,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 72
+    },
+    {
+      "anchor_mask": 49,
+      "anchors": [
+        1,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 50,
+      "anchors": [
+        2,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 51,
+      "anchors": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 52,
+      "anchors": [
+        3,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 53,
+      "anchors": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 54,
+      "anchors": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 55,
+      "anchors": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 6,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 56,
+      "anchors": [
+        4,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 3672,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 4,
+          "request_position": 2
+        },
+        {
+          "bindings": 1,
+          "request_position": 4
+        }
+      ],
+      "deletion_support_certificates": 4,
+      "family_members": 6,
+      "free_coordinates": 3,
+      "maximal_one_removal_binding_comparisons": 36,
+      "minimum_one_removal_runs": 2,
+      "minimum_projected_requests": 4,
+      "minimum_selected_row_requests": 2,
+      "query_support_certificates": 4,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 12
+    },
+    {
+      "anchor_mask": 57,
+      "anchors": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 58,
+      "anchors": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 59,
+      "anchors": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 6,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 60,
+      "anchors": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 960,
+      "continuous_first_exclusions": [
+        {
+          "bindings": 1,
+          "request_position": 2
+        }
+      ],
+      "deletion_support_certificates": 1,
+      "family_members": 2,
+      "free_coordinates": 2,
+      "maximal_one_removal_binding_comparisons": 12,
+      "minimum_one_removal_runs": 1,
+      "minimum_projected_requests": 2,
+      "minimum_selected_row_requests": 1,
+      "query_support_certificates": 1,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 2
+    },
+    {
+      "anchor_mask": 61,
+      "anchors": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 6,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 62,
+      "anchors": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 1,
+      "maximal_one_removal_binding_comparisons": 6,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 0
+    },
+    {
+      "anchor_mask": 63,
+      "anchors": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "certificate_transition_comparisons": 0,
+      "continuous_first_exclusions": [],
+      "deletion_support_certificates": 0,
+      "family_members": 1,
+      "free_coordinates": 0,
+      "maximal_one_removal_binding_comparisons": 6,
+      "minimum_one_removal_runs": 0,
+      "minimum_projected_requests": 0,
+      "minimum_selected_row_requests": 0,
+      "query_support_certificates": 0,
+      "sessions": 6,
+      "short_pair_binding_comparisons": 0
+    }
+  ],
+  "elapsed_seconds": 0.9219907329970738,
+  "interpretation": [
+    "Transposition certificates are finite instances of closed observation invariants, not an enumeration of all adaptive strategies.",
+    "Used deletion/query supports accumulate across the whole certification history and survive resets.",
+    "The cumulative covering trace is different from an individually shortest counterexample.",
+    "One-removal words may have arbitrary finite length; all post-removal lookups still only fix the removed correspondence.",
+    "Anchors are correct and given before a fresh complete-store experiment. Arbitrary correlated subfamilies and inherited partial stores can have lower costs.",
+    "Native-edge reconciliation composes retained observations and does not constitute a new continuous native run."
+  ],
+  "parameters": {
+    "adaptive_scope": "sound identity-certification branch; not identification of an arbitrary unknown permutation",
+    "all_correct_anchor_subsets": true,
+    "bfs_sizes": [
+      2,
+      3,
+      4
+    ],
+    "bfs_state_envelope": 100000,
+    "binding_direction": "row to credential",
+    "dependencies": "Python standard library only",
+    "family": "every permutation fixing the supplied anchors",
+    "initial_store": "all rows present, distinct unexpired tokens, one returned user",
+    "lifecycle": "fixed clock, nonrenewing lookup, named-row removal",
+    "production_modules_imported": [],
+    "request_cost": "one per lookup or removal; resets and supplied anchor discovery excluded",
+    "reset": "restore the complete store; preserve binding and accumulated observations",
+    "sizes": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "results": {
+    "continuous_first_failure_positions": "2i, with (m-i+1)! - (m-i)! newly excluded bindings",
+    "individual_shortest_projected_witness": "two requests for each nonidentity member",
+    "native_input_bytes_and_mtime_unchanged": true,
+    "one_removal_minimum_nonempty_runs": "max(n - k - 1, 0)",
+    "projected_minimum_requests": "2 * max(n - k - 1, 0)",
+    "selected_row_minimum_requests": "max(n - k - 1, 0)",
+    "unrestricted_nonempty_runs": "one if n-k >= 2, otherwise zero"
+  },
+  "scope_controls": {
+    "inherited_store": {
+      "initial_store_mask": 2,
+      "interpretation": "The residual-cost theorem starts from the complete store, not a previously deleted store.",
+      "requests": 1,
+      "sessions": 2,
+      "word": [
+        {
+          "action": "lookup",
+          "resource": "credential-1"
+        }
+      ]
+    },
+    "restricted_family": {
+      "common_fixed_coordinates": [],
+      "covering_word": [
+        {
+          "action": "remove",
+          "resource": "row-1"
+        },
+        {
+          "action": "lookup",
+          "resource": "credential-2"
+        }
+      ],
+      "interpretation": "The full remaining permutation family is necessary for the lower bound.",
+      "requests": 2,
+      "row_to_credential": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          1
+        ]
+      ]
+    }
+  },
+  "started_utc": "2026-11-20T02:15:25.112738+00:00",
+  "status": "passed",
+  "totals": {
+    "anchored_binding_cases": 2369,
+    "anchored_cases": 124,
+    "bfs_searches": 3,
+    "certificate_transition_comparisons": 458854,
+    "deletion_support_certificates": 645,
+    "lower_bound_certificates": 1290,
+    "maximal_one_removal_binding_comparisons": 13690,
+    "native_constructed_words": 5,
+    "new_native_executions": 0,
+    "query_support_certificates": 645,
+    "retained_native_edge_uses": 30,
+    "short_pair_binding_comparisons": 8962
+  }
+}

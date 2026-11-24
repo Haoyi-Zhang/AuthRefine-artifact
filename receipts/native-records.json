@@ -1,0 +1,23 @@
+{
+  "fresh_native_execution": false,
+  "healthchecks": {
+    "configuration_profiles": 720,
+    "decoded_replay_rows": 3552,
+    "native_cases": 120,
+    "negative_witnesses_reproduced": 600,
+    "new_native_executions": 0,
+    "recorded_http_requests": 4200,
+    "status": "PASS"
+  },
+  "history_trees": {
+    "independent_native_executions": 0,
+    "minimal_bad_prefix_results": 396,
+    "native_trees": 60,
+    "recorded_edges": 3072,
+    "replay_words": 312,
+    "status": "PASS"
+  },
+  "schema": 1,
+  "scope": "Independent standard-library verification of retained native records; no current framework process was executed.",
+  "status": "PASS"
+}

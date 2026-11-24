@@ -1,0 +1,1145 @@
+{
+  "case": {
+    "arm": "baseline",
+    "callers": {
+      "lookup-only": {
+        "initial": 0,
+        "transitions": [
+          [
+            0,
+            null,
+            0,
+            null,
+            0,
+            null,
+            0,
+            null,
+            0,
+            null
+          ]
+        ]
+      },
+      "one-removal": {
+        "initial": 0,
+        "transitions": [
+          [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            null,
+            1,
+            null,
+            1,
+            null,
+            1,
+            null,
+            1,
+            null
+          ]
+        ]
+      },
+      "unrestricted": {
+        "initial": 0,
+        "transitions": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "family": [
+      {
+        "credential-for-row-1": "credential-1",
+        "credential-for-row-2": "credential-2"
+      },
+      {
+        "credential-for-row-1": "credential-2",
+        "credential-for-row-2": "credential-1"
+      }
+    ],
+    "id": "duplicate-token",
+    "machine": {
+      "alphabet": [
+        [
+          "client",
+          "credential-1",
+          "lookup"
+        ],
+        [
+          "client",
+          "credential-1",
+          "remove"
+        ],
+        [
+          "client",
+          "credential-2",
+          "lookup"
+        ],
+        [
+          "client",
+          "credential-2",
+          "remove"
+        ],
+        [
+          "client",
+          "missing",
+          "lookup"
+        ],
+        [
+          "client",
+          "missing",
+          "remove"
+        ],
+        [
+          "client",
+          "row-1",
+          "lookup"
+        ],
+        [
+          "client",
+          "row-1",
+          "remove"
+        ],
+        [
+          "client",
+          "row-2",
+          "lookup"
+        ],
+        [
+          "client",
+          "row-2",
+          "remove"
+        ]
+      ],
+      "initial": 0,
+      "observations": [
+        3,
+        0
+      ],
+      "state_names": [
+        "session-1-present",
+        "session-2-present"
+      ],
+      "transitions": [
+        [
+          [
+            "allow",
+            0
+          ],
+          [
+            "allow",
+            0
+          ],
+          [
+            "deny",
+            0
+          ],
+          [
+            "allow",
+            0
+          ],
+          [
+            "deny",
+            0
+          ],
+          [
+            "allow",
+            0
+          ],
+          [
+            "deny",
+            0
+          ],
+          [
+            "allow",
+            1
+          ],
+          [
+            "deny",
+            0
+          ],
+          [
+            "allow",
+            0
+          ]
+        ],
+        [
+          [
+            "deny",
+            1
+          ],
+          [
+            "allow",
+            1
+          ],
+          [
+            "deny",
+            1
+          ],
+          [
+            "allow",
+            1
+          ],
+          [
+            "deny",
+            1
+          ],
+          [
+            "allow",
+            1
+          ],
+          [
+            "deny",
+            1
+          ],
+          [
+            "allow",
+            1
+          ],
+          [
+            "deny",
+            1
+          ],
+          [
+            "allow",
+            1
+          ]
+        ]
+      ]
+    },
+    "policy": {
+      "actions": [
+        "lookup",
+        "remove"
+      ],
+      "aliases": [
+        {
+          "candidates": [
+            "credential-1",
+            "credential-2"
+          ],
+          "kind": "resource",
+          "name": "credential-for-row-1"
+        },
+        {
+          "candidates": [
+            "credential-1",
+            "credential-2"
+          ],
+          "kind": "resource",
+          "name": "credential-for-row-2"
+        }
+      ],
+      "members": [],
+      "principals": [
+        "client"
+      ],
+      "resources": [
+        "credential-1",
+        "credential-2",
+        "missing",
+        "row-1",
+        "row-2"
+      ],
+      "roles": [],
+      "rules": [
+        {
+          "decision": "allow",
+          "guard": [
+            {
+              "field": "action",
+              "name": "remove",
+              "negated": false
+            },
+            {
+              "field": "resource",
+              "name": "row-1",
+              "negated": false
+            }
+          ],
+          "updates": [
+            {
+              "name": "session-1-present",
+              "value": false
+            }
+          ]
+        },
+        {
+          "decision": "allow",
+          "guard": [
+            {
+              "field": "action",
+              "name": "remove",
+              "negated": false
+            },
+            {
+              "field": "resource",
+              "name": "row-2",
+              "negated": false
+            }
+          ],
+          "updates": [
+            {
+              "name": "session-2-present",
+              "value": false
+            }
+          ]
+        },
+        {
+          "decision": "allow",
+          "guard": [
+            {
+              "field": "action",
+              "name": "remove",
+              "negated": false
+            }
+          ],
+          "updates": []
+        },
+        {
+          "decision": "allow",
+          "guard": [
+            {
+              "field": "action",
+              "name": "lookup",
+              "negated": false
+            },
+            {
+              "alias": "credential-for-row-1",
+              "field": "resource",
+              "negated": false
+            },
+            {
+              "field": "state",
+              "name": "session-1-present",
+              "value": true
+            }
+          ],
+          "updates": []
+        },
+        {
+          "decision": "allow",
+          "guard": [
+            {
+              "field": "action",
+              "name": "lookup",
+              "negated": false
+            },
+            {
+              "alias": "credential-for-row-2",
+              "field": "resource",
+              "negated": false
+            },
+            {
+              "field": "state",
+              "name": "session-2-present",
+              "value": true
+            }
+          ],
+          "updates": []
+        }
+      ],
+      "state": [
+        [
+          "session-1-present",
+          true
+        ],
+        [
+          "session-2-present",
+          true
+        ]
+      ]
+    },
+    "sessions": 2
+  },
+  "profiles": {
+    "per-binding-product": [
+      {
+        "binding": {
+          "credential-for-row-1": "credential-1",
+          "credential-for-row-2": "credential-2"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-1",
+              "credential-for-row-2": "credential-2"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "binding": {
+          "credential-for-row-1": "credential-2",
+          "credential-for-row-2": "credential-1"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-2",
+              "credential-for-row-2": "credential-1"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ]
+          }
+        ]
+      }
+    ],
+    "per-binding-target": [
+      {
+        "binding": {
+          "credential-for-row-1": "credential-1",
+          "credential-for-row-2": "credential-2"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-1",
+              "credential-for-row-2": "credential-2"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "binding": {
+          "credential-for-row-1": "credential-2",
+          "credential-for-row-2": "credential-1"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-2",
+              "credential-for-row-2": "credential-1"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ]
+          }
+        ]
+      }
+    ],
+    "protocol-grouped/lookup-only": [
+      {
+        "binding": {
+          "credential-for-row-1": "credential-1",
+          "credential-for-row-2": "credential-2"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-1",
+              "credential-for-row-2": "credential-2"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "protocol_state": 0,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "source_state": 3,
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ],
+            "target_state": 0
+          }
+        ]
+      },
+      {
+        "binding": {
+          "credential-for-row-1": "credential-2",
+          "credential-for-row-2": "credential-1"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-2",
+              "credential-for-row-2": "credential-1"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "protocol_state": 0,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "source_state": 3,
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ],
+            "target_state": 0
+          }
+        ]
+      }
+    ],
+    "protocol-grouped/one-removal": [
+      {
+        "binding": {
+          "credential-for-row-1": "credential-1",
+          "credential-for-row-2": "credential-2"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-1",
+              "credential-for-row-2": "credential-2"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "protocol_state": 0,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "source_state": 3,
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ],
+            "target_state": 0
+          }
+        ]
+      },
+      {
+        "binding": {
+          "credential-for-row-1": "credential-2",
+          "credential-for-row-2": "credential-1"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-2",
+              "credential-for-row-2": "credential-1"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "protocol_state": 0,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "source_state": 3,
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ],
+            "target_state": 0
+          }
+        ]
+      }
+    ],
+    "protocol-grouped/unrestricted": [
+      {
+        "binding": {
+          "credential-for-row-1": "credential-1",
+          "credential-for-row-2": "credential-2"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-1",
+              "credential-for-row-2": "credential-2"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "protocol_state": 0,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "source_state": 3,
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ],
+            "target_state": 0
+          }
+        ]
+      },
+      {
+        "binding": {
+          "credential-for-row-1": "credential-2",
+          "credential-for-row-2": "credential-1"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-2",
+              "credential-for-row-2": "credential-1"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "protocol_state": 0,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "source_state": 3,
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ],
+            "target_state": 0
+          }
+        ]
+      }
+    ],
+    "protocol-scan/lookup-only": [
+      {
+        "binding": {
+          "credential-for-row-1": "credential-1",
+          "credential-for-row-2": "credential-2"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-1",
+              "credential-for-row-2": "credential-2"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "protocol_state": 0,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "source_state": 3,
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ],
+            "target_state": 0
+          }
+        ]
+      },
+      {
+        "binding": {
+          "credential-for-row-1": "credential-2",
+          "credential-for-row-2": "credential-1"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-2",
+              "credential-for-row-2": "credential-1"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "protocol_state": 0,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "source_state": 3,
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ],
+            "target_state": 0
+          }
+        ]
+      }
+    ],
+    "protocol-scan/one-removal": [
+      {
+        "binding": {
+          "credential-for-row-1": "credential-1",
+          "credential-for-row-2": "credential-2"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-1",
+              "credential-for-row-2": "credential-2"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "protocol_state": 0,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "source_state": 3,
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ],
+            "target_state": 0
+          }
+        ]
+      },
+      {
+        "binding": {
+          "credential-for-row-1": "credential-2",
+          "credential-for-row-2": "credential-1"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-2",
+              "credential-for-row-2": "credential-1"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "protocol_state": 0,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "source_state": 3,
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ],
+            "target_state": 0
+          }
+        ]
+      }
+    ],
+    "protocol-scan/unrestricted": [
+      {
+        "binding": {
+          "credential-for-row-1": "credential-1",
+          "credential-for-row-2": "credential-2"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-1",
+              "credential-for-row-2": "credential-2"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "protocol_state": 0,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "source_state": 3,
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ],
+            "target_state": 0
+          }
+        ]
+      },
+      {
+        "binding": {
+          "credential-for-row-1": "credential-2",
+          "credential-for-row-2": "credential-1"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-2",
+              "credential-for-row-2": "credential-1"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "protocol_state": 0,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "source_state": 3,
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ],
+            "target_state": 0
+          }
+        ]
+      }
+    ],
+    "shared-target": [
+      {
+        "binding": {
+          "credential-for-row-1": "credential-1",
+          "credential-for-row-2": "credential-2"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-1",
+              "credential-for-row-2": "credential-2"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "binding": {
+          "credential-for-row-1": "credential-2",
+          "credential-for-row-2": "credential-1"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-2",
+              "credential-for-row-2": "credential-1"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ]
+          }
+        ]
+      }
+    ],
+    "support-indexed": [
+      {
+        "binding": {
+          "credential-for-row-1": "credential-1",
+          "credential-for-row-2": "credential-2"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-1",
+              "credential-for-row-2": "credential-2"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "binding": {
+          "credential-for-row-1": "credential-2",
+          "credential-for-row-2": "credential-1"
+        },
+        "equivalent": false,
+        "indices": [
+          2
+        ],
+        "length": 1,
+        "trace": [
+          {
+            "binding": {
+              "credential-for-row-1": "credential-2",
+              "credential-for-row-2": "credential-1"
+            },
+            "compared_equal": false,
+            "decision_equal": false,
+            "request": [
+              "client",
+              "credential-2",
+              "lookup"
+            ],
+            "source": [
+              "allow",
+              3
+            ],
+            "state_equal": true,
+            "target": [
+              "deny",
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "proposal": {
+    "credential_count": 2,
+    "explicit_family_may_still_be_diagnosed": true,
+    "family": null,
+    "issues": [
+      "row-token-values-not-unique",
+      "credential-arguments-do-not-cover-row-tokens"
+    ],
+    "recorded_mapping": null,
+    "row_count": 2,
+    "scope": "Record-based prerequisites for the supplied all-bijections review hypothesis. The same token records identify the physical mapping; this proposal does not infer field ambiguity. An explicitly supplied one-to-one contract remains a separate input when these prerequisites fail.",
+    "status": "unsupported-bijection-shape"
+  }
+}

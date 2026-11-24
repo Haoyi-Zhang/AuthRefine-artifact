@@ -1,0 +1,97 @@
+{
+  "original_37_operation_study_modified": false,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "source_study.native_healthchecks_tree.native",
+        "--source",
+        "<artifact>/results/native-healthchecks-tree/source-controls/original",
+        "--output",
+        "<artifact>/results/native-healthchecks-tree/native/original",
+        "--arm",
+        "original"
+      ],
+      "elapsed_seconds": 9.918115521999425,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\":\"original\",\"cases\":12,\"imported_modules\":27,\"native_http_requests\":468}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "source_study.native_healthchecks_tree.native",
+        "--source",
+        "<artifact>/results/native-healthchecks-tree/source-controls/omit_readonly_context",
+        "--output",
+        "<artifact>/results/native-healthchecks-tree/native/omit_readonly_context",
+        "--arm",
+        "omit_readonly_context"
+      ],
+      "elapsed_seconds": 9.015543229994364,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\":\"omit_readonly_context\",\"cases\":12,\"imported_modules\":27,\"native_http_requests\":468}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "source_study.native_healthchecks_tree.native",
+        "--source",
+        "<artifact>/results/native-healthchecks-tree/source-controls/wrong_project_context",
+        "--output",
+        "<artifact>/results/native-healthchecks-tree/native/wrong_project_context",
+        "--arm",
+        "wrong_project_context"
+      ],
+      "elapsed_seconds": 10.283184380998136,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\":\"wrong_project_context\",\"cases\":12,\"imported_modules\":27,\"native_http_requests\":468}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "source_study.native_healthchecks_tree.native",
+        "--source",
+        "<artifact>/results/native-healthchecks-tree/source-controls/omit_pause_persistence",
+        "--output",
+        "<artifact>/results/native-healthchecks-tree/native/omit_pause_persistence",
+        "--arm",
+        "omit_pause_persistence"
+      ],
+      "elapsed_seconds": 8.353873170999577,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\":\"omit_pause_persistence\",\"cases\":12,\"imported_modules\":27,\"native_http_requests\":468}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "source_study.native_healthchecks_tree.native",
+        "--source",
+        "<artifact>/results/native-healthchecks-tree/source-controls/reject_readonly_get",
+        "--output",
+        "<artifact>/results/native-healthchecks-tree/native/reject_readonly_get",
+        "--arm",
+        "reject_readonly_get"
+      ],
+      "elapsed_seconds": 8.559306237002602,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"arm\":\"reject_readonly_get\",\"cases\":12,\"imported_modules\":27,\"native_http_requests\":468}\n"
+    }
+  ],
+  "source_imports_replaced": false,
+  "source_observations_acquired_before_diagnosis": true
+}

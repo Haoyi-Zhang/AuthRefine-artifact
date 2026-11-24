@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "policy_machine_pairs": 23040,
+  "policy_semantic_representatives": 180,
+  "machines_per_policy": 128,
+  "binding_profiles_checked": 43776,
+  "replay_rows_checked": 18696,
+  "family_classifications": {
+    "all": 984,
+    "none": 18984,
+    "some": 3072
+  },
+  "binding_shortest_lengths": {
+    "0": 21888,
+    "1": 15504,
+    "2": 1596,
+    "infinity": 4788
+  },
+  "implementation_work_breakdown": {
+    "active_group_visits": 22464,
+    "family_members": 43776,
+    "family_projections": 39100,
+    "graph_edges": 34560,
+    "index_memberships_created": 21952,
+    "index_memberships_removed": 17148,
+    "output_rows": 43776,
+    "projection_coordinates": 30240,
+    "replay_steps": 18696,
+    "semantic_steps": 22464,
+    "support_guard_atoms": 24928,
+    "support_queries": 13824
+  },
+  "profiles_uncompressed_sha256": "bb103dcd81b027432282622b6ea8fbe27b5eb0a1c0844e766e6fb59138d61491",
+  "inputs_sha256": "949d88b1e5093f1fdf7e3342fa8ca30c5d5d87a65fdd052f99f5d5989704dc69",
+  "source_sha256": {
+    "proofs/audit_support_indexed.py": "34b28cba74658bdcd637912126fe56a2e9c85f01f60bc3838db48097e9225b6f",
+    "src/family_diagnosis.py": "c6d0e72c7cf0096fd643a0ae04e65e2fa0045d94941390920fd0bc5f16434983",
+    "src/exhaustive_audit.py": "8b3e3641a055f48344fa2635be4d3ebd171e1947cabaa199ff5c8910a90de15c",
+    "src/extensions.py": "085cf7e3430a9cfb4e5aca40d203bff728e3190569a51230b0b5689547079875",
+    "src/checker.py": "4969c93a1a16da72cdb074b064a3175dd9a6de7e9e708e2ec0214cdd56f7676a"
+  },
+  "scope": [
+    "The same 23,040 policy/target pairs already used by exhaustive_audit.py; only the new support-indexed implementation is added.",
+    "One request, one Boolean source bit, zero or one two-candidate role alias, 180 initialized policy representatives, all 128 total two-state targets of the declared shape.",
+    "The independent direct semantics and source/target product oracle check exact matching families, shortest words, every replay field, and every semantic aggregate.",
+    "This audit is not a new application sample or an independent real-world prevalence estimate."
+  ]
+}

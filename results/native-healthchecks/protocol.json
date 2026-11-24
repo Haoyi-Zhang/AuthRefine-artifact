@@ -1,0 +1,374 @@
+{
+  "api_versions": [
+    1,
+    2,
+    3
+  ],
+  "callers": {
+    "lifecycle": 37,
+    "read_surface": 12,
+    "single_check_read": 4
+  },
+  "configuration_dependent_native_targets": true,
+  "configurations": {
+    "identity": {
+      "alice_ro": "alice_ro",
+      "alice_rw": "alice_rw",
+      "bob_ro": "bob_ro",
+      "bob_rw": "bob_rw"
+    },
+    "swap_both": {
+      "alice_ro": "bob_rw",
+      "alice_rw": "bob_ro",
+      "bob_ro": "alice_rw",
+      "bob_rw": "alice_ro"
+    },
+    "swap_privilege": {
+      "alice_ro": "alice_rw",
+      "alice_rw": "alice_ro",
+      "bob_ro": "bob_rw",
+      "bob_rw": "bob_ro"
+    },
+    "swap_project": {
+      "alice_ro": "bob_ro",
+      "alice_rw": "bob_rw",
+      "bob_ro": "alice_ro",
+      "bob_rw": "alice_rw"
+    }
+  },
+  "key_formats": [
+    "legacy",
+    "hashed"
+  ],
+  "operations": [
+    {
+      "body": null,
+      "key": "alice_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "readonly-own",
+      "route": "single",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "bob_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "readonly-own-second-project",
+      "route": "single",
+      "target": "bob"
+    },
+    {
+      "body": null,
+      "key": "alice_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "readonly-foreign",
+      "route": "single",
+      "target": "bob"
+    },
+    {
+      "body": null,
+      "key": "bob_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "readonly-foreign-other-direction",
+      "route": "single",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "GET",
+      "name": "readwrite-own",
+      "route": "single",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "readonly-list",
+      "route": "list",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "bob_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "readonly-list-second-project",
+      "route": "list",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "readonly-unique",
+      "route": "unique",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "readonly-foreign-unique",
+      "route": "unique",
+      "target": "bob"
+    },
+    {
+      "body": null,
+      "key": "alice_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "missing-check",
+      "route": "single",
+      "target": "missing"
+    },
+    {
+      "body": null,
+      "key": null,
+      "kind": "http",
+      "method": "GET",
+      "name": "missing-key",
+      "route": "single",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "invalid",
+      "kind": "http",
+      "method": "GET",
+      "name": "invalid-key",
+      "route": "single",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_ro",
+      "kind": "http",
+      "method": "POST",
+      "name": "readonly-pause",
+      "route": "pause",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "POST",
+      "name": "foreign-pause",
+      "route": "pause",
+      "target": "bob"
+    },
+    {
+      "body": null,
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "POST",
+      "name": "pause",
+      "route": "pause",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "POST",
+      "name": "repeat-pause",
+      "route": "pause",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "read-paused",
+      "route": "single",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "POST",
+      "name": "resume",
+      "route": "resume",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "POST",
+      "name": "repeat-resume",
+      "route": "resume",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "GET",
+      "name": "wrong-method",
+      "route": "pause",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": null,
+      "kind": "http",
+      "method": "OPTIONS",
+      "name": "preflight",
+      "route": "pause",
+      "target": "alice"
+    },
+    {
+      "body": "alice_rw",
+      "key": "bob_rw",
+      "kind": "http",
+      "method": "POST",
+      "name": "header-project-precedence",
+      "route": "pause",
+      "target": "alice"
+    },
+    {
+      "body": "alice_rw",
+      "key": null,
+      "kind": "http",
+      "method": "POST",
+      "name": "body-key-pause",
+      "route": "pause",
+      "target": "alice"
+    },
+    {
+      "body": "alice_rw",
+      "key": null,
+      "kind": "http",
+      "method": "POST",
+      "name": "body-key-resume",
+      "route": "resume",
+      "target": "alice"
+    },
+    {
+      "body": "alice_rw",
+      "key": "invalid",
+      "kind": "http",
+      "method": "POST",
+      "name": "invalid-header-precedence",
+      "route": "pause",
+      "target": "alice"
+    },
+    {
+      "body": "bob_rw",
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "POST",
+      "name": "header-over-body",
+      "route": "pause",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "POST",
+      "name": "resume-after-header",
+      "route": "resume",
+      "target": "alice"
+    },
+    {
+      "body": "malformed",
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "POST",
+      "name": "malformed-body",
+      "route": "pause",
+      "target": "alice"
+    },
+    {
+      "body": "list",
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "POST",
+      "name": "non-object-body",
+      "route": "pause",
+      "target": "alice"
+    },
+    {
+      "kind": "rotate",
+      "name": "rotate-write-key",
+      "owner": "alice",
+      "role": "rw"
+    },
+    {
+      "body": null,
+      "key": "old_alice_rw",
+      "kind": "http",
+      "method": "GET",
+      "name": "revoked-write-key",
+      "route": "single",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_rw",
+      "kind": "http",
+      "method": "GET",
+      "name": "replacement-write-key",
+      "route": "single",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "readonly-after-write-rotation",
+      "route": "single",
+      "target": "alice"
+    },
+    {
+      "kind": "rotate",
+      "name": "rotate-read-key",
+      "owner": "alice",
+      "role": "ro"
+    },
+    {
+      "body": null,
+      "key": "old_alice_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "revoked-read-key",
+      "route": "single",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "alice_ro",
+      "kind": "http",
+      "method": "GET",
+      "name": "replacement-read-key",
+      "route": "single",
+      "target": "alice"
+    },
+    {
+      "body": null,
+      "key": "bob_rw",
+      "kind": "http",
+      "method": "GET",
+      "name": "other-project-after-rotations",
+      "route": "single",
+      "target": "bob"
+    }
+  ],
+  "shared_target_correspondence_family": false,
+  "whole_application_state_graph": false
+}

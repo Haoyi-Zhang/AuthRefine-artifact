@@ -1,0 +1,20 @@
+Data and results license
+
+Copyright (c) 2026 Haoyi Zhang, Huaijin Ran, Jiongchi Yu, Yuqiang Sun and Yang Liu
+
+Except where noted below, the datasets, retained results, receipts and
+documentation in this repository (in particular results/, receipts/,
+empirical_study/data/, adaptation_study/, prospective_study/,
+reference_completion/, references/ and the CSV/JSON records at the repository
+root) are licensed under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Source code is licensed separately under the MIT License (see LICENSE).
+
+Third-party material is NOT covered by this license or by LICENSE. Upstream
+source snapshots and inputs (for example under source_study/source/,
+source_study/native_healthchecks/source/, results/native-healthchecks*/source-controls/
+and external_inputs/), retained publisher metadata responses
+(references/crossref/) and quoted passages keep their original licenses,
+notices and terms; see docs/third-party-materials.md and the license/notice
+files next to each snapshot.

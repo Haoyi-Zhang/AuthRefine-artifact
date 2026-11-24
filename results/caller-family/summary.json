@@ -1,0 +1,31 @@
+{
+  "domain": "all ordered pairs of 9 denial-stuttering one-request reference tables, 25 partial two-state targets, 9 partial two-state callers",
+  "instances": 18225,
+  "expected_instances": 18225,
+  "outcomes": {
+    "all": 600,
+    "inactive": 6075,
+    "missing": 3240,
+    "none": 5730,
+    "some": 2580
+  },
+  "classified_binding_shortest_lengths": {
+    "1": 13230,
+    "2": 810,
+    "infinity": 3780
+  },
+  "oracle": "independent table lookup on request words of lengths 1 through 4; no policy evaluator or graph search",
+  "cases_uncompressed_sha256": "ac3f29b76e193a99777729fd320d5af50330709de776aba0a6ade3d1fcf1639b",
+  "all_comparisons_passed": true,
+  "source_sha256": {
+    "src/protocol_profile.py": "b2539bfdcc6fdf4e5beca66ebffa94122c1bdf100359b37fdad07fe4d0211fd7",
+    "proofs/protocol_family_audit.py": "20313b91171873b1b4d15057a7512bcf72994b769b3c7d5ee808b8e4af523def",
+    "src/extensions.py": "085cf7e3430a9cfb4e5aca40d203bff728e3190569a51230b0b5689547079875",
+    "src/checker.py": "4969c93a1a16da72cdb074b064a3175dd9a6de7e9e708e2ec0214cdd56f7676a"
+  },
+  "limits": [
+    "One request, one Boolean source state, two target states, two caller states, equal initial observations.",
+    "The explicit two-binding family may contain behaviorally equal interpretations.",
+    "This finite implementation audit does not measure application prevalence or verify source observers."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "source_identities": {
+    "benchmarks/symbolic_comparison.py": "17ebaa3c10150ca16ff458dbf5c3b44021224c96c6dab4872e70d2f3a07e1e24",
+    "benchmarks/stateful_family.py": "549147a6962631278486e51d31a648c158e15e91fa7fc094a17c256dd27795ba",
+    "src/symbolic_family.py": "60d13981adb55b259e324d1dbbcbff64aee845fded181eabf77dcdd96860883a",
+    "src/symbolic.py": "0ab4d26a78131b7b43242b9d646646ff39f2ca464d5beb55d01670d8a555817b",
+    "src/checker.py": "4969c93a1a16da72cdb074b064a3175dd9a6de7e9e708e2ec0214cdd56f7676a",
+    "src/extensions.py": "085cf7e3430a9cfb4e5aca40d203bff728e3190569a51230b0b5689547079875",
+    "src/protocol_profile.py": "b2539bfdcc6fdf4e5beca66ebffa94122c1bdf100359b37fdad07fe4d0211fd7",
+    "src/protocol_grouped.py": "341441ae29e5c7ffcbef921777a46819e54f48088ec49caee76d8f90dfddad75",
+    "src/family_diagnosis.py": "c6d0e72c7cf0096fd643a0ae04e65e2fa0045d94941390920fd0bc5f16434983"
+  },
+  "input_preparation_wall_ns": 346637662,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "executable": "/workspace/scratch/044b0c825c44/audit/continuation/symbolic-env/bin/python",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "packages": {
+    "dd": "0.6.0",
+    "astutils": "0.0.6",
+    "networkx": "3.7",
+    "ply": "3.10",
+    "setuptools": "84.2.1"
+  },
+  "campaign_sources_unchanged": true
+}

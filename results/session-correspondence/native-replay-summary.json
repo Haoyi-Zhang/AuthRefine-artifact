@@ -1,0 +1,224 @@
+{
+  "cases": [
+    {
+      "coverage": [
+        {
+          "excluded_bindings": 1,
+          "indices": [
+            7,
+            0
+          ]
+        }
+      ],
+      "distinct_native_words": 1,
+      "excluded_bindings_checked": 1,
+      "id": "sessions-2-baseline",
+      "native_operations": 2
+    },
+    {
+      "coverage": [
+        {
+          "excluded_bindings": 2,
+          "indices": [
+            7
+          ]
+        }
+      ],
+      "distinct_native_words": 1,
+      "excluded_bindings_checked": 2,
+      "id": "sessions-2-omit-delete",
+      "native_operations": 1
+    },
+    {
+      "coverage": [
+        {
+          "excluded_bindings": 4,
+          "indices": [
+            9,
+            0
+          ]
+        },
+        {
+          "excluded_bindings": 1,
+          "indices": [
+            11,
+            2
+          ]
+        }
+      ],
+      "distinct_native_words": 2,
+      "excluded_bindings_checked": 5,
+      "id": "sessions-3-baseline",
+      "native_operations": 4
+    },
+    {
+      "coverage": [
+        {
+          "excluded_bindings": 6,
+          "indices": [
+            9
+          ]
+        }
+      ],
+      "distinct_native_words": 1,
+      "excluded_bindings_checked": 6,
+      "id": "sessions-3-omit-delete",
+      "native_operations": 1
+    },
+    {
+      "coverage": [
+        {
+          "excluded_bindings": 18,
+          "indices": [
+            11,
+            0
+          ]
+        },
+        {
+          "excluded_bindings": 4,
+          "indices": [
+            13,
+            2
+          ]
+        },
+        {
+          "excluded_bindings": 1,
+          "indices": [
+            15,
+            4
+          ]
+        }
+      ],
+      "distinct_native_words": 3,
+      "excluded_bindings_checked": 23,
+      "id": "sessions-4-baseline",
+      "native_operations": 6
+    },
+    {
+      "coverage": [
+        {
+          "excluded_bindings": 24,
+          "indices": [
+            11
+          ]
+        }
+      ],
+      "distinct_native_words": 1,
+      "excluded_bindings_checked": 24,
+      "id": "sessions-4-omit-delete",
+      "native_operations": 1
+    },
+    {
+      "coverage": [
+        {
+          "excluded_bindings": 96,
+          "indices": [
+            13,
+            0
+          ]
+        },
+        {
+          "excluded_bindings": 18,
+          "indices": [
+            15,
+            2
+          ]
+        },
+        {
+          "excluded_bindings": 4,
+          "indices": [
+            17,
+            4
+          ]
+        },
+        {
+          "excluded_bindings": 1,
+          "indices": [
+            19,
+            6
+          ]
+        }
+      ],
+      "distinct_native_words": 4,
+      "excluded_bindings_checked": 119,
+      "id": "sessions-5-baseline",
+      "native_operations": 8
+    },
+    {
+      "coverage": [
+        {
+          "excluded_bindings": 120,
+          "indices": [
+            13
+          ]
+        }
+      ],
+      "distinct_native_words": 1,
+      "excluded_bindings_checked": 120,
+      "id": "sessions-5-omit-delete",
+      "native_operations": 1
+    },
+    {
+      "coverage": [
+        {
+          "excluded_bindings": 600,
+          "indices": [
+            15,
+            0
+          ]
+        },
+        {
+          "excluded_bindings": 96,
+          "indices": [
+            17,
+            2
+          ]
+        },
+        {
+          "excluded_bindings": 18,
+          "indices": [
+            19,
+            4
+          ]
+        },
+        {
+          "excluded_bindings": 4,
+          "indices": [
+            21,
+            6
+          ]
+        },
+        {
+          "excluded_bindings": 1,
+          "indices": [
+            23,
+            8
+          ]
+        }
+      ],
+      "distinct_native_words": 5,
+      "excluded_bindings_checked": 719,
+      "id": "sessions-6-baseline",
+      "native_operations": 10
+    },
+    {
+      "coverage": [
+        {
+          "excluded_bindings": 720,
+          "indices": [
+            15
+          ]
+        }
+      ],
+      "distinct_native_words": 1,
+      "excluded_bindings_checked": 720,
+      "id": "sessions-6-omit-delete",
+      "native_operations": 1
+    }
+  ],
+  "distinct_native_word_runs": 20,
+  "excluded_binding_replays_checked": 1739,
+  "native_operations": 35,
+  "reuse": "Each different physical request sequence is natively executed once per case; its rich source records are checked separately under every excluded fixed binding selecting that sequence.",
+  "status": "PASS"
+}

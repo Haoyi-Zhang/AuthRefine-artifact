@@ -1,0 +1,2 @@
+'AuthRefine.OutcomeObservation.encode_injective_fixed_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuthRefine.OutcomeObservation.denial_and_error_can_be_distinct' does not depend on any axioms

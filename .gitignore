@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+coverage.xml
+.venv/
+venv/
+
+# Generated evidence and local environments
+/evidence/
+/build/
+/dist/
+*.tmp
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

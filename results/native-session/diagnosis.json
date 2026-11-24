@@ -1,0 +1,1469 @@
+{
+  "caller_protocols": {
+    "all_enabled": {
+      "initial": 0,
+      "transitions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "one_removal": {
+      "initial": 0,
+      "transitions": [
+        [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null
+        ]
+      ]
+    }
+  },
+  "policy": {
+    "actions": [
+      "lookup",
+      "remove"
+    ],
+    "aliases": [
+      {
+        "candidates": [
+          "credential-a",
+          "credential-b"
+        ],
+        "kind": "resource",
+        "name": "credential-for-row-a"
+      },
+      {
+        "candidates": [
+          "credential-a",
+          "credential-b"
+        ],
+        "kind": "resource",
+        "name": "credential-for-row-b"
+      }
+    ],
+    "members": [],
+    "principals": [
+      "client"
+    ],
+    "resources": [
+      "credential-a",
+      "credential-b",
+      "missing",
+      "row-a",
+      "row-b"
+    ],
+    "roles": [],
+    "rules": [
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "remove",
+            "negated": false
+          },
+          {
+            "field": "resource",
+            "name": "row-a",
+            "negated": false
+          }
+        ],
+        "updates": [
+          {
+            "name": "session-a-present",
+            "value": false
+          }
+        ]
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "remove",
+            "negated": false
+          },
+          {
+            "field": "resource",
+            "name": "row-b",
+            "negated": false
+          }
+        ],
+        "updates": [
+          {
+            "name": "session-b-present",
+            "value": false
+          }
+        ]
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "remove",
+            "negated": false
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "lookup",
+            "negated": false
+          },
+          {
+            "alias": "credential-for-row-a",
+            "field": "resource",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "session-a-present",
+            "value": true
+          }
+        ],
+        "updates": []
+      },
+      {
+        "decision": "allow",
+        "guard": [
+          {
+            "field": "action",
+            "name": "lookup",
+            "negated": false
+          },
+          {
+            "alias": "credential-for-row-b",
+            "field": "resource",
+            "negated": false
+          },
+          {
+            "field": "state",
+            "name": "session-b-present",
+            "value": true
+          }
+        ],
+        "updates": []
+      }
+    ],
+    "state": [
+      [
+        "session-a-present",
+        true
+      ],
+      [
+        "session-b-present",
+        true
+      ]
+    ]
+  },
+  "profiles": {
+    "baseline": {
+      "all_enabled_protocol": {
+        "accepted": false,
+        "bindings": 2,
+        "classification": "some",
+        "failing_bindings": 1,
+        "graph_cells_inspected": 40,
+        "graph_enabled_edges": 40,
+        "graph_traversals": 1,
+        "matching_bindings": 1,
+        "matching_family": [
+          {
+            "credential-for-row-a": "credential-a",
+            "credential-for-row-b": "credential-b"
+          }
+        ],
+        "profiles": [
+          {
+            "binding": {
+              "credential-for-row-a": "credential-a",
+              "credential-for-row-b": "credential-b"
+            },
+            "equivalent": true,
+            "indices": null,
+            "length": null,
+            "trace": null
+          },
+          {
+            "binding": {
+              "credential-for-row-a": "credential-b",
+              "credential-for-row-b": "credential-a"
+            },
+            "equivalent": false,
+            "indices": [
+              7,
+              0
+            ],
+            "length": 2,
+            "protocol_state": 0,
+            "request": 0,
+            "target_state": 1,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": true,
+                "decision_equal": true,
+                "protocol_state": 0,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "source_state": 3,
+                "state_equal": true,
+                "target": [
+                  "allow",
+                  2
+                ],
+                "target_state": 0
+              },
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": false,
+                "decision_equal": false,
+                "protocol_state": 0,
+                "request": [
+                  "client",
+                  "credential-a",
+                  "lookup"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "source_state": 2,
+                "state_equal": true,
+                "target": [
+                  "deny",
+                  2
+                ],
+                "target_state": 1
+              }
+            ]
+          }
+        ],
+        "protocol_disabled_cells": 0,
+        "protocol_excluded_missing_cells": 0,
+        "replay_evaluations": 2,
+        "scope": "fixed binding family, complete declared policy state, given regular caller protocol",
+        "shortest_failure": 2,
+        "status": "mismatch",
+        "strata": {
+          "2": 1,
+          "infinity": 1
+        },
+        "target_protocol_reachable_states": 4,
+        "target_reachable_states": 4,
+        "transition_evaluations": 51,
+        "unconditional_external_api_refinement": false,
+        "work_breakdown": {
+          "family_members": 2,
+          "graph_cells": 40,
+          "replay_steps": 2,
+          "semantic_steps": 51
+        },
+        "work_budget": 2000000,
+        "work_operations": 95
+      },
+      "binding_profile": {
+        "bindings": 2,
+        "classification": "some",
+        "failing_bindings": 1,
+        "matching_bindings": 1,
+        "profiles": [
+          {
+            "binding": {
+              "credential-for-row-a": "credential-a",
+              "credential-for-row-b": "credential-b"
+            },
+            "equivalent": true,
+            "indices": null,
+            "length": null,
+            "trace": null
+          },
+          {
+            "binding": {
+              "credential-for-row-a": "credential-b",
+              "credential-for-row-b": "credential-a"
+            },
+            "equivalent": false,
+            "indices": [
+              7,
+              0
+            ],
+            "length": 2,
+            "request": 0,
+            "target_state": 1,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": true,
+                "decision_equal": true,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "state_equal": true,
+                "target": [
+                  "allow",
+                  2
+                ]
+              },
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": false,
+                "decision_equal": false,
+                "request": [
+                  "client",
+                  "credential-a",
+                  "lookup"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "state_equal": true,
+                "target": [
+                  "deny",
+                  2
+                ]
+              }
+            ]
+          }
+        ],
+        "shortest_failure": 2,
+        "strata": {
+          "2": 1,
+          "infinity": 1
+        },
+        "target_reachable_states": 4,
+        "transition_evaluations": 51,
+        "work_breakdown": {
+          "family_members": 2,
+          "graph_edges": 40,
+          "replay_steps": 2,
+          "semantic_steps": 51
+        },
+        "work_budget": 2000000,
+        "work_operations": 95
+      },
+      "independent": [
+        {
+          "binding": {
+            "credential-for-row-a": "credential-a",
+            "credential-for-row-b": "credential-b"
+          },
+          "decision_only": {
+            "compared_cells": 40,
+            "equivalent": true,
+            "indices": null,
+            "length": null,
+            "visited_products": 4
+          },
+          "decision_product_replay": {
+            "bindings": null,
+            "equivalent": true,
+            "indices": null,
+            "length": null,
+            "trace": null,
+            "transition_evaluations": 40,
+            "visited_pairs": 4,
+            "work_breakdown": {
+              "family_members": 1,
+              "semantic_steps": 40
+            },
+            "work_budget": 2000000,
+            "work_operations": 41
+          },
+          "decision_shorter_words": 0,
+          "full": {
+            "compared_cells": 40,
+            "equivalent": true,
+            "indices": null,
+            "length": null,
+            "visited_products": 4
+          },
+          "full_shorter_words": 0,
+          "richer_selected_identity": {
+            "compared_cells": 40,
+            "equivalent": true,
+            "indices": null,
+            "length": null,
+            "visited_products": 4
+          }
+        },
+        {
+          "binding": {
+            "credential-for-row-a": "credential-b",
+            "credential-for-row-b": "credential-a"
+          },
+          "decision_only": {
+            "compared_cells": 11,
+            "equivalent": false,
+            "indices": [
+              7,
+              0
+            ],
+            "length": 2,
+            "visited_products": 3
+          },
+          "decision_product_replay": {
+            "bindings": [
+              {
+                "credential-for-row-a": "credential-b",
+                "credential-for-row-b": "credential-a"
+              },
+              {
+                "credential-for-row-a": "credential-b",
+                "credential-for-row-b": "credential-a"
+              }
+            ],
+            "equivalent": false,
+            "indices": [
+              7,
+              0
+            ],
+            "length": 2,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": true,
+                "decision_equal": true,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "state_equal": true,
+                "target": [
+                  "allow",
+                  2
+                ]
+              },
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": false,
+                "decision_equal": false,
+                "request": [
+                  "client",
+                  "credential-a",
+                  "lookup"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "state_equal": true,
+                "target": [
+                  "deny",
+                  2
+                ]
+              }
+            ],
+            "transition_evaluations": 11,
+            "visited_pairs": 3,
+            "work_breakdown": {
+              "family_members": 1,
+              "replay_steps": 2,
+              "semantic_steps": 11
+            },
+            "work_budget": 2000000,
+            "work_operations": 14
+          },
+          "decision_shorter_words": 11,
+          "full": {
+            "compared_cells": 11,
+            "equivalent": false,
+            "indices": [
+              7,
+              0
+            ],
+            "length": 2,
+            "visited_products": 3
+          },
+          "full_shorter_words": 11,
+          "richer_selected_identity": {
+            "compared_cells": 1,
+            "equivalent": false,
+            "indices": [
+              0
+            ],
+            "length": 1,
+            "visited_products": 1
+          }
+        }
+      ],
+      "one_removal_protocol": {
+        "accepted": false,
+        "bindings": 2,
+        "classification": "some",
+        "failing_bindings": 1,
+        "graph_cells_inspected": 40,
+        "graph_enabled_edges": 25,
+        "graph_traversals": 1,
+        "matching_bindings": 1,
+        "matching_family": [
+          {
+            "credential-for-row-a": "credential-a",
+            "credential-for-row-b": "credential-b"
+          }
+        ],
+        "profiles": [
+          {
+            "binding": {
+              "credential-for-row-a": "credential-a",
+              "credential-for-row-b": "credential-b"
+            },
+            "equivalent": true,
+            "indices": null,
+            "length": null,
+            "trace": null
+          },
+          {
+            "binding": {
+              "credential-for-row-a": "credential-b",
+              "credential-for-row-b": "credential-a"
+            },
+            "equivalent": false,
+            "indices": [
+              7,
+              0
+            ],
+            "length": 2,
+            "protocol_state": 1,
+            "request": 0,
+            "target_state": 1,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": true,
+                "decision_equal": true,
+                "protocol_state": 0,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "source_state": 3,
+                "state_equal": true,
+                "target": [
+                  "allow",
+                  2
+                ],
+                "target_state": 0
+              },
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": false,
+                "decision_equal": false,
+                "protocol_state": 1,
+                "request": [
+                  "client",
+                  "credential-a",
+                  "lookup"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "source_state": 2,
+                "state_equal": true,
+                "target": [
+                  "deny",
+                  2
+                ],
+                "target_state": 1
+              }
+            ]
+          }
+        ],
+        "protocol_disabled_cells": 15,
+        "protocol_excluded_missing_cells": 0,
+        "replay_evaluations": 2,
+        "scope": "fixed binding family, complete declared policy state, given regular caller protocol",
+        "shortest_failure": 2,
+        "status": "mismatch",
+        "strata": {
+          "2": 1,
+          "infinity": 1
+        },
+        "target_protocol_reachable_states": 4,
+        "target_reachable_states": 3,
+        "transition_evaluations": 41,
+        "unconditional_external_api_refinement": false,
+        "work_breakdown": {
+          "family_members": 2,
+          "graph_cells": 40,
+          "replay_steps": 2,
+          "semantic_steps": 41
+        },
+        "work_budget": 2000000,
+        "work_operations": 85
+      },
+      "support_indexed_profile": {
+        "active_group_visits": 46,
+        "bindings": 2,
+        "cached_supports": 4,
+        "classification": "some",
+        "failing_bindings": 1,
+        "family_projection_coordinates": 10,
+        "family_projection_evaluations": 10,
+        "graph_edges": 40,
+        "graph_traversals": 1,
+        "index_memberships_created": 7,
+        "index_memberships_removed": 3,
+        "matching_bindings": 1,
+        "peak_active_groups": 5,
+        "peak_cached_memberships": 6,
+        "profiles": [
+          {
+            "binding": {
+              "credential-for-row-a": "credential-a",
+              "credential-for-row-b": "credential-b"
+            },
+            "equivalent": true,
+            "indices": null,
+            "length": null,
+            "trace": null
+          },
+          {
+            "binding": {
+              "credential-for-row-a": "credential-b",
+              "credential-for-row-b": "credential-a"
+            },
+            "equivalent": false,
+            "indices": [
+              7,
+              0
+            ],
+            "length": 2,
+            "request": 0,
+            "target_state": 1,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": true,
+                "decision_equal": true,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "state_equal": true,
+                "target": [
+                  "allow",
+                  2
+                ]
+              },
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": false,
+                "decision_equal": false,
+                "request": [
+                  "client",
+                  "credential-a",
+                  "lookup"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "state_equal": true,
+                "target": [
+                  "deny",
+                  2
+                ]
+              }
+            ]
+          }
+        ],
+        "replay_evaluations": 2,
+        "shortest_failure": 2,
+        "strata": {
+          "2": 1,
+          "infinity": 1
+        },
+        "support_queries": 40,
+        "target_reachable_states": 4,
+        "transition_evaluations": 46,
+        "work_breakdown": {
+          "active_group_visits": 46,
+          "family_members": 2,
+          "family_projections": 10,
+          "graph_edges": 40,
+          "index_memberships_created": 7,
+          "index_memberships_removed": 3,
+          "output_rows": 2,
+          "projection_coordinates": 10,
+          "replay_steps": 2,
+          "semantic_steps": 46,
+          "support_guard_atoms": 440,
+          "support_queries": 40
+        },
+        "work_budget": 2000000,
+        "work_operations": 648
+      }
+    },
+    "omit_delete": {
+      "all_enabled_protocol": {
+        "accepted": false,
+        "bindings": 2,
+        "classification": "none",
+        "failing_bindings": 2,
+        "graph_cells_inspected": 10,
+        "graph_enabled_edges": 10,
+        "graph_traversals": 1,
+        "matching_bindings": 0,
+        "matching_family": [],
+        "profiles": [
+          {
+            "binding": {
+              "credential-for-row-a": "credential-a",
+              "credential-for-row-b": "credential-b"
+            },
+            "equivalent": false,
+            "indices": [
+              7
+            ],
+            "length": 1,
+            "protocol_state": 0,
+            "request": 7,
+            "target_state": 0,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-a",
+                  "credential-for-row-b": "credential-b"
+                },
+                "compared_equal": false,
+                "decision_equal": true,
+                "protocol_state": 0,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "source_state": 3,
+                "state_equal": false,
+                "target": [
+                  "allow",
+                  3
+                ],
+                "target_state": 0
+              }
+            ]
+          },
+          {
+            "binding": {
+              "credential-for-row-a": "credential-b",
+              "credential-for-row-b": "credential-a"
+            },
+            "equivalent": false,
+            "indices": [
+              7
+            ],
+            "length": 1,
+            "protocol_state": 0,
+            "request": 7,
+            "target_state": 0,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": false,
+                "decision_equal": true,
+                "protocol_state": 0,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "source_state": 3,
+                "state_equal": false,
+                "target": [
+                  "allow",
+                  3
+                ],
+                "target_state": 0
+              }
+            ]
+          }
+        ],
+        "protocol_disabled_cells": 0,
+        "protocol_excluded_missing_cells": 0,
+        "replay_evaluations": 2,
+        "scope": "fixed binding family, complete declared policy state, given regular caller protocol",
+        "shortest_failure": 1,
+        "status": "mismatch",
+        "strata": {
+          "1": 2
+        },
+        "target_protocol_reachable_states": 1,
+        "target_reachable_states": 1,
+        "transition_evaluations": 16,
+        "unconditional_external_api_refinement": false,
+        "work_breakdown": {
+          "family_members": 2,
+          "graph_cells": 10,
+          "replay_steps": 2,
+          "semantic_steps": 16
+        },
+        "work_budget": 2000000,
+        "work_operations": 30
+      },
+      "binding_profile": {
+        "bindings": 2,
+        "classification": "none",
+        "failing_bindings": 2,
+        "matching_bindings": 0,
+        "profiles": [
+          {
+            "binding": {
+              "credential-for-row-a": "credential-a",
+              "credential-for-row-b": "credential-b"
+            },
+            "equivalent": false,
+            "indices": [
+              7
+            ],
+            "length": 1,
+            "request": 7,
+            "target_state": 0,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-a",
+                  "credential-for-row-b": "credential-b"
+                },
+                "compared_equal": false,
+                "decision_equal": true,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "state_equal": false,
+                "target": [
+                  "allow",
+                  3
+                ]
+              }
+            ]
+          },
+          {
+            "binding": {
+              "credential-for-row-a": "credential-b",
+              "credential-for-row-b": "credential-a"
+            },
+            "equivalent": false,
+            "indices": [
+              7
+            ],
+            "length": 1,
+            "request": 7,
+            "target_state": 0,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": false,
+                "decision_equal": true,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "state_equal": false,
+                "target": [
+                  "allow",
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "shortest_failure": 1,
+        "strata": {
+          "1": 2
+        },
+        "target_reachable_states": 1,
+        "transition_evaluations": 16,
+        "work_breakdown": {
+          "family_members": 2,
+          "graph_edges": 10,
+          "replay_steps": 2,
+          "semantic_steps": 16
+        },
+        "work_budget": 2000000,
+        "work_operations": 30
+      },
+      "independent": [
+        {
+          "binding": {
+            "credential-for-row-a": "credential-a",
+            "credential-for-row-b": "credential-b"
+          },
+          "decision_only": {
+            "compared_cells": 11,
+            "equivalent": false,
+            "indices": [
+              7,
+              0
+            ],
+            "length": 2,
+            "visited_products": 3
+          },
+          "decision_product_replay": {
+            "bindings": [
+              {
+                "credential-for-row-a": "credential-a",
+                "credential-for-row-b": "credential-b"
+              },
+              {
+                "credential-for-row-a": "credential-a",
+                "credential-for-row-b": "credential-b"
+              }
+            ],
+            "equivalent": false,
+            "indices": [
+              7,
+              0
+            ],
+            "length": 2,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-a",
+                  "credential-for-row-b": "credential-b"
+                },
+                "compared_equal": true,
+                "decision_equal": true,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "state_equal": false,
+                "target": [
+                  "allow",
+                  3
+                ]
+              },
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-a",
+                  "credential-for-row-b": "credential-b"
+                },
+                "compared_equal": false,
+                "decision_equal": false,
+                "request": [
+                  "client",
+                  "credential-a",
+                  "lookup"
+                ],
+                "source": [
+                  "deny",
+                  2
+                ],
+                "state_equal": false,
+                "target": [
+                  "allow",
+                  3
+                ]
+              }
+            ],
+            "transition_evaluations": 11,
+            "visited_pairs": 3,
+            "work_breakdown": {
+              "family_members": 1,
+              "replay_steps": 2,
+              "semantic_steps": 11
+            },
+            "work_budget": 2000000,
+            "work_operations": 14
+          },
+          "decision_shorter_words": 11,
+          "full": {
+            "compared_cells": 8,
+            "equivalent": false,
+            "indices": [
+              7
+            ],
+            "length": 1,
+            "visited_products": 1
+          },
+          "full_shorter_words": 1,
+          "richer_selected_identity": {
+            "compared_cells": 8,
+            "equivalent": false,
+            "indices": [
+              7
+            ],
+            "length": 1,
+            "visited_products": 1
+          }
+        },
+        {
+          "binding": {
+            "credential-for-row-a": "credential-b",
+            "credential-for-row-b": "credential-a"
+          },
+          "decision_only": {
+            "compared_cells": 13,
+            "equivalent": false,
+            "indices": [
+              7,
+              2
+            ],
+            "length": 2,
+            "visited_products": 3
+          },
+          "decision_product_replay": {
+            "bindings": [
+              {
+                "credential-for-row-a": "credential-b",
+                "credential-for-row-b": "credential-a"
+              },
+              {
+                "credential-for-row-a": "credential-b",
+                "credential-for-row-b": "credential-a"
+              }
+            ],
+            "equivalent": false,
+            "indices": [
+              7,
+              2
+            ],
+            "length": 2,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": true,
+                "decision_equal": true,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "state_equal": false,
+                "target": [
+                  "allow",
+                  3
+                ]
+              },
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": false,
+                "decision_equal": false,
+                "request": [
+                  "client",
+                  "credential-b",
+                  "lookup"
+                ],
+                "source": [
+                  "deny",
+                  2
+                ],
+                "state_equal": false,
+                "target": [
+                  "allow",
+                  3
+                ]
+              }
+            ],
+            "transition_evaluations": 13,
+            "visited_pairs": 3,
+            "work_breakdown": {
+              "family_members": 1,
+              "replay_steps": 2,
+              "semantic_steps": 13
+            },
+            "work_budget": 2000000,
+            "work_operations": 16
+          },
+          "decision_shorter_words": 11,
+          "full": {
+            "compared_cells": 8,
+            "equivalent": false,
+            "indices": [
+              7
+            ],
+            "length": 1,
+            "visited_products": 1
+          },
+          "full_shorter_words": 1,
+          "richer_selected_identity": {
+            "compared_cells": 1,
+            "equivalent": false,
+            "indices": [
+              0
+            ],
+            "length": 1,
+            "visited_products": 1
+          }
+        }
+      ],
+      "one_removal_protocol": {
+        "accepted": false,
+        "bindings": 2,
+        "classification": "none",
+        "failing_bindings": 2,
+        "graph_cells_inspected": 20,
+        "graph_enabled_edges": 15,
+        "graph_traversals": 1,
+        "matching_bindings": 0,
+        "matching_family": [],
+        "profiles": [
+          {
+            "binding": {
+              "credential-for-row-a": "credential-a",
+              "credential-for-row-b": "credential-b"
+            },
+            "equivalent": false,
+            "indices": [
+              7
+            ],
+            "length": 1,
+            "protocol_state": 0,
+            "request": 7,
+            "target_state": 0,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-a",
+                  "credential-for-row-b": "credential-b"
+                },
+                "compared_equal": false,
+                "decision_equal": true,
+                "protocol_state": 0,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "source_state": 3,
+                "state_equal": false,
+                "target": [
+                  "allow",
+                  3
+                ],
+                "target_state": 0
+              }
+            ]
+          },
+          {
+            "binding": {
+              "credential-for-row-a": "credential-b",
+              "credential-for-row-b": "credential-a"
+            },
+            "equivalent": false,
+            "indices": [
+              7
+            ],
+            "length": 1,
+            "protocol_state": 0,
+            "request": 7,
+            "target_state": 0,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": false,
+                "decision_equal": true,
+                "protocol_state": 0,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "source_state": 3,
+                "state_equal": false,
+                "target": [
+                  "allow",
+                  3
+                ],
+                "target_state": 0
+              }
+            ]
+          }
+        ],
+        "protocol_disabled_cells": 5,
+        "protocol_excluded_missing_cells": 0,
+        "replay_evaluations": 2,
+        "scope": "fixed binding family, complete declared policy state, given regular caller protocol",
+        "shortest_failure": 1,
+        "status": "mismatch",
+        "strata": {
+          "1": 2
+        },
+        "target_protocol_reachable_states": 2,
+        "target_reachable_states": 1,
+        "transition_evaluations": 16,
+        "unconditional_external_api_refinement": false,
+        "work_breakdown": {
+          "family_members": 2,
+          "graph_cells": 20,
+          "replay_steps": 2,
+          "semantic_steps": 16
+        },
+        "work_budget": 2000000,
+        "work_operations": 40
+      },
+      "support_indexed_profile": {
+        "active_group_visits": 12,
+        "bindings": 2,
+        "cached_supports": 2,
+        "classification": "none",
+        "failing_bindings": 2,
+        "family_projection_coordinates": 8,
+        "family_projection_evaluations": 8,
+        "graph_edges": 10,
+        "graph_traversals": 1,
+        "index_memberships_created": 4,
+        "index_memberships_removed": 4,
+        "matching_bindings": 0,
+        "peak_active_groups": 3,
+        "peak_cached_memberships": 4,
+        "profiles": [
+          {
+            "binding": {
+              "credential-for-row-a": "credential-a",
+              "credential-for-row-b": "credential-b"
+            },
+            "equivalent": false,
+            "indices": [
+              7
+            ],
+            "length": 1,
+            "request": 7,
+            "target_state": 0,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-a",
+                  "credential-for-row-b": "credential-b"
+                },
+                "compared_equal": false,
+                "decision_equal": true,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "state_equal": false,
+                "target": [
+                  "allow",
+                  3
+                ]
+              }
+            ]
+          },
+          {
+            "binding": {
+              "credential-for-row-a": "credential-b",
+              "credential-for-row-b": "credential-a"
+            },
+            "equivalent": false,
+            "indices": [
+              7
+            ],
+            "length": 1,
+            "request": 7,
+            "target_state": 0,
+            "trace": [
+              {
+                "binding": {
+                  "credential-for-row-a": "credential-b",
+                  "credential-for-row-b": "credential-a"
+                },
+                "compared_equal": false,
+                "decision_equal": true,
+                "request": [
+                  "client",
+                  "row-a",
+                  "remove"
+                ],
+                "source": [
+                  "allow",
+                  2
+                ],
+                "state_equal": false,
+                "target": [
+                  "allow",
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "replay_evaluations": 2,
+        "shortest_failure": 1,
+        "strata": {
+          "1": 2
+        },
+        "support_queries": 8,
+        "target_reachable_states": 1,
+        "transition_evaluations": 12,
+        "work_breakdown": {
+          "active_group_visits": 12,
+          "family_members": 2,
+          "family_projections": 8,
+          "graph_edges": 10,
+          "index_memberships_created": 4,
+          "index_memberships_removed": 4,
+          "output_rows": 2,
+          "projection_coordinates": 8,
+          "replay_steps": 2,
+          "semantic_steps": 12,
+          "support_guard_atoms": 88,
+          "support_queries": 8
+        },
+        "work_budget": 2000000,
+        "work_operations": 160
+      }
+    }
+  },
+  "supplied_family": [
+    {
+      "credential-for-row-a": "credential-a",
+      "credential-for-row-b": "credential-b"
+    },
+    {
+      "credential-for-row-a": "credential-b",
+      "credential-for-row-b": "credential-a"
+    }
+  ]
+}

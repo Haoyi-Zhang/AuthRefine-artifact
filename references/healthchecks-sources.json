@@ -1,0 +1,475 @@
+{
+  "audit_date": "2026-11-19",
+  "scope": "Claim-specific reading of official documentation, a repository issue and maintainer response, and two historical commit diffs. These records support the three Healthchecks entries in the current bibliography. Native execution is documented separately by the source study.",
+  "selection": {
+    "rationale": "The API manual supplies the present contract. The July 2019 commit supplies direct evidence of the read-only context propagation and response-hardening change. Issue #346 supplies a concrete March 2020 over-rejection report; its maintainer response and linked fix commit establish the repair mechanism. The linked fix remains a separately read source in this log, without adding a fourth bibliography entry.",
+    "identifier_guidance": "These are non-DOI primary web/software records. Do not relabel them as DOI articles or technical reports merely to satisfy an inventory schema.",
+    "documentation_year": "No publication date was visible. The recorded n.d. is intentional; 2026-11-19 is the access date.",
+    "reference_types": {
+      "healthchecks_api": "software_documentation",
+      "caune2019readonly": "software_change",
+      "jameskirsop2020readonly": "software_issue"
+    },
+    "adopted_keys": [
+      "healthchecks_api",
+      "caune2019readonly",
+      "jameskirsop2020readonly"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "hc-api-current",
+      "selected_bibtex_key": "healthchecks_api",
+      "title": "Management API v3",
+      "author_or_publisher_verbatim": "Healthchecks.io",
+      "attribution_basis": "Official site identity; no individual byline observed.",
+      "publication_date": null,
+      "access_date": "2026-11-19",
+      "url": "https://healthchecks.io/docs/api/",
+      "retrieval_method": "Web primary-page open and find",
+      "web_refs": [
+        "turn948497239view0",
+        "turn238128771view0",
+        "turn238128771view1",
+        "turn238128771view2",
+        "turn238128771view3"
+      ],
+      "reading_scope": "Authentication, List Existing Checks, Get a Single Check, response-code and read-only response paragraphs; not all API endpoints.",
+      "source_locators": [
+        "Authentication, lines 77-93 in retrieved view",
+        "List Existing Checks: read-only fields, line 211",
+        "Get a Single Check, lines 268-326"
+      ],
+      "temporal_scope": "Live v3 documentation read on 2026-11-19; not evidence that the entire current field set existed in 2019 or 2020.",
+      "bibtex_entry_type": "manual"
+    },
+    {
+      "source_id": "hc-projects-current",
+      "selected_bibtex_key": null,
+      "title": "Projects and Teams",
+      "author_or_publisher_verbatim": "Healthchecks.io",
+      "attribution_basis": "Official site identity; no individual byline observed.",
+      "publication_date": null,
+      "access_date": "2026-11-19",
+      "url": "https://healthchecks.io/docs/projects_teams/",
+      "retrieval_method": "Web primary-page open",
+      "web_refs": [
+        "turn948497239view1"
+      ],
+      "reading_scope": "Project-scoped checks/integrations and Team Access role definitions.",
+      "source_locators": [
+        "Projects and Teams, lines 45-51",
+        "Team Access, lines 59-82"
+      ],
+      "reason_not_added_to_bibliography": "Corroboration and scope distinction; the API-key claim is explicit in Management API documentation."
+    },
+    {
+      "source_id": "hc-issue-346",
+      "selected_bibtex_key": "jameskirsop2020readonly",
+      "title": "API @authorize decorator doesn't allow read-only for Single Check",
+      "author_login_verbatim": "jameskirsop",
+      "author_association": "CONTRIBUTOR",
+      "publication_date": "2020-03-24",
+      "created_at": "2020-03-24T03:19:30Z",
+      "closed_at": "2020-03-24T14:10:53Z",
+      "closed_by_login": "cuu508",
+      "url": "https://github.com/healthchecks/healthchecks/issues/346",
+      "retrieval_url": "https://api.github.com/repos/healthchecks/healthchecks/issues/346",
+      "retrieval_method": "GitHub connector fetch: read-only GET of issue REST resource",
+      "reading_scope": "Issue metadata and full short report body; no deployment runtime log.",
+      "supported_claim": "The reporter says single-check GET required a full-access key because its authorization decorator did not accept a read-only key.",
+      "claim_boundary": "A concrete over-rejection report. No privilege escalation, exploitation, CVE or prevalence is established.",
+      "access_date": "2026-11-19",
+      "attribution_note": "The original displayed author is the GitHub login jameskirsop. No real name was inferred or substituted."
+    },
+    {
+      "source_id": "hc-issue-346-comment",
+      "selected_bibtex_key": null,
+      "title": "Maintainer response to issue #346",
+      "author_login_verbatim": "cuu508",
+      "author_association": "MEMBER",
+      "created_at": "2020-03-24T14:14:50Z",
+      "url": "https://github.com/healthchecks/healthchecks/issues/346#issuecomment-603263674",
+      "retrieval_url": "https://api.github.com/repos/healthchecks/healthchecks/issues/346/comments",
+      "retrieval_method": "GitHub connector fetch: read-only GET of issue comments",
+      "reading_scope": "The sole maintainer comment, including the reason for separating handlers.",
+      "supported_claim": "The maintainer acknowledges the omitted read-only case and explains that separate GET, update and delete handlers allow authorization and validation to differ by HTTP verb.",
+      "attribution_note": "The comment displays cuu508. The commits independently name this identity Pēteris Caune; no real name was inferred for the issue reporter.",
+      "access_date": "2026-11-19"
+    },
+    {
+      "source_id": "hc-commit-2019",
+      "selected_bibtex_key": "caune2019readonly",
+      "title": "Don't include ping URLs in API responses when the read-only key is used",
+      "author_name_verbatim": "Pēteris Caune",
+      "author_login": "cuu508",
+      "author_date": "2019-07-04T06:36:27Z",
+      "committer_name_verbatim": "Pēteris Caune",
+      "committer_date": "2019-07-04T06:36:27Z",
+      "publication_date": "2019-07-04",
+      "url": "https://github.com/healthchecks/healthchecks/commit/1f1b1aedca949a52a592f8aefc523ad47b054ed9",
+      "retrieval_url": "https://api.github.com/repos/healthchecks/healthchecks/commits/1f1b1aedca949a52a592f8aefc523ad47b054ed9",
+      "retrieval_method": "GitHub connector fetch: read-only GET of repository commit REST resource",
+      "commit_sha": "1f1b1aedca949a52a592f8aefc523ad47b054ed9",
+      "parent_sha": "3eef3c982f240f49c569f861a21e686ca2f99d1c",
+      "reading_scope": "Commit metadata and relevant changed authorization, view, serializer, test and changelog hunks; no historical runtime execution. Also read CHANGELOG.md lines 1-32 at this exact commit to verify the Improvements classification.",
+      "changed_files": [
+        "CHANGELOG.md",
+        "hc/api/decorators.py",
+        "hc/api/models.py",
+        "hc/api/tests/test_list_channels.py",
+        "hc/api/tests/test_list_checks.py",
+        "hc/api/views.py"
+      ],
+      "source_locators": [
+        {
+          "file": "CHANGELOG.md",
+          "blob_url": "https://github.com/healthchecks/healthchecks/blob/1f1b1aedca949a52a592f8aefc523ad47b054ed9/CHANGELOG.md",
+          "hunks": [
+            "@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file."
+          ]
+        },
+        {
+          "file": "hc/api/decorators.py",
+          "blob_url": "https://github.com/healthchecks/healthchecks/blob/1f1b1aedca949a52a592f8aefc523ad47b054ed9/hc%2Fapi%2Fdecorators.py",
+          "hunks": [
+            "@@ -27,6 +27,7 @@ def wrapper(request, *args, **kwds):",
+            "@@ -50,6 +51,7 @@ def wrapper(request, *args, **kwds):"
+          ]
+        },
+        {
+          "file": "hc/api/models.py",
+          "blob_url": "https://github.com/healthchecks/healthchecks/blob/1f1b1aedca949a52a592f8aefc523ad47b054ed9/hc%2Fapi%2Fmodels.py",
+          "hunks": [
+            "@@ -167,26 +167,34 @@ def tags_list(self):"
+          ]
+        },
+        {
+          "file": "hc/api/tests/test_list_channels.py",
+          "blob_url": "https://github.com/healthchecks/healthchecks/blob/1f1b1aedca949a52a592f8aefc523ad47b054ed9/hc%2Fapi%2Ftests%2Ftest_list_channels.py",
+          "hunks": [
+            "@@ -51,10 +51,3 @@ def test_it_accepts_api_key_from_request_body(self):"
+          ]
+        },
+        {
+          "file": "hc/api/tests/test_list_checks.py",
+          "blob_url": "https://github.com/healthchecks/healthchecks/blob/1f1b1aedca949a52a592f8aefc523ad47b054ed9/hc%2Fapi%2Ftests%2Ftest_list_checks.py",
+          "hunks": [
+            "@@ -150,3 +150,6 @@ def test_readonly_key_works(self):"
+          ]
+        },
+        {
+          "file": "hc/api/views.py",
+          "blob_url": "https://github.com/healthchecks/healthchecks/blob/1f1b1aedca949a52a592f8aefc523ad47b054ed9/hc%2Fapi%2Fviews.py",
+          "hunks": [
+            "@@ -121,7 +121,7 @@ def get_checks(request):",
+            "@@ -153,7 +153,7 @@ def checks(request):"
+          ]
+        }
+      ],
+      "external_execution_performed": false,
+      "access_date": "2026-11-19",
+      "changelog_locator": {
+        "url": "https://github.com/healthchecks/healthchecks/blob/1f1b1aedca949a52a592f8aefc523ad47b054ed9/CHANGELOG.md",
+        "section": "Unreleased / Improvements",
+        "line": 14,
+        "git_blob_sha1": "5bc38e334cfcd292927074154b50dbe20b395e97"
+      }
+    },
+    {
+      "source_id": "hc-commit-2020",
+      "selected_bibtex_key": null,
+      "title": "\"Get a single check\" API call now supports read-only API keys. Fixes #346",
+      "author_name_verbatim": "Pēteris Caune",
+      "author_login": "cuu508",
+      "author_date": "2020-03-24T14:10:42Z",
+      "committer_name_verbatim": "Pēteris Caune",
+      "committer_date": "2020-03-24T14:10:42Z",
+      "publication_date": "2020-03-24",
+      "url": "https://github.com/healthchecks/healthchecks/commit/76ae42bc8fe85ba8d12a24a842a08e17cf13682c",
+      "retrieval_url": "https://api.github.com/repos/healthchecks/healthchecks/commits/76ae42bc8fe85ba8d12a24a842a08e17cf13682c",
+      "retrieval_method": "GitHub connector fetch: read-only GET of repository commit REST resource",
+      "commit_sha": "76ae42bc8fe85ba8d12a24a842a08e17cf13682c",
+      "parent_sha": "5a297ba6a24b42f9496ba5a466f66cff9d1bddbe",
+      "reading_scope": "Commit metadata and relevant changed authorization, view, serializer, test and changelog hunks; no historical runtime execution.",
+      "changed_files": [
+        "CHANGELOG.md",
+        "hc/api/tests/test_create_check.py",
+        "hc/api/tests/test_get_check.py",
+        "hc/api/tests/test_update_check.py",
+        "hc/api/views.py",
+        "templates/docs/api.html",
+        "templates/docs/api.md"
+      ],
+      "source_locators": [
+        {
+          "file": "CHANGELOG.md",
+          "blob_url": "https://github.com/healthchecks/healthchecks/blob/76ae42bc8fe85ba8d12a24a842a08e17cf13682c/CHANGELOG.md",
+          "hunks": [
+            "@@ -1,6 +1,11 @@"
+          ]
+        },
+        {
+          "file": "hc/api/tests/test_get_check.py",
+          "blob_url": "https://github.com/healthchecks/healthchecks/blob/76ae42bc8fe85ba8d12a24a842a08e17cf13682c/hc%2Fapi%2Ftests%2Ftest_get_check.py",
+          "hunks": [
+            "@@ -23,9 +23,9 @@ def setUp(self):",
+            "@@ -52,3 +52,13 @@ def test_it_handles_missing_check(self):"
+          ]
+        },
+        {
+          "file": "hc/api/tests/test_update_check.py",
+          "blob_url": "https://github.com/healthchecks/healthchecks/blob/76ae42bc8fe85ba8d12a24a842a08e17cf13682c/hc%2Fapi%2Ftests%2Ftest_update_check.py",
+          "hunks": [
+            "@@ -218,3 +218,10 @@ def test_it_validates_cron_expression(self):"
+          ]
+        },
+        {
+          "file": "hc/api/views.py",
+          "blob_url": "https://github.com/healthchecks/healthchecks/blob/76ae42bc8fe85ba8d12a24a842a08e17cf13682c/hc%2Fapi%2Fviews.py",
+          "hunks": [
+            "@@ -178,34 +178,53 @@ def channels(request):"
+          ]
+        }
+      ],
+      "external_execution_performed": false,
+      "access_date": "2026-11-19",
+      "linked_from_bibtex_key": "jameskirsop2020readonly",
+      "reason_not_added_as_separate_entry": "The issue entry explicitly links this independently read fix; use its patch, rather than the report alone, to substantiate the repair mechanism."
+    },
+    {
+      "source_id": "hc-pinned-source",
+      "selected_bibtex_key": null,
+      "repository": "https://github.com/healthchecks/healthchecks",
+      "snapshot": "51a503531d845fc11d5ef270d576c59c300e3620",
+      "reading_scope": "Selected decorator, view and serializer functions from the pinned source. Their retained Git blob identities and SHA-256 digests also match the corresponding source files supplied in this artifact.",
+      "locators": [
+        "hc/api/decorators.py: authorize and authorize_read",
+        "hc/api/views.py: get_check and get_check_by_unique_key",
+        "hc/api/models.py: Check.to_dict"
+      ],
+      "source_files": {
+        "hc/api/decorators.py": {
+          "bytes": 3787,
+          "git_blob_sha1": "f5a70f2539108b7365869e65676627057701adf4",
+          "expected_git_blob_sha1": "f5a70f2539108b7365869e65676627057701adf4",
+          "matches": true,
+          "sha256": "8c87db19c35849356cada2a1d60abeab966c39f158ed074ff503027dc78b4c92"
+        },
+        "hc/api/models.py": {
+          "bytes": 57031,
+          "git_blob_sha1": "a9aac472cca11d89cac4e05582dbeb392319a373",
+          "expected_git_blob_sha1": "a9aac472cca11d89cac4e05582dbeb392319a373",
+          "matches": true,
+          "sha256": "29703801fa1b887f31189e74df0a00df3893af74e174bce3878a91d3d8ff7339"
+        },
+        "hc/api/views.py": {
+          "bytes": 30960,
+          "git_blob_sha1": "6d33187cb0fc705e627a32e38609c2b91492e51e",
+          "expected_git_blob_sha1": "6d33187cb0fc705e627a32e38609c2b91492e51e",
+          "matches": true,
+          "sha256": "0b6c90b3d36ef48c4872b8d9964362571442f2ca8e63709c52698d33ad590e79"
+        }
+      },
+      "execution_scope": "No application execution by the citation reviewer; native outcomes belong to the application agent's separate receipts.",
+      "access_date": "2026-11-19",
+      "local_source_root": "source_study/source/healthchecks",
+      "local_source_verification": {
+        "date": "2026-11-19",
+        "files_checked": [
+          "source_study/source/healthchecks/hc/api/decorators.py",
+          "source_study/source/healthchecks/hc/api/models.py",
+          "source_study/source/healthchecks/hc/api/views.py"
+        ],
+        "git_blob_and_sha256_match": true,
+        "scope": "Local source identity check; no application execution or historical deployment replay."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "HC-C01",
+      "citation_keys": [
+        "healthchecks_api"
+      ],
+      "source_ids": [
+        "hc-api-current"
+      ],
+      "supported_claim": "Management API keys are project-specific; there are no account-wide API keys.",
+      "reading_scope": "Authentication paragraph.",
+      "source_locator": "API documentation lines 77-93.",
+      "support_level": "Direct official contract",
+      "remaining_scope": "Current documentation; not a historical execution result."
+    },
+    {
+      "id": "HC-C02",
+      "citation_keys": [
+        "healthchecks_api"
+      ],
+      "source_ids": [
+        "hc-api-current"
+      ],
+      "supported_claim": "Read-only keys work with list checks, single-check GET, status-change list and project badges. Read-write keys cover all documented endpoints.",
+      "reading_scope": "Authentication key-type definitions and endpoint list.",
+      "source_locator": "API documentation lines 81-92.",
+      "support_level": "Direct official contract",
+      "remaining_scope": "Do not assume every GET accepts read-only credentials."
+    },
+    {
+      "id": "HC-C03",
+      "citation_keys": [
+        "healthchecks_api"
+      ],
+      "source_ids": [
+        "hc-api-current",
+        "hc-pinned-source"
+      ],
+      "supported_claim": "Current read-only check responses omit uuid, ping_url, update_url, pause_url, resume_url and channels, and return stable unique_key. A known UUID still permits URL reconstruction.",
+      "reading_scope": "Read-only response paragraphs and the pinned serializer branch.",
+      "source_locator": "API documentation lines 211 and 323-326; pinned Check.to_dict.",
+      "support_level": "Direct contract and source inspection",
+      "remaining_scope": "Field suppression does not establish URL secrecy against a caller who already knows the UUID."
+    },
+    {
+      "id": "HC-C04",
+      "citation_keys": [
+        "healthchecks_api"
+      ],
+      "source_ids": [
+        "hc-projects-current",
+        "hc-pinned-source"
+      ],
+      "supported_claim": "Checks and integrations belong to a project; the pinned single-check view rejects a check whose project_id differs from request.project.id.",
+      "reading_scope": "Project-scoped entities and get_check body.",
+      "source_locator": "Projects and Teams line 51; pinned hc/api/views.py get_check.",
+      "support_level": "Official model and direct source logic",
+      "remaining_scope": "A missing check follows lookup failure; this inspection does not validate every deployment path.",
+      "citation_use_note": "Use healthchecks_api for the project-scoped key contract. Entity ownership is corroborated by the separately read Projects and Teams page; the runtime project guard is supported by pinned source inspection, not by the API manual alone."
+    },
+    {
+      "id": "HC-C05",
+      "citation_keys": [
+        "jameskirsop2020readonly"
+      ],
+      "source_ids": [
+        "hc-issue-346",
+        "hc-issue-346-comment",
+        "hc-commit-2020"
+      ],
+      "supported_claim": "Issue #346 reports read-only GET rejection; the maintainer acknowledged the omitted case and committed a fix on 24 March 2020.",
+      "reading_scope": "Issue body, sole maintainer comment and commit metadata.",
+      "source_locator": "Issue #346; issuecomment-603263674; commit 76ae42bc8fe85ba8d12a24a842a08e17cf13682c.",
+      "support_level": "Primary historical report and response",
+      "remaining_scope": "Describe over-rejection or an authorization integration defect, without inferring exploitation or unauthorized writes."
+    },
+    {
+      "id": "HC-C06",
+      "citation_keys": [
+        "jameskirsop2020readonly"
+      ],
+      "source_ids": [
+        "hc-commit-2020"
+      ],
+      "supported_claim": "The fix separates GET, update and delete. GET uses authorize_read and forwards request.readonly to serialization; writes retain authorize. Tests cover redacted read-only GET and rejected read-only update.",
+      "reading_scope": "Changed view, relevant tests and changelog hunks.",
+      "source_locator": "hc/api/views.py @@ -178,34 +178,53; test_get_check.py; test_update_check.py.",
+      "support_level": "Direct historical patch",
+      "remaining_scope": "Patch reading establishes mechanism, not an executed historical deployment.",
+      "citation_use_note": "The issue bibliography entry links the independently read 2020 commit. The code-mechanism claim relies on that commit patch, not solely on the issue report."
+    },
+    {
+      "id": "HC-C07",
+      "citation_keys": [
+        "caune2019readonly"
+      ],
+      "source_ids": [
+        "hc-commit-2019"
+      ],
+      "supported_claim": "The July 2019 change introduces and forwards request.readonly. The serializer includes ping_url, update_url, pause_url, channels and desc only when readonly=False; the channels endpoint changes from authorize_read to authorize.",
+      "reading_scope": "Decorator, serializer, view, test and changelog hunks.",
+      "source_locator": "hc/api/decorators.py; models.py to_dict; views.py get_checks/channels; test_list_checks.py; test_list_channels.py.",
+      "support_level": "Direct historical patch",
+      "remaining_scope": "The changelog classifies it as an Improvement. Use read-only response hardening or authorization-context propagation change; no CVE or deployed exploit is established."
+    },
+    {
+      "id": "HC-C08",
+      "citation_keys": [
+        "caune2019readonly",
+        "healthchecks_api"
+      ],
+      "source_ids": [
+        "hc-commit-2019",
+        "hc-api-current",
+        "hc-pinned-source"
+      ],
+      "supported_claim": "The 2019 and current field sets differ: desc was gated in the historical patch and is retained in the current read-only representation.",
+      "reading_scope": "Historical serializer hunk compared with current documentation and pinned source.",
+      "source_locator": "2019 models.py diff; current read-only examples; pinned Check.to_dict.",
+      "support_level": "Cross-version comparison",
+      "remaining_scope": "Do not project the current six-field omission list onto the exact 2019 schema."
+    },
+    {
+      "id": "HC-C09",
+      "citation_keys": [],
+      "source_ids": [
+        "hc-projects-current",
+        "hc-api-current"
+      ],
+      "supported_claim": "Read-only team membership and read-only API credentials are distinct. Team documentation says read-only members cannot access project API keys.",
+      "reading_scope": "Team Access and API Authentication definitions.",
+      "source_locator": "Projects and Teams lines 59-82; Management API Authentication.",
+      "support_level": "Direct official distinction",
+      "remaining_scope": "A separate team-documentation bibliography entry is unnecessary unless team membership is discussed."
+    },
+    {
+      "id": "HC-C10",
+      "citation_keys": [
+        "caune2019readonly",
+        "jameskirsop2020readonly"
+      ],
+      "source_ids": [
+        "hc-commit-2019",
+        "hc-commit-2020",
+        "hc-pinned-source"
+      ],
+      "supported_claim": "Omitting readonly forwarding on the pinned current source corresponds to the 2019 propagation boundary. Substituting authorize for authorize_read on GET corresponds to the 2020 rejection mechanism.",
+      "reading_scope": "Historical patches, current source functions, delivered exact control edits and retained unified diffs.",
+      "source_locator": "source_study/native_healthchecks/run.py:controls; results/native-healthchecks/source-controls.json; corresponding complete historical patches in source_study/native_healthchecks/source-evidence.json",
+      "support_level": "Mechanism correspondence",
+      "remaining_scope": "These are current-source controlled regressions. The old deployment, complete historical environment and historical request distribution have not been rerun.",
+      "citation_use_note": "The issue bibliography entry links the independently read 2020 commit. The code-mechanism claim relies on that commit patch, not solely on the issue report."
+    },
+    {
+      "id": "HC-C11",
+      "citation_keys": [],
+      "source_ids": [
+        "hc-pinned-source"
+      ],
+      "supported_claim": "wrong_project_context and omit_pause_persistence are research-designed counterfactual controls.",
+      "reading_scope": "Delivered source-control implementation and retained exact edits; no historical report is asserted for these two controls.",
+      "source_locator": "source_study/native_healthchecks/run.py:controls; results/native-healthchecks/source-controls.json",
+      "support_level": "Experiment-provenance classification",
+      "remaining_scope": "Do not describe them as historical or newly discovered upstream vulnerabilities."
+    }
+  ],
+  "failed_web_fetches": [
+    {
+      "url": "https://github.com/healthchecks/healthchecks/issues/346",
+      "web_ref": "turn948497239view2",
+      "status": "DisabledError",
+      "fallback": "Successful GitHub connector GET of issue and comments"
+    },
+    {
+      "url": "https://github.com/healthchecks/healthchecks/commit/1f1b1aedca949a52a592f8aefc523ad47b054ed9",
+      "web_ref": "turn935548069view0",
+      "status": "DisabledError",
+      "fallback": "Successful GitHub connector GET of commit metadata and patches"
+    },
+    {
+      "url": "https://github.com/healthchecks/healthchecks/commit/76ae42bc8fe85ba8d12a24a842a08e17cf13682c",
+      "web_ref": "turn935548069view1",
+      "status": "DisabledError",
+      "fallback": "Successful GitHub connector GET of commit metadata and patches"
+    }
+  ]
+}

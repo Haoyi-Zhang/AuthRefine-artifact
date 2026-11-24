@@ -1,0 +1,45 @@
+{
+  "baseline_source_modified": false,
+  "dependencies": "source_study/historical_h19/requirements.lock",
+  "introduced_control": "remove_session completes without deleting rows",
+  "native_dependency_check_passed": true,
+  "observation_before_policy_import": true,
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "records": [
+    {
+      "acquisition_wall_ns": 744893193,
+      "sessions": 2,
+      "source_operations": 90
+    },
+    {
+      "acquisition_wall_ns": 1500281993,
+      "sessions": 3,
+      "source_operations": 294
+    },
+    {
+      "acquisition_wall_ns": 5140826432,
+      "sessions": 4,
+      "source_operations": 882
+    },
+    {
+      "acquisition_wall_ns": 11088779325,
+      "sessions": 5,
+      "source_operations": 2486
+    },
+    {
+      "acquisition_wall_ns": 29373826465,
+      "sessions": 6,
+      "source_operations": 6682
+    }
+  ],
+  "selected_methods": [
+    "SessionsBase.get_user_id",
+    "SessionsBase.remove_session"
+  ],
+  "source": "source_study/source/h19/after/piccolo_api/session_auth/tables.py",
+  "source_admission": "source_study/stateful_sequence/source.py",
+  "status": "PASS",
+  "timing_scope": "Both baseline and control: selected source loading, temporary database setup, native ORM and SQLite execution, resets, reaching prefixes, rich observations and finite-table construction. The common dependency gate and final JSON encoding/write are outside these clocks.",
+  "total_acquisition_wall_ns": 47848607408
+}

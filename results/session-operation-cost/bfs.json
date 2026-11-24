@@ -1,0 +1,123 @@
+[
+  {
+    "all_smaller_depths_exhausted": true,
+    "discovered_by_depth": {
+      "0": 1,
+      "1": 2,
+      "2": 3
+    },
+    "expanded_by_depth": {
+      "0": 1,
+      "1": 2,
+      "2": 2
+    },
+    "minimum_requests": 2,
+    "reset_allowed": false,
+    "sessions": 2,
+    "states_discovered": 6,
+    "states_expanded": 5,
+    "witness": [
+      {
+        "action": "remove",
+        "resource": "row-1"
+      },
+      {
+        "action": "lookup",
+        "resource": "credential-1"
+      }
+    ]
+  },
+  {
+    "all_smaller_depths_exhausted": true,
+    "discovered_by_depth": {
+      "0": 1,
+      "1": 3,
+      "2": 12,
+      "3": 28,
+      "4": 30
+    },
+    "expanded_by_depth": {
+      "0": 1,
+      "1": 3,
+      "2": 12,
+      "3": 28,
+      "4": 8
+    },
+    "minimum_requests": 4,
+    "reset_allowed": false,
+    "sessions": 3,
+    "states_discovered": 74,
+    "states_expanded": 52,
+    "witness": [
+      {
+        "action": "remove",
+        "resource": "row-1"
+      },
+      {
+        "action": "lookup",
+        "resource": "credential-1"
+      },
+      {
+        "action": "remove",
+        "resource": "row-2"
+      },
+      {
+        "action": "lookup",
+        "resource": "credential-2"
+      }
+    ]
+  },
+  {
+    "all_smaller_depths_exhausted": true,
+    "discovered_by_depth": {
+      "0": 1,
+      "1": 4,
+      "2": 22,
+      "3": 88,
+      "4": 317,
+      "5": 784,
+      "6": 1291,
+      "7": 60
+    },
+    "expanded_by_depth": {
+      "0": 1,
+      "1": 4,
+      "2": 22,
+      "3": 88,
+      "4": 317,
+      "5": 784,
+      "6": 161
+    },
+    "minimum_requests": 6,
+    "reset_allowed": false,
+    "sessions": 4,
+    "states_discovered": 2567,
+    "states_expanded": 1377,
+    "witness": [
+      {
+        "action": "remove",
+        "resource": "row-1"
+      },
+      {
+        "action": "lookup",
+        "resource": "credential-1"
+      },
+      {
+        "action": "remove",
+        "resource": "row-2"
+      },
+      {
+        "action": "lookup",
+        "resource": "credential-2"
+      },
+      {
+        "action": "remove",
+        "resource": "row-3"
+      },
+      {
+        "action": "lookup",
+        "resource": "credential-3"
+      }
+    ]
+  }
+]

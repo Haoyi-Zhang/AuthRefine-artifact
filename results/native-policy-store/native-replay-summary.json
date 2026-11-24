@@ -1,0 +1,104 @@
+{
+  "cases": [
+    {
+      "checked_consumers": 36,
+      "id": "original-initial-0",
+      "physical_words": 3,
+      "word_operations": 7
+    },
+    {
+      "checked_consumers": 40,
+      "id": "original-initial-1",
+      "physical_words": 5,
+      "word_operations": 9
+    },
+    {
+      "checked_consumers": 40,
+      "id": "original-initial-2",
+      "physical_words": 6,
+      "word_operations": 10
+    },
+    {
+      "checked_consumers": 40,
+      "id": "original-initial-3",
+      "physical_words": 7,
+      "word_operations": 11
+    },
+    {
+      "checked_consumers": 40,
+      "id": "original-initial-4",
+      "physical_words": 6,
+      "word_operations": 10
+    },
+    {
+      "checked_consumers": 40,
+      "id": "original-initial-5",
+      "physical_words": 7,
+      "word_operations": 11
+    },
+    {
+      "checked_consumers": 40,
+      "id": "original-initial-6",
+      "physical_words": 4,
+      "word_operations": 8
+    },
+    {
+      "checked_consumers": 36,
+      "id": "original-initial-7",
+      "physical_words": 3,
+      "word_operations": 7
+    },
+    {
+      "checked_consumers": 20,
+      "id": "repaired-initial-0",
+      "physical_words": 2,
+      "word_operations": 2
+    },
+    {
+      "checked_consumers": 32,
+      "id": "repaired-initial-1",
+      "physical_words": 3,
+      "word_operations": 3
+    },
+    {
+      "checked_consumers": 32,
+      "id": "repaired-initial-2",
+      "physical_words": 4,
+      "word_operations": 4
+    },
+    {
+      "checked_consumers": 32,
+      "id": "repaired-initial-3",
+      "physical_words": 5,
+      "word_operations": 5
+    },
+    {
+      "checked_consumers": 32,
+      "id": "repaired-initial-4",
+      "physical_words": 4,
+      "word_operations": 4
+    },
+    {
+      "checked_consumers": 32,
+      "id": "repaired-initial-5",
+      "physical_words": 5,
+      "word_operations": 5
+    },
+    {
+      "checked_consumers": 32,
+      "id": "repaired-initial-6",
+      "physical_words": 3,
+      "word_operations": 3
+    },
+    {
+      "checked_consumers": 20,
+      "id": "repaired-initial-7",
+      "physical_words": 2,
+      "word_operations": 2
+    }
+  ],
+  "checked_consumers": 544,
+  "consumer_unit": "A fixed binding under one of five full-observation profiles or two separately declared Boolean-only profiles; repeated methods are not counted again.",
+  "physical_words": 69,
+  "word_operations": 101
+}

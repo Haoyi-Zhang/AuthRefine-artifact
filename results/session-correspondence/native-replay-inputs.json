@@ -1,0 +1,147 @@
+[
+  {
+    "arm": "baseline",
+    "id": "sessions-2-baseline",
+    "sessions": 2,
+    "words": [
+      [
+        7,
+        0
+      ]
+    ]
+  },
+  {
+    "arm": "omit-delete",
+    "id": "sessions-2-omit-delete",
+    "sessions": 2,
+    "words": [
+      [
+        7
+      ]
+    ]
+  },
+  {
+    "arm": "baseline",
+    "id": "sessions-3-baseline",
+    "sessions": 3,
+    "words": [
+      [
+        9,
+        0
+      ],
+      [
+        11,
+        2
+      ]
+    ]
+  },
+  {
+    "arm": "omit-delete",
+    "id": "sessions-3-omit-delete",
+    "sessions": 3,
+    "words": [
+      [
+        9
+      ]
+    ]
+  },
+  {
+    "arm": "baseline",
+    "id": "sessions-4-baseline",
+    "sessions": 4,
+    "words": [
+      [
+        11,
+        0
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        15,
+        4
+      ]
+    ]
+  },
+  {
+    "arm": "omit-delete",
+    "id": "sessions-4-omit-delete",
+    "sessions": 4,
+    "words": [
+      [
+        11
+      ]
+    ]
+  },
+  {
+    "arm": "baseline",
+    "id": "sessions-5-baseline",
+    "sessions": 5,
+    "words": [
+      [
+        13,
+        0
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        19,
+        6
+      ]
+    ]
+  },
+  {
+    "arm": "omit-delete",
+    "id": "sessions-5-omit-delete",
+    "sessions": 5,
+    "words": [
+      [
+        13
+      ]
+    ]
+  },
+  {
+    "arm": "baseline",
+    "id": "sessions-6-baseline",
+    "sessions": 6,
+    "words": [
+      [
+        15,
+        0
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        19,
+        4
+      ],
+      [
+        21,
+        6
+      ],
+      [
+        23,
+        8
+      ]
+    ]
+  },
+  {
+    "arm": "omit-delete",
+    "id": "sessions-6-omit-delete",
+    "sessions": 6,
+    "words": [
+      [
+        15
+      ]
+    ]
+  }
+]

@@ -1,0 +1,2629 @@
+{
+  "all_distributions": [
+    {
+      "name": "aiosqlite",
+      "version": "0.22.1"
+    },
+    {
+      "name": "annotated-doc",
+      "version": "0.0.7"
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.8.0"
+    },
+    {
+      "name": "anyio",
+      "version": "4.16.0"
+    },
+    {
+      "name": "asyncpg",
+      "version": "0.32.0"
+    },
+    {
+      "name": "black",
+      "version": "26.10.1"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.23"
+    },
+    {
+      "name": "click",
+      "version": "8.5.1"
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6"
+    },
+    {
+      "name": "dnspython",
+      "version": "2.9.2"
+    },
+    {
+      "name": "docstring_parser",
+      "version": "0.18.0"
+    },
+    {
+      "name": "email-validator",
+      "version": "2.4.0"
+    },
+    {
+      "name": "fastapi",
+      "version": "0.165.0"
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0"
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9"
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1"
+    },
+    {
+      "name": "idna",
+      "version": "3.20"
+    },
+    {
+      "name": "inflection",
+      "version": "0.5.1"
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6"
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.4"
+    },
+    {
+      "name": "mypy_extensions",
+      "version": "1.2.0"
+    },
+    {
+      "name": "opentelemetry-api",
+      "version": "1.45.2"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "pathspec",
+      "version": "1.1.1"
+    },
+    {
+      "name": "piccolo",
+      "version": "1.16.0"
+    },
+    {
+      "name": "piccolo_api",
+      "version": "1.10.0"
+    },
+    {
+      "name": "pip",
+      "version": "25.0.1"
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.14.7"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.10.6"
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.27.2"
+    },
+    {
+      "name": "PyJWT",
+      "version": "2.15.1"
+    },
+    {
+      "name": "python-multipart",
+      "version": "0.0.34"
+    },
+    {
+      "name": "pytokens",
+      "version": "0.4.1"
+    },
+    {
+      "name": "starlette",
+      "version": "1.10.0"
+    },
+    {
+      "name": "targ",
+      "version": "0.7.0"
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.5"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0"
+    }
+  ],
+  "native_files": [
+    {
+      "bytes": 23,
+      "distribution": "piccolo",
+      "path": "piccolo/__init__.py",
+      "sha256": "cacc46b7fa173ea4fe489d546c2ecd7725126a81048bde33d01773caf34d6366"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/app/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2187,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/app/commands/new.py",
+      "sha256": "a1dbc51c188a99b82695f0d7c4c714fb4aa55fc2ee99176f3c6cdf5fe4a43162"
+    },
+    {
+      "bytes": 252,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/app/commands/show_all.py",
+      "sha256": "e3a1efdd28a9313d1878c800a1b53ad8ed2647bc6f375a67ef18d4f58daca4a3"
+    },
+    {
+      "bytes": 340,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/app/piccolo_app.py",
+      "sha256": "f33d884e9c5043e31cc526304391ffbf21274576d8e9cc80876252aa18b29589"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/asgi/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/asgi/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4230,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/asgi/commands/new.py",
+      "sha256": "672620c290576f4b7ed0a42b69e8dae98f40363184759097a6ef5b9a6eff70f7"
+    },
+    {
+      "bytes": 217,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/asgi/piccolo_app.py",
+      "sha256": "ed552fa9025b07e49c3b403ad92e8c8899902fd1790d2f92765aa50cb6c06e51"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/fixtures/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/fixtures/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 3669,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/fixtures/commands/dump.py",
+      "sha256": "5059295757b752d6b231fe7b5af1506d5b18a6a170a3f80aa100bba11de37737"
+    },
+    {
+      "bytes": 4216,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/fixtures/commands/load.py",
+      "sha256": "42793c813f6201c48669ceae00b587636ea29338369e98c6a981cc6469ba8558"
+    },
+    {
+      "bytes": 1462,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/fixtures/commands/shared.py",
+      "sha256": "04c1bc92ee45c8ae6f2dec1a0d8c047deff91c29c4573d682b11df2fe1a93b4f"
+    },
+    {
+      "bytes": 268,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/fixtures/piccolo_app.py",
+      "sha256": "e0ed42ce7975ce6b36808c368958c28e27648027c5701f379d920027070d4ed8"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/meta/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/meta/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 115,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/meta/commands/version.py",
+      "sha256": "8834ad67b14f7790dad2f20066bbc54c20debf6c82b460735a19427511d2102a"
+    },
+    {
+      "bytes": 224,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/meta/piccolo_app.py",
+      "sha256": "11d001ef806fc29c0ef4bf033883173e5cbd7f88625b7a1a59dce82cd355d9ae"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 316,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/auto/__init__.py",
+      "sha256": "7986f5ad941a6a5ba6bff6e16dc11eeb1ddd520966a45b70ec4820ea4ef9f7b5"
+    },
+    {
+      "bytes": 7058,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/auto/diffable_table.py",
+      "sha256": "149fc3ec5bcbfef693860218fb31725bf90599178e235dac68cdc315c680bdfc"
+    },
+    {
+      "bytes": 35150,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/auto/migration_manager.py",
+      "sha256": "9339086c2f4ec36568c48e6e31c0831bea9565b4c706d96ebdd6b0a7eb488b6d"
+    },
+    {
+      "bytes": 1329,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/auto/operations.py",
+      "sha256": "d7af48ac22d1dc5b534711ec107360e9d4c6e3995c10cec0a32cb74b0817fe15"
+    },
+    {
+      "bytes": 26266,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/auto/schema_differ.py",
+      "sha256": "540d6b2beff035277265981f03764e96954624272f2f2a2e2ad4fd93660a8620"
+    },
+    {
+      "bytes": 4719,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/auto/schema_snapshot.py",
+      "sha256": "66a520e0da4284e7a8002285da0921aaccf5056df0396167cc909c72af8234d4"
+    },
+    {
+      "bytes": 23927,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/auto/serialisation.py",
+      "sha256": "9e5a2650bf93c03ffb1a36fcb6d4597c8c27f556cda04991983dcb1253f97b49"
+    },
+    {
+      "bytes": 1752,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/auto/serialisation_legacy.py",
+      "sha256": "11dab1dd82f44464ec4c72cd90744d9d775f5fabadd61eb953b517d9c23f0641"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6654,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/commands/backwards.py",
+      "sha256": "b012e8b6c75bc17d757638b81fb61681b6a89e5b9948a06ce95df3141de5e126"
+    },
+    {
+      "bytes": 4484,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/commands/base.py",
+      "sha256": "8ae179f8fa69015b7a78ea3410eb4848ab951ac7d1dd555cc970b345834e723e"
+    },
+    {
+      "bytes": 3991,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/commands/check.py",
+      "sha256": "25bcca011fd2144b39758bd6d09fd7e23808a490c01cb211cf7eb8248653e9e4"
+    },
+    {
+      "bytes": 2864,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/commands/clean.py",
+      "sha256": "258b3d570bc6378e6d5ccda289aa868f7510159849113ad66a14f4b5ca46bc19"
+    },
+    {
+      "bytes": 5427,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/commands/forwards.py",
+      "sha256": "d37cc66481b872c7f98c5aef977768b3abb4026353524878ab46dff59b75633f"
+    },
+    {
+      "bytes": 7924,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/commands/new.py",
+      "sha256": "93571719ec9d7ebaf7fe4b1cc2d6a1bfb41d256fc3b5395434793b596e0a7ebf"
+    },
+    {
+      "bytes": 593,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/piccolo_app.py",
+      "sha256": "d44712d82a2604f09a3020b60b759a3d1fc6a8bc2ddd788824d7e6e43da1320a"
+    },
+    {
+      "bytes": 799,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/migrations/tables.py",
+      "sha256": "8ea0672be464e78e6fd44bba19a2c74d5cfbfaec014d49f3da6e7c380fa6c537"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/playground/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/playground/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 8629,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/playground/commands/run.py",
+      "sha256": "4bca2c2d5e2cfe659dbef5581a7fb8f707a5f9dd52151075edf3b766d31cbfc6"
+    },
+    {
+      "bytes": 222,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/playground/piccolo_app.py",
+      "sha256": "cecea71b1b7e960505f27130234b834cd643290aa365a3431fc95ee51aab30d1"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/project/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/project/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1513,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/project/commands/new.py",
+      "sha256": "5125a9dfd175d2931d19bf8bf07f91a8b398717ca9c611a999ac15e22882169b"
+    },
+    {
+      "bytes": 220,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/project/piccolo_app.py",
+      "sha256": "993dced26dd07027d2d283abde3b74419f535fa8146af18f8c978d9f60bf7dd3"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/schema/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/schema/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 236,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/schema/commands/exceptions.py",
+      "sha256": "64e18bde257ec6d59b5ac2265ce6eb5cd68ab4d3d8fd09353a668e30e57a3ecd"
+    },
+    {
+      "bytes": 30700,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/schema/commands/generate.py",
+      "sha256": "fe7896fd4c59fb1dbdfb18c32157631dd0f22806979f81d40d5b558ec5e0043d"
+    },
+    {
+      "bytes": 3190,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/schema/commands/graph.py",
+      "sha256": "16e4143dabd45e9afe63fd755d1af5d436d52ec80af2e1b420df2e05921ee46e"
+    },
+    {
+      "bytes": 432,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/schema/piccolo_app.py",
+      "sha256": "0def5eba3cc1eb35ac3fa27580761493f7f9fc3a63bd36555c9b10dde5c18270"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/shell/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/shell/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1628,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/shell/commands/run.py",
+      "sha256": "06218c9ccd3018a36f64e925810794fd9841616171b6c4d0baf54776877d2f37"
+    },
+    {
+      "bytes": 217,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/shell/piccolo_app.py",
+      "sha256": "2e3c80bf336b79291e28cd3657347513bf12e90adc3e3cb56864453fe3b84fd7"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/sql_shell/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/sql_shell/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2060,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/sql_shell/commands/run.py",
+      "sha256": "3dd068780f9fb2f7cba63c115dcf7f301d6afeed14291f84ce98052289f02077"
+    },
+    {
+      "bytes": 221,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/sql_shell/piccolo_app.py",
+      "sha256": "b85b8c4083cb48c622ef2e71df01b52cfa869849300be7589662d32ab05a5104"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/tester/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/tester/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2431,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/tester/commands/run.py",
+      "sha256": "a611718a6da8800440be25be613d75cbd17e2f9489c528a80087a953341e0165"
+    },
+    {
+      "bytes": 225,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/tester/piccolo_app.py",
+      "sha256": "2c00335b749d54a663bd55e9071c29ad8c55d2b25b7830f7081e49a519879bc9"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/user/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/user/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 649,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/user/commands/change_password.py",
+      "sha256": "17b9a586d4d463bb843522bcbddb39a226c80c94f3ed005076b97b101fa517d4"
+    },
+    {
+      "bytes": 1463,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/user/commands/change_permissions.py",
+      "sha256": "2d272c28950c26a222e78719d52812f566f7e7a281d2deec9aef781435cb7d59"
+    },
+    {
+      "bytes": 2273,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/user/commands/create.py",
+      "sha256": "eea20533529575b29552352d373d5efcb0cac33c1a24a3525b35953fd410a914"
+    },
+    {
+      "bytes": 1761,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/user/commands/list.py",
+      "sha256": "c02abbb6081a316c0184317569d64d51d91985c5b2ef55323411e56868204440"
+    },
+    {
+      "bytes": 842,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/user/piccolo_app.py",
+      "sha256": "c9fc3527d1449c159d80675474d327aa9d3a5b39b9fecf533b6af928b721acb3"
+    },
+    {
+      "bytes": 2139,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/user/piccolo_migrations/2019-11-14T21-52-21.py",
+      "sha256": "773d8f4363f71dfed2e42d04816c1a3f7789f4e5cf1ae1caf3796100d81b03c8"
+    },
+    {
+      "bytes": 982,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/user/piccolo_migrations/2020-06-11T21-38-55.py",
+      "sha256": "246fcb14fac49639d212546c6ce7e9b6967c42322cee9440fe1662ab71cf3476"
+    },
+    {
+      "bytes": 1219,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/user/piccolo_migrations/2021-04-30T16-14-15.py",
+      "sha256": "63f0e3e11392c639cfb110ea727a567b293c52917c73cd13d3cfcedaeabe1a80"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/user/piccolo_migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 9082,
+      "distribution": "piccolo",
+      "path": "piccolo/apps/user/tables.py",
+      "sha256": "2a03ea38d765d520d5fb7706ab9692fb36bfbffe7f4c61d0a8d1585c5d0cdc9c"
+    },
+    {
+      "bytes": 1120,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/__init__.py",
+      "sha256": "39884efe7f5a9cc894f672fe2ba013abd16102d9bc472329a9843b7d355b8712"
+    },
+    {
+      "bytes": 32487,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/base.py",
+      "sha256": "fdb83dc8c5a333013be99ed10ea8bd8984a6b51b85c796e4c7db9826c1472a34"
+    },
+    {
+      "bytes": 723,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/choices.py",
+      "sha256": "f87350ba4f6f32655920f6793cc7971937ebdb7a389f328f48092f706d64d32f"
+    },
+    {
+      "bytes": 83485,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/column_types.py",
+      "sha256": "5ff66c0340b8581355a275763ac8b345db75a2c32c860b50dce6fa24df9a99f8"
+    },
+    {
+      "bytes": 6900,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/combination.py",
+      "sha256": "bcc5c2d9d7d8ee9be708586c4fbd57155c9be20750cdf46c08c6a276ebb4e12b"
+    },
+    {
+      "bytes": 145,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/defaults/__init__.py",
+      "sha256": "ee1a41d776da10981cd736d98d128316bfb9865b713365468fc2a729f3a24bc7"
+    },
+    {
+      "bytes": 1869,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/defaults/base.py",
+      "sha256": "cff660b5215b2eec2a758748eddaf69f549ec9327b33811ee0a8bb7916819550"
+    },
+    {
+      "bytes": 2517,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/defaults/date.py",
+      "sha256": "0eebb28be409f51afbd9a26408d9e3c8ed4224113e8a764d18a9f257cb5b2cb1"
+    },
+    {
+      "bytes": 1987,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/defaults/interval.py",
+      "sha256": "ca9690a600e6d402f4593305120282b7423e7bd003518751452065eb9209762c"
+    },
+    {
+      "bytes": 2417,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/defaults/time.py",
+      "sha256": "d9ed120e397dfccaf0d9851e2c55c30d8866942f508de93732486f996290147d"
+    },
+    {
+      "bytes": 3565,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/defaults/timestamp.py",
+      "sha256": "dcd83f2c9efa9e273ede3fc023365f52f8f7763205455929b3df30d5bff69543"
+    },
+    {
+      "bytes": 2057,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/defaults/timestamptz.py",
+      "sha256": "ccdf78e6875ead2e47536d8b3052dc4f4887958b76c2eafdf70fba9646e65802"
+    },
+    {
+      "bytes": 470,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/defaults/uuid.py",
+      "sha256": "cc105a5e552c0d329cc511435b0aa0a620d1ad877ba6dc42fe17fb52a6214636"
+    },
+    {
+      "bytes": 372,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/indexes.py",
+      "sha256": "35f368937bffefdd6380394ddbc2a684ff590a397ad37d415e68f1577a2f5c99"
+    },
+    {
+      "bytes": 14602,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/m2m.py",
+      "sha256": "d7b358d3053bb5adab5131d8524780d874214c3949fe5caff45c6abc98a251b6"
+    },
+    {
+      "bytes": 310,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/operators/__init__.py",
+      "sha256": "7c8226df4f42edd76aacff8cf682e57e171910ce05c79076d3740ccc19b43a93"
+    },
+    {
+      "bytes": 34,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/operators/base.py",
+      "sha256": "51f6aa3ddfa27aac9dae386f706622c0730e2acd7df6d4e24f5805135e43673a"
+    },
+    {
+      "bytes": 1338,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/operators/comparison.py",
+      "sha256": "1bb6c8fcef845eaba7ff31f06cd719f73f60b18f0e2bed2804a8c5a896c77047"
+    },
+    {
+      "bytes": 325,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/operators/math.py",
+      "sha256": "927b1467360e55db059f76d34b45c2d19cdf34e6de25c32f67c43f430986c635"
+    },
+    {
+      "bytes": 142,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/operators/string.py",
+      "sha256": "33989fc473feb6d25a13fc180a5db75b9b09a1fe22e52e7f40320ebf7e15c433"
+    },
+    {
+      "bytes": 1562,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/readable.py",
+      "sha256": "8606a7c543df20ae595e7faa82d781c6c3897c126e720afd53440bb0b15872e2"
+    },
+    {
+      "bytes": 3669,
+      "distribution": "piccolo",
+      "path": "piccolo/columns/reference.py",
+      "sha256": "9f8496e421ab512c2c464d8f9bb51b8a498a7541ee2760f93a86d0ecc79ad6f4"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "piccolo/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 19040,
+      "distribution": "piccolo",
+      "path": "piccolo/conf/apps.py",
+      "sha256": "02580e33678f97d3508cc139010c5c67945bb90a63472c050a3e6e1d4b022195"
+    },
+    {
+      "bytes": 604,
+      "distribution": "piccolo",
+      "path": "piccolo/custom_types.py",
+      "sha256": "ec73100337bee6689e34b7db4394206d142047669b47ba25d2a7a1bf64aa44e6"
+    },
+    {
+      "bytes": 283,
+      "distribution": "piccolo",
+      "path": "piccolo/engine/__init__.py",
+      "sha256": "674411e4d000f634c57a763ba4426fd42f2365705a159a23054477cf79f1d5cc"
+    },
+    {
+      "bytes": 6444,
+      "distribution": "piccolo",
+      "path": "piccolo/engine/base.py",
+      "sha256": "e0d212591baf829e5286a25b3842ba83ca24f088eab69da0cee33d27aa3fc125"
+    },
+    {
+      "bytes": 1522,
+      "distribution": "piccolo",
+      "path": "piccolo/engine/cockroach.py",
+      "sha256": "8069e2869968b4c64c5aa1f04676589e76ca5378c5af0b6dc0e94db64b6878b1"
+    },
+    {
+      "bytes": 44,
+      "distribution": "piccolo",
+      "path": "piccolo/engine/exceptions.py",
+      "sha256": "5fcc5989317e2fd3c8a854fe2835e7bf58c5208399305f1f60aebdd9c86db491"
+    },
+    {
+      "bytes": 507,
+      "distribution": "piccolo",
+      "path": "piccolo/engine/finder.py",
+      "sha256": "1a3cc136dcd1cc7efd7e3b519fb388de766239713c25fa10580bc754facf371e"
+    },
+    {
+      "bytes": 18955,
+      "distribution": "piccolo",
+      "path": "piccolo/engine/postgres.py",
+      "sha256": "0de90bdca69f09dcd200443afc480e8940751115e1db1a5e3d8c08f50be637e7"
+    },
+    {
+      "bytes": 25236,
+      "distribution": "piccolo",
+      "path": "piccolo/engine/sqlite.py",
+      "sha256": "2b025cdd4b6d04fffca924446cb26c86a11f44e175ec435fd09bbd070239feca"
+    },
+    {
+      "bytes": 5117,
+      "distribution": "piccolo",
+      "path": "piccolo/main.py",
+      "sha256": "d55b0557aec559352290f4f2b29eb816681df500556bff7073029fc23d940840"
+    },
+    {
+      "bytes": 699,
+      "distribution": "piccolo",
+      "path": "piccolo/query/__init__.py",
+      "sha256": "6dcb0c578f35deb311008a86bf80f12387b23b8166a57903bfd75f4e4e69b770"
+    },
+    {
+      "bytes": 14616,
+      "distribution": "piccolo",
+      "path": "piccolo/query/base.py",
+      "sha256": "888f45bf7a0ec3b4f865666f44a47076d0a5bd0b526807a9b251f6e2fc316550"
+    },
+    {
+      "bytes": 605,
+      "distribution": "piccolo",
+      "path": "piccolo/query/functions/__init__.py",
+      "sha256": "a5993338887b4a0f473cd39e7a03b0012e3a3b1b77d404e54959b09fe97109b7"
+    },
+    {
+      "bytes": 4248,
+      "distribution": "piccolo",
+      "path": "piccolo/query/functions/aggregate.py",
+      "sha256": "39d8c38ebff3c83e12f546eb6760b75799b3e0e4f6b087c01407531abe162f9e"
+    },
+    {
+      "bytes": 478,
+      "distribution": "piccolo",
+      "path": "piccolo/query/functions/base.py",
+      "sha256": "1a8d9b836afb19a568cb25fec136fcd161109ad894e0e15859096af5e43a65c7"
+    },
+    {
+      "bytes": 6251,
+      "distribution": "piccolo",
+      "path": "piccolo/query/functions/datetime.py",
+      "sha256": "e984a973f32264aff4d7d294842a34d52b3fd408d7277d4ceb547dfb32a6a19b"
+    },
+    {
+      "bytes": 661,
+      "distribution": "piccolo",
+      "path": "piccolo/query/functions/math.py",
+      "sha256": "d966a9ab49695d987bef3d2ecd75219ce7e65246e4334c63438b62cae0ac6e21"
+    },
+    {
+      "bytes": 2506,
+      "distribution": "piccolo",
+      "path": "piccolo/query/functions/string.py",
+      "sha256": "5f783fe2aa262490a460e70a70afb3644a82eaa241ad2e154e880fa7d5f0e02b"
+    },
+    {
+      "bytes": 2583,
+      "distribution": "piccolo",
+      "path": "piccolo/query/functions/type_conversion.py",
+      "sha256": "3986d973a4c493a6f9c93c02330dab999f9489089489664ecb1c0c2f35235f01"
+    },
+    {
+      "bytes": 622,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/__init__.py",
+      "sha256": "b66e202de57fa1b0eaa609e8b958c56c6b9b6daa0972a9bf71b35de0b3e8e3c4"
+    },
+    {
+      "bytes": 16728,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/alter.py",
+      "sha256": "008f589097a2a76122b6b58937f4c31315e103c1c6006dd7b83cf5351f8a8ab4"
+    },
+    {
+      "bytes": 1748,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/count.py",
+      "sha256": "5719ffed1cbeae5782e8e191c61f9c2dbb8432ccb50cd8c06494e11840fefdda"
+    },
+    {
+      "bytes": 2742,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/create.py",
+      "sha256": "849fba555b16733cca0c7e9f4113755a6621722b62c6e5c9f9e34eb82a3f2603"
+    },
+    {
+      "bytes": 2224,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/create_index.py",
+      "sha256": "822a7f7115d990b7e926a08beca1e4da5ffb1cba6da1af807bcaaee88e5de5cf"
+    },
+    {
+      "bytes": 2234,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/delete.py",
+      "sha256": "dd0361f30b27da150fd427bd9f3e69b3586e53ac921e3caa92374ff9560df94f"
+    },
+    {
+      "bytes": 1051,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/drop_index.py",
+      "sha256": "e71def1e9a0e990d523218fa2fbb272975fa33d97d8f51353c548ee8b30c9296"
+    },
+    {
+      "bytes": 1203,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/exists.py",
+      "sha256": "953323b6b14f17281999a3d5dec7d02977372b4b15a89d92e8f0dcddf44ae984"
+    },
+    {
+      "bytes": 943,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/indexes.py",
+      "sha256": "27e414a9a049c2981a86c9141f40aed0cabbcc429c7d502d0ec5152155fe0b87"
+    },
+    {
+      "bytes": 4701,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/insert.py",
+      "sha256": "b2c2c9ff09f4f0a9cec30afbb7e5482f29f53f886bbcceb709f3c87002564f99"
+    },
+    {
+      "bytes": 11705,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/objects.py",
+      "sha256": "89a843533894b65c7ba49dae04085d9b78424e6836012f42f1c6a5d66cb9291d"
+    },
+    {
+      "bytes": 600,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/raw.py",
+      "sha256": "561629081e76999938cea153b2a2b90872930c6b245232125d3055ed48e88660"
+    },
+    {
+      "bytes": 5854,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/refresh.py",
+      "sha256": "c20d7382129fc33f959aa2b8b966b818d3220ed2beb244eaa30e7dd476f738d3"
+    },
+    {
+      "bytes": 21406,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/select.py",
+      "sha256": "507fb2da0dd46fb6c4a307cb39baeb870d16f877a94d75829ae30f864d77ae81"
+    },
+    {
+      "bytes": 1259,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/table_exists.py",
+      "sha256": "d326f79fa25dda8bd2056959fa0974d0ae04ec99db8fb27ca80017e5dee1bcd9"
+    },
+    {
+      "bytes": 3705,
+      "distribution": "piccolo",
+      "path": "piccolo/query/methods/update.py",
+      "sha256": "2df5aa217125d5a79c734ae456cb13166c320fac171a194a713ad4561b6512cc"
+    },
+    {
+      "bytes": 21951,
+      "distribution": "piccolo",
+      "path": "piccolo/query/mixins.py",
+      "sha256": "1051056fd22de32d6647afc95cb9f5dfd87933d2a078fef9d124d8cb933830bb"
+    },
+    {
+      "bytes": 1839,
+      "distribution": "piccolo",
+      "path": "piccolo/query/proxy.py",
+      "sha256": "62ae2335cec8589bdd78edeeeffee23f2472d968558fc2ac2147086070488bd4"
+    },
+    {
+      "bytes": 9662,
+      "distribution": "piccolo",
+      "path": "piccolo/querystring.py",
+      "sha256": "c9975446d8954a5c64904549a0528098bd8e7cdc6b52bf317ec7ee04107b22e6"
+    },
+    {
+      "bytes": 7960,
+      "distribution": "piccolo",
+      "path": "piccolo/schema.py",
+      "sha256": "a8d372e2d1bf1ea9d747db77847320617b46c4769bc1002152973a44a2c9fe01"
+    },
+    {
+      "bytes": 49766,
+      "distribution": "piccolo",
+      "path": "piccolo/table.py",
+      "sha256": "9d2df3ba118d3d9e07f6cfc4de27856eb13fbb54ebe937a7055c3f9ebaed9914"
+    },
+    {
+      "bytes": 7094,
+      "distribution": "piccolo",
+      "path": "piccolo/table_reflection.py",
+      "sha256": "8eb3759c77ab0c9e2d534f46b4d377873edaa7eeeb5e74948e58c53ba2c1d87d"
+    },
+    {
+      "bytes": 83,
+      "distribution": "piccolo",
+      "path": "piccolo/testing/__init__.py",
+      "sha256": "a51152a912277f1f7901a90eab9e1ab66beaa01fae7b4ef7ab6691f2ef33478d"
+    },
+    {
+      "bytes": 6545,
+      "distribution": "piccolo",
+      "path": "piccolo/testing/model_builder.py",
+      "sha256": "95512211eef5c6b1fc4928f315cda5d2cf956825c77a0f41a39a0060e11b2eb2"
+    },
+    {
+      "bytes": 2128,
+      "distribution": "piccolo",
+      "path": "piccolo/testing/random_builder.py",
+      "sha256": "d0b906a5a9d0ecfd51f3680b20c4322bd726d4b75990fbf16d285311fde3787e"
+    },
+    {
+      "bytes": 3281,
+      "distribution": "piccolo",
+      "path": "piccolo/testing/test_case.py",
+      "sha256": "2474022007ae3ba1f665b7051d052196f5165458f32a86a40e5a95609bd886d8"
+    },
+    {
+      "bytes": 36,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/__init__.py",
+      "sha256": "483145ada6ae23d3a9f1d09192b790bf577051c69bf0c8b5782fa7d04c254f2f"
+    },
+    {
+      "bytes": 1886,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/dictionary.py",
+      "sha256": "f2f44fc6069769d0d586a8a13f55312fb9d406033a1a97bf12edf126aef3cc63"
+    },
+    {
+      "bytes": 1761,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/encoding.py",
+      "sha256": "0ad48e0c93a44f74d51df1a54c35e8cc3b029410896c61aa96e73afd4949fbb7"
+    },
+    {
+      "bytes": 200,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/graphlib/__init__.py",
+      "sha256": "494279621ecb891ba7de7901b8b51256618d1c5e9f00daf14a861a9f49ad601d"
+    },
+    {
+      "bytes": 9677,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/graphlib/_graphlib.py",
+      "sha256": "f453460d2993204024f3a164b678827bf276c978d213fb116470c100924050ec"
+    },
+    {
+      "bytes": 1912,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/lazy_loader.py",
+      "sha256": "4fc182844aad2967017a09feea0fc143b84e8365eed5b79d161ed9f04ef170e6"
+    },
+    {
+      "bytes": 1541,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/list.py",
+      "sha256": "e213c68a4b095b12f6dba5bb83260172a54680c4e055ada33fccef6a5737cf0f"
+    },
+    {
+      "bytes": 276,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/naming.py",
+      "sha256": "77bfe632c720b8aefdf51321c450e27d1827f0f972e708b2da4d4a90fdb6594b"
+    },
+    {
+      "bytes": 1631,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/objects.py",
+      "sha256": "36385f1f9ed0fffd7149fe20bcbb591657b72e9d0f8aa3d1ec072c561900dcc6"
+    },
+    {
+      "bytes": 1748,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/printing.py",
+      "sha256": "e5558d49f3ab2063e1d5533eedf7782b5f11182624d05439a3e0f868b8735d91"
+    },
+    {
+      "bytes": 12327,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/pydantic.py",
+      "sha256": "461a1067b75d98599ea5572c9475ccaa6ca76d255c87b5cb2944a02642ee412d"
+    },
+    {
+      "bytes": 787,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/repr.py",
+      "sha256": "2b7c3e4c03fd58fc7cb5b0080765c369bfc2e0f1ec3eb07d4f3c167ce1dae1c7"
+    },
+    {
+      "bytes": 1749,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/sql_values.py",
+      "sha256": "a465e6553c3aa56afcabb400e31b3b362292c2307384dfbedc75d58d0bf64904"
+    },
+    {
+      "bytes": 819,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/sync.py",
+      "sha256": "8fd01b9319f91c74ba1f2bdfa4ccdbd7357fb5e4e4147561688c6ef6bad2c125"
+    },
+    {
+      "bytes": 1247,
+      "distribution": "piccolo",
+      "path": "piccolo/utils/warnings.py",
+      "sha256": "38daeeaf0dc75420a552e1e7a5e9cc8e0e3975c15eb2b5ea3201bd89f80fe3ff"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "profiling/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 829,
+      "distribution": "piccolo",
+      "path": "profiling/run_profile.py",
+      "sha256": "dbae2ab1216ef77353a44c5e3e7290f4691c3797e2b91050ef658e4add191dc9"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/app/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1187,
+      "distribution": "piccolo",
+      "path": "tests/apps/app/commands/test_new.py",
+      "sha256": "1b1540832a84b5bb8709459a2e14f34d43b17ea43575a16af1281d21c5a3afff"
+    },
+    {
+      "bytes": 551,
+      "distribution": "piccolo",
+      "path": "tests/apps/app/commands/test_show_all.py",
+      "sha256": "71ad5a7d185e3d8c95c3ec76b30c67a23eb9f7fa9dbb9dee63cb15188a81b8d8"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/asgi/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/asgi/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 3097,
+      "distribution": "piccolo",
+      "path": "tests/apps/asgi/commands/test_new.py",
+      "sha256": "0b1958d9318af9f3803d4ae828ae022174720709ec7ad01e840008738c217941"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/fixtures/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/fixtures/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 9205,
+      "distribution": "piccolo",
+      "path": "tests/apps/fixtures/commands/test_dump_load.py",
+      "sha256": "05706bdfc809831cb9ab5887243f625267fcab08341f6c1fe7cde0b340a41057"
+    },
+    {
+      "bytes": 2171,
+      "distribution": "piccolo",
+      "path": "tests/apps/fixtures/commands/test_shared.py",
+      "sha256": "12f94687fcbb3b589261d86b56a482d997d9364688bbaea0f4160eb03bb443eb"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/meta/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/meta/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 316,
+      "distribution": "piccolo",
+      "path": "tests/apps/meta/commands/test_version.py",
+      "sha256": "1b105ea02e8edce188095396b5c09d3f76d9cdad4c476bfdf517364bc4af7219"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/auto/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/auto/integration/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 46753,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/auto/integration/test_migrations.py",
+      "sha256": "b7a40adec498a2f7382baf2dc92528e751f76ba2e9b9b338e366a0881610c59e"
+    },
+    {
+      "bytes": 2932,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/auto/test_diffable_table.py",
+      "sha256": "6e89371bda701189c4dc02fa506e22107ad5059250fe8bd809d282df07b92554"
+    },
+    {
+      "bytes": 34798,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/auto/test_migration_manager.py",
+      "sha256": "353371e32e41d1b3152d447d0726d7df34b88f1148dffc1e2de8fccce9f70642"
+    },
+    {
+      "bytes": 19391,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/auto/test_schema_differ.py",
+      "sha256": "51db1a662b00d368f5e70af56d79170fa0aabb7a74036dcdc0540b5ec25d40be"
+    },
+    {
+      "bytes": 6196,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/auto/test_schema_snapshot.py",
+      "sha256": "672bc666a9f737773077edd2f85304e4027c6ee0d21deb30ef23c8bd8ea61399"
+    },
+    {
+      "bytes": 13548,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/auto/test_serialisation.py",
+      "sha256": "105921112d70f61e755026a65ab871b3799fe08ef5f2081e3fb625e49fd4203e"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1829,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/commands/test_base.py",
+      "sha256": "3601e056335ddc78a5f5e383bd6ec87360fd9ae4dafe0acd687dd8a5115f47c2"
+    },
+    {
+      "bytes": 630,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/commands/test_check.py",
+      "sha256": "84e5ffb159359df0917db43cb49a0511404586287d3b842e40b1d3a794d06a26"
+    },
+    {
+      "bytes": 1124,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/commands/test_clean.py",
+      "sha256": "94fccb2d7868532c9f7d8dc44088b2463f907cfd3b51535385adb5704662bdf6"
+    },
+    {
+      "bytes": 8133,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/commands/test_forwards_backwards.py",
+      "sha256": "56494ef007fa17f012616166492f36f65b3e98a77006075e186fc5148698b678"
+    },
+    {
+      "bytes": 601,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/commands/test_migrations/2020-03-31T20-38-22.py",
+      "sha256": "f6962214d0e2fbb4c9cb94d9dcc78d4e1b6d8e371483a70443827962ff70410f"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/commands/test_migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4249,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/commands/test_new.py",
+      "sha256": "74a5ceb94eadffacf38871cbbd7fc974cfce89e7b62dcec512e00366c3253500"
+    },
+    {
+      "bytes": 308,
+      "distribution": "piccolo",
+      "path": "tests/apps/migrations/test_migration.py",
+      "sha256": "2663cbb5fd810965f76287ded0641ee349bc23fc966bffb7be4d650df1437c8a"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/project/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/project/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 409,
+      "distribution": "piccolo",
+      "path": "tests/apps/project/commands/test_new.py",
+      "sha256": "96a79137dc575e6c49f54bb4baa928b45b2a7e46007b1c5f174b2b58c8034b15"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/schema/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/shell/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/shell/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1170,
+      "distribution": "piccolo",
+      "path": "tests/apps/shell/commands/test_run.py",
+      "sha256": "c07dce450c09d5ad36900f969d95023666f4025c17a512a84e7b4e65551902a2"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/sql_shell/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/sql_shell/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 425,
+      "distribution": "piccolo",
+      "path": "tests/apps/sql_shell/commands/test_run.py",
+      "sha256": "ea9d27a82a06fea34baca781b87b2999eaff4ab330105faf7e9f4b6cf8f65b61"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/tester/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/user/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/apps/user/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1051,
+      "distribution": "piccolo",
+      "path": "tests/apps/user/commands/test_change_password.py",
+      "sha256": "2042259e7cbaf23b7850539a50ec0793d0bb587103e75c18a12357f98222eeb5"
+    },
+    {
+      "bytes": 2108,
+      "distribution": "piccolo",
+      "path": "tests/apps/user/commands/test_change_permissions.py",
+      "sha256": "b95284893d442a8b77540d930c44dd43586c58bfbcdeb2d0ac99788c8c4f82aa"
+    },
+    {
+      "bytes": 2250,
+      "distribution": "piccolo",
+      "path": "tests/apps/user/commands/test_create.py",
+      "sha256": "889dd3b62eb6ac7c2f75c4f0357adce493da9babd1d6ac4a45d30de39eaf9b7a"
+    },
+    {
+      "bytes": 2840,
+      "distribution": "piccolo",
+      "path": "tests/apps/user/commands/test_list.py",
+      "sha256": "8a93df19d5ba7c7eeaf8973b25c614be58a81a61fd190534588999182da6f974"
+    },
+    {
+      "bytes": 9807,
+      "distribution": "piccolo",
+      "path": "tests/apps/user/test_tables.py",
+      "sha256": "e48986016a482b196ac1e19e25132254e1da049c51c12ceca77199ef1ea5cc2a"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/columns/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/columns/m2m/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 14563,
+      "distribution": "piccolo",
+      "path": "tests/columns/m2m/base.py",
+      "sha256": "b87f7610242e639023a505cfc92c2b96bb993d9cc1e0b1f657615449798744b4"
+    },
+    {
+      "bytes": 13055,
+      "distribution": "piccolo",
+      "path": "tests/columns/m2m/test_m2m.py",
+      "sha256": "d0e6e620750917a099a0d0739dce715d5af9fc16c606a3a65b0b6983c21c3ede"
+    },
+    {
+      "bytes": 339,
+      "distribution": "piccolo",
+      "path": "tests/columns/m2m/test_m2m_schema.py",
+      "sha256": "a31bbb7808c51690e39eaf44abee4e4cd9a59ec1083055b1d7c388b5fa55b3eb"
+    },
+    {
+      "bytes": 11627,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_array.py",
+      "sha256": "9e222400f450a78f5b9296dcb5a320a5c0da8b84cc01b33daa4ad31a13c5b106"
+    },
+    {
+      "bytes": 3918,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_base.py",
+      "sha256": "093a8235caea0094e32d77b73026604dcceb981de371545c3a95381629692e84"
+    },
+    {
+      "bytes": 1058,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_bigint.py",
+      "sha256": "2b37e222dbf4718419477e55fd32f8f39022b439ce6507d3cc2dc2d9808b4a7e"
+    },
+    {
+      "bytes": 1626,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_boolean.py",
+      "sha256": "aa6d2d83e80a728607355d56545c606c6e02b27831009960fa1b0679336494df"
+    },
+    {
+      "bytes": 1382,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_bytea.py",
+      "sha256": "76837c4b5785554e27b525c883822031265c6efa96d5627e0049b73a328b1a42"
+    },
+    {
+      "bytes": 4066,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_choices.py",
+      "sha256": "abc4cb7bb9ef184457c863bf5c4af210147e0ee5b0158d633e9b1cb2b5e3757a"
+    },
+    {
+      "bytes": 1681,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_combination.py",
+      "sha256": "06e07047b9395f5124396ada6698ea53a82fb5bea8c3f93eecdd4a401896d910"
+    },
+    {
+      "bytes": 1030,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_date.py",
+      "sha256": "40b0ba909310c0cfb599b50fe24b0954cecff16c23cc6672ca71f7ac71dd49ec"
+    },
+    {
+      "bytes": 7670,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_db_column_name.py",
+      "sha256": "bf4405390a7f6adab3301d67e34b22995c077810e2e67c8dd4dd9b48f5f993ac"
+    },
+    {
+      "bytes": 2896,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_defaults.py",
+      "sha256": "af0954d5f5edddc0a5ec2e7578b9595ea816904f8ae56d291ef4ebc2400ac82a"
+    },
+    {
+      "bytes": 544,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_double_precision.py",
+      "sha256": "eeb85c49f0e46f67c187fcc41b8506c03fc65b5b32e94f7ef0da281ee092d3d4"
+    },
+    {
+      "bytes": 1768,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_get_sql_value.py",
+      "sha256": "98a82c227377ef88f357df72f6683f6621be02f9c9833dfa4998bcf712fb4593"
+    },
+    {
+      "bytes": 2780,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_interval.py",
+      "sha256": "d8cd7ca5fa06c4b2e8b04bf04e6b82e3342433a8d6c14d0dbf67ea5625b7c4eb"
+    },
+    {
+      "bytes": 3482,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_json.py",
+      "sha256": "fdcce226fc36b93f1eff8bbd94a866539ea5810784edb12a09761fe80cdf0a10"
+    },
+    {
+      "bytes": 6727,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_jsonb.py",
+      "sha256": "789428c69cae438cab5fe18c261464667b72778b57e8ce91840c589f6f884882"
+    },
+    {
+      "bytes": 751,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_numeric.py",
+      "sha256": "0244ef76f8d2b1f46c30cefdb71e00b24529b138b31812cc63fb42d8e208f54e"
+    },
+    {
+      "bytes": 4886,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_primary_key.py",
+      "sha256": "7e8346f5e4d0509e72884550edf68810cc9c5bf56e67bbe0ce49d85da67e4173"
+    },
+    {
+      "bytes": 758,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_readable.py",
+      "sha256": "c4a55f26ec5971fca770d54a5cdaf29765854445fae798f00fd0f188b02b4225"
+    },
+    {
+      "bytes": 511,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_real.py",
+      "sha256": "3bf97088d5384481d2318df742e593d164ef37357ed804d862d75b238e84e367"
+    },
+    {
+      "bytes": 2344,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_reference.py",
+      "sha256": "fa90ca665d248d11f3d7b53efdb95d1c3e2ba60ec66b6ee52335cc28e6b36d60"
+    },
+    {
+      "bytes": 1419,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_reserved_column_names.py",
+      "sha256": "4b7f61abd131f105e56e77e394f2edcf06b12024e45dee3736bdae9b54b7ee32"
+    },
+    {
+      "bytes": 1024,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_smallint.py",
+      "sha256": "e6d9bc069c949ae9fbb8844e68a06049bdbb746bbec1aaad40002fa6f4bae9e9"
+    },
+    {
+      "bytes": 1597,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_time.py",
+      "sha256": "790e12f8532150bbe4a7a3b041a31b85e060414545089f4918cb0a169b0cfef8"
+    },
+    {
+      "bytes": 1686,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_timestamp.py",
+      "sha256": "bc3ec5d09ffcad9917fcf9e07e368c72ce5482ade533c194257cd4edc40b3593"
+    },
+    {
+      "bytes": 2630,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_timestamptz.py",
+      "sha256": "3fbcdb94f0ba1638dd93a88e85550620a9c51736db50f54d498f7ca9bbaa13b5"
+    },
+    {
+      "bytes": 372,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_uuid.py",
+      "sha256": "b5a15836f4598d0ced30f6d340762dc10badbdc2e728fb7afda531b1fda8d384"
+    },
+    {
+      "bytes": 721,
+      "distribution": "piccolo",
+      "path": "tests/columns/test_varchar.py",
+      "sha256": "7dbc01762987a066b295faea9052204399b6abcd2e992a14347230a1f33a8ff7"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 347,
+      "distribution": "piccolo",
+      "path": "tests/conf/example.py",
+      "sha256": "2bcb13b6d2e911a73cad094e2c3639d342069078f73f7368c856c23274f512a6"
+    },
+    {
+      "bytes": 8632,
+      "distribution": "piccolo",
+      "path": "tests/conf/test_apps.py",
+      "sha256": "3af769e2fe79882f9ea52db9b0a9edc98030da48bdb2f73208d3a3e6b3b313e1"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/engine/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1298,
+      "distribution": "piccolo",
+      "path": "tests/engine/test_extra_nodes.py",
+      "sha256": "c56e607e51f333aa2edba0ea452019a1a01b615cc5d48b8c916defccd981f79e"
+    },
+    {
+      "bytes": 1287,
+      "distribution": "piccolo",
+      "path": "tests/engine/test_logging.py",
+      "sha256": "54b7fd03742ea15ece855f25b6d2c307883365e9a71bade44abf94c9a9f4d395"
+    },
+    {
+      "bytes": 2723,
+      "distribution": "piccolo",
+      "path": "tests/engine/test_nested_transaction.py",
+      "sha256": "dc9f7532f43fcf577bbfecfcffba4087fcf01c6a22fc652d9880d69467006709"
+    },
+    {
+      "bytes": 3890,
+      "distribution": "piccolo",
+      "path": "tests/engine/test_pool.py",
+      "sha256": "ca5b9c64d6b778bf1c7eb2e3c4fb5db8ba4e74dfd9d1ef59e919abcfe5e95a9f"
+    },
+    {
+      "bytes": 9893,
+      "distribution": "piccolo",
+      "path": "tests/engine/test_transaction.py",
+      "sha256": "5537d08902a997f1ed4908a0ea9979b660403f477cd73d9d8d4eac61ac6bff31"
+    },
+    {
+      "bytes": 793,
+      "distribution": "piccolo",
+      "path": "tests/engine/test_version_parsing.py",
+      "sha256": "3352ce0c054a1df8f56a94cc3b0a02df52dc238be188946cd4e3ba3f4588b261"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/example_apps/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/example_apps/mega/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 363,
+      "distribution": "piccolo",
+      "path": "tests/example_apps/mega/piccolo_app.py",
+      "sha256": "d579011ac4223003aeb6c2acaf54f3f1e96d8783a0d5ef0b573b922430f5de6e"
+    },
+    {
+      "bytes": 11834,
+      "distribution": "piccolo",
+      "path": "tests/example_apps/mega/piccolo_migrations/2021-09-20T21-23-25-698988.py",
+      "sha256": "66fa4b917915681d9d74487e67c1ba4a118174bd94c6df7709b4546bedffd264"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/example_apps/mega/piccolo_migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2359,
+      "distribution": "piccolo",
+      "path": "tests/example_apps/mega/tables.py",
+      "sha256": "020043aa17cba4ead22e22c4b19a53a23b745509121475095be547e441538f3c"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/example_apps/music/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 361,
+      "distribution": "piccolo",
+      "path": "tests/example_apps/music/piccolo_app.py",
+      "sha256": "6b74559ea3706f8a3be06d5cd1e126d736e29a29535d9966cbefb63e42e64b92"
+    },
+    {
+      "bytes": 2595,
+      "distribution": "piccolo",
+      "path": "tests/example_apps/music/tables.py",
+      "sha256": "b8c33b41e14e79625d45c830643ed26518fbf79deed6ce729fe1b5a401e8069c"
+    },
+    {
+      "bytes": 2240,
+      "distribution": "piccolo",
+      "path": "tests/example_apps/music/tables_detailed.py",
+      "sha256": "d544bee973b96a2a6695d02a17fba08481fc8eef22ff4d74b4a7ea12efd309e5"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/query/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/query/functions/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 515,
+      "distribution": "piccolo",
+      "path": "tests/query/functions/base.py",
+      "sha256": "5db2e9a12a74e4f3db1a5eda48f5b6f461ab0ca2f607e2ac0b18e2ec68613cd2"
+    },
+    {
+      "bytes": 3000,
+      "distribution": "piccolo",
+      "path": "tests/query/functions/test_datetime.py",
+      "sha256": "5ffe4b47d5e8b8f8902fe19059e9fe36da24ba70811c3b99e6093d7a534935de"
+    },
+    {
+      "bytes": 1984,
+      "distribution": "piccolo",
+      "path": "tests/query/functions/test_functions.py",
+      "sha256": "e75d1fa91aceac067d37216866d945ea521d8a22eb896859eefbef79667caec7"
+    },
+    {
+      "bytes": 1286,
+      "distribution": "piccolo",
+      "path": "tests/query/functions/test_math.py",
+      "sha256": "c0768641d10a21223c59e1bdcc654dbfad88ad64a9e26307ddd3f1571a07cb7b"
+    },
+    {
+      "bytes": 1800,
+      "distribution": "piccolo",
+      "path": "tests/query/functions/test_string.py",
+      "sha256": "44ca23901533c35224adbde74daed58c9e05b0a7eb8e9b87532c500c0f85e42b"
+    },
+    {
+      "bytes": 3235,
+      "distribution": "piccolo",
+      "path": "tests/query/functions/test_type_conversion.py",
+      "sha256": "59e611f547c99db89d95ed3bf9a910d60f6114277ddea4fcc54843177739f27e"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/query/mixins/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2032,
+      "distribution": "piccolo",
+      "path": "tests/query/mixins/test_columns_delegate.py",
+      "sha256": "670f6e6aa3846fb9293d0cf33bdcb3d2385011e09fa0f4a3b32f8108b83ff175"
+    },
+    {
+      "bytes": 507,
+      "distribution": "piccolo",
+      "path": "tests/query/mixins/test_order_by_delegate.py",
+      "sha256": "98e5771b1b345de96238dc635923a7888d73ea56d9ff14df70661de7724b9da6"
+    },
+    {
+      "bytes": 412,
+      "distribution": "piccolo",
+      "path": "tests/query/test_await.py",
+      "sha256": "8a619ace61b4978aa296f78d3f0b31bd842880526da2ce1807c37d8a080f1055"
+    },
+    {
+      "bytes": 1765,
+      "distribution": "piccolo",
+      "path": "tests/query/test_camelcase.py",
+      "sha256": "01c2f68197ab6b519fa5524da6e2ae879641a2c34263f7b33d687af9db94e6f5"
+    },
+    {
+      "bytes": 3887,
+      "distribution": "piccolo",
+      "path": "tests/query/test_freeze.py",
+      "sha256": "a77897a87ce0577f585a5ab35ed66f6836bb88a65a69a7a53865f7519f0231fd"
+    },
+    {
+      "bytes": 730,
+      "distribution": "piccolo",
+      "path": "tests/query/test_gather.py",
+      "sha256": "a2458036b06887452dd51a265a87df89636916a8884c5eaab62f806b7b98b519"
+    },
+    {
+      "bytes": 5019,
+      "distribution": "piccolo",
+      "path": "tests/query/test_querystring.py",
+      "sha256": "42bab28f05251657f92ebb09ec38230abbaaf35d48d14beb0c53ee77aadf64d2"
+    },
+    {
+      "bytes": 1010,
+      "distribution": "piccolo",
+      "path": "tests/query/test_slots.py",
+      "sha256": "23d663018a8024d48501683d53202acbb6e6f99e762a2c90d82ff21e4daaaaa2"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/table/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/table/instance/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1105,
+      "distribution": "piccolo",
+      "path": "tests/table/instance/test_create.py",
+      "sha256": "243d25ecbf5d0cad4528f854b3a582fc1d9baee3d1d6a43c688a97a446df8948"
+    },
+    {
+      "bytes": 1275,
+      "distribution": "piccolo",
+      "path": "tests/table/instance/test_get_related.py",
+      "sha256": "7404fcf4a1ee3bf5c4318ea1d278031eb5e9fe726c328493a136c7fc845c9531"
+    },
+    {
+      "bytes": 4694,
+      "distribution": "piccolo",
+      "path": "tests/table/instance/test_get_related_readable.py",
+      "sha256": "40330c6729313ec4d672c97c64866d99054bc12182c3b4018a52dea400009d68"
+    },
+    {
+      "bytes": 958,
+      "distribution": "piccolo",
+      "path": "tests/table/instance/test_instantiate.py",
+      "sha256": "8efb5aa926bfccdd651d08b290de049f08ad66a91601b5e57b9209b7284ab876"
+    },
+    {
+      "bytes": 648,
+      "distribution": "piccolo",
+      "path": "tests/table/instance/test_remove.py",
+      "sha256": "66fdb6659aa8b7ad6b8c25562f53c70dfd68c442dc06798c5f1d60b124fa8fcd"
+    },
+    {
+      "bytes": 4388,
+      "distribution": "piccolo",
+      "path": "tests/table/instance/test_save.py",
+      "sha256": "71c743cfe6d1dda6036b5ebf44640fec94d7a6b826d664faf8da45d72dd15f2a"
+    },
+    {
+      "bytes": 3442,
+      "distribution": "piccolo",
+      "path": "tests/table/instance/test_to_dict.py",
+      "sha256": "824898926708e6a732e44f844565a63be43cbb255215f72927c779dcb9730ae2"
+    },
+    {
+      "bytes": 667,
+      "distribution": "piccolo",
+      "path": "tests/table/test_all_columns.py",
+      "sha256": "c19ee2f664d3f702962c4d81a10f630db3daaa70477d5f9996c44ea7b499abb9"
+    },
+    {
+      "bytes": 12394,
+      "distribution": "piccolo",
+      "path": "tests/table/test_alter.py",
+      "sha256": "a4c0f7f012057ed6b5bf116aa7c6286917ccc5dc318504b073160ee1eae9522f"
+    },
+    {
+      "bytes": 3795,
+      "distribution": "piccolo",
+      "path": "tests/table/test_batch.py",
+      "sha256": "9779121ce4f60d0f052636ebfdb172306810d8123411de46b3819e25d12c8d5a"
+    },
+    {
+      "bytes": 6381,
+      "distribution": "piccolo",
+      "path": "tests/table/test_callback.py",
+      "sha256": "98da7834e4383ccfcf20a9fe58b1b81f2bcdf981e4ef0d0a6bf0658e0e5481de"
+    },
+    {
+      "bytes": 832,
+      "distribution": "piccolo",
+      "path": "tests/table/test_constructor.py",
+      "sha256": "ccf6f384a416cf3b104142bb3fd58cf0e8028b59dd85779d3faad4d2d83a5c83"
+    },
+    {
+      "bytes": 2297,
+      "distribution": "piccolo",
+      "path": "tests/table/test_count.py",
+      "sha256": "aa6e1dc25409e60bfc14f4ac8184d2fb71ac77f28b82f5a5167997c1e2b2771c"
+    },
+    {
+      "bytes": 2887,
+      "distribution": "piccolo",
+      "path": "tests/table/test_create.py",
+      "sha256": "77e5fb7da0c623a35eb2f125bbd261ac0a3421a966ae5eb5eb75a177f2c05034"
+    },
+    {
+      "bytes": 903,
+      "distribution": "piccolo",
+      "path": "tests/table/test_create_db_tables.py",
+      "sha256": "f59565bfd8c65f9ba778c7cce5cda3d4b94ea61828ac5347375710d696b2e203"
+    },
+    {
+      "bytes": 1745,
+      "distribution": "piccolo",
+      "path": "tests/table/test_create_table_class.py",
+      "sha256": "8ce031737f0e84706174cce3b133a5632cd18f2823ff92d7b6c938eaf98e37f1"
+    },
+    {
+      "bytes": 1252,
+      "distribution": "piccolo",
+      "path": "tests/table/test_delete.py",
+      "sha256": "7547c63b3d29d0e770c6d5a1107f3c3972facc1e6c7786722af56632cd3c4fdf"
+    },
+    {
+      "bytes": 1060,
+      "distribution": "piccolo",
+      "path": "tests/table/test_drop_db_tables.py",
+      "sha256": "d1afda059f013122e7bbf0c55c4ff6f57d350748cb75a6bf590e7fa93699e576"
+    },
+    {
+      "bytes": 283,
+      "distribution": "piccolo",
+      "path": "tests/table/test_exists.py",
+      "sha256": "007be1a1d911a1fecf55de080dd190da7c8e8ffd426a0d51a60d47f38b388d4d"
+    },
+    {
+      "bytes": 840,
+      "distribution": "piccolo",
+      "path": "tests/table/test_from_dict.py",
+      "sha256": "2383ccc6ece09208b7f9a75ac3d1abdeee6d4077b1737d55aeaed148f70f709b"
+    },
+    {
+      "bytes": 2073,
+      "distribution": "piccolo",
+      "path": "tests/table/test_indexes.py",
+      "sha256": "55f33616a14ef0e39a2fcf1061046a3d7fcf3e78920683c578b3e35d9f231c19"
+    },
+    {
+      "bytes": 3110,
+      "distribution": "piccolo",
+      "path": "tests/table/test_inheritance.py",
+      "sha256": "000921121862c551b07867bb724ce3fb2ca95be723e83f3c09c6b8fa98e4c0ac"
+    },
+    {
+      "bytes": 13695,
+      "distribution": "piccolo",
+      "path": "tests/table/test_insert.py",
+      "sha256": "fb16a82fac13341e9422688293d350290f81db597de87fbdb4ddbf884817bb90"
+    },
+    {
+      "bytes": 15910,
+      "distribution": "piccolo",
+      "path": "tests/table/test_join.py",
+      "sha256": "52482f8dcf0dc1e0461ccedf545cad190606f4ff6d85168c784bd65d8b3641eb"
+    },
+    {
+      "bytes": 2771,
+      "distribution": "piccolo",
+      "path": "tests/table/test_join_on.py",
+      "sha256": "71d015dfd2701e2d2421ab36a7d730ee672c52fea628b643fbefd2500d332df2"
+    },
+    {
+      "bytes": 4123,
+      "distribution": "piccolo",
+      "path": "tests/table/test_metaclass.py",
+      "sha256": "a4cbf43c787ed9af69ef86f07905c25e7ab5385b09ec6934b964457424cc7f9f"
+    },
+    {
+      "bytes": 8187,
+      "distribution": "piccolo",
+      "path": "tests/table/test_objects.py",
+      "sha256": "6e2afcea4b3e360cbcc7d12ef5b7a43ab87ab7005874490881375b05663ac7db"
+    },
+    {
+      "bytes": 4304,
+      "distribution": "piccolo",
+      "path": "tests/table/test_output.py",
+      "sha256": "667a4f6e0569efd25c07a13fa28590c4ea4e96193035494cc42fb52d22047366"
+    },
+    {
+      "bytes": 1683,
+      "distribution": "piccolo",
+      "path": "tests/table/test_raw.py",
+      "sha256": "f4f4ef6278108b8d6761de652b3909753aac11cc2b74e5dcbd98eaf96dba0b04"
+    },
+    {
+      "bytes": 269,
+      "distribution": "piccolo",
+      "path": "tests/table/test_ref.py",
+      "sha256": "7983519d81f334c5ee31b57707571ae4489da48838e74d2aea1af571cb956aca"
+    },
+    {
+      "bytes": 9250,
+      "distribution": "piccolo",
+      "path": "tests/table/test_refresh.py",
+      "sha256": "f8168b4ba7d9891d91b506856bb0fd586063adbaecb35fadb79c73d4d13f9bc1"
+    },
+    {
+      "bytes": 446,
+      "distribution": "piccolo",
+      "path": "tests/table/test_repr.py",
+      "sha256": "b9a873dff19f7c642b7f698313ee3e3eee009922c1032b28ebef6b6e8842979f"
+    },
+    {
+      "bytes": 40390,
+      "distribution": "piccolo",
+      "path": "tests/table/test_select.py",
+      "sha256": "8e07a26a12253455628f161bddae78835b095957c7de595a62bb1306676272bb"
+    },
+    {
+      "bytes": 1731,
+      "distribution": "piccolo",
+      "path": "tests/table/test_str.py",
+      "sha256": "7b3b563542dc8c0451d5fafd5f99f8b688e10cd8037dab55c8d1f0b98af31c0a"
+    },
+    {
+      "bytes": 1082,
+      "distribution": "piccolo",
+      "path": "tests/table/test_table_exists.py",
+      "sha256": "ba9bf67bd503df657641939287399cc34ade32a45b6225ff8f15b1e7ba76e638"
+    },
+    {
+      "bytes": 20505,
+      "distribution": "piccolo",
+      "path": "tests/table/test_update.py",
+      "sha256": "0aa8b4c57de412e27493ec7f7a63c60776ab5ee19667d7b7089dc73c59f0f59c"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/testing/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6206,
+      "distribution": "piccolo",
+      "path": "tests/testing/test_model_builder.py",
+      "sha256": "6e0b3e70e617b67adf816c9d536b19becd8dfcbb764fb2daec000c7c8b0e7afe"
+    },
+    {
+      "bytes": 1694,
+      "distribution": "piccolo",
+      "path": "tests/testing/test_random_builder.py",
+      "sha256": "529cfd3f56e1202568d2e748e8b8bee5e11dad729bbfcacc30b7b4b8aea9a81d"
+    },
+    {
+      "bytes": 1691,
+      "distribution": "piccolo",
+      "path": "tests/testing/test_test_case.py",
+      "sha256": "ab20d6613e38119372b9685a6578123a95f8f11691c39bb8160362f3b158b769"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo",
+      "path": "tests/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1480,
+      "distribution": "piccolo",
+      "path": "tests/utils/test_dictionary.py",
+      "sha256": "19d5ae8e5610cbab74f69d9a4073e26e490f35b058c24170a262ab567ced253a"
+    },
+    {
+      "bytes": 326,
+      "distribution": "piccolo",
+      "path": "tests/utils/test_encoding.py",
+      "sha256": "c750872e6d2b461799697cfb6addd282481cad93a6b4c07e36dbc90bbef040a1"
+    },
+    {
+      "bytes": 998,
+      "distribution": "piccolo",
+      "path": "tests/utils/test_lazy_loader.py",
+      "sha256": "c035a1955d8847a46e4da6022397967accf8eb95aa22c7181098f05a73eb84c7"
+    },
+    {
+      "bytes": 769,
+      "distribution": "piccolo",
+      "path": "tests/utils/test_list.py",
+      "sha256": "db95284ad9ab612fc90ce2ac5d8a930dcdc552439eddd51ccb9d6bd08ea0acad"
+    },
+    {
+      "bytes": 661,
+      "distribution": "piccolo",
+      "path": "tests/utils/test_naming.py",
+      "sha256": "9dc25dce4307495168d9840b911858f77589f3f5bf8f6a56f6d1c72ff66041cb"
+    },
+    {
+      "bytes": 668,
+      "distribution": "piccolo",
+      "path": "tests/utils/test_printing.py",
+      "sha256": "5bca50c965f6a4490b74c616c6d89b157267238315b1be9730e4e8dc3654b997"
+    },
+    {
+      "bytes": 27783,
+      "distribution": "piccolo",
+      "path": "tests/utils/test_pydantic.py",
+      "sha256": "4e329a8b6fd342497000f18e346152638cd891a96cfdb1a2286042cd31fd9ed5"
+    },
+    {
+      "bytes": 2535,
+      "distribution": "piccolo",
+      "path": "tests/utils/test_sql_values.py",
+      "sha256": "bf3c519b2d7a15f2d93c7fac0107b106fb05f4c5c1f27e2c9abd78aa810e4b91"
+    },
+    {
+      "bytes": 799,
+      "distribution": "piccolo",
+      "path": "tests/utils/test_sync.py",
+      "sha256": "f72b55a39eb2daf3d078fbd37888bd947228b8485625ba1d9754e6ce4185ad2a"
+    },
+    {
+      "bytes": 3794,
+      "distribution": "piccolo",
+      "path": "tests/utils/test_table_reflection.py",
+      "sha256": "488cee6adf88a5c563d46085c8e58a4a123c62485d38f3c51fba95aef7f23cd1"
+    },
+    {
+      "bytes": 269,
+      "distribution": "piccolo",
+      "path": "tests/utils/test_warnings.py",
+      "sha256": "36f482fdcbc9eae65cc0019fd66fa12f31135c2aa9ad710b2fcce0dd334b54cc"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "e2e/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1491,
+      "distribution": "piccolo-api",
+      "path": "e2e/conftest.py",
+      "sha256": "3438ca7db42a938619f9ba0ceb8c1e3d51f7cd6796d137ac11f7d3445e2d5e60"
+    },
+    {
+      "bytes": 1924,
+      "distribution": "piccolo-api",
+      "path": "e2e/pages.py",
+      "sha256": "98595646533555b3754fdeb5264cb6ac36cde91a6d8c9eeae4ff82f16bc6e231"
+    },
+    {
+      "bytes": 748,
+      "distribution": "piccolo-api",
+      "path": "e2e/test_mfa.py",
+      "sha256": "92b536c2045393a2824fdd81cfd84d02b0aba694492968c7f76dbfd6c7faf6bf"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "example_projects/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 23,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/__init__.py",
+      "sha256": "3d4167e8d93f9a616108a4e4d36834e23f29b98dcdecaa082307718734e75515"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/change_password/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 8700,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/change_password/endpoints.py",
+      "sha256": "c585c5ed2170f92472f9de9da675bc285e31a9a65b938094c0fad5928bddf48c"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/crud/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 44413,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/crud/endpoints.py",
+      "sha256": "d3b56b7efa60d9be5f252c6bfaef18ffb3a051daf140aca30d55be247e227859"
+    },
+    {
+      "bytes": 3155,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/crud/exceptions.py",
+      "sha256": "2771ca7735705ee0dc9f47fb71a2039f37c4560f967f2353dbfe39144f0ed7d7"
+    },
+    {
+      "bytes": 2518,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/crud/hooks.py",
+      "sha256": "f2c21f5159feaf239f97f0eea1d99fea9d3956de20ba767a561ce17f8aed74e8"
+    },
+    {
+      "bytes": 102,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/crud/serializers.py",
+      "sha256": "22dcf6faac383af3d81cda32d05c9029ab69303451a2daf2ea766093430c1ffb"
+    },
+    {
+      "bytes": 4655,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/crud/validators.py",
+      "sha256": "0d27b8549b35931e028add080f170858445ccf6584203c6adef5e6def66bec37"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/csp/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1392,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/csp/middleware.py",
+      "sha256": "ac2af0b2e4f9098c152bb61fbc63e1db9e2a436acb08dc0a093a9378b07bb779"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/csrf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6398,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/csrf/middleware.py",
+      "sha256": "bc1ac3ef3f39ea82eacc8abf07dabe9f86e08d29eecb4a499b6720706d58fee7"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/encryption/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6348,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/encryption/providers.py",
+      "sha256": "1884b863e68df2d77df20e73649502c1a8fafdeb6e184de141fd2b1f34dac271"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/fastapi/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 20194,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/fastapi/endpoints.py",
+      "sha256": "5d553c4986c51008966da80573a888ea3bb006126882b687324872cfb6e0b9c4"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/jwt_auth/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1854,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/jwt_auth/endpoints.py",
+      "sha256": "6d650ada6278aeec2e53d608bccb58a9d48a0719feb6ec5bfc3eac6e07dfc6c9"
+    },
+    {
+      "bytes": 6733,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/jwt_auth/middleware.py",
+      "sha256": "b39a683734f4fea1e755912126cddefd8ff68e9b49de07d1dcab27493ff2dc45"
+    },
+    {
+      "bytes": 95,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/media/__init__.py",
+      "sha256": "91dfbfd76032bef50782a237bf46b485d46bdfe7ba2e15950d6007994a4fd6f0"
+    },
+    {
+      "bytes": 10097,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/media/base.py",
+      "sha256": "55b744341416f7b1105fc262e63c48ae3a22e722418eaa9c466aaa339000b3d1"
+    },
+    {
+      "bytes": 2586,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/media/content_type.py",
+      "sha256": "7b66be00d8ba0d68fcbf9633520d0b99c31c65234faa17bc3a56efb80bd3683c"
+    },
+    {
+      "bytes": 6543,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/media/local.py",
+      "sha256": "c685d7facbc9ab0057568924e133ff6229796fb9063fd8949b50be27ede800f4"
+    },
+    {
+      "bytes": 12966,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/media/s3.py",
+      "sha256": "70c418741eb3177a6f9dd4f8160260b825f9432697e200c93c610abf1f8e9d10"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/mfa/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/mfa/authenticator/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 505,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/mfa/authenticator/piccolo_app.py",
+      "sha256": "a371b11bfa5f0fb8414db84f659a2cc9d2dca62c494929d39bd3d93732788572"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/mfa/authenticator/piccolo_migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6192,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/mfa/authenticator/piccolo_migrations/mfa_authenticator_2024_08_08t21_41_46_837552.py",
+      "sha256": "f502d307ffe6beab1f5bd2f5d02b57529ca3fc0ea083fcc9af5e7e18349461ab"
+    },
+    {
+      "bytes": 5786,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/mfa/authenticator/provider.py",
+      "sha256": "24511f53d831977c55a7f3e408b94229550b75777a6a33e65f12220a2550d8a8"
+    },
+    {
+      "bytes": 7578,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/mfa/authenticator/tables.py",
+      "sha256": "a2a83bb979a203c86b46bce5f3e63f29e6ff1804c182e0d7d63b09d16456d141"
+    },
+    {
+      "bytes": 1020,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/mfa/authenticator/utils.py",
+      "sha256": "543375cd80d7c032ad89d4fa3bebf66c723cec1f6691455c720470c562b26c02"
+    },
+    {
+      "bytes": 5874,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/mfa/endpoints.py",
+      "sha256": "a8987528a21a0d552d827e5b27ee1c1965b9f31a4f7ebed40f7f13144448d3a4"
+    },
+    {
+      "bytes": 2252,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/mfa/provider.py",
+      "sha256": "824ab3bd105f56b0332daadbb24333d66018385fdae2144e6724c275abfae53c"
+    },
+    {
+      "bytes": 1551,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/mfa/recovery_codes.py",
+      "sha256": "f8fc68d122825b9ea641b9e7f0e7acfb7f7ca3ee42b3c36b146e22c6b1d5cbb9"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/openapi/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2835,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/openapi/endpoints.py",
+      "sha256": "84bd0c56e72ce11963ee6080675687b165a8867d321831640f567583189bb93b"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/rate_limiting/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5243,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/rate_limiting/middleware.py",
+      "sha256": "a4a45150125de89fa5fe70a48aa754336a052a7a632165ce95d8f106f17c26ca"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/register/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 9065,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/register/endpoints.py",
+      "sha256": "b375f200729315bf9a119a942c61a3995b10e9edcaec35c5af9603b50c80d871"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/session_auth/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 348,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/session_auth/commands.py",
+      "sha256": "961baaab998071cd8ecfd2960480faffd243027f900e5df9d04bef6100380cb8"
+    },
+    {
+      "bytes": 21126,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/session_auth/endpoints.py",
+      "sha256": "a7552a5568010f1753175eea535057e4ea9577d8dbe6469b9d6117d653abdc70"
+    },
+    {
+      "bytes": 4960,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/session_auth/middleware.py",
+      "sha256": "8aaf518bab519ba2813225fa043dad666075224995964fb02ca8e62405ac49ad"
+    },
+    {
+      "bytes": 417,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/session_auth/piccolo_app.py",
+      "sha256": "ffecf9998ad32e2d4855fdf91ddb25123936c9334882c6340b4514629e7ff775"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/session_auth/piccolo_migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1840,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/session_auth/piccolo_migrations/session_auth_2019_11_12t20_47_17.py",
+      "sha256": "76cbfcb83eadbc8cc56e0c5c0cf961911a148f148cb005f28c1b906fe7eadbfb"
+    },
+    {
+      "bytes": 698,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/session_auth/piccolo_migrations/session_auth_2026_05_27t16_15_06_677127.py",
+      "sha256": "bdef001fedef9f89d8af6a17649a39c1610c55b064a8fe0b9a078ea6c9e37bfb"
+    },
+    {
+      "bytes": 3837,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/session_auth/tables.py",
+      "sha256": "b1e06075e16681ff1119e36f66d785f118baeb53bf74c485c508eafdf272e531"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/shared/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 172,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/shared/auth/__init__.py",
+      "sha256": "e60aa08b3ea46f4a02cfe4f4cd175a7b7fb1dc079d9fec9cb35f2408fb439087"
+    },
+    {
+      "bytes": 4578,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/shared/auth/captcha.py",
+      "sha256": "5efc7c1723320bcbd849105e6cdb859d635f58f75de4af5c97d1fdceda6e4d5e"
+    },
+    {
+      "bytes": 1367,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/shared/auth/excluded_paths.py",
+      "sha256": "848fc419b8a57383a1d84477aef04e70a863dc6a74c408652d3fd75ecea3a60c"
+    },
+    {
+      "bytes": 4271,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/shared/auth/hooks.py",
+      "sha256": "fb87975b2899ef5b81bdc5a953f661229cc2317dea848d06fd1e5ec829e248b0"
+    },
+    {
+      "bytes": 979,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/shared/auth/junction.py",
+      "sha256": "48c72a4743338134b5a351d13695970df52511f309f01764024c9958abbeaad7"
+    },
+    {
+      "bytes": 682,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/shared/auth/styles.py",
+      "sha256": "f5fa3b97bec726095a9fad2ab4d3fdeec3b9ca2a567ebd1d4ab2a5cb9846f7be"
+    },
+    {
+      "bytes": 1603,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/shared/auth/user.py",
+      "sha256": "ee0cde16e6ef8fe8138ee410c36152ff002407822131f1ab26a9ab305ca62594"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/shared/middleware/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 846,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/shared/middleware/junction.py",
+      "sha256": "44a4cda51fe205117773bc61d39700f8c42d19281038ec249bf1d3224ff575b8"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/token_auth/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2453,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/token_auth/endpoints.py",
+      "sha256": "dfbb8bc12dcd5b6c1faadaa19dae1f063c5150c2eff282e4e6418901d6f236a7"
+    },
+    {
+      "bytes": 3523,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/token_auth/middleware.py",
+      "sha256": "61fc25736b20450c672b5f1fd037b9e9644774af6fabaee8d83f760c9a92e3f2"
+    },
+    {
+      "bytes": 390,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/token_auth/piccolo_app.py",
+      "sha256": "ef07a7aae150c4f0e27abdcc97094fd7d00264838ca31f51e21724edb4669739"
+    },
+    {
+      "bytes": 1371,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/token_auth/piccolo_migrations/2019-11-18T22-24-41.py",
+      "sha256": "ad04228ba4113cdd4418236c642afbef25feec510204f4718d2cd287d1416d91"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/token_auth/piccolo_migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1902,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/token_auth/tables.py",
+      "sha256": "b394197e96c392a1f4d3240f1a6ebcbb6616d00568a33998b667c6aae02ba4be"
+    },
+    {
+      "bytes": 0,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1113,
+      "distribution": "piccolo-api",
+      "path": "piccolo_api/utils/types.py",
+      "sha256": "6837ace5eaa2c3b7b1736eb364c296d695e412bfd25501234de0a170f7e60706"
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "versions": {
+    "aiosqlite": "0.22.1",
+    "piccolo": "1.16.0",
+    "piccolo-api": "1.10.0",
+    "pydantic": "2.10.6",
+    "pydantic-core": "2.27.2",
+    "starlette": "1.10.0"
+  }
+}

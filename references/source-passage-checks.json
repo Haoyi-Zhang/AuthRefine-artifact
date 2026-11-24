@@ -1,0 +1,691 @@
+{
+  "audit_date": "2026-11-19",
+  "scope": "Prior scholarly passage records and failed-fetch notes are retained unchanged. The project advisory and the Healthchecks documentation, change and issue records were inspected at their explicitly recorded access levels and dates. Citation-location refresh is local bookkeeping, not external rereading, whole-paper review or reproduction of reported experiments.",
+  "reviews": [
+    {
+      "key": "xing2025cnlp",
+      "url": "https://arxiv.org/abs/2508.06942",
+      "ref": "turn330411591view0",
+      "scope": "Primary arXiv abstract and author/submission metadata; no new fulltext or proof audit.",
+      "access_kind": "primary_abstract_or_author_summary",
+      "prior_access_date": "2026-11-18",
+      "prior_reading_scope": "Primary arXiv abstract and public submission/author metadata, inspected 2026-11-18; no new full-paper reading."
+    },
+    {
+      "key": "vatsa2026autocedar",
+      "url": "https://arxiv.org/abs/2607.03656v2",
+      "ref": "turn330411591view1",
+      "scope": "Primary arXiv v2 abstract and revision metadata, revised 2026-11-15; no new fulltext or proof audit.",
+      "access_kind": "primary_abstract_or_author_summary",
+      "prior_access_date": "2026-11-18",
+      "prior_reading_scope": "Primary arXiv abstract and revision/author metadata for v2 (2026-11-15), inspected 2026-11-18; no proof or full-method audit."
+    },
+    {
+      "key": "xu2026relational",
+      "url": "https://collaborate.princeton.edu/en/publications/network-change-validation-with-relational-netkat/",
+      "ref": "turn836294068search1",
+      "scope": "Primary institutional abstract and publication record; no new fulltext proof audit.",
+      "access_kind": "primary_abstract_or_author_summary",
+      "prior_access_date": "2026-11-18",
+      "prior_reading_scope": "Primary Princeton publication record and exact abstract inspected 2026-11-18; inherited author-copy reading is not counted as a new fulltext reading."
+    },
+    {
+      "key": "chakarov2025cloud",
+      "url": "https://www.amazon.science/publications/formally-verified-cloud-scale-authorization",
+      "ref": "turn836294068search2; turn836294068search7",
+      "scope": "Primary Amazon abstract plus search-indexed original PDF first page, including author list. Direct PDF fetch failed; no full-paper reading.",
+      "access_kind": "primary_indexed_excerpt_or_abstract",
+      "prior_access_date": "2026-11-18",
+      "prior_reading_scope": "Primary Amazon Science abstract and search-indexed first page of the author PDF inspected 2026-11-18. Direct PDF fetch failed; no new full-paper reading."
+    },
+    {
+      "key": "bocic2016cancheck",
+      "url": "https://sites.cs.ucsb.edu/~bultan/publications/ase16.pdf",
+      "ref": "turn637440371view1; turn549230210view2",
+      "scope": "Primary author PDF abstract, extraction/model method and Section 6.1 SprintApp case; no full proof/experiment reproduction.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-11-18",
+      "prior_reading_scope": "Primary author PDF: abstract; model/extraction descriptions; Section 6.1 SprintApp case on physical page 9. No re-verification of proofs or reproduction of the original experiments."
+    },
+    {
+      "key": "near2016space",
+      "url": "https://groups.csail.mit.edu/sdg/pubs/2016/access-control-patterns-icse2016.pdf",
+      "ref": "turn637440371view0; turn549230210view0; turn549230210view1",
+      "scope": "Primary author PDF abstract and Sections 3.4, 3.5, 4.3 and 4.4; no full proof/experiment reproduction.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-11-18",
+      "prior_reading_scope": "Primary MIT author manuscript: abstract; Sections 3.4 (resource/field mappings), 3.5 (violations), 4.3 (constraint specialization), 4.4 (bounded verification). No re-verification of proofs or reproduction of the original experiments."
+    },
+    {
+      "key": "robol2023consent",
+      "url": "https://iris.unitn.it/retrieve/4d688379-d9d7-42bf-8faa-57fc481f42da/3490754.pdf",
+      "ref": "turn637440371view2; turn999556400view1; turn999556400view2; turn999556400view3",
+      "scope": "Primary published PDF abstract, introduction, framework overview, evaluation/validity and integration/conclusion; organization inspected for TOSEM comparison, not proof reproduction.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-11-18",
+      "prior_reading_scope": "Published primary university-repository PDF: abstract and introduction; framework overview; Sections 6--7 evaluation/validity; Section 9 integration/conclusion. Organization inspected for journal fit; not a full proof audit."
+    },
+    {
+      "key": "swamy2010fine",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/paper-78.pdf",
+      "ref": "turn414121319view0",
+      "scope": "Primary author PDF abstract and opening introduction, physical page 1; supports dynamic stateful authorization and information-flow types. No proof audit.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "cutler2024cedar",
+      "url": "https://cdn.amazon.science/96/a8/1b427993481cbdf0ef2c8ca6db85/cedar-a-new-language-for-expressive-fast-safe-and-analyzable-authorization.pdf",
+      "ref": "turn414121319view1",
+      "scope": "Primary author PDF abstract and author list, physical page 1; supports typed policies and logical analysis. No proof audit.",
+      "claim": "Cedar combines typed authorization policies with precise logical policy analysis.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Published first page and opening semantics/analysis sections, pages 1-3"
+    },
+    {
+      "key": "liu2009linearizability",
+      "url": "https://www.comp.nus.edu.sg/~pat/publications/linearizability.pdf",
+      "ref": "turn414121319view2",
+      "scope": "Primary author PDF abstract and introduction definition, physical page 1; refinement comparison of concurrent histories with sequential semantics. No full proof reading.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "foster2007lenses",
+      "url": "https://www.cis.upenn.edu/~bcpierce/papers/lenses-toplas-final.pdf",
+      "ref": "turn414121319view3",
+      "scope": "Primary author PDF abstract and opening introduction, physical pages 1--2; concrete/view updates and well-behaved lenses. Published pagination not inferred from this prepublication copy.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "leroy2009backend",
+      "url": "https://xavierleroy.org/publi/compcert-backend.pdf",
+      "ref": "turn394066222view1",
+      "scope": "Primary author manuscript abstract and opening introduction, page 1; Coq proof of semantic preservation from Cminor to PowerPC. No full verification-chain audit.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "lang2003independence",
+      "url": "https://arxiv.org/abs/1106.4578",
+      "ref": "turn394066222view2",
+      "scope": "Primary arXiv abstract and journal-reference metadata; distinction between syntactic and semantic independence. The 2011 arXiv deposit is an access copy of the 2003 JAIR article.",
+      "access_kind": "primary_abstract_or_author_summary",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "lamport1996refinement",
+      "url": "https://lamport.azurewebsites.net/pubs/refinement.pdf",
+      "ref": "turn238768788view4",
+      "scope": "Author technical note front matter, clock example and refinement-mapping discussion/equations (16)--(18), physical pages 6--8. No proof re-verification.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "bryant1986graphs",
+      "url": "https://www.cs.cmu.edu/~bryant/pubdir/ieeetc86.pdf",
+      "ref": "turn238768788view5",
+      "scope": "Primary author PDF abstract and reduced-function-graph Definition 5, physical pages 1 and 5; merging duplicate subgraphs is explicitly stated.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "fournet2007authorization",
+      "url": "https://people.mpi-sws.org/~dg/teaching/lis2014/modules/refinement-1-fournet07.pdf",
+      "ref": "turn304377237view0",
+      "scope": "Published primary article abstract, ACM reference block and Section 1.2, physical pages 1--2; logical authorization assertions and dependent-type checking of implementation code.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "lamport1994tla",
+      "url": "https://lamport.azurewebsites.net/pubs/lamport-actions.pdf",
+      "ref": "turn304377237view2",
+      "scope": "Primary author manuscript abstract and opening introduction, physical pages 1--2; state/action logic and implementation as logical implication. Access copy has 1993 placeholder front matter; cited publication is the 1994 journal article.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "clarke1994abstraction",
+      "url": "https://www.cs.cmu.edu/~emc/papers/Papers%20In%20Refereed%20Journals/Model%20Checking%20and%20Abstraction94.pdf",
+      "ref": "turn304377237view3",
+      "scope": "Published article abstract, bibliographic footer and opening abstraction construction, pages 1512--1513. No theorem proof re-verification.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "bengtson2008refinement",
+      "url": "https://andrewdgordon.github.io/papers/refinement-types-for-secure-implementations.pdf",
+      "ref": "turn304377237view1",
+      "scope": "Published primary journal PDF abstract, introduction and ACM reference block, page 1. The stable citation key contains 2008, but the cited record is correctly the 2011 TOPLAS article, DOI 10.1145/1890028.1890031.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "rival2007partitioning",
+      "url": "https://www.di.ens.fr/~rival/papers/toplas07.pdf",
+      "ref": "turn519965241view0",
+      "scope": "Primary author manuscript abstract and motivating trace-precision example, physical pages 1--2; cost/precision tradeoff and retaining execution-path distinctions.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "necula2000validation",
+      "url": "https://people.eecs.berkeley.edu/~necula/Papers/tv_pldi00.pdf",
+      "ref": "turn519965241view1",
+      "scope": "Primary author PDF abstract and introduction, page 1; validation of each individual compiler pass/compilation rather than proving all compiler runs correct.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "schneider2000enforceable",
+      "url": "https://www.cs.cornell.edu/fbs/publications/EnfSecPols.pdf",
+      "ref": "turn519965241view2",
+      "scope": "Published primary PDF abstract, bibliographic footer and opening definitions, pages 30--31; characterization of execution-monitor-enforceable policies.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "hamlen2006enforcement",
+      "url": "https://www.cs.cornell.edu/fbs/publications/EnfClasses.pdf",
+      "ref": "turn519965241view3",
+      "scope": "Primary author manuscript abstract and introduction, physical pages 1--2; separate enforcement classes for monitoring and rewriting. Placeholder prepublication date is not used as publication metadata.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "barthe2011abstract",
+      "url": "https://software.imdea.org/~ckunz/toplas2.pdf",
+      "ref": "turn970525319view1",
+      "scope": "Primary author manuscript abstract and introduction, physical pages 1--2; certifying analysis vs certificate translation and per-program evidence. Placeholder DOI/date on this access copy are not publication identifiers.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "clements2004stack",
+      "url": "https://www.brinckerhoff.org/clements/papers/cf-toplas04.pdf",
+      "ref": "turn970525319view2",
+      "scope": "Published primary PDF abstract and Section 1, pages 1029--1030; losing call context affects stack-inspection semantics and a different machine preserves tail calls.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "lamport2022prophecy",
+      "url": "https://lamport.azurewebsites.net/pubs/simple.pdf",
+      "ref": "turn970525319view3",
+      "scope": "Primary 2020 author manuscript abstract and introduction, printed pages 1--2; history/prophecy variables can be required to construct refinement mappings. Published 2022 record remains separate from access-copy date.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "rendel2010invertible",
+      "url": "https://www.informatik.uni-marburg.de/~rendel/unparse/rendel10invertible.pdf",
+      "ref": "turn702200954view0",
+      "scope": "Primary author PDF abstract and introduction, page 1; shared syntax descriptions for parsing/printing and the difference between concrete/abstract representations.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "kuhn2014survey",
+      "url": "https://aclanthology.org/J14-1005.pdf",
+      "ref": "turn702200954view1",
+      "scope": "Publisher PDF abstract, DOI block and introduction, physical pages 1--2; CNLs span ambiguous natural-language restrictions through formal interpretations.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "horwitz1990slicing",
+      "url": "https://www.csa.iisc.ac.in/~raghavan/CleanedPav2011/horwitz-sdg-slicing-1990.pdf",
+      "ref": "turn702200954view2",
+      "scope": "Published article abstract and introductory slice definition, pages 26--27; retained statements may affect the selected variable at a program point.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "jourdan2012parsers",
+      "url": "https://xavierleroy.org/publi/validated-parser.pdf",
+      "ref": "turn702200954view3",
+      "scope": "Primary author PDF abstract, introduction and architecture description, physical pages 1--2; untrusted LR(1) generator with a Coq-proved validator.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "tristan2008validators",
+      "url": "https://jtristan.github.io/papers/popl08.pdf",
+      "ref": "turn866234243view0",
+      "scope": "Primary author PDF abstract and introduction, page 1; list/trace scheduling validators and Coq correctness proofs. No new proof re-verification.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "bourke2017lustre",
+      "url": "https://xavierleroy.org/publi/velus-pldi17.pdf",
+      "ref": "turn866234243view1",
+      "scope": "Primary author PDF abstract, DOI and introduction, page 1; repeated generated assembly execution implements source dataflow semantics.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "doenges2022leapfrog",
+      "url": "https://arxiv.org/pdf/2205.08762",
+      "ref": "turn866234243view2",
+      "scope": "Primary arXiv author PDF abstract, DOI/reference block and opening parser-equivalence discussion, physical pages 1--2; symbolic bisimulation and mechanized soundness.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "abate2021traces",
+      "url": "https://squera.github.io/pdf/main-j.pdf",
+      "ref": "turn628848294view0",
+      "scope": "Primary author manuscript abstract, physical page 1; correctness under arbitrary relations between source and target trace sets. Draft placeholders are not treated as published metadata.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "patrignani2024uc",
+      "url": "https://squera.github.io/pdf/uc-is-sc-j.pdf",
+      "ref": "turn628848294view1",
+      "scope": "Primary author manuscript abstract, physical page 1; robust compilation quantifies over interacting target code and UC composes protocols. Draft 2022 placeholder volume/article/DOI is not used as the published 2024 bibliographic record.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "abadi1991mappings",
+      "url": "https://lamport.azurewebsites.net/pubs/abadi-existence.pdf",
+      "ref": "turn628848294view2",
+      "scope": "Primary author 1988 technical-report abstract and capsule review, physical page 3; state mapping and auxiliary history/prophecy variables. The access copy precedes the cited 1991 journal version.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Author report abstract and introduction; 1988 report is a precursor access copy, not the 1991 journal pagination"
+    },
+    {
+      "key": "lynch1995simulations",
+      "url": "https://groups.csail.mit.edu/tds/papers/Lynch/IC95.pdf",
+      "ref": "turn628848294view3",
+      "scope": "Primary author 1994 manuscript abstract, physical page 1; forward/backward simulations and related history/prophecy techniques. The manuscript date is distinguished from 1995 journal publication.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Abstract and introduction of the author copy"
+    },
+    {
+      "key": "pnueli1998validation",
+      "url": "https://link.springer.com/chapter/10.1007/BFb0054170",
+      "ref": "turn207114637view1",
+      "scope": "Publisher abstract and conference metadata only; subscription full text was not read. TACAS 1998 is the publication year, distinct from the 2006 web-posting date.",
+      "access_kind": "primary_abstract_or_author_summary",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Publisher abstract and bibliographic record"
+    },
+    {
+      "key": "fisler2005margrave",
+      "url": "https://cs.brown.edu/people/kfisler/Pubs/icse05.pdf",
+      "ref": "turn207114637view2",
+      "scope": "Primary author PDF abstract and introduction, page 1; decision-diagram XACML analysis and semantic differencing between policy versions.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Abstract and policy-analysis sections of the author paper"
+    },
+    {
+      "key": "backes2018zelkova",
+      "url": "https://cdn.amazon.science/56/3c/7d75bca84c56b9b1ed1999beec0c/semantic-based-automated-reasoning-for-aws-access-policies-using-smt.pdf",
+      "ref": "turn297048017view0",
+      "scope": "Primary author PDF abstract and Section II comparison contract, physical pages 1--2; SMT policy semantics and less-or-equally-permissive queries.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Abstract and opening policy/SMT sections, pages 1-3"
+    },
+    {
+      "key": "becker2009dynpal",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/07/Moritz-Becker-IEEE-CSF-2009-corrected.pdf",
+      "ref": "turn297048017view3",
+      "scope": "Primary author PDF abstract and introduction, physical pages 1--2; transactional policy updates, finite-domain reachability and invariant checking over arbitrary domains.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Abstract and action/update language presentation"
+    },
+    {
+      "key": "kozen1997kat",
+      "url": "https://www.cs.cornell.edu/~kozen/Papers/kat.pdf",
+      "ref": "turn594937471view0",
+      "scope": "Primary author PDF abstract and opening tests/guard discussion, physical pages 1--2. Text extraction damages some formula glyphs; support is restricted to the readable algebraic-equivalence claim.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Abstract and Boolean-test/control-flow presentation"
+    },
+    {
+      "key": "anderson2014netkat",
+      "url": "https://collaborate.princeton.edu/en/publications/netkat-semantic-foundations-for-networks-2/",
+      "ref": "turn594937471view1",
+      "scope": "Primary institutional publication record and exact abstract only; semantic/equational foundations of NetKAT. No new full-paper reading.",
+      "access_kind": "primary_abstract_or_author_summary",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Institutional publication record and exact abstract"
+    },
+    {
+      "key": "foster2015coalgebraic",
+      "url": "https://collaborate.princeton.edu/en/publications/a-coalgebraic-decision-procedure-for-netkat-3/",
+      "ref": "turn594937471view2",
+      "scope": "Primary institutional publication record and exact abstract only; specialized derivatives, bisimulation and sparse representation.",
+      "access_kind": "primary_abstract_or_author_summary",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Institutional publication record and exact abstract"
+    },
+    {
+      "key": "pous2015symbolic",
+      "url": "https://perso.ens-lyon.fr/damien.pous/symbolickat/",
+      "ref": "turn594937471view3",
+      "scope": "Author's publication/artifact page and exact abstract; BDD-based symbolic automata and bisimulation for large-alphabet language equivalence. Artifact was not executed.",
+      "access_kind": "primary_abstract_or_author_summary",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Author's paper abstract and accompanying publication record"
+    },
+    {
+      "key": "bonchi2013congruence",
+      "url": "https://perso.ens-lyon.fr/damien.pous/hknt/",
+      "ref": "turn705316388view1",
+      "scope": "Author's exact abstract and publication/artifact page; up-to-congruence equivalence checking and optimization of Hopcroft--Karp. No artifact execution.",
+      "access_kind": "primary_abstract_or_author_summary",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Author's exact paper abstract and publication information"
+    },
+    {
+      "key": "cousot1977abstract",
+      "url": "https://www.di.ens.fr/~cousot/COUSOTpapers/POPL77.shtml",
+      "ref": "turn705316388view2",
+      "scope": "Author's publication page, bibliographic record and detailed summary; abstract universes, lattice structure and sound approximation. Full article proofs were not re-read.",
+      "access_kind": "primary_abstract_or_author_summary",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Author publication record and exact abstract"
+    },
+    {
+      "key": "clarke2000cegar",
+      "url": "https://link.springer.com/chapter/10.1007/10722167_15",
+      "ref": "turn705316388view3",
+      "scope": "Publisher abstract and full bibliographic metadata only; spurious counterexamples and iterative refinement are explicit. Subscription full text was not read.",
+      "access_kind": "primary_abstract_or_author_summary",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Publisher abstract and metadata"
+    },
+    {
+      "key": "clarkson2010hyperproperties",
+      "url": "https://www.cs.cornell.edu/fbs/publications/Hyperproperties.pdf",
+      "ref": "turn566654711view0",
+      "scope": "Published primary PDF abstract, DOI and introduction, pages 1157--1158; hyperproperties are sets of trace sets and exceed single-trace properties.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Abstract and Section 2.6 discussion of refinement and trace sets"
+    },
+    {
+      "key": "alpern1985liveness",
+      "url": "https://www.cs.cornell.edu/fbs/publications/DefLiveness.pdf",
+      "ref": "turn566654711view1",
+      "scope": "Published primary PDF abstract and Sections 1--3, pages 181--182; infinite executions, finite bad prefixes for safety and the introduction of liveness.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Opening safety/liveness definitions and finite-prefix distinction"
+    },
+    {
+      "key": "fuchs2008attempto",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-540-85658-0_3",
+      "ref": "turn566654711view2",
+      "scope": "Publisher abstract and chapter metadata only; unambiguous translation of restricted English to first-order logic. Subscription full text was not read.",
+      "access_kind": "primary_abstract_or_author_summary",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Publisher abstract and chapter metadata"
+    },
+    {
+      "key": "park2004ucon",
+      "url": "https://profsandhu.com/cs5323_s17/UCON-2004.pdf",
+      "ref": "turn566654711view3",
+      "scope": "Published primary PDF abstract and bibliographic footer, page 128; ongoing controls and attribute mutability are explicitly part of UCON.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Abstract and opening continuity/mutability definitions"
+    },
+    {
+      "key": "moeller2024katch",
+      "url": "https://arxiv.org/html/2404.04760v1",
+      "ref": "turn949492192view0",
+      "scope": "Primary arXiv HTML abstract and introduction; symbolic representations and bisimulation/counterexample verification. Placeholder header year is not used as publication metadata.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Abstract, introduction, and symbolic-representation/equivalence discussions"
+    },
+    {
+      "key": "hardt2012oauth",
+      "url": "https://www.rfc-editor.org/rfc/rfc6749.html#section-4.1.2",
+      "ref": "turn456927572view0",
+      "scope": "RFC Editor Section 4.1.2, authorization-code reuse and binding paragraph; normative single use, client identifier and redirect URI. Full protocol compliance is not claimed.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-10-24",
+      "prior_reading_scope": "Section 4.1.2 and author/identifier metadata"
+    },
+    {
+      "key": "lodderstedt2013revocation",
+      "url": "https://www.rfc-editor.org/rfc/rfc7009.html#section-2.1",
+      "ref": "turn456927572view1",
+      "scope": "RFC Editor Sections 2.1--2.2: SHOULD for same-grant access-token invalidation under the stated server support condition; HTTP 200 also applies to invalid tokens.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-10-24",
+      "prior_reading_scope": "Sections 2.1 and 2.2 and author/identifier metadata"
+    },
+    {
+      "key": "dougherty2006dynamic",
+      "url": "https://cs.brown.edu/people/kfisler/Pubs/ijcar06.pdf",
+      "ref": "turn456927572view3",
+      "scope": "Primary author PDF abstract, introductory dynamic environments and contextual-containment analysis, physical pages 1--2 and 8--12; reachable contexts and failed-request/path counterexamples.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Main definitions and reasoning through reachable policy environments, pages 1-8 of author copy"
+    },
+    {
+      "key": "classen2011symbolic",
+      "url": "https://pure.unamur.be/ws/portalfiles/portal/1064131/70973.pdf",
+      "ref": "turn591647725view0",
+      "scope": "Primary institutional author preprint cover, abstract and introduction, physical pages 1--2; shared featured transition systems and symbolic checks across variants. DOI landing page failed; primary repository copy read.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "abadi1993access",
+      "url": "https://homepages.inf.ed.ac.uk/gdp/publications/Calculus_for_Access_Control.pdf",
+      "ref": "turn591647725view1",
+      "scope": "Primary author PDF abstract and opening principal/role/delegation discussion, physical pages 1--2; old dcs.ed.ac.uk path replaced by current homepages.inf.ed.ac.uk URL.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Opening calculus and principal/role/delegation discussion, pages 1-4 of author copy"
+    },
+    {
+      "key": "harrison1976protection",
+      "url": "https://www.cs.purdue.edu/homes/ninghui/readings/Qual2/Harrison-Ruzzo-Ullman76.pdf",
+      "ref": "turn406562973view0",
+      "scope": "Published original article PDF, abstract and introduction on page 461; safety asks whether a subject can acquire a right. ACM indexed metadata cross-check distinguishes the 1976 article from the 1975 precursor.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Publisher abstract and bibliographic record"
+    },
+    {
+      "key": "smolka2020gkat",
+      "url": "https://www.cs.cornell.edu/kozen/Papers/GKATPOPL.pdf",
+      "ref": "turn406562973view2",
+      "scope": "Published primary PDF abstract, bibliographic block and Section 5.3/Theorem 5.10 with complexity argument, pages 61:20--61:22; near-linear complexity explicitly assumes constant atom set.",
+      "access_kind": "primary_fulltext_selected_excerpt",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Published article, physical pages 2,20-21; Theorem 5.10 and its constant-atom-set complexity proof"
+    },
+    {
+      "key": "bouchet2020public",
+      "url": "https://www.amazon.science/publications/block-public-access-trust-safety-verification-of-access-control-policies",
+      "ref": "turn303574435view3",
+      "scope": "Primary Amazon publication abstract and venue metadata; residual-policy reduction retains untrusted accesses for trust-safety checking. No new full-paper reading.",
+      "access_kind": "primary_abstract_or_author_summary",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Publisher abstract and bibliographic record"
+    },
+    {
+      "key": "necula1997pcc",
+      "url": "https://doi.org/10.1145/263699.263712",
+      "ref": "turn239289774search0",
+      "scope": "Search-indexed publisher abstract and author's publication record; producer supplies a safety proof for host validation. Direct postscript and legacy abstract links were not readable; no full-paper reading.",
+      "access_kind": "primary_indexed_excerpt_or_abstract",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Author publication-page abstract and publisher metadata; no new full-proof audit"
+    },
+    {
+      "key": "barthe2009translation",
+      "url": "https://software.imdea.org/~ckunz/",
+      "ref": "turn406562973view3",
+      "scope": "Primary author publication record for the 2009 TOPLAS identity; search-indexed abstract of the original manuscript at CiteSeerX corroborates proof-to-certificate translation. Direct author PDF returned 502 and mirror returned 403; no new fulltext reading.",
+      "claim": "Certificate translation transforms correctness evidence for source programs into certificates for compiled programs under the specified transformations.",
+      "access_kind": "primary_indexed_excerpt_or_abstract",
+      "prior_access_date": "2026-09-16",
+      "prior_reading_scope": "Inherited claim-specific reading record; prior source-reading detail was not recorded. No current full-paper reread is claimed."
+    },
+    {
+      "key": "xu2026parametric",
+      "url": "https://www.researchgate.net/publication/409183914_Network_Analysis_with_Parametric_NetKAT",
+      "ref": "turn939217658view0; turn939217658view1; turn939217658view2",
+      "scope": "Author manuscript body accessed through a ResearchGate mirror, identifiable as arXiv:2607.09637v1 dated 10 July 2026. Read Section 2 p.4; Section 5.2 pp.15–17; Section 5.3 Algorithms 1–2 and Theorems 5.3–5.4 pp.17–19. The current official arXiv HTML/PDF endpoints remained unavailable. No artifact execution or independent proof reproduction.",
+      "claim": "Fixed valuations persist throughout traces. The algorithm returns all satisfying valuations and retires solved valuations. Weighted queries aggregate per-valuation path costs; the tropical example gives shortest-path costs.",
+      "access_kind": "primary_indexed_excerpt_or_abstract",
+      "prior_access_date": "2026-10-24",
+      "prior_reading_scope": "Sections 4, 5.2 and 5.3: query semantics; valuation-preserving embedding; satisfying-valuation algorithms",
+      "access_date": "2026-11-20",
+      "previous_review": {
+        "key": "xu2026parametric",
+        "url": "https://arxiv.org/abs/2607.09637v1",
+        "ref": "turn130511391academia3",
+        "scope": "Search-indexed primary arXiv abstract and author/date metadata; confirms collection of satisfying parameter valuations. Direct HTML/PDF fetch failed. The earlier 2026-10-24 Sections 4/5.2/5.3 reading remains historical, not a fresh method/proof audit.",
+        "claim": "Parametric NetKAT enumerates parameter valuations satisfying queries over network models; target-distance shortest-failure specialization is a different conditional output contract.",
+        "access_kind": "primary_indexed_excerpt_or_abstract",
+        "prior_access_date": "2026-10-24",
+        "prior_reading_scope": "Sections 4, 5.2 and 5.3: query semantics; valuation-preserving embedding; satisfying-valuation algorithms"
+      }
+    },
+    {
+      "key": "piccolo2026sessions",
+      "url": "https://github.com/piccolo-orm/piccolo_admin/security/advisories/GHSA-2gh4-jmwq-rr8w",
+      "ref": "turn626460743view0",
+      "scope": "Primary project advisory: publication and CVE metadata, summary, affected component, configuration preconditions, suggested fix, and maintainer notes. These specific sections were read; the reported exploitation chain was not reproduced.",
+      "access_kind": "primary_project_advisory_selected_sections",
+      "access_date": "2026-11-19",
+      "supported_claim": "The project reports session-token disclosure and a resulting privilege-escalation path when a non-superuser administrator can read an exposed Sessions table. The advisory ties the response exposure to missing secret-column metadata; it establishes a concrete configured application failure, not its population prevalence.",
+      "exact_primary_title": "Privilege escalation - admin to superuser via session-token disclosure in GET /api/tables/sessions/.",
+      "publication_date": "2026-06-19",
+      "cve": "CVE-2026-55485",
+      "note": "This is one software advisory; it is not counted as an additional scholarly article."
+    },
+    {
+      "key": "healthchecks_api",
+      "url": "https://healthchecks.io/docs/api/",
+      "scope": "Authentication, List Existing Checks, Get a Single Check, response-code and read-only response paragraphs; not all API endpoints.",
+      "access_kind": "software_documentation",
+      "access_date": "2026-11-19",
+      "supported_claim": "The current API specifies project-scoped credentials, permitted read-only endpoints and response-field suppression.",
+      "source_record": "references/healthchecks-sources.json"
+    },
+    {
+      "key": "caune2019readonly",
+      "url": "https://github.com/healthchecks/healthchecks/commit/1f1b1aedca949a52a592f8aefc523ad47b054ed9",
+      "scope": "Commit metadata and relevant changed authorization, view, serializer, test and changelog hunks; no historical runtime execution. Also read CHANGELOG.md lines 1-32 at this exact commit to verify the Improvements classification.",
+      "access_kind": "software_change",
+      "access_date": "2026-11-19",
+      "supported_claim": "The July 2019 source change propagates read-only authorization context from decorators through views to serialization.",
+      "source_record": "references/healthchecks-sources.json"
+    },
+    {
+      "key": "jameskirsop2020readonly",
+      "url": "https://github.com/healthchecks/healthchecks/issues/346",
+      "scope": "Issue metadata and full short report body; no deployment runtime log. The maintainer response and associated 24 March 2020 fix were also read at their relevant authorization, view and test hunks.",
+      "access_kind": "software_issue",
+      "access_date": "2026-11-19",
+      "supported_claim": "Issue 346 reports over-rejection of single-check reads using read-only credentials; the associated fix separates method-specific authorization and preserves read-only serialization.",
+      "source_record": "references/healthchecks-sources.json"
+    }
+  ],
+  "failed_fetch_attempts": [
+    {
+      "key": "barthe2009translation",
+      "url": "https://www-sop.inria.fr/members/Benjamin.Gregoire/Publi/toplas08.pdf",
+      "ref": "turn970525319view0",
+      "status": "502 Bad Gateway"
+    },
+    {
+      "key": "classen2011symbolic",
+      "url": "https://doi.org/10.1145/1985793.1985838",
+      "ref": "turn866234243view3",
+      "status": "403 Forbidden"
+    },
+    {
+      "key": "bouchet2020public",
+      "url": "https://doi.org/10.1145/3368089.3409728",
+      "ref": "turn297048017view1",
+      "status": "403 Forbidden"
+    },
+    {
+      "key": "abadi1993access",
+      "url": "https://www.dcs.ed.ac.uk/home/gdp/publications/Calculus_for_Access_Control.pdf",
+      "ref": "turn297048017view2",
+      "status": "Not accessible via tool"
+    },
+    {
+      "key": "smolka2020gkat",
+      "url": "https://doi.org/10.1145/3371129",
+      "ref": "turn705316388view0",
+      "status": "403 Forbidden"
+    },
+    {
+      "key": "harrison1976protection",
+      "url": "https://doi.org/10.1145/360303.360333",
+      "ref": "turn949492192view1",
+      "status": "403 Forbidden"
+    },
+    {
+      "key": "xu2026parametric",
+      "url": "https://arxiv.org/html/2607.09637v1",
+      "ref": "turn949492192view2",
+      "status": "DisabledError"
+    }
+  ],
+  "additional_primary_evidence": [
+    {
+      "role": "Associated patch, not a separate bibliography entry",
+      "url": "https://github.com/piccolo-orm/piccolo_api/commit/520ec2567ae1d2cc417c8c0d1ad0ddc05549a8a4",
+      "ref": "turn844235270view1",
+      "access_date": "2026-11-19",
+      "scope": "Inspected the diff's token-column secret flag, CRUD filter exclusion changes and migration VERSION=1.34.0, including adjacent code and the added Secret-filter test.",
+      "supported_claim": "The patch adds producer metadata and a consumer filter exclusion and records ORM version 1.34.0 in its migration.",
+      "limitation": "A migration version is not a historical deployment lock. The advisory's Suggested fix is distinct from the later committed patch."
+    }
+  ]
+}

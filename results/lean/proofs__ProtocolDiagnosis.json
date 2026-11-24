@@ -1,0 +1,15 @@
+{
+  "file": "proofs/ProtocolDiagnosis.lean",
+  "proof_sha256": "62788f05ea39f62c2f53a37254c5973b96c80bd79522488acabd745ad7a60596",
+  "command": [
+    "<lean>/bin/lean",
+    "<artifact>/proofs/ProtocolDiagnosis.lean"
+  ],
+  "exit_code": 0,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "wall_seconds": 1.9350927869963925,
+  "source_unchanged": true,
+  "sorry_warning": false,
+  "passed": true
+}
