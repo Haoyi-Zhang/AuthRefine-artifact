@@ -353,12 +353,12 @@ normalization of the supplied family. Report both beneficial and adverse
 workloads. Observed minima and maxima have no attached population confidence
 level.
 
-See [figures/README.md](figures/README.md) to regenerate every figure from
-retained inputs. With the separately distributed manuscript sources placed at
-`../paper/`, build all three paper views with `python3 -B build.py` there,
-then regenerate the figure atlas. Review the rendered pages at
-their actual figure widths. Scientific agreement, bibliography support and
-visual inspection are distinct checks.
+See [figures/README.md](figures/README.md) to regenerate every statistical
+figure from retained inputs. With the separately distributed manuscript sources
+placed at `../paper/`, build the main paper and the supplement with
+`python3 -B build.py` there and review the rendered pages at their actual
+figure widths. Scientific agreement, bibliography support and visual
+inspection are distinct checks.
 
 ## Available source material
 

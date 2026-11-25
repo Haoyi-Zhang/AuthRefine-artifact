@@ -15,12 +15,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python }}
-      - run: python -m pip install PyMuPDF==1.26.7 reportlab==4.4.9
-      - name: Liberation Serif 2.1.5 fonts for byte-identical figures
-        run: |
-          curl -fsSL -o "$RUNNER_TEMP/fonts.tar.gz" https://github.com/liberationfonts/liberation-fonts/files/7261482/liberation-fonts-ttf-2.1.5.tar.gz
-          tar -xzf "$RUNNER_TEMP/fonts.tar.gz" -C "$RUNNER_TEMP"
-          echo "AUTHREFINE_TEXMF=$RUNNER_TEMP/liberation-fonts-ttf-2.1.5" >> "$GITHUB_ENV"
+      # The declared Times New Roman files are proprietary and are not fetched
+      # here: the figure step runs every data check and compares the generated
+      # table rows, and records PDF byte comparison as unavailable.
+      - run: python -m pip install -r requirements-figures.txt
       - run: python -B review.py --scope core --output "$RUNNER_TEMP/review"
       - run: python -B -m unittest tests.test_review_entrypoint
       - run: python -B run_campaign.py --output "$RUNNER_TEMP/campaign"

@@ -1,0 +1,13 @@
+# Exact environment of the statistical-figure step (figures/paper_figures.py).
+# Byte-identical PDFs additionally need the declared Times New Roman files;
+# see figures/README.md.
+contourpy==1.4.0
+cycler==0.12.1
+fonttools==4.68.0
+kiwisolver==1.5.1
+matplotlib==3.11.2
+numpy==2.5.5
+packaging==26.4
+pillow==13.0.0
+pyparsing==3.3.3
+python-dateutil==4.0.0

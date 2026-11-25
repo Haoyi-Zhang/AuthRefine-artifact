@@ -19,7 +19,9 @@
   ],
   "figures": {
     "byte_identical_to_manuscript": true,
-    "count": 16,
+    "count": 13,
+    "font": "declared Times New Roman",
+    "table_rows_byte_identical": true,
     "status": "PASS"
   },
   "modes": [

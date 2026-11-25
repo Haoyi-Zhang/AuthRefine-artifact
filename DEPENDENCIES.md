@@ -94,8 +94,9 @@ The paper needs a complete TeX Live installation with pdfLaTeX, BibTeX, the ACM
 class dependencies, Libertine/Biolinum, Inconsolata, newtxmath, stmaryrd and
 algorithmicx; its build instructions (`BUILDING.txt`) are distributed with the
 manuscript sources, not with this repository. Figure generation uses
-ReportLab 4.4.9, PyMuPDF 1.26.7 and the Liberation Serif 2.1.5 TrueType fonts;
-see `figures/README.md`.
+Matplotlib 3.11.2 with the pins in `requirements-figures.txt`; byte-identical
+PDFs additionally need the Times New Roman files declared in
+`figures/figstyle.py`, which are not distributed; see `figures/README.md`.
 
 The thirteen Lean sources use Lean 4.8.0. Its compiler is an external
 dependency; the proof runner downloads nothing and rejects failed checks or

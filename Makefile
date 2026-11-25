@@ -49,7 +49,7 @@ figures:
 # works when they are placed next to it as ../paper/.
 paper:
 	@test -d ../paper || { echo "make paper: manuscript sources not found in ../paper/"; exit 2; }
-	cd ../paper && $(PYTHON) -B build.py --targets main submission supplement
+	cd ../paper && $(PYTHON) -B build.py --targets main supplement
 
 clean:
 	rm -rf "$(EVIDENCE)"

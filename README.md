@@ -31,7 +31,7 @@ infer a complete family or certify an entire application by itself.
 | `benchmarks/` | finite audits and equal-output comparisons |
 | `proofs/` | Lean 4 proof sources, proof notes and independent theorem audits |
 | `results/` | retained scientific inputs, raw measurements and summaries (`data_inventory.json` classifies each directory) |
-| `figures/` | data-driven vector figure generation; `manuscript-figures.sha256.json` holds the digests of the 16 paper figures |
+| `figures/` | data-driven statistical-figure generation (Matplotlib); `manuscript-figures.sha256.json` holds the digests of the 13 paper figures and the generated cost-table rows |
 | `references/`, `reference_*.csv`, `claim_evidence_ledger.csv` | bibliography metadata, reading records, citation audits, claim-to-evidence ledger |
 | `external_inputs/` | third-party (Casbin) inputs with their licenses |
 | `receipts/`, `status.json` | compact receipts of the authors' recorded validation runs |
@@ -59,10 +59,14 @@ of this repository.  Further reviewer documentation:
   `ast.dump(show_empty=...)` API is skipped with the reason
   "show_empty was added in Python 3.13".  `make` and `git` are used by the
   entry points and one test.
-- **Figure regeneration** (part of `make review`): `PyMuPDF==1.26.7`,
-  `reportlab==4.4.9` and the Liberation Serif **2.1.5** TrueType fonts (found via
-  `kpsewhich` from TeX Live, or a directory named by `AUTHREFINE_TEXMF`).  Other
-  font versions produce different PDF bytes.
+- **Figure regeneration** (part of `make review`): Matplotlib 3.11.2 and its
+  pinned dependencies (`requirements-figures.txt`).  The figures are set in
+  Times New Roman; byte-identical PDFs need the four Times New Roman 7.12
+  TrueType files whose SHA-256 digests are declared in `figures/figstyle.py`
+  (a directory named by `AUTHREFINE_FONT_DIR`).  These files are proprietary
+  and not distributed; without them every data check still runs, the generated
+  table rows are still compared, and the receipt records PDF byte comparison as
+  unavailable.
 - **Optional exact environments:** see the table in
   [What needs extra tools](#what-needs-extra-tools).
 - **Hardware / disk / time:** one CPU core and < 1 GB RAM suffice; the
@@ -77,13 +81,10 @@ curl -LsSf https://astral.sh/uv/install.sh | sh     # installs ~/.local/bin/uv
 ~/.local/bin/uv python install 3.13
 ~/.local/bin/uv venv -p 3.13 --seed ~/venvs/authrefine   # outside the repository
 . ~/venvs/authrefine/bin/activate                  # python3 is now CPython 3.13
-pip install PyMuPDF==1.26.7 reportlab==4.4.9
+pip install -r requirements-figures.txt
 
-# Liberation Serif 2.1.5 fonts for byte-identical figures
-curl -fsSL -o /tmp/liberation.tar.gz \
-  https://github.com/liberationfonts/liberation-fonts/files/7261482/liberation-fonts-ttf-2.1.5.tar.gz
-tar -xzf /tmp/liberation.tar.gz -C ~/venvs/authrefine
-export AUTHREFINE_TEXMF=~/venvs/authrefine/liberation-fonts-ttf-2.1.5
+# Optional, for byte-identical figure PDFs: the declared Times New Roman files
+export AUTHREFINE_FONT_DIR=/path/to/times-new-roman   # times.ttf, timesbd.ttf, timesi.ttf, timesbi.ttf
 ```
 
 No package build step is required; run every command from the repository root.
@@ -92,7 +93,7 @@ All targets write to fresh directories below `$EVIDENCE` (default
 `make clean` (or pass another `EVIDENCE=...`) before repeating a target.
 
 A container alternative: `docker build -t authrefine .` and
-`docker run --rm -v "$AUTHREFINE_TEXMF":/fonts:ro -e AUTHREFINE_TEXMF=/fonts authrefine`
+`docker run --rm -v "$AUTHREFINE_FONT_DIR":/fonts:ro -e AUTHREFINE_FONT_DIR=/fonts authrefine`
 (runs `make review`'s core scope; not tested by us).
 
 ## Quick check (about 1.5 minutes)
@@ -106,8 +107,9 @@ Expected final line:
 The receipt `/tmp/authrefine-evidence/review/core/evaluation.json` records, for
 each of the normal, `-O` and `-OO -W error` modes, 183 tests (169 pass, 14 named
 skips for optional native/CUDD checks), the motivating identity/swap example,
-the source-observer evidence and the byte-identity of all 16 regenerated
-figures (`"figures": {"ok": true, "reference": ...}`).
+the source-observer evidence and the regeneration of all 13 statistical
+figures and the generated cost-table rows (`"figures": {"ok": true,
+"pdf_byte_comparison": "performed", ...}` when the declared fonts are present).
 
 Minimal diagnostic example by hand:
 
@@ -124,12 +126,12 @@ sequence `remove(row-a); lookup(credential-a)`.
 
 | Paper evidence | Command | Output | Expected | Time |
 | --- | --- | --- | --- | --- |
-| Contribution-critical tests, motivating example, source-observer evidence, all 16 figures | `make core` | `$EVIDENCE/core/evaluation.json` | `PASS`; per mode 183 tests / 169 pass / 14 skips; 16/16 figures byte-identical | 1.5 min |
+| Contribution-critical tests, motivating example, source-observer evidence, all 13 statistical figures | `make core` | `$EVIDENCE/core/evaluation.json` | `PASS`; per mode 183 tests / 169 pass / 14 skips; 13/13 figures and the cost-table rows byte-identical (figures: with the declared fonts) | 1.5 min |
 | Complete self-contained regression matrix | `make portable` | `$EVIDENCE/portable/evaluation.json` | `PASS`; 72 modules, per mode 824 tests / 800 pass / 24 named skips on Python 3.13 (799 / 25 on 3.12, where one AST test needs 3.13) | 7.5 min |
 | 10,000-case finite-model campaign, 23,040-pair exhaustive domain, theory/extension/adversarial records, 49 readable examples | `make campaign` | `$EVIDENCE/campaign/` | `"status": "PASS"`, 10,000 primary cases, 1,340,425 counted obligations, `scientific_match: true`; `examples/` byte-identical to `results/examples/` | 20 s |
 | Finite rechecks behind the cost and caller-family tables; reaggregation of retained timing/native records | `make depth` | `$EVIDENCE/research-depth.json` | `"status": "PASS"` | 20 s |
 | Claim-evidence ledger reconciliation (+ bibliography and citation locations if `../paper/` is present) | `make references` | stdout JSON | `"status": "PASS"` (`"manuscript_checks": "SKIPPED"` without `../paper/`) | 10 s |
-| The 16 vector figures of the paper | `make figures` | `$EVIDENCE/figures/` | PDFs whose SHA-256 equal `figures/manuscript-figures.sha256.json` | 30 s |
+| The 13 statistical figures of the paper and supplement | `make figures` | `$EVIDENCE/figures/` | PDFs and `family-cost-rows.tex` whose SHA-256 equal `figures/manuscript-figures.sha256.json` | 30 s |
 | All of the above except `figures` (core already includes it) | `make review-extended` | `$EVIDENCE/review-extended/review.json` | `PASS` | 10 min |
 
 Which result backs which paper claim is recorded in
@@ -203,9 +205,11 @@ tlmgr install collection-latexrecommended collection-latexextra \
 make paper
 ```
 
-`make paper` rebuilds `main.pdf`, `submission.pdf` and `supplement.pdf` in
-`../paper/` (it overwrites them; use a copy if you want to keep the
-distributed PDFs).  Other TeX Live releases may change line or page breaks.
+`make paper` rebuilds `main.pdf` (45 pages, 68 references, seven statistical
+figures and two conceptual-figure placeholders) and `supplement.pdf` (40 pages,
+six statistical figures) in `../paper/` (it overwrites them; use a copy if you
+want to keep the distributed PDFs).  Other TeX Live releases may change line or
+page breaks.
 
 The retained `results/credential-admission-review/` records (checked by
 `make full`) were re-collected with the shipped
@@ -472,9 +476,12 @@ commands. The `references/` tools check the bibliography and citation
 locations against retained primary metadata and reading records when the
 manuscript sources are available.
 
-All quantitative charts and semantic diagrams are generated by Python from
-the delivered data or checked mathematical examples. [figures/README.md](figures/README.md)
-maps each figure to its inputs and gives the regeneration and atlas commands.
+All statistical figures are generated by one Matplotlib script from the
+delivered data, which checks the plotted denominators and headline values
+before drawing. The paper's two conceptual figures (motivating examples and
+overview) are not data plots and are not generated here.
+[figures/README.md](figures/README.md) maps each figure to its inputs and gives
+the regeneration command.
 
 ## Evidence boundary
 

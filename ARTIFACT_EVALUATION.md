@@ -16,7 +16,7 @@ This wrapper records one durable log pair per top-level step and writes `review.
 python3 -B evaluate.py --profile core --output /fresh/core
 ```
 
-Each mode runs 183 tests in isolated module interpreters: 169 pass and 14 explicitly named optional-native or CUDD checks skip; no test fails or errors. The profile also checks the 1,260 credential contexts, 1,232 paired source observations, 2,896 control inputs, initial-store evidence, the identity/swap example and exact regeneration of 16 vector figures.
+Each mode runs 183 tests in isolated module interpreters: 169 pass and 14 explicitly named optional-native or CUDD checks skip; no test fails or errors. The profile also checks the 1,260 credential contexts, 1,232 paired source observations, 2,896 control inputs, initial-store evidence, the identity/swap example and the regeneration of the 13 statistical figures and the cost-table rows of the paper (PDF byte identity with the declared Times New Roman files; see `figures/README.md`).
 
 ## Portable profile
 

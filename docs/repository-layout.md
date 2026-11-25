@@ -17,9 +17,10 @@ repository's root.
   audits inspect physical stores and request histories; historical figure and
   delivery-review directories are intentionally excluded.
 - `proofs/` contains Lean statements and independent finite audits.
-- `figures/` regenerates the vector assets used by the manuscript.
+- `figures/` regenerates the statistical figures and the cost-table rows used
+  by the manuscript.
 - `figures/manuscript-figures.sha256.json` records the SHA-256 digests of the
-  16 manuscript figures, so the byte-identity check works without the
+  13 statistical figures and the table rows, so the byte-identity check works without the
   manuscript. If the manuscript sources are placed next to this repository as
   `../paper/`, the checks use them directly.
 

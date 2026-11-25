@@ -47,13 +47,15 @@ PROJECT = ROOT.parent
 TEST_RE = re.compile(r"Ran\s+(\d+)\s+tests?\s+in")
 SKIP_RE = re.compile(r"skipped=(\d+)")
 EXPECTED_FIGURES = {
-    "authrefine-overview.pdf", "session-lifecycle.pdf", "credential-handoff.pdf",
-    "semantic-square.pdf", "diagnostic-trace.pdf", "analysis-workflow.pdf",
-    "family-diagnosis-cost.pdf", "source-interface-coverage.pdf",
-    "evaluation-design.pdf", "source-screening.pdf", "adaptation-handling.pdf",
-    "frontend-batch-cost.pdf", "credential-algorithm-cost.pdf", "width.pdf",
-    "session-correspondence.pdf", "symbolic-comparison.pdf",
+    # Main paper.
+    "validation-profiles.pdf", "source-controls.pdf", "session-certification.pdf",
+    "width.pdf", "family-diagnosis-cost.pdf", "session-correspondence.pdf",
+    "symbolic-comparison.pdf",
+    # Technical supplement.
+    "source-interface-coverage.pdf", "evaluation-design.pdf", "source-screening.pdf",
+    "adaptation-handling.pdf", "frontend-batch-cost.pdf", "credential-algorithm-cost.pdf",
 }
+EXPECTED_TABLES = {"family-cost-rows.tex"}
 
 
 def utc_now() -> str:
@@ -378,21 +380,28 @@ def run_figures(output: Path, timeout: int) -> dict[str, Any]:
     if step["returncode"] != 0:
         return {"ok": False, "command": step, "count": 0, "matches": []}
     actual = {path.name for path in target.glob("*.pdf")}
+    figure_receipt = json.loads((target / "figure-receipt.json").read_text(encoding="utf-8"))
+    # The PDFs embed the text face, so byte identity is defined only for the
+    # declared Times New Roman files (figures/figstyle.py). Without them every
+    # data check still runs and the generated cost-table rows are still compared.
+    font = figure_receipt["font"]["status"]
+    compare_pdfs = font == "declared"
     # Compare with the manuscript figures when ../paper/ sits next to this
     # repository; otherwise use the SHA-256 digests of those same manuscript
     # files recorded in figures/manuscript-figures.sha256.json.
-    paper_figures = PROJECT / "paper" / "figures"
-    reference = "manuscript" if paper_figures.is_dir() else "recorded-sha256"
+    paper = PROJECT / "paper"
+    reference = "manuscript" if (paper / "figures").is_dir() else "recorded-sha256"
     recorded = json.loads((ROOT / "figures" / "manuscript-figures.sha256.json").read_text(encoding="utf-8"))["sha256"]
     rows = []
-    for name in sorted(EXPECTED_FIGURES | actual):
+    for name in sorted(EXPECTED_FIGURES | actual | EXPECTED_TABLES):
         generated = target / name
-        manuscript = paper_figures / name
+        manuscript = paper / ("figures/" + name if name.endswith(".pdf") else name)
         if reference == "manuscript":
             expected = sha256(manuscript) if manuscript.is_file() else None
         else:
             expected = recorded.get(name)
         generated_sha = sha256(generated) if generated.is_file() else None
+        required = compare_pdfs or not name.endswith(".pdf")
         rows.append(
             {
                 "name": name,
@@ -401,10 +410,21 @@ def run_figures(output: Path, timeout: int) -> dict[str, Any]:
                 "generated_sha256": generated_sha,
                 "manuscript_sha256": expected,
                 "byte_identical": generated_sha is not None and generated_sha == expected,
+                "byte_comparison_required": required,
             }
         )
-    ok = actual == EXPECTED_FIGURES and all(row["byte_identical"] for row in rows)
-    return {"ok": ok, "command": step, "count": len(actual), "reference": reference, "matches": rows}
+    ok = actual == EXPECTED_FIGURES and all(row["byte_identical"] for row in rows
+                                            if row["byte_comparison_required"])
+    return {
+        "ok": ok,
+        "command": step,
+        "count": len(actual),
+        "reference": reference,
+        "font": figure_receipt["font"],
+        "pdf_byte_comparison": "performed" if compare_pdfs else
+            "unavailable: the declared Times New Roman files are absent; data checks and table rows were compared",
+        "matches": rows,
+    }
 
 
 def requirement_rows(path: Path) -> list[dict[str, Any]]:

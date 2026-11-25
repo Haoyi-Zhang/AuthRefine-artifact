@@ -328,14 +328,14 @@
   ],
   "session-operation-cost-theorem": [
     "prop:session-operation-cost",
-    "prop:session-anchored-operation-cost"
+    "sec:session-operation-cost-proof"
   ],
   "session-operation-cost-independent-audit": [
     "sec:session-distinguishability"
   ],
   "session-continuous-versus-individual-shortest": [
     "prop:session-operation-cost",
-    "prop:session-anchored-operation-cost"
+    "sec:session-operation-cost-proof"
   ],
   "native-healthchecks-tree-execution": [
     "sec:native-healthchecks-histories",

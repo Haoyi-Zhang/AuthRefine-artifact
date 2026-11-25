@@ -120,11 +120,12 @@ Python, dependencies and implementation identities.
 The paper uses these same data for all current complete-profile cost figures:
 
 ```sh
-python -B figures/family_cost.py --results results/symbolic-comparison --output /fresh/figures
-python -B figures/session_correspondence.py --results results/session-correspondence --comparison-results results/symbolic-comparison --output /fresh/figures
-python -B figures/symbolic_comparison.py --results results/symbolic-comparison --output /fresh/figures
+python -B figures/build_paper_figures.py --output-directory /fresh/figures
 ```
 
+This writes all statistical figures; the three cost figures are
+`family-diagnosis-cost.pdf`, `session-correspondence.pdf` and
+`symbolic-comparison.pdf`, and the cost-table rows are `family-cost-rows.tex`.
 The first figure relates reference-call reductions to time on the 38-table
 cohort. The second connects session-family outcomes to caller costs. The third
 retains every task in three cumulative cost distributions, comparing scan,
