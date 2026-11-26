@@ -505,7 +505,10 @@ def validation_profiles(art, out):
     bx.set_xlabel("Shortest distinguishing length per binding")
     bx.set_ylabel("Binding rows (%)")
     S.panel_title(bx, "(b) First-failure depth")
-    bx.legend(loc="upper left", bbox_to_anchor=(0.47, 0.99), fontsize=6.6, handlelength=1.2, ncol=1)
+    # Legend in the empty region right of depth 4 and left of the Match bars (data coordinates).
+    bx.legend(loc="upper right", bbox_to_anchor=(7.7, 140), bbox_transform=bx.transData,
+              fontsize=6.3, handlelength=1.0, handletextpad=0.4, borderpad=0.3,
+              borderaxespad=0.0, labelspacing=0.25, ncol=1)
     S.save(fig, out / "validation-profiles.pdf"); plt.close(fig)
 
 

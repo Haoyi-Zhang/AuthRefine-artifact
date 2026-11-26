@@ -564,7 +564,7 @@
     "reachable-work-interface": "technical/implementation-details.tex:36; technical/implementation-details.tex:5",
     "returned-guard-workflow": "sections/engineering-context.tex:27; sections/source-evaluation.tex:1",
     "sec:prospective-selection": "sections/source-evaluation.tex:2",
-    "tab:prospective-transfer": "sections/source-evaluation.tex:8",
+    "tab:prospective-transfer": "sections/source-evaluation.tex:33",
     "sec:prospective-adaptation": "technical/source-study-records.tex:49",
     "sec:reference-completion": "technical/source-study-records.tex:61",
     "sec:reference-completion-recovery": "technical/source-study-records.tex:80",
