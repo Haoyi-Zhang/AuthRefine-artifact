@@ -120,19 +120,19 @@ def family_cost(art, rows, out):
         raise ValueError("Headline indexed median changed")
 
     style = {"match": ("o", "white", S.BLUE, "All match"),
-             "late": ("D", S.ORANGE, S.ORANGE, "Late failure"),
-             "early": ("s", S.VERMILLION, S.VERMILLION, "Early failure"),
+             "late": ("D", S.ORANGE, S.INK, "Late failure"),
+             "early": ("s", S.ROSE, S.INK, "Early failure"),
              "dense": ("^", "white", S.GRAY, "Dense / singleton"),
-             "source": ("X", S.GREEN, S.GREEN, "Source / control")}
-    fig, (ax, bx) = plt.subplots(1, 2, figsize=(S.TEXT_WIDTH, 2.85),
-                                 gridspec_kw=dict(width_ratios=[1.12, 1.0], wspace=0.62))
+             "source": ("X", S.GREEN, S.INK, "Source / control")}
+    fig, (ax, bx) = plt.subplots(1, 2, figsize=(S.TEXT_WIDTH, 2.55),
+                                 gridspec_kw=dict(width_ratios=[1.12, 1.0], wspace=0.55))
     for p in pts:
         m, fc, ec, _ = style[p["group"]]
         ax.plot([p["calls"]] * 2, [p["lo"], p["hi"]], color=S.GRAY, lw=0.5, alpha=0.7, zorder=1)
         ax.plot(p["calls"], p["ratio"], marker=m, ms=4.2, mfc=fc, mec=ec, mew=0.9,
                 ls="none", zorder=3)
     ax.set_xscale("log"); ax.set_yscale("log")
-    ax.set_xlim(0.8, 400); ax.set_ylim(0.01, 1000)
+    ax.set_xlim(0.8, 400); ax.set_ylim(0.01, 4000)
     ax.axhline(1, color=S.INK, lw=0.6, ls=(0, (3, 2)), zorder=2)
     ax.axvline(1, color=S.INK, lw=0.6, ls=(0, (3, 2)), zorder=2)
     for a in (ax.xaxis, ax.yaxis):
@@ -143,8 +143,8 @@ def family_cost(art, rows, out):
     S.panel_title(ax, "(a) All 38 tasks")
     handles = [Line2D([], [], marker=m, mfc=fc, mec=ec, mew=0.9, ls="none", ms=4.2, label=l)
                for m, fc, ec, l in style.values()]
-    ax.legend(handles=handles, loc="upper left", ncol=1, handletextpad=0.3,
-              borderaxespad=0.3, fontsize=7)
+    fig.legend(handles=handles, loc="lower center", bbox_to_anchor=(0.5, 0.995), ncol=5,
+               fontsize=7, handletextpad=0.25, columnspacing=1.0)
 
     detail = [("dense-s2-f2", "Dense, 2 $\\times$ 2"),
               ("dense-s2-f16", "Dense, 2 $\\times$ 16"),
@@ -165,7 +165,7 @@ def family_cost(art, rows, out):
         bx.plot([p["lo"]] * 2, [y - .18, y + .18], color=col, lw=0.8)
         bx.plot([p["hi"]] * 2, [y - .18, y + .18], color=col, lw=0.8)
         bx.plot(p["ratio"], y, marker="D", ms=3.8, color=S.INK, ls="none", zorder=3)
-        bx.text(330, y, f"{p['ratio']:.2f}", va="center", ha="right", fontsize=7)
+        S.value_label(bx, 330, y, f"{p['ratio']:.2f}", ha="right")
     bx.set_yticks(range(len(detail)))
     bx.set_yticklabels([l for _, l in detail][::-1], fontsize=7)
     bx.set_xscale("log"); bx.set_xlim(0.01, 350)
@@ -214,13 +214,13 @@ def session_correspondence(art, rows, out):
 
     if [round(x, 3) for x in t(6, "unrestricted", "scan")] != [306.782, 259.345, 699.265]:
         raise ValueError("Six-session scan timing changed")
-    fig, axes = plt.subplots(1, 3, figsize=(S.TEXT_WIDTH, 2.25),
-                             gridspec_kw=dict(width_ratios=[1, 1, 1.15], wspace=0.55))
+    fig, axes = plt.subplots(1, 3, figsize=(S.TEXT_WIDTH, 2.15),
+                             gridspec_kw=dict(width_ratios=[1, 1, 1.15], wspace=0.5))
     ax, bx, cx = axes
     # (a) surviving family under each caller/observation.
     series = [("Lookup only", [math.factorial(n) for n in ns], "o", "white", S.BLUE),
-              ("One removal or unrestricted", [obs[n]["caller_outcomes"]["unrestricted"]["matching"] for n in ns], "D", S.ORANGE, S.ORANGE),
-              ("Selected-row observation", [max(obs[n]["selected_identity_matching"].values()) for n in ns], "s", "white", S.VERMILLION)]
+              ("One removal or unrestricted", [obs[n]["caller_outcomes"]["unrestricted"]["matching"] for n in ns], "D", S.ORANGE, S.INK),
+              ("Selected-row observation", [max(obs[n]["selected_identity_matching"].values()) for n in ns], "s", S.ROSE, S.INK)]
     off = {0: 0.0, 1: -0.12, 2: 0.12}
     for k, (lab, vals, m, fc, ec) in enumerate(series):
         ax.plot([n + off[k] for n in ns], vals, marker=m, mfc=fc, mec=ec, color=ec, mew=0.9,
@@ -239,7 +239,7 @@ def session_correspondence(art, rows, out):
 
     # (b) unrestricted caller, scan versus indexed, all sizes.
     meth = [("scan", "Scan", "o", "white", S.BLUE, -0.11),
-            ("support-indexed", "Indexed", "D", S.ORANGE, S.ORANGE, 0.11)]
+            ("support-indexed", "Indexed", "D", S.ORANGE, S.INK, 0.11)]
     for key, lab, m, fc, ec, dx in meth:
         med, lo, hi = zip(*[t(n, "unrestricted", key) for n in ns])
         xs = [n + dx for n in ns]
@@ -257,9 +257,9 @@ def session_correspondence(art, rows, out):
     callers = [("lookup-only", "Lookup\nonly"), ("one-removal", "One\nremoval"),
                ("unrestricted", "Unre-\nstricted")]
     meth4 = [("scan", "Scan", "o", "white", S.BLUE),
-             ("support-indexed", "Indexed", "D", S.ORANGE, S.ORANGE),
-             ("finite-domain", "Finite-domain DD", "s", "white", S.VERMILLION),
-             ("cudd", "CUDD", "^", S.GREEN, S.GREEN)]
+             ("support-indexed", "Indexed", "D", S.ORANGE, S.INK),
+             ("finite-domain", "Finite-domain DD", "s", S.ROSE, S.INK),
+             ("cudd", "CUDD", "^", S.GREEN, S.INK)]
     for j, (key, lab, m, fc, ec) in enumerate(meth4):
         for i, (caller, _) in enumerate(callers):
             med, lo, hi = t(6, caller, key)
@@ -282,9 +282,9 @@ def session_correspondence(art, rows, out):
 
 def symbolic_comparison(art, rows, out):
     series = [("scan", "Scan", S.BLUE, (0, (1.2, 1.2))),
-              ("finite-domain", "Finite-domain DD", S.VERMILLION, "-"),
-              ("cudd", "CUDD", S.GREEN, (0, (4, 1.6)))]
-    fig, axes = plt.subplots(1, 3, figsize=(S.TEXT_WIDTH, 2.05), sharey=True,
+              ("finite-domain", "Finite-domain DD", S.ORANGE, "-"),
+              ("cudd", "CUDD", S.PURPLE, (0, (4, 1.6)))]
+    fig, axes = plt.subplots(1, 3, figsize=(S.TEXT_WIDTH, 1.95), sharey=True,
                              gridspec_kw=dict(wspace=0.12))
     faster = {}
     for ax, (cohort, title, count) in zip(axes, COHORTS):
@@ -342,18 +342,18 @@ def source_controls(art, out):
     if totals != (2896, 318, 24):
         raise ValueError("Source-control totals changed: " + str(totals))
 
-    fig, ax = plt.subplots(figsize=(S.TEXT_WIDTH, 2.05))
+    fig, ax = plt.subplots(figsize=(S.TEXT_WIDTH, 1.95))
     n = len(controls)
     for i, c in enumerate(controls):
         y = n - 1 - i
         f, r = c["field_only_differences"], c["response_differences"]
-        ax.barh(y, f, color=S.BLUE, height=0.62, edgecolor="white", lw=0.5)
+        ax.barh(y, f, color=S.BLUE, height=0.62, edgecolor=S.INK, lw=0.5, hatch="//")
         if r:
-            ax.barh(y, r, left=f, color=S.ORANGE, height=0.62, edgecolor=S.INK, lw=0.5, hatch="////")
-        ax.text(f + r + 1.5, y, f"{f + r} of {c['tested_inputs']}", va="center", fontsize=7)
+            ax.barh(y, r, left=f, color=S.ORANGE, height=0.62, edgecolor=S.INK, lw=0.5, hatch="xx")
+        S.value_label(ax, f + r + 2.0, y, f"{f + r} of {c['tested_inputs']}", ha="left")
     ax.set_yticks(range(n))
     ax.set_yticklabels([labels[c["control"]] for c in controls][::-1])
-    ax.set_xlim(0, 125); ax.set_xticks([0, 25, 50, 75, 100])
+    ax.set_xlim(0, 132); ax.set_xticks([0, 25, 50, 75, 100])
     ax.set_ylim(-0.6, n - 0.4)
     ax.grid(axis="y", visible=False); ax.tick_params(axis="y", length=0)
     ax.set_xlabel("Observations that differ from the unmodified source")
@@ -367,12 +367,13 @@ def source_controls(art, out):
             groups.append([name, i, i])
     for name, a, b in groups:
         ya, yb = n - 1 - a + 0.3, n - 1 - b - 0.3
-        ax.plot([123, 123], [yb, ya], color=S.GRAY, lw=0.7, clip_on=False)
-        ax.text(124.5, (ya + yb) / 2, name, va="center", ha="left", fontsize=6.8, color=S.INK,
+        ax.plot([130, 130], [yb, ya], color=S.GRAY, lw=0.7, clip_on=False)
+        ax.text(131.5, (ya + yb) / 2, name, va="center", ha="left", fontsize=6.8, color=S.INK,
                 clip_on=False)
-    ax.legend(handles=[Patch(fc=S.BLUE, ec="white", label="Recorded field only (status/decision unchanged)"),
-                       Patch(fc=S.ORANGE, ec=S.INK, hatch="////", label="Status or decision changed")],
-              loc="lower center", bbox_to_anchor=(0.5, 1.0), ncol=2, fontsize=7)
+    ax.legend(handles=[Patch(fc=S.BLUE, ec=S.INK, hatch="//",
+                             label="Recorded field only (status/decision unchanged)"),
+                       Patch(fc=S.ORANGE, ec=S.INK, hatch="xx", label="Status or decision changed")],
+              loc="lower center", bbox_to_anchor=(0.42, 1.0), ncol=2, fontsize=7)
     S.save(fig, out / "source-controls.pdf"); plt.close(fig)
 
 
@@ -400,9 +401,9 @@ def session_certification(art, out):
             raise ValueError("Native word differs from the optimal cost: " + c["id"])
         points.setdefault((c["observation"], n, d), []).append(got["requests"])
     ns = list(range(2, 7))
-    colors = {2: S.SKY, 3: S.BLUE, 4: S.GREEN, 5: S.ORANGE, 6: S.VERMILLION}
+    colors = {2: S.PURPLE, 3: S.BLUE, 4: S.GREEN, 5: S.ORANGE, 6: S.ROSE}
     markers = {2: "o", 3: "s", 4: "D", 5: "^", 6: "v"}
-    fig, axes = plt.subplots(1, 2, figsize=(S.TEXT_WIDTH, 2.2), sharey=True,
+    fig, axes = plt.subplots(1, 2, figsize=(S.TEXT_WIDTH, 2.05), sharey=True,
                              gridspec_kw=dict(wspace=0.08))
     for ax, (obs, title) in zip(axes, (("projected", "(a) Decision/presence observation"),
                                        ("selected-row", "(b) Selected-row observation"))):
@@ -415,16 +416,16 @@ def session_certification(art, out):
             ax.plot(ds, ys, color=colors[n], lw=0.9, zorder=2)
             for d, y in zip(ds, ys):
                 filled = d >= 2
-                ax.plot(d, y, marker=markers[n], ms=4.2, mec=colors[n], mew=0.9,
+                ax.plot(d, y, marker=markers[n], ms=4.2, mec=S.INK, mew=0.6,
                         mfc=colors[n] if filled else "white", ls="none", zorder=3)
         ax.set_xticks(range(0, 7)); ax.set_xlim(-0.4, 6.4)
         ax.set_yticks(range(0, 11, 2)); ax.set_ylim(-0.3, 10.8)
         ax.set_xlabel("Initially absent rows $d$")
         S.panel_title(ax, title)
     axes[0].set_ylabel("Requests to certify identity")
-    handles = [Line2D([], [], color=colors[n], marker=markers[n], mfc="white", mec=colors[n], mew=0.9,
+    handles = [Line2D([], [], color=colors[n], marker=markers[n], mfc="white", mec=S.INK, mew=0.6,
                       ms=4.2, lw=0.9, label=f"$n={n}$") for n in ns]
-    handles.append(Line2D([], [], marker="o", ls="none", mfc=S.GRAY, mec=S.GRAY, ms=4.2,
+    handles.append(Line2D([], [], marker="o", ls="none", mfc=S.GRAY, mec=S.INK, mew=0.6, ms=4.2,
                           label="Needs one complete restoration"))
     fig.legend(handles=handles, loc="lower center", bbox_to_anchor=(0.5, 0.99), ncol=6, fontsize=7,
                handlelength=1.6, columnspacing=1.1)
@@ -456,12 +457,12 @@ def validation_profiles(art, out):
     if not all(c["detected"] for c in overlap["mutation_controls"] + caller["controls"]):
         raise ValueError("An executable control was not detected")
 
-    classes = (("all", "Every member matches", S.GREEN, None),
-               ("some", "Proper subfamily matches", S.ORANGE, None),
-               ("none", "No member matches", S.VERMILLION, None),
-               ("inactive", "Inconclusive: caller admits no event", "white", "////"),
-               ("missing", "Inconclusive: missing enabled edge", "white", "...."))
-    fig, (ax, bx) = plt.subplots(1, 2, figsize=(S.TEXT_WIDTH, 2.05),
+    classes = (("all", "Every member matches", S.GREEN, "//"),
+               ("some", "Proper subfamily matches", S.ORANGE, "xx"),
+               ("none", "No member matches", S.ROSE, "\\\\"),
+               ("inactive", "Inconclusive: caller admits no event", "white", "||"),
+               ("missing", "Inconclusive: missing enabled edge", "white", ".."))
+    fig, (ax, bx) = plt.subplots(1, 2, figsize=(S.TEXT_WIDTH, 1.95),
                                  gridspec_kw=dict(width_ratios=[1.0, 1.05], wspace=0.42))
     for i, (name, n, outcomes, _, _) in enumerate(domains):
         y = len(domains) - 1 - i; left = 0.0
@@ -469,35 +470,35 @@ def validation_profiles(art, out):
             share = 100 * outcomes.get(key, 0) / n
             if share:
                 ax.barh(y, share, left=left, color=col, hatch=hatch, height=0.58,
-                        edgecolor=S.GRAY if hatch else "white", lw=0.5)
+                        edgecolor=S.INK, lw=0.5)
                 left += share
-        ax.text(101.5, y, f"{n:,}", va="center", ha="left", fontsize=7)
+        S.value_label(ax, 101.5, y, f"{n:,}", ha="left")
     ax.set_yticks(range(len(domains)))
     ax.set_yticklabels([d[0] for d in domains][::-1])
-    ax.set_xlim(0, 100); ax.set_xticks([0, 25, 50, 75, 100])
+    ax.set_xlim(0, 118); ax.set_xticks([0, 25, 50, 75, 100])
     ax.set_ylim(-0.6, len(domains) - 0.4)
     ax.grid(axis="y", visible=False); ax.tick_params(axis="y", length=0)
     ax.set_xlabel("Share of diagnoses (%)")
     S.panel_title(ax, "(a) Family outcome")
-    fig.legend(handles=[Patch(fc=c, ec=S.GRAY if h else "none", hatch=h, label=l) for _, l, c, h in classes],
-               loc="upper center", bbox_to_anchor=(0.5, -0.07), ncol=3, fontsize=6.8,
+    fig.legend(handles=[Patch(fc=c, ec=S.INK, hatch=h, label=l) for _, l, c, h in classes],
+               loc="upper center", bbox_to_anchor=(0.5, -0.09), ncol=3, fontsize=6.8,
                handlelength=1.2, columnspacing=1.2)
 
     lengths = ["0", "1", "2", "3", "4", "5", "6", "7", "infinity"]
     pos = [j if j < 8 else 8.6 for j in range(len(lengths))]
-    fills = ((S.SKY, None), (S.BLUE, None), ("white", "//////"))
+    fills = ((S.SKY, "//"), (S.BLUE, "xx"), ("white", ".."))
     width_ = 0.27
     for k, (name, _, _, dist, rows_) in enumerate(domains):
         xs = [p + (k - 1) * width_ for p, key in zip(pos, lengths) if dist.get(key)]
         ys = [100 * dist[key] / rows_ for key in lengths if dist.get(key)]
         fc, hatch = fills[k]
         bx.bar(xs, ys, width=width_, bottom=0.05, color=fc, hatch=hatch, label=name,
-               edgecolor=S.BLUE if hatch else "white", lw=0.5)
+               edgecolor=S.INK, lw=0.5)
     bx.set_yscale("log"); bx.set_ylim(0.05, 150)
     bx.yaxis.set_major_locator(FixedLocator([0.1, 1, 10, 100]))
     bx.yaxis.set_major_formatter(FuncFormatter(log_fmt)); bx.yaxis.set_minor_formatter(NullFormatter())
     bx.set_xticks(pos)
-    bx.set_xticklabels([str(j) for j in range(8)] + ["Match"])
+    bx.set_xticklabels([str(j) for j in range(8)] + ["Match"], fontsize=6.5)
     bx.set_xlim(-0.6, 9.1)
     bx.axvline(7.8, color=S.GRAY, lw=0.6, ls=(0, (1, 2)))
     bx.grid(axis="x", visible=False)
@@ -519,13 +520,14 @@ def source_coverage(art, out):
             Counter((d > 0) - (d < 0) for d in changes) != {1: 7, -1: 3, 0: 38}:
         raise ValueError("Source-transfer cohort changed")
     fig, (ax, bx) = plt.subplots(1, 2, figsize=(S.TEXT_WIDTH, 2.1),
-                                 gridspec_kw=dict(width_ratios=[1, 1.2], wspace=0.75))
+                                 gridspec_kw=dict(width_ratios=[1, 1.25], wspace=1.05))
     labels = ["Baseline", "Guarded"]
     for i, (tot, done) in enumerate(counts):
         y = 1 - i
-        ax.barh(y, tot, color=S.LIGHT, height=0.5, edgecolor="none")
-        ax.barh(y, done, color=S.BLUE if i else S.SKY, height=0.5, edgecolor="none")
-        ax.text(done + 25, y, f"{done:,}", va="center", fontsize=7.5)
+        ax.barh(y, tot, color=S.LIGHT, height=0.5, edgecolor=S.INK, lw=0.4)
+        ax.barh(y, done, color=S.BLUE if i else S.SKY, height=0.5, edgecolor=S.INK, lw=0.5,
+                hatch="//" if i else "xx")
+        S.value_label(ax, done + 30, y, f"{done:,}", ha="left")
     ax.set_yticks([1, 0]); ax.set_yticklabels(labels)
     ax.set_xlim(0, 1591); ax.set_xticks([0, 400, 800, 1200, 1591])
     ax.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{v:,.0f}"))
@@ -536,13 +538,13 @@ def source_coverage(art, out):
                      key=lambda r: (-r["fully_linked_declared_route_delta"], r["repository"]))
     for i, r in enumerate(changed):
         d = r["fully_linked_declared_route_delta"]; y = len(changed) - 1 - i
-        bx.barh(y, d, color=S.BLUE if d > 0 else S.VERMILLION, height=0.6)
-        bx.text(d + (3 if d > 0 else -3), y, f"{d:+d}", va="center",
-                ha="left" if d > 0 else "right", fontsize=6.8)
+        bx.barh(y, d, color=S.GREEN if d > 0 else S.ROSE, height=0.6, edgecolor=S.INK, lw=0.5,
+                hatch="//" if d > 0 else "xx")
+        S.value_label(bx, d + (4 if d > 0 else -4), y, f"{d:+d}", ha="left" if d > 0 else "right")
     bx.set_yticks(range(len(changed)))
-    bx.set_yticklabels([r["repository"].split("/", 1)[1] for r in changed][::-1], fontsize=6.8)
+    bx.set_yticklabels([r["repository"].split("/", 1)[1][:18] for r in changed][::-1], fontsize=6.8)
     bx.axvline(0, color=S.INK, lw=0.6)
-    bx.set_xlim(-60, 150); bx.set_xticks([-50, 0, 50, 100, 150]); bx.grid(axis="y", visible=False); bx.tick_params(axis="y", length=0)
+    bx.set_xlim(-75, 165); bx.set_xticks([-50, 0, 50, 100, 150]); bx.grid(axis="y", visible=False); bx.tick_params(axis="y", length=0)
     bx.set_xlabel("Guarded minus baseline (routes)")
     S.panel_title(bx, "(b) Ten changed snapshots")
     S.save(fig, out / "source-interface-coverage.pdf"); plt.close(fig)
@@ -571,20 +573,19 @@ def transfer(art, out):
                                           ("(b) After adaptation", 4, 5))):
         for k, d in enumerate(data):
             y = len(data) - 1 - k
-            ax.barh(y, d[ai], color=S.BLUE, height=0.55, edgecolor="white", lw=0.6)
-            ax.barh(y, d[ui], left=d[ai], color="white", height=0.55, edgecolor=S.GRAY,
-                    hatch="////", lw=0.6)
+            ax.barh(y, d[ai], color=S.GREEN, height=0.55, edgecolor=S.INK, lw=0.5, hatch="//")
+            ax.barh(y, d[ui], left=d[ai], color="white", height=0.55, edgecolor=S.INK,
+                    hatch="xx", lw=0.5)
             if d[ai]:
-                ax.text(d[ai] / 2, y, str(d[ai]), ha="center", va="center", color="white", fontsize=7.5)
+                S.value_label(ax, d[ai] / 2, y, str(d[ai]))
             if d[ui]:
-                ax.text(d[ai] + d[ui] / 2, y, str(d[ui]), ha="center", va="center", fontsize=7.5,
-                        bbox=dict(boxstyle="square,pad=0.15", fc="white", ec="none"))
+                S.value_label(ax, d[ai] + d[ui] / 2, y, str(d[ui]))
         ax.set_xlim(0, 56); ax.set_xticks([0, 18, 36, 54])
         ax.grid(axis="y", visible=False); ax.tick_params(axis="y", length=0)
         ax.set_xlabel("Contexts"); S.panel_title(ax, title)
     axes[0].set_yticks(range(len(data))); axes[0].set_yticklabels([d[0] for d in data][::-1])
-    axes[1].legend(handles=[Patch(fc=S.BLUE, label="Agreement"),
-                            Patch(fc="white", ec=S.GRAY, hatch="////", label="Unknown")],
+    axes[1].legend(handles=[Patch(fc=S.GREEN, ec=S.INK, hatch="//", label="Agreement"),
+                            Patch(fc="white", ec=S.INK, hatch="xx", label="Unknown")],
                    loc="lower right", fontsize=7)
     S.save(fig, out / "evaluation-design.pdf"); plt.close(fig)
 
@@ -593,10 +594,10 @@ def adaptation(art, out):
     records = json.loads((art / "adaptation_study/casebook.json").read_text())["cases"]
     axes_ = ("identity origin", "post-authorization effects", "identity/state handoff",
              "runtime resolution", "environment and time")
-    handling = (("automatic supported source analysis", "Source analysis", S.BLUE, None),
-                ("explicit configuration/input", "Supplied input", S.SKY, None),
-                ("source-bound primitive adapter", "Primitive adapter", S.ORANGE, None),
-                ("non-admission", "Not admitted", "white", "////"))
+    handling = (("automatic supported source analysis", "Source analysis", S.BLUE, "//"),
+                ("explicit configuration/input", "Supplied input", S.SKY, "||"),
+                ("source-bound primitive adapter", "Primitive adapter", S.ORANGE, "xx"),
+                ("non-admission", "Not admitted", "white", ".."))
     matrix = [[Counter(r["axis_classification"][a]["handling"] for r in records)[h[0]]
                for h in handling] for a in axes_]
     if len(records) != 8 or matrix != [[0, 5, 3, 0], [0, 0, 5, 3], [1, 0, 7, 0], [2, 1, 4, 1], [0, 2, 3, 3]]:
@@ -607,15 +608,13 @@ def adaptation(art, out):
         for (key, lab, col, hatch), c in zip(handling, row):
             if c:
                 ax.barh(y, c, left=left, color=col, hatch=hatch, height=0.6,
-                        edgecolor=S.GRAY if hatch else "white", lw=0.6)
-                ax.text(left + c / 2, y, str(c), ha="center", va="center", fontsize=7.5,
-                        color="white" if col == S.BLUE else S.INK,
-                        bbox=dict(boxstyle="square,pad=0.12", fc="white", ec="none") if hatch else None)
+                        edgecolor=S.INK, lw=0.5)
+                S.value_label(ax, left + c / 2, y, str(c))
                 left += c
     ax.set_yticks(range(len(axes_))); ax.set_yticklabels([a[0].upper() + a[1:] for a in axes_][::-1])
     ax.set_xlim(0, 8); ax.set_xlabel("Adaptation cases (of 8)")
     ax.grid(axis="y", visible=False); ax.tick_params(axis="y", length=0)
-    ax.legend(handles=[Patch(fc=c, ec=S.GRAY if h else "none", hatch=h, label=l) for _, l, c, h in handling],
+    ax.legend(handles=[Patch(fc=c, ec=S.INK, hatch=h, label=l) for _, l, c, h in handling],
               loc="lower center", bbox_to_anchor=(0.45, 1.0), ncol=4, fontsize=7)
     S.save(fig, out / "adaptation-handling.pdf"); plt.close(fig)
 
@@ -631,14 +630,14 @@ def credential_costs(art, out):
     if [round(v, 2) for v in vals.values()] != [10.84, 36.06, 14.67, 43.93]:
         raise ValueError("Credential cost medians changed")
     order = sorted(names, key=lambda kv: vals[kv[0]])
-    fig, ax = plt.subplots(figsize=(S.TEXT_WIDTH, 1.6))
+    fig, ax = plt.subplots(figsize=(S.TEXT_WIDTH, 1.55))
     for i, (k, lab) in enumerate(order):
         y = len(order) - 1 - i
         runs = sorted(1000 * r["seconds"][k] for r in obs)
         ax.plot([runs[0], runs[-1]], [y, y], color=S.GRAY, lw=0.9)
         ax.plot(runs, [y + 0.18] * len(runs), "o", mfc="white", mec=S.BLUE, ms=3.2, mew=0.8)
-        ax.plot(vals[k], y, "D", color=S.ORANGE, ms=4.2)
-        ax.text(52.5, y, f"{vals[k]:.2f}", va="center", ha="right", fontsize=7.5)
+        ax.plot(vals[k], y, "D", color=S.ORANGE, mec=S.INK, mew=0.6, ms=4.2)
+        S.value_label(ax, 52.5, y, f"{vals[k]:.2f}", ha="right")
     ax.set_yticks(range(len(order))); ax.set_yticklabels([l for _, l in order][::-1])
     ax.set_xlim(0, 53); ax.set_ylim(-0.5, len(order) - 0.3)
     ax.grid(axis="y", visible=False); ax.tick_params(axis="y", length=0)
@@ -662,18 +661,26 @@ def width(art, out):
     derived = [(n, int(r["global_complete_work_bound"])) for n, r in zip(ns, rows) if n >= 8]
     if any(l != 4 * n for n, l in zip(ns, local)) or [n for n, _ in executed] != list(range(1, 9)):
         raise ValueError("Width study values changed")
-    fig, ax = plt.subplots(figsize=(S.TEXT_WIDTH * 0.62, 1.95))
-    ax.plot(ns, local, marker="o", mfc="white", mec=S.BLUE, color=S.BLUE, ms=3.4, label="Local (executed)")
-    ax.plot(*zip(*executed), marker="s", color=S.VERMILLION, ms=3.2, label="Global (executed)")
-    ax.plot(*zip(*derived), color=S.VERMILLION, ls=(0, (4, 2)), lw=1.0, label="Global (derived bound)")
+    fig, ax = plt.subplots(figsize=(S.TEXT_WIDTH, 1.85))
+    ax.plot(ns, local, marker="o", mfc="white", mec=S.INK, mew=0.6, color=S.BLUE, ms=3.6,
+            label="Local (executed)")
+    ax.plot(*zip(*executed), marker="s", mfc=S.ORANGE, mec=S.INK, mew=0.6, color=S.ORANGE,
+            ms=3.4, label="Global (executed)")
+    ax.plot(*zip(*derived), color=S.ORANGE, ls=(0, (4, 2)), lw=1.0, label="Global (derived bound)")
     ax.axvline(8, color=S.GRAY, lw=0.6, ls=(0, (1, 2)))
-    ax.set_yscale("log"); ax.set_ylim(2, 5e6)
-    ax.yaxis.set_major_locator(LogLocator(base=10, numticks=8))
-    ax.yaxis.set_major_formatter(FuncFormatter(lambda v, _: {1e3: "1k", 1e4: "10k", 1e5: "100k", 1e6: "1M"}.get(v, f"{v:g}")))
+    S.value_label(ax, 15.9, 64 * 0.36, "64", ha="right")
+    S.value_label(ax, 15.9, 2097152 * 2.2, "2,097,152", ha="right")
+    S.value_label(ax, 7.75, 4096 * 2.6, "4,096", ha="right")
+    ax.text(8.15, 2.6, "executed up to 8 aliases", fontsize=6.5, color=S.GRAY, ha="left", va="bottom")
+    ax.set_yscale("log"); ax.set_ylim(2, 3e7)
+    ax.yaxis.set_major_locator(LogLocator(base=10, numticks=9))
+    ax.yaxis.set_major_formatter(FuncFormatter(
+        lambda v, _: {1e3: "1k", 1e4: "10k", 1e5: "100k", 1e6: "1M", 1e7: "10M"}.get(v, f"{v:g}")))
     ax.yaxis.set_minor_formatter(NullFormatter())
-    ax.set_xticks([1, 4, 8, 12, 16]); ax.set_xlim(0.5, 16.5)
+    ax.set_xticks([1, 4, 8, 12, 16]); ax.set_xlim(0.5, 16.8)
     ax.set_xlabel("Declared aliases"); ax.set_ylabel("Reference evaluations")
-    ax.legend(loc="upper left", fontsize=7)
+    ax.legend(loc="lower center", bbox_to_anchor=(0.5, 1.0), ncol=3, fontsize=7,
+              handlelength=2.0)
     S.save(fig, out / "width.pdf"); plt.close(fig)
 
 
@@ -687,11 +694,11 @@ def screening(art, out):
     if survey["denominator"] != 48 or counts != [17, 25, 10, 42, 24, 22]:
         raise ValueError("Screening counts changed")
     ordered = sorted(zip([l for _, l in keys], counts), key=lambda kv: -kv[1])
-    fig, ax = plt.subplots(figsize=(S.TEXT_WIDTH * 0.62, 1.75))
+    fig, ax = plt.subplots(figsize=(S.TEXT_WIDTH * 0.62, 1.65))
     for i, (lab, c) in enumerate(ordered):
         y = len(ordered) - 1 - i
-        ax.barh(y, c, color=S.BLUE, height=0.6)
-        ax.text(c + 0.8, y, str(c), va="center", fontsize=7.5)
+        ax.barh(y, c, color=S.BLUE, height=0.6, edgecolor=S.INK, lw=0.5, hatch="//")
+        S.value_label(ax, c + 1.0, y, str(c), ha="left")
     ax.set_yticks(range(len(ordered))); ax.set_yticklabels([l for l, _ in ordered][::-1])
     ax.set_xlim(0, 48); ax.set_xticks([0, 12, 24, 36, 48])
     ax.grid(axis="y", visible=False); ax.tick_params(axis="y", length=0)
@@ -714,9 +721,10 @@ def frontend(art, out):
         ax.plot([tot["baseline"][i], tot["guarded"][i]], [y, y], color=S.GRAY, lw=0.9)
         ax.plot(tot["baseline"][i], y, "o", mfc="white", mec=S.BLUE, ms=4, mew=0.9,
                 label="Baseline" if i == 0 else None)
-        ax.plot(tot["guarded"][i], y, "s", color=S.VERMILLION, ms=3.8, label="Guarded" if i == 0 else None)
-        bx.barh(y, diffs[i], color=S.ORANGE, height=0.45)
-        bx.text(diffs[i] + 0.3, y, f"{diffs[i]:.2f}", va="center", fontsize=7.5)
+        ax.plot(tot["guarded"][i], y, "s", mfc=S.ROSE, mec=S.INK, mew=0.6, ms=3.8,
+                color=S.INK, label="Guarded" if i == 0 else None)
+        bx.barh(y, diffs[i], color=S.ORANGE, height=0.45, edgecolor=S.INK, lw=0.5, hatch="xx")
+        S.value_label(bx, diffs[i] + 0.4, y, f"{diffs[i]:.2f}", ha="left")
     ax.set_yticks([2, 1, 0]); ax.set_yticklabels(["Batch 1", "Batch 2", "Batch 3"])
     ax.set_xlim(0, 45); ax.set_xticks([0, 15, 30, 45]); ax.set_xlabel("Whole-batch wall time (s)")
     ax.grid(axis="y", visible=False); ax.tick_params(axis="y", length=0); ax.set_ylim(-0.5, 2.5)

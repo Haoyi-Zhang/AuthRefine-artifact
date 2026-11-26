@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this research artifact, cite the manuscript in preferred-citation."
-title: "AuthRefine: Complete Diagnosis for Supplied Families of Authorization Correspondences"
+title: "Complete Diagnosis of Supplied Authorization Correspondence Families with AuthRefine"
 type: software
 authors:
   - family-names: "Zhang"
@@ -22,7 +22,7 @@ repository-code: "https://github.com/Haoyi-Zhang/AuthRefine-artifact"
 license: MIT
 preferred-citation:
   type: unpublished
-  title: "AuthRefine: Complete Diagnosis for Supplied Families of Authorization Correspondences"
+  title: "Complete Diagnosis of Supplied Authorization Correspondence Families with AuthRefine"
   authors:
     - family-names: "Zhang"
       given-names: "Haoyi"

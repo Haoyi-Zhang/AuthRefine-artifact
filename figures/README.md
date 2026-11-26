@@ -1,7 +1,8 @@
 # AuthRefine figures
 
-The paper contains seven statistical figures and two conceptual figures
-(the motivating examples and the overview of the two-stage example); the
+The paper contains seven statistical figures and three conceptual figures
+(the overview, the motivating examples and the failure strata of one target
+graph); the
 technical supplement contains six statistical figures. The thirteen
 statistical figures are generated here by one Matplotlib script,
 `paper_figures.py`, from the retained records of this repository. The

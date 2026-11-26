@@ -4,6 +4,11 @@ Times New Roman text, STIX (Times-compatible) mathematics, TrueType font
 embedding and vector PDF output. Widths are given in inches for the ACM
 manuscript text block (430 pt = 5.95 in).
 
+The look follows the project plotting kit: soft pastel fills with thin black
+edges, one hatch per series so grouped and stacked bars stay separable in
+grayscale, a single-row legend above the axes, no chart title, and a short
+wide aspect for column-width figures.
+
 Byte-identical regeneration needs the exact Times New Roman files that
 produced the manuscript figures (``DECLARED_FONTS``). They are proprietary and
 not distributed; point ``AUTHREFINE_FONT_DIR`` at a directory holding them, or
@@ -29,17 +34,35 @@ DECLARED_FONTS = {
 }
 _FONT_STATUS = {"status": "not-configured"}
 
-# Okabe--Ito colours (colour-vision-deficiency safe), always paired with a
-# second encoding (marker shape or line style) so the figures survive grayscale.
-BLUE = "#0072B2"
-ORANGE = "#E69F00"
-VERMILLION = "#D55E00"
-GREEN = "#009E73"
-PURPLE = "#CC79A7"
-SKY = "#56B4E9"
-INK = "#222222"
-GRAY = "#7A7A7A"
-LIGHT = "#E6E6E6"
+# Soft pastel fills with thin black edges. Every series also carries its own
+# hatch, marker or line style, so the figures survive grayscale printing and
+# colour-vision deficiency.
+GREEN = "#86C788"
+ORANGE = "#FFA625"
+BLUE = "#8FCAF9"
+PURPLE = "#CE92D8"
+SAND = "#F6D488"
+ROSE = "#F2A0A0"
+SKY = "#CBE8FD"
+INK = "#111111"
+EDGE = "#111111"
+GRAY = "#8C8C8C"
+LIGHT = "#EDEDED"
+VERMILLION = ROSE
+
+# One hatch per series position, in the kit's order.
+HATCHES = ("///", "\\\\\\", "xxx", "...", "|||", "+++", "---")
+PALETTE = (GREEN, ORANGE, BLUE, PURPLE, SAND, ROSE)
+
+
+def hatch(index):
+    """Hatch pattern for series ``index``."""
+    return HATCHES[index % len(HATCHES)]
+
+
+def colour(index):
+    """Pastel fill for series ``index``."""
+    return PALETTE[index % len(PALETTE)]
 
 
 def _sha256(path):
@@ -102,18 +125,21 @@ def apply(base_size=8.0):
         "ytick.minor.size": 1.5,
         "lines.linewidth": 1.1,
         "lines.markersize": 4.0,
+        "hatch.linewidth": 0.5,
+        "patch.linewidth": 0.5,
         "axes.spines.top": False,
         "axes.spines.right": False,
         "axes.grid": True,
         "axes.axisbelow": True,
         "grid.linewidth": 0.4,
         "grid.color": "#CCCCCC",
-        "grid.alpha": 0.8,
+        "grid.alpha": 0.7,
         "legend.frameon": False,
-        "legend.handlelength": 1.8,
+        "legend.handlelength": 1.5,
         "legend.borderaxespad": 0.2,
+        "legend.columnspacing": 1.1,
         "axes.titleweight": "normal",
-        "axes.titlepad": 4.0,
+        "axes.titlepad": 3.0,
         "pdf.fonttype": 42,
         "ps.fonttype": 42,
         "savefig.bbox": "tight",
@@ -125,6 +151,14 @@ def apply(base_size=8.0):
 def panel_title(ax, text):
     """Left-aligned panel label such as '(a) Retained bindings'."""
     ax.set_title(text, loc="left", fontsize=mpl.rcParams["font.size"])
+
+
+def value_label(ax, x, y, text, rotation=0, ha="center", va="center", size=None):
+    """Small value label on a white rounded box, as in the plotting kit."""
+    ax.text(x, y, text, ha=ha, va=va, rotation=rotation,
+            fontsize=size or mpl.rcParams["font.size"] - 1.0, color=INK, zorder=6,
+            bbox=dict(boxstyle="round,pad=0.14", facecolor="white", edgecolor="none",
+                      alpha=0.85))
 
 
 def save(fig, path):

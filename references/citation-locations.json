@@ -35,8 +35,8 @@
     "lamport1996refinement": {
       "occurrences": 3,
       "locations": [
-        "sections/compilation.tex:27",
         "sections/introduction.tex:6",
+        "sections/model.tex:180",
         "sections/related-work.tex:21"
       ]
     },
@@ -57,7 +57,7 @@
       "occurrences": 3,
       "locations": [
         "sections/implementation.tex:7",
-        "sections/implementation.tex:21",
+        "sections/implementation.tex:22",
         "sections/related-work.tex:14"
       ]
     },
@@ -107,13 +107,13 @@
     "schneider2000enforceable": {
       "occurrences": 1,
       "locations": [
-        "sections/discussion.tex:36"
+        "sections/discussion.tex:48"
       ]
     },
     "hamlen2006enforcement": {
       "occurrences": 1,
       "locations": [
-        "sections/discussion.tex:36"
+        "sections/discussion.tex:48"
       ]
     },
     "barthe2009translation": {
@@ -131,7 +131,7 @@
     "clements2004stack": {
       "occurrences": 1,
       "locations": [
-        "sections/discussion.tex:36"
+        "sections/discussion.tex:48"
       ]
     },
     "lamport2022prophecy": {
@@ -322,13 +322,13 @@
     "clarkson2010hyperproperties": {
       "occurrences": 1,
       "locations": [
-        "sections/discussion.tex:36"
+        "sections/discussion.tex:48"
       ]
     },
     "alpern1985liveness": {
       "occurrences": 1,
       "locations": [
-        "sections/discussion.tex:36"
+        "sections/discussion.tex:48"
       ]
     },
     "fuchs2008attempto": {
@@ -352,7 +352,7 @@
     "harrison1976protection": {
       "occurrences": 1,
       "locations": [
-        "sections/discussion.tex:36"
+        "sections/discussion.tex:48"
       ]
     },
     "xu2026relational": {
@@ -371,14 +371,14 @@
     "hardt2012oauth": {
       "occurrences": 2,
       "locations": [
-        "sections/engineering-context.tex:32",
+        "sections/engineering-context.tex:30",
         "technical/finite-campaigns.tex:12"
       ]
     },
     "lodderstedt2013revocation": {
       "occurrences": 2,
       "locations": [
-        "sections/engineering-context.tex:32",
+        "sections/engineering-context.tex:30",
         "technical/finite-campaigns.tex:14"
       ]
     },
@@ -434,18 +434,18 @@
   },
   "claim_locations": {
     "matched-read-evidence": "sections/engineering-context.tex:14",
-    "source-handoff-observer-listing": "sections/engineering-context.tex:14; sections/engineering-context.tex:29",
+    "source-handoff-observer-listing": "sections/engineering-context.tex:14; sections/engineering-context.tex:27",
     "direct-observation": "technical/source-observation-records.tex:5; technical/source-observation-records.tex:32",
-    "observation-cell-reuse": "sections/certificates.tex:344; technical/implementation-details.tex:26",
-    "lem:support": "sections/certificates.tex:25",
-    "cor:localquant": "sections/certificates.tex:35",
-    "lem:region": "sections/certificates.tex:62",
-    "thm:soundness": "sections/certificates.tex:69",
-    "thm:complete": "sections/certificates.tex:76",
-    "lem:prefix": "sections/certificates.tex:95",
-    "thm:shortest": "sections/certificates.tex:101",
-    "prop:tight": "sections/certificates.tex:109",
-    "lem:symbolic": "sections/implementation.tex:31",
+    "observation-cell-reuse": "technical/implementation-details.tex:36; technical/implementation-details.tex:26",
+    "lem:support": "sections/certificates.tex:17",
+    "cor:localquant": "sections/certificates.tex:27",
+    "lem:region": "sections/certificates.tex:54",
+    "thm:soundness": "sections/certificates.tex:61",
+    "thm:complete": "sections/certificates.tex:68",
+    "lem:prefix": "sections/certificates.tex:87",
+    "thm:shortest": "sections/certificates.tex:93",
+    "prop:tight": "sections/certificates.tex:101",
+    "lem:symbolic": "sections/implementation.tex:32",
     "prop:outside": "technical/implementation-details.tex:8",
     "lem:ordinary-adapter": "technical/implementation-details.tex:8",
     "prop:domain": "technical/implementation-details.tex:8",
@@ -459,7 +459,7 @@
     "thm:conp": "technical/diagnostic-extensions.tex:35",
     "thm:relevance": "technical/diagnostic-extensions.tex:45",
     "prop:decisionbound": "technical/diagnostic-extensions.tex:170",
-    "thm:compile": "sections/compilation.tex:11",
+    "thm:compile": "sections/model.tex:166",
     "lem:reify-table": "technical/realization.tex:28",
     "thm:reify": "technical/realization.tex:34",
     "cor:behavioralroundtrip": "technical/realization.tex:64",
@@ -474,7 +474,7 @@
     "generated-distinct": "technical/finite-campaigns.tex:54",
     "multi-candidate": "technical/finite-campaigns.tex:91",
     "mutation-detection": "sections/evaluation.tex:11",
-    "width-count": "sections/cost-evaluation.tex:74",
+    "width-count": "sections/cost-evaluation.tex:75",
     "chain-minimum": "sections/evaluation.tex:11",
     "reification-count": "sections/evaluation.tex:11",
     "resource-body": "Historical artifact execution; protocol in REPRODUCIBILITY.md",
@@ -483,23 +483,23 @@
     "unit-regressions": "REPRODUCIBILITY.md",
     "reproduction-timeout": "Historical artifact execution; protocol in REPRODUCIBILITY.md",
     "canonical-observable-quotient": "technical/realization.tex:47",
-    "binding-failure-profile": "sections/certificates.tex:130",
-    "observable-quotient-witness-bound": "sections/certificates.tex:303",
+    "binding-failure-profile": "sections/certificates.tex:122",
+    "observable-quotient-witness-bound": "sections/certificates.tex:289",
     "projection-step-law": "technical/diagnostic-extensions.tex:62",
     "projection-trace-and-certificates": "technical/diagnostic-extensions.tex:70",
-    "restricted-binding-family": "sections/certificates.tex:315",
-    "two-stage-profile-example": "technical/diagnostic-extensions.tex:185; sections/certificates.tex:289",
+    "restricted-binding-family": "sections/certificates.tex:301",
+    "two-stage-profile-example": "technical/diagnostic-extensions.tex:185; sections/certificates.tex:275",
     "prop:switching": "technical/diagnostic-extensions.tex:15",
-    "cor:classification": "sections/certificates.tex:149",
+    "cor:classification": "sections/certificates.tex:144",
     "literature-xing2025cnlp": "sections/related-work.tex:19",
     "literature-swamy2010fine": "sections/related-work.tex:9",
     "literature-cutler2024cedar": "sections/related-work.tex:9",
     "literature-liu2009linearizability": "sections/model.tex:108; sections/related-work.tex:21",
     "literature-foster2007lenses": "sections/related-work.tex:19; technical/representation.tex:141",
-    "literature-lamport1996refinement": "sections/compilation.tex:27; sections/introduction.tex:6; sections/related-work.tex:21",
+    "literature-lamport1996refinement": "sections/introduction.tex:6; sections/model.tex:180; sections/related-work.tex:21",
     "literature-leroy2009backend": "sections/related-work.tex:23",
     "literature-lang2003independence": "sections/related-work.tex:16; technical/diagnostic-extensions.tex:31",
-    "literature-bryant1986graphs": "sections/implementation.tex:7; sections/implementation.tex:21; sections/related-work.tex:14",
+    "literature-bryant1986graphs": "sections/implementation.tex:7; sections/implementation.tex:22; sections/related-work.tex:14",
     "literature-vatsa2026autocedar": "sections/related-work.tex:19",
     "literature-fournet2007authorization": "sections/related-work.tex:9",
     "literature-bengtson2008refinement": "sections/related-work.tex:9",
@@ -507,11 +507,11 @@
     "literature-clarke1994abstraction": "sections/related-work.tex:16",
     "literature-rival2007partitioning": "sections/related-work.tex:16",
     "literature-necula2000validation": "sections/related-work.tex:23; technical/realization.tex:74",
-    "literature-schneider2000enforceable": "sections/discussion.tex:36",
-    "literature-hamlen2006enforcement": "sections/discussion.tex:36",
+    "literature-schneider2000enforceable": "sections/discussion.tex:48",
+    "literature-hamlen2006enforcement": "sections/discussion.tex:48",
     "literature-barthe2009translation": "sections/related-work.tex:23",
     "literature-barthe2011abstract": "sections/related-work.tex:23",
-    "literature-clements2004stack": "sections/discussion.tex:36",
+    "literature-clements2004stack": "sections/discussion.tex:48",
     "literature-lamport2022prophecy": "sections/related-work.tex:21",
     "literature-rendel2010invertible": "sections/related-work.tex:19",
     "literature-kuhn2014survey": "sections/related-work.tex:19",
@@ -542,12 +542,12 @@
     "literature-bonchi2013congruence": "sections/related-work.tex:14",
     "literature-cousot1977abstract": "sections/related-work.tex:16",
     "literature-clarke2000cegar": "sections/related-work.tex:16",
-    "literature-clarkson2010hyperproperties": "sections/discussion.tex:36",
-    "literature-alpern1985liveness": "sections/discussion.tex:36",
+    "literature-clarkson2010hyperproperties": "sections/discussion.tex:48",
+    "literature-alpern1985liveness": "sections/discussion.tex:48",
     "literature-fuchs2008attempto": "sections/related-work.tex:19",
     "literature-park2004ucon": "sections/related-work.tex:7",
     "literature-moeller2024katch": "sections/related-work.tex:14",
-    "literature-harrison1976protection": "sections/discussion.tex:36",
+    "literature-harrison1976protection": "sections/discussion.tex:48",
     "literature-xu2026relational": "sections/related-work.tex:21",
     "tab:closest": "sections/related-work.tex:1",
     "extension-cross-checks": "sections/evaluation.tex:11",
@@ -556,13 +556,13 @@
     "adversarial-cross-checks": "sections/evaluation.tex:11",
     "complete-tiny-domain-audit": "sections/evaluation.tex:11",
     "reference-integrity": "sections/related-work.tex:1",
-    "identifier-control-envelope": "sections/language.tex:1; technical/representation.tex:144",
-    "diagnostic-replay-contract": "sections/certificates.tex:175; sections/evaluation.tex:11",
+    "identifier-control-envelope": "sections/model.tex:128; technical/representation.tex:144",
+    "diagnostic-replay-contract": "sections/certificates.tex:181; sections/evaluation.tex:11",
     "release-entry-contract": "REPRODUCIBILITY.md",
     "list-free-same-information": "sections/certificates.tex:1; technical/implementation-details.tex:26",
     "generated-semantic-diversity": "technical/finite-campaigns.tex:44",
-    "reachable-work-interface": "sections/certificates.tex:344; technical/implementation-details.tex:5",
-    "returned-guard-workflow": "sections/engineering-context.tex:29; sections/source-evaluation.tex:1",
+    "reachable-work-interface": "technical/implementation-details.tex:36; technical/implementation-details.tex:5",
+    "returned-guard-workflow": "sections/engineering-context.tex:27; sections/source-evaluation.tex:1",
     "sec:prospective-selection": "sections/source-evaluation.tex:2",
     "tab:prospective-transfer": "sections/source-evaluation.tex:8",
     "sec:prospective-adaptation": "technical/source-study-records.tex:49",
@@ -573,14 +573,14 @@
     "strengthened-source-paths": "technical/source-cases.tex:71",
     "normal-policy-copy-repair": "sections/fixed-source-study.tex:2",
     "literature-xu2026parametric": "sections/introduction.tex:6; sections/related-work.tex:12",
-    "literature-hardt2012oauth": "sections/engineering-context.tex:32; technical/finite-campaigns.tex:12",
-    "literature-lodderstedt2013revocation": "sections/engineering-context.tex:32; technical/finite-campaigns.tex:14",
+    "literature-hardt2012oauth": "sections/engineering-context.tex:30; technical/finite-campaigns.tex:12",
+    "literature-lodderstedt2013revocation": "sections/engineering-context.tex:30; technical/finite-campaigns.tex:14",
     "literature-bocic2016cancheck": "sections/introduction.tex:4; sections/introduction.tex:6; sections/related-work.tex:7",
     "literature-near2016space": "sections/introduction.tex:6; sections/related-work.tex:7",
     "literature-robol2023consent": "sections/related-work.tex:7",
-    "credential-decision-projection": "sections/engineering-context.tex:29",
+    "credential-decision-projection": "sections/engineering-context.tex:27",
     "source-model-correspondence": "sections/model.tex:1",
-    "explicit-family-enumeration-cost": "sections/certificates.tex:175; sections/certificates.tex:130; sections/certificates.tex:205",
+    "explicit-family-enumeration-cost": "sections/certificates.tex:181; sections/certificates.tex:122; sections/certificates.tex:213",
     "caller-protocol-witness-bound": "technical/diagnostic-extensions.tex:113",
     "independent-source-body-observer": "sections/independent-source-observer.tex:1; sections/independent-source-observer.tex:37",
     "source-code-mutation-controls": "sections/independent-source-observer.tex:59",
@@ -594,17 +594,17 @@
     "native-session-fixed-binding-depth": "sections/native-session-study.tex:2; sections/engineering-context.tex:14",
     "native-session-observation-ablation": "sections/native-session-study.tex:34; sections/native-session-study.tex:2",
     "source-observation-denominators": "sections/independent-source-observer.tex:1; sections/native-session-study.tex:2",
-    "support-indexed-diagnosis": "sections/certificates.tex:175; sections/certificates.tex:205; technical/research-depth.tex:1",
+    "support-indexed-diagnosis": "sections/certificates.tex:181; sections/certificates.tex:213; technical/research-depth.tex:1",
     "support-indexed-finite-audit": "technical/research-depth.tex:136",
     "caller-family-profile": "technical/research-depth.tex:63",
     "caller-family-finite-audit": "technical/research-depth.tex:63; technical/research-depth.tex:109",
     "stateful-family-matched-benchmark": "sections/cost-evaluation.tex:2; sections/cost-evaluation.tex:45",
-    "stateful-family-positive-cost": "sections/cost-evaluation.tex:45; sections/cost-evaluation.tex:102",
-    "stateful-family-cost-boundaries": "sections/cost-evaluation.tex:2; sections/cost-evaluation.tex:102",
+    "stateful-family-positive-cost": "sections/cost-evaluation.tex:45; sections/cost-evaluation.tex:105",
+    "stateful-family-cost-boundaries": "sections/cost-evaluation.tex:2; sections/cost-evaluation.tex:105",
     "support-overlap-audit": "sections/evaluation.tex:32; technical/research-depth.tex:159",
     "support-overlap-fault-controls": "sections/evaluation.tex:32; technical/research-depth.tex:159",
-    "timing-variation-envelopes": "sections/cost-evaluation.tex:2; sections/cost-evaluation.tex:102",
-    "caller-support-grouping": "sections/certificates.tex:256; technical/protocol-grouping.tex:2",
+    "timing-variation-envelopes": "sections/cost-evaluation.tex:2; sections/cost-evaluation.tex:105",
+    "caller-support-grouping": "sections/certificates.tex:245; technical/protocol-grouping.tex:2",
     "caller-support-independent-audit": "sections/evaluation.tex:16; technical/protocol-grouping.tex:2",
     "native-correlated-session-family": "sections/session-correspondence.tex:2; sections/session-correspondence-cost.tex:6",
     "native-caller-discriminability": "sections/session-correspondence.tex:2",
@@ -612,7 +612,7 @@
     "native-anchored-correspondences": "sections/session-correspondence.tex:2",
     "native-correspondence-cost": "sections/session-correspondence-cost.tex:10; sections/session-correspondence-cost.tex:6",
     "native-acquisition-cost": "sections/session-correspondence-cost.tex:10",
-    "symbolic-complete-legal-family": "sections/implementation.tex:20; sections/evaluation.tex:35",
+    "symbolic-complete-legal-family": "sections/implementation.tex:21; sections/evaluation.tex:35",
     "symbolic-independent-equations": "sections/evaluation.tex:35",
     "unified-symbolic-cost-distributions": "sections/cost-evaluation.tex:2; sections/cost-evaluation.tex:134",
     "native-policy-store-execution": "sections/native-policy-store.tex:2; technical/native-policy-store.tex:2",
@@ -628,23 +628,23 @@
     "literature-caune2019readonly": "sections/native-healthchecks.tex:9; technical/native-healthchecks.tex:10",
     "literature-jameskirsop2020readonly": "sections/native-healthchecks.tex:9; technical/native-healthchecks.tex:11",
     "native-healthchecks-execution": "sections/native-healthchecks.tex:2; technical/native-healthchecks.tex:2",
-    "native-healthchecks-observation-ablation": "sections/native-healthchecks.tex:36; technical/native-healthchecks.tex:99",
+    "native-healthchecks-observation-ablation": "sections/native-healthchecks.tex:35; technical/native-healthchecks.tex:99",
     "native-healthchecks-fixed-prefix-encoding": "technical/native-healthchecks.tex:2",
     "native-healthchecks-fresh-replay": "technical/native-healthchecks.tex:2",
     "native-healthchecks-observer-integrity": "technical/native-healthchecks.tex:2",
     "session-operation-cost-theorem": "sections/session-correspondence.tex:41; technical/session-distinguishability.tex:129",
     "session-operation-cost-independent-audit": "technical/session-distinguishability.tex:2",
     "session-continuous-versus-individual-shortest": "sections/session-correspondence.tex:41; technical/session-distinguishability.tex:129",
-    "native-healthchecks-tree-execution": "sections/native-healthchecks.tex:64; technical/native-healthchecks.tex:122",
-    "native-healthchecks-tree-shortest-histories": "sections/native-healthchecks.tex:78; technical/native-healthchecks.tex:122",
-    "native-healthchecks-tree-negative-prefix-replay": "sections/native-healthchecks.tex:64; technical/native-healthchecks.tex:122",
+    "native-healthchecks-tree-execution": "sections/native-healthchecks.tex:63; technical/native-healthchecks.tex:122",
+    "native-healthchecks-tree-shortest-histories": "sections/native-healthchecks.tex:77; technical/native-healthchecks.tex:122",
+    "native-healthchecks-tree-negative-prefix-replay": "sections/native-healthchecks.tex:63; technical/native-healthchecks.tex:122",
     "native-healthchecks-tree-independent-integrity": "technical/native-healthchecks.tex:122",
     "native-http-type-and-prefix-admission": "technical/native-healthchecks.tex:2; technical/native-healthchecks.tex:122",
     "session-initial-store-survivors": "sections/session-correspondence.tex:102; technical/session-initial-state.tex:29",
     "session-initial-store-cost": "sections/session-correspondence.tex:102; technical/session-initial-state.tex:66",
     "session-initial-store-finite-audit": "technical/session-initial-state.tex:2",
     "session-initial-store-native-strategies": "sections/session-correspondence.tex:102; technical/session-initial-state.tex:2",
-    "credential-typed-observation-admission": "sections/engineering-context.tex:14; sections/engineering-context.tex:29",
+    "credential-typed-observation-admission": "sections/engineering-context.tex:14; sections/engineering-context.tex:27",
     "source-body-complete-typed-admission": "sections/independent-source-observer.tex:1; sections/independent-source-observer.tex:59",
     "complete-comparison-evidence-admission": "sections/cost-evaluation.tex:2",
     "fig:validation-profiles": "sections/evaluation.tex:45"
