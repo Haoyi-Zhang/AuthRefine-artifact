@@ -206,7 +206,7 @@ make paper
 ```
 
 `make paper` rebuilds `main.pdf` (45 pages, 68 references, seven statistical
-figures and three conceptual-figure placeholders) and `supplement.pdf` (40 pages,
+figures and three conceptual figures) and `supplement.pdf` (40 pages,
 six statistical figures) in `../paper/` (it overwrites them; use a copy if you
 want to keep the distributed PDFs).  Other TeX Live releases may change line or
 page breaks.
